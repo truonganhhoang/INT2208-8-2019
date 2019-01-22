@@ -1,1 +1,3 @@
-###### Phí Xuân Hoàn -17020759
+#### Họ Tên: Phí Xuân Hoàn
+#### Ngày Sinh: 22/01/1999
+#### Mã Sinh Viên: 17020759
