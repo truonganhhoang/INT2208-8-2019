@@ -48,7 +48,7 @@
 <ul>
   <li>Công nghệ sử dụng
     <ul>
-      <li>Client: Angular 5, Boostrap, Angular Material </li>
+      <li>Client: Angular 4, Boostrap, Angular Material </li>
       <li>Server: Nodejs 10.15.0 kết hợp với framework Express 4.16.3 </li>
       <li>Database: Mongodb (sử dụng mlab) </li>
     </ul>
