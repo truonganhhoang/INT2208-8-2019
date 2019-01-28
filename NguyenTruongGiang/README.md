@@ -1,6 +1,5 @@
-# INT2208-8-2019
-Môn học CNPM
+Họ và tên: Nguyễn Trường Giang
 
-## Gheets Danh sách lớp, nhóm, và tài liệu môn học
+Ngày sinh: 11/02/1999
 
-https://docs.google.com/spreadsheets/d/1hRc_sCYV6-O9ELMNNB0Y8MQ25Xu6XZmCN_Gbc7jUAuk/edit#gid=963192854
+Mã sinh viên: 17020706
