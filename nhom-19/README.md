@@ -1,0 +1,14 @@
+# Bài tập nhóm tuần 1 - Nhóm 19
+
+**Tên ứng dụng:** Quizy - Chơi mà học
+
+**Các nhóm người dùng:** Học sinh trên 8 tuổi, người lớn mong muốn vừa giải trí, vừa tìm hiểu về các kiến thức chung.
+
+**Mô tả:**
+* Cung cấp môi trường rèn luyện, kiểm tra kiến thức của bản thân trên nhiều lĩnh vực như tự nhiên, xã hội, lịch sử, địa lý, giải trí, ...
+* Thông qua việc chơi trò chơi dưới hình thức trắc nghiệm, người chơi vừa có thể thư giãn, vừa có thể thu thập được kiến thức một cách nhanh chóng và hiệu quả.
+* Có hình thức ghi nhận khả năng, sự cố gắng của người chơi thông qua các cấp độ.
+* Cung cấp blog đăng tải những bài viết hấp dẫn về nhiều lĩnh vực trong cuộc sống.
+
+**Một số giao diện của ứng dụng:**
+
