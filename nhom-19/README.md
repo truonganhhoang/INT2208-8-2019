@@ -12,3 +12,4 @@
 
 **Một số giao diện của ứng dụng:**
 
+![alt](http://Week1_Images/png)
