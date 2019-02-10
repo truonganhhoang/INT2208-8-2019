@@ -12,6 +12,8 @@
 
 **Một số giao diện của ứng dụng:**
 
+**Trang chủ**
 ![alt text](https://github.com/19team/INT2208-8-2019/blob/master/nhom-19/Week1_Images/blog.png?raw=true "Logo Title Text 1")
 
+**Trang đăng nhập**
 ![alt text](https://github.com/19team/INT2208-8-2019/blob/master/nhom-19/Week1_Images/login.png?raw=true "Logo Title Text 1")
