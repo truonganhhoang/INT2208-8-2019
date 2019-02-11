@@ -1,6 +1,20 @@
 # INT2208-8-2019
 Môn học CNPM
 
-## Gheets Danh sách lớp, nhóm, và tài liệu môn học
+Nhon-28
 
-https://docs.google.com/spreadsheets/d/1hRc_sCYV6-O9ELMNNB0Y8MQ25Xu6XZmCN_Gbc7jUAuk/edit#gid=963192854
+Tên ứng dụng:Food For Family 
+
+Các nhóm người dùng: người học nấu ăn, bà nội trợ, những người có nhu cầu vào bếp Mô tả tóm tắt phần mềm :
+
+Hỗ trợ người dùng về công thức nấu ăn
++Cung cấp thực đơn mỗi ngày
++Gợi ý thực đơn dinh dưỡng mỗi ngày
++Lời khuyên về các thực phẩm ăn kiêng cho các người bệnh.
++Diễn đàn cho mọi người chia sẻ kinh nghiệm
++Phác thảo các màn hình chính của ứng dụng:
+
+sử dụng các ngôn ngữ html, css, javascrip,..
+có sử dụng bootstrap
+thiết kế dựa trên các trang web dạy nấu ăn
+<img src="">
