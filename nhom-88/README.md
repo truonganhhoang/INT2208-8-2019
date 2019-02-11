@@ -22,6 +22,9 @@
 3.   Các màn hình chính:
         - Trang đăng ký/ đăng nhập
         - Trang chủ
+        ![home](https://github.com/17020932/INT2208-8-2019/blob/master/nhom-88/imagines/trang%20ch%E1%BB%A7.png)
         - Trang cá nhân người dùng
+        ![user](https://github.com/17020932/INT2208-8-2019/blob/master/nhom-88/imagines/trang%20c%C3%A1%20nh%C3%A2n.PNG)
         - Giỏ hàng
+        ![my cart](https://github.com/17020932/INT2208-8-2019/blob/master/nhom-88/imagines/gi%E1%BB%8F%20h%C3%A0ng%201.jpg)
         - Trang hiển thị thông tin chi tiết sản phẩm
