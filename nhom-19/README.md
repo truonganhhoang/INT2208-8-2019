@@ -12,8 +12,13 @@
 
 **Một số giao diện của ứng dụng:**
 
-**Trang chủ**
-![alt text](https://github.com/19team/INT2208-8-2019/blob/master/nhom-19/Week1_Images/blog.png?raw=true "Logo Title Text 1")
+**Trang chủ:** **Blog**
+![alt text](https://github.com/hoangkimminh/INT2208-8-2019/blob/master/nhom-19/Week1_Images/blog.png?raw=true "Trang chủ")
 
-**Trang đăng nhập**
-![alt text](https://github.com/19team/INT2208-8-2019/blob/master/nhom-19/Week1_Images/login.png?raw=true "Logo Title Text 1")
+**Đăng nhập:**
+![alt text](https://github.com/hoangkimminh/INT2208-8-2019/blob/master/nhom-19/Week1_Images/login.png?raw=true "Đăng nhập")
+
+**Giao diện trò chơi đơn giản**
+![alt text](https://github.com/hoangkimminh/INT2208-8-2019/blob/master/nhom-19/Week1_Images/quiz.png?raw=true "Trang chủ")
+
+Sau này ứng dụng sẽ được phát triển với nhiều tính năng mới hơn.
