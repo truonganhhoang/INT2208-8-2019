@@ -3,6 +3,7 @@ I. Tên ứng dụng: website mua bán trao đổi sách/tài liệu BooksParadi
 II. Đối tượng sửa dụng: mọi đối tượng / độ tuổi
 
 III. Mô tả sơ lược:
+
 Website được thiết kế với mục đích chính là phân phối sách cũ và mới với cách hoặt động như sau:
 1. Phân phối sách mới:
 - Trở thành website phân phối online các đầu sách đến từ trực tiếp các nhà xuất bản
