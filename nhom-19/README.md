@@ -15,7 +15,7 @@
 **Trang chủ:** **Blog**
 ![alt text](https://github.com/hoangkimminh/INT2208-8-2019/blob/master/nhom-19/Week1_Images/blog.png?raw=true "Trang chủ")
 
-**Đăng nhập: **
+**Đăng nhập:**
 ![alt text](https://github.com/hoangkimminh/INT2208-8-2019/blob/master/nhom-19/Week1_Images/login.png?raw=true "Đăng nhập")
 
 **Giao diện trò chơi đơn giản**
