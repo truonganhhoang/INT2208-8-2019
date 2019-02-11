@@ -31,4 +31,5 @@ IV. Project sử dụng:
 - Front-end: html, css, javascript
 - Back-end: java
 - Database: mysql
-- Đây là demo ý tưởng, sẽ có chỉnh sửa và update
+
+Đây là demo ý tưởng, sẽ có chỉnh sửa và update
