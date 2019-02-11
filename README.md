@@ -1,5 +1,7 @@
 I. Tên ứng dụng: website mua bán trao đổi sách/tài liệu BooksParadise
+
 II. Đối tượng sửa dụng: mọi đối tượng / độ tuổi
+
 III. Mô tả sơ lược:
 Website được thiết kế với mục đích chính là phân phối sách cũ và mới với cách hoặt động như sau:
 1. Phân phối sách mới:
@@ -23,6 +25,7 @@ Website sẽ đi kèm với hệ thống mua bán / trao đổi sách cũ giữa
 - Đánh giá, thảo luận, review sách
 - User sẽ đc chia ra 3 cấp bậc (Copper, Silver, Gold) tương ứng với 3 mức tổng chi tiêu trong năm, mỗi loại user sẽ có ưu đãi, khuyến mại và mức cộng reborn point cho mỗi giao dịch riêng
 - Sẽ update thêm...
+
 IV. Project sử dụng:
 - Front-end: html, css, javascript
 - Back-end: java
