@@ -12,7 +12,7 @@
 
 **Một số giao diện của ứng dụng:**
 
-**Trang chủ: Blog**
+**Trang chủ:** **Blog**
 ![alt text](https://github.com/hoangkimminh/INT2208-8-2019/blob/master/nhom-19/Week1_Images/blog.png?raw=true "Trang chủ")
 
 **Đăng nhập: **
