@@ -13,7 +13,7 @@ Website được thiết kế với mục đích chính là phân phối sách c
 Website sẽ đi kèm với hệ thống mua bán / trao đổi sách cũ giữa các user
 - Website sẽ sử dụng một hệ thống điểm thành viên có tên là Reborn point
 - Cách hoặt động của reborn point:
-  + Reborn ponit sẽ được cộng vào tài khoản của user mỗi khi mua sách trên hệ thống với các mức hóa đơn khác nhau và cấp bậc tài khoản khác nhau
+  + Reborn point sẽ được cộng vào tài khoản của user mỗi khi mua sách trên hệ thống với các mức hóa đơn khác nhau và cấp bậc tài khoản khác nhau
   + User cũng sẽ đc tặng reborn point khi có những bài viết, review hay, đc nhiều sự quan tâm trên hệ thống
   + Khi một user đăng bán sách cũ của mình, sẽ có 3 lựa chọn rao bán: Tiền mặt, reborn point hoặc cuốn sách mà họ đang tìm. Mỗi cuốn sẽ có mức reborn point tối đa là 10. Và sau đó cuốn sách sẽ được thêm vào Heaven (Kho sách cũ) trên website.
   + Các user sẽ vào Heaven và tìm đến các cuốn sách cũ mình muốn và lựa chọn thanh toán bằng tiền mặt, reborn point hoặc trao đổi chính cuốn sách mình có với user sở hữu cuốn sách mà mình quan tâm, có thể thương lượng qua chat trên hệ thống hoặc đổi những cuốn sách có reborn point tương ứng
