@@ -62,3 +62,7 @@
     </ul>
   </li>
 </ul>
+#### Các màn hình đã làm
+<img src="https://github.com/hoanphi2201/INT2208-8-2019/blob/master/nhom-10/week1_image/home.png" >
+<img src="https://github.com/hoanphi2201/INT2208-8-2019/blob/master/nhom-10/week1_image/users.png">
+<img src="https://github.com/hoanphi2201/INT2208-8-2019/blob/master/nhom-10/week1_image/fixbar.png">
