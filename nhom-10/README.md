@@ -1,10 +1,10 @@
 # nhom-10
-### Thành Viên: 
 ```
-* Phí Xuân Hoàn -17020759
-* Trần Tiến Đức -
-* Lê Công Kỳ -
-* Nguyễn Trường Giang
+### Thành viên: 
+* Phí Xuân Hoàn - 17020759
+* Trần Tiến Đức - 17020701
+* Lê Công Kỳ - 17020842
+* Nguyễn Trường Giang - 17020706
 ```
 ### Tên ứng dụng: Thi trắc nghiệm THPT quốc gia
 <ul>
@@ -32,13 +32,13 @@
 </ul>
 
 <ul>
-  <li>Các màn hình
+  <li>Các màn hình:
     <ul>
       <li>Đăng nhập, đăng kí, quên mật khẩu</li>
       <li>Trang chủ </li>
       <li>Trang danh sách đề thi trực tuyến </li>
       <li>Trang danh sách đề thi thường </li>
-      <li>Trang profile </li>
+      <li>Trang hồ sơ, thông tin </li>
       <li>Trang bài viết </li>
       <li>Trang trò chuyện </li>
     </ul>
@@ -46,11 +46,11 @@
 </ul>
 
 <ul>
-  <li>Công nghệ sử dụng
+  <li>Công nghệ sử dụng:
     <ul>
       <li>Client: Angular 4, Boostrap, Angular Material </li>
-      <li>Server: Nodejs 10.15.0 kết hợp với framework Express 4.16.3 </li>
-      <li>Database: Mongodb (sử dụng mlab) </li>
+      <li>Server: Node.js 10.15.0 kết hợp với framework Express 4.16.3 </li>
+      <li>Database: MongoDB (sử dụng mlab) </li>
     </ul>
   </li>
 </ul>
@@ -58,7 +58,7 @@
   <li>Thảo luận, công việc
     <ul>
       <li>Sử dụng Trello </li>
-      <li>Group chat facebook </li>
+      <li>Group chat Facebook </li>
     </ul>
   </li>
 </ul>
