@@ -1,6 +1,5 @@
-# INT2208-8-2019
-Môn học CNPM
+Họ và tên : Nguyễn Hữu Nam
 
-## Gheets Danh sách lớp, nhóm, và tài liệu môn học
+Mã số sinh viên : 17020911
 
-https://docs.google.com/spreadsheets/d/1hRc_sCYV6-O9ELMNNB0Y8MQ25Xu6XZmCN_Gbc7jUAuk/edit#gid=963192854
+Ngày sinh : 02/03/1999
