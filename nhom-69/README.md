@@ -1,6 +1,6 @@
 # INT2208-8-2019
 Nhóm 69 bao gồm
-- Trần Thiên Sơn
+-Trần Thiên Sơn
 -Nguyễn Thị Thanh Quý
 -Nguyễn Trần Phương Thảo
 -Lê Xuân Hưng
