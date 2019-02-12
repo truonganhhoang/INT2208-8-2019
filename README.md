@@ -1,6 +1,6 @@
 I. Tên ứng dụng: website mua bán trao đổi sách/tài liệu BooksParadise
 
-II. Đối tượng sửa dụng: mọi đối tượng / độ tuổi
+II. Đối tượng sửa dụng: mọi đối tượng / độ tuổi có nhu cầu mua hoặc tìm hiểu về sách
 
 III. Mô tả sơ lược:
 
@@ -11,7 +11,7 @@ Website được thiết kế với mục đích chính là phân phối sách c
 - Lợi nhuận sẽ đến từ % doanh thu đến từ các đầu sách + phí dịch vụ vận chuyển
 2. Phân phối sách cũ:
 Website sẽ đi kèm với hệ thống mua bán / trao đổi sách cũ giữa các user
-- Website sẽ sử dụng một hệ thống điểm thành viên có tên là Reborn point
+- Website sẽ sử dụng một hệ thống điểm thành viên có tên là Reborn point (tích điểm thành viên)
 - Cách hoặt động của reborn point:
   + Reborn point sẽ được cộng vào tài khoản của user mỗi khi mua sách trên hệ thống với các mức hóa đơn khác nhau và cấp bậc tài khoản khác nhau
   + User cũng sẽ đc tặng reborn point khi có những bài viết, review hay, đc nhiều sự quan tâm trên hệ thống
@@ -24,12 +24,12 @@ Website sẽ đi kèm với hệ thống mua bán / trao đổi sách cũ giữa
 3. Các tính năng phụ:
 - Tin tức sách, xuất bản
 - Đánh giá, thảo luận, review sách
-- User sẽ đc chia ra 3 cấp bậc (Copper, Silver, Gold) tương ứng với 3 mức tổng chi tiêu trong năm, mỗi loại user sẽ có ưu đãi, khuyến mại và mức cộng reborn point cho mỗi giao dịch riêng
+- User sẽ đc chia ra 3 cấp bậc (Ví dụ: Copper, Silver, Gold) tương ứng với 3 mức tổng chi tiêu trong năm, mỗi loại user sẽ có ưu đãi, khuyến mại và mức cộng reborn point cho mỗi giao dịch riêng
 - Sẽ update thêm...
 
 IV. Project sử dụng:
-- Front-end: html, css, javascript
-- Back-end: java
+- Front-end: html, css, javascript (Framework: Bootstrap,...)
+- Back-end: java servlet
 - Database: mysql
 
 Đây là demo ý tưởng, sẽ có chỉnh sửa và update
