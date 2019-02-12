@@ -1,7 +1,7 @@
 # INT2208-8-2019
 Môn học CNPM
 
-Nhon-28
+Nhom-28
 
 Tên ứng dụng:Food For Family 
 
