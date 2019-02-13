@@ -10,7 +10,7 @@
 - Học sinh các khối tiểu học, trung học, phổ thông
 - Sinh viên thuộc các trường đại học, cao đẳng
 ### Mô tả ứng dụng
-- Ứng dụng chuyên để học tập cho các bạn học sinh, sinh viên
+- Ứng dụng để học tập dành cho các bạn học sinh, sinh viên
   - Cụ thể như để làm các bài tập môn học,thi thử các đề kiểm tra 15'/45'/học kỳ và các đề thi THPTQG
 - Là nơi tìm kiếm các tài liệu, thông tin cho các môn học
 - Giải đáp thắc mắc liên quan đến học tập 
