@@ -39,7 +39,7 @@
  - V.v..
  ### Trao đổi, làm việc
  - Làm việc nhóm trực tiếp
- - Group facebook, Skype
+ - Group facebook, Skype,v.v..
  
  <img src="https://uphinhnhanh.com/images/2019/02/13/FOS1.png">
  <img src="https://uphinhnhanh.com/images/2019/02/13/FOS2.png">
