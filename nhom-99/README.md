@@ -1,5 +1,13 @@
-INT2208-8-2019
-Môn học CNPM
+Nhóm 99
+Vũ Trung Anh
+Võ Lộc Anh
+Vi Thế Anh
+Đoàn Mạnh Cường
+Hà Xuân Việt
 
-Gheets Danh sách lớp, nhóm, và tài liệu môn học
-https://docs.google.com/spreadsheets/d/1hRc_sCYV6-O9ELMNNB0Y8MQ25Xu6XZmCN_Gbc7jUAuk/edit#gid=963192854
+Web bán hàng
+Mô tả: chọn, mua, thêm vào giỏ hàng các sản phẩm rồi tiến hành các bước thanh toán
+web mẫu là trang mwcstore
+Đối tượng: các shop, doanh nghiệp và khách hàng
+
+
