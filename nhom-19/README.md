@@ -23,3 +23,28 @@
 ![alt text](https://github.com/hoangkimminh/INT2208-8-2019/blob/master/nhom-19/Week1_Images/quiz.png?raw=true "Trang chủ")
 
 Sau này ứng dụng sẽ được phát triển với nhiều tính năng mới hơn.
+
+**Mô hình phần mềm lựa chọn: XP.**
+
+**Lộ trình dự án**
+
+* Tuần 1: Lên được khung chính của phần mềm, bao gồm :
+  + Trang chủ.
+  + Trang đăng ký, đăng nhập.
+  + Trang trò chơi.
+  + Trang các bài viết blog.
+  
+* Tuần 2: Hoàn thành việc tạo Cơ sở dữ liệu người dùng :
+  + Tài khoản.
+  + Thông tin cá nhân.
+  + Thuộc tính.
+  
+* Tuần 3: Xây dựng mô-đun trò chơi đầu tiên :
+  + Thiết kế giao diện hoàn chỉnh.
+  + Tạo class cần thiết : Question, Classic.
+  
+ * Tuần 4: Xây dựng blog các bài viết hữu ích về thế giới xung quanh.
+ 
+ * Tuần 5: Xây dựng mô-đun trò chơi thứ 2:
+   + Try Your Best: trả lời đúng liên tiếp bao nhiêu câu hỏi.
+   + Xây dựng Bảng xếp hạng.
