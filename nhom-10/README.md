@@ -79,7 +79,6 @@
   -Lựa chọn quy trình Scrum
   
   <div class="container">
-  <h2>Bordered Table</h2>
   <p>Use story</p>            
   <table class="table table-bordered">
     <thead>
