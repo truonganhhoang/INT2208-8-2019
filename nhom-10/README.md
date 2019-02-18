@@ -81,10 +81,10 @@
 <img src="https://github.com/hoanphi2201/INT2208-8-2019/blob/master/nhom-10/week1_image/test.png">
 
 #### Quy trình thực hiện
-  -Lựa chọn quy trình Scrum
-  
+  * Lựa chọn quy trình Scrum
+  * User story    
   <div class="container">
-  <p>Use story</p>            
+     
   <table class="table table-bordered">
     <thead>
       <tr>
