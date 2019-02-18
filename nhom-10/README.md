@@ -65,14 +65,19 @@
 
 #### Các màn hình đã làm
 
+* Trang chủ
 <img src="https://github.com/hoanphi2201/INT2208-8-2019/blob/master/nhom-10/week1_image/home.png" >
 
+* Trang quản lý người dùng
 <img src="https://github.com/hoanphi2201/INT2208-8-2019/blob/master/nhom-10/week1_image/users.png">
 
+* Hộp thoại thay đổi màu nền thanh bên
 <img src="https://github.com/hoanphi2201/INT2208-8-2019/blob/master/nhom-10/week1_image/fixbar.png">
 
+* Trang đăng nhập
 <img src="https://github.com/hoanphi2201/INT2208-8-2019/blob/master/nhom-10/week1_image/login.png">
 
+* Trang điền đáp án
 <img src="https://github.com/hoanphi2201/INT2208-8-2019/blob/master/nhom-10/week1_image/test.png">
 
 #### Quy trình thực hiện
