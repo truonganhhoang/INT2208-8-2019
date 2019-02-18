@@ -1,6 +1,6 @@
-- Quy trình phát triển dự án được áp dụng là quy trình Scrum
+# Quy trình phát triển dự án được áp dụng là quy trình Scrum
 
-- Quá trình phát triển được chia thành 4 lần (4 Sprint)
+# Quá trình phát triển được chia thành 4 lần (4 Sprint)
 + Sprint 1:
    - Tuần 1: Thu thập yêu cầu về sản phẩm muốn làm
    - Tuần 2: Lập ra kế hoạch như tạo ra mô hình mẫu, xác định công nghệ mình cần, phân tích các chức năng cần thiết
