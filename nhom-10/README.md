@@ -1,10 +1,10 @@
 # nhom-10
 ### Thành viên
 ```
-* Phí Xuân Hoàn - 17020759
-* Trần Tiến Đức - 17020701
-* Lê Công Kỳ - 17020842
-* Nguyễn Trường Giang - 17020706
+ * Phí Xuân Hoàn - 17020759
+ * Trần Tiến Đức - 17020701
+ * Lê Công Kỳ - 17020842
+ * Nguyễn Trường Giang - 17020706
 ```
 ### Tên ứng dụng: Thi trắc nghiệm THPT quốc gia
 <ul>
@@ -74,3 +74,25 @@
 <img src="https://github.com/hoanphi2201/INT2208-8-2019/blob/master/nhom-10/week1_image/login.png">
 
 <img src="https://github.com/hoanphi2201/INT2208-8-2019/blob/master/nhom-10/week1_image/test.png">
+
+#### Quy trình thực hiện
+  -Lựa chọn quy trình Scrum
+
+* Sprint 1 (3 tuần)
+<img src="https://github.com/hoanphi2201/INT2208-8-2019/blob/master/nhom-10/week2_image/sprint_1.jpg">
+
+
+* Sprint 2 (2 tuần)
+<img src="https://github.com/hoanphi2201/INT2208-8-2019/blob/master/nhom-10/week2_image/sprint_2.jpg">
+
+
+* Sprint 3 (2 tuần)
+<img src="https://github.com/hoanphi2201/INT2208-8-2019/blob/master/nhom-10/week2_image/sprint_3.jpg">
+
+
+* Sprint 4 (2 tuần)
+<img src="https://github.com/hoanphi2201/INT2208-8-2019/blob/master/nhom-10/week2_image/sprint_4.jpg">
+
+
+* Sprint 5 (3 tuần)
+<img src="https://github.com/hoanphi2201/INT2208-8-2019/blob/master/nhom-10/week2_image/sprint_5.jpg">
