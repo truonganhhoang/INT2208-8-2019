@@ -1,6 +1,6 @@
 # nhom-10
+### Thành viên
 ```
-### Thành viên: 
 * Phí Xuân Hoàn - 17020759
 * Trần Tiến Đức - 17020701
 * Lê Công Kỳ - 17020842
@@ -32,7 +32,7 @@
 </ul>
 
 <ul>
-  <li>Các màn hình:
+  <li>Các màn hình
     <ul>
       <li>Đăng nhập, đăng kí, quên mật khẩu</li>
       <li>Trang chủ </li>
@@ -46,7 +46,7 @@
 </ul>
 
 <ul>
-  <li>Công nghệ sử dụng:
+  <li>Công nghệ sử dụng
     <ul>
       <li>Client: Angular 4, Boostrap, Angular Material </li>
       <li>Server: Node.js 10.15.0 kết hợp với framework Express 4.16.3 </li>
