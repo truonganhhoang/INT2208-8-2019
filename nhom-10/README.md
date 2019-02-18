@@ -77,6 +77,87 @@
 
 #### Quy trình thực hiện
   -Lựa chọn quy trình Scrum
+  
+  <div class="container">
+  <h2>Bordered Table</h2>
+  <p>Use story</p>            
+  <table class="table table-bordered">
+    <thead>
+      <tr>
+        <th>Là một</th>
+        <th>Tôi muốn</th>
+        <th>Để</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Người quản lý</td>
+        <td>Xem, thêm, sửa, xóa một nhóm người dùng (group) ví dụ như học sinh, giáo viên, người quản lý</td>
+        <td>Quản lý dễ dàng</td>
+      </tr>
+      <tr>
+        <td>Người quản lý</td>
+        <td>Xem, thêm, sửa, xóa một người dùng mới (admin, student, teacher)</td>
+        <td>Tiện cho việc quản lý</td>
+      </tr>
+      <tr>
+        <td>Người quản lý</td>
+        <td>Thêm, sửa, xóa một danh sách chủ để môn học (subject)</td>
+        <td>Lưu trữ các đề thi</td>
+      </tr>
+      <tr>
+         <td>Người quản lý</td>
+        <td>Xem, thêm, sửa, xóa một để thi thuộc một môn học bất kì</td>
+        <td>Lưu trữ, chỉnh sửa</td>
+      </tr>
+      <tr>
+         <td>Người quản lý</td>
+        <td>Thêm, sửa, xóa một nhóm tin tức (category)</td>
+        <td>Lưu trữ các tin tức</td>
+      </tr>
+       <tr>
+         <td>Người quản lý</td>
+        <td>Thêm, sửa, xóa một tin tức (bài viết, bài báo,…) thuộc về một nhóm tin tức nào đó</td>
+        <td>Lưu trữ, chỉnh sửa, hiển thị</td>
+      </tr>
+      <tr>
+         <td>Người quản lý</td>
+        <td>Xem kết quả của các bài thi trên đồ thị hoặc biểu đồ </td>
+        <td>Thống kê và cải tiến chất lượng của đề thi</td>
+      </tr>
+      <tr>
+         <td>Người quản lý</td>
+        <td>Người dùng truy cập vào ứng dụng phải đăng nhập </td>
+        <td>Thực hiên các chức năng phù hợp</td>
+      </tr>
+      <tr>
+         <td>Học sinh hoặc giáo viên</td>
+        <td>Có một trang chủ chứa thông tin về bài viết, đề thi</td>
+        <td>Hiển thị các thông tin</td>
+      </tr>
+      <tr>
+         <td>Học sinh hoặc giáo viên</td>
+        <td>Có một trang bài viết, tin tức</td>
+        <td>Hiển thị các bài viết, tin tức</td>
+      </tr>
+      <tr>
+         <td>Người dùng</td>
+        <td>Có một trang thông tin cá nhân (profile)</td>
+        <td>Xem, chỉnh sửa thông tin của chính mình</td>
+      </tr>
+      <tr>
+         <td>Người dùng</td>
+        <td>Có một trang đăng ký tài khoản vào ứng dụng</td>
+        <td>Ghi danh</td>
+      </tr>
+      <tr>
+         <td>Người dùng</td>
+        <td>Có một trang quên mật khẩu</td>
+        <td>Lấy lại mật khẩu khi cần</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 * Sprint 1 (3 tuần)
 <img src="https://github.com/hoanphi2201/INT2208-8-2019/blob/master/nhom-10/week2_image/sprint_1.jpg">
