@@ -1,5 +1,20 @@
 # Quy trình phát triển dự án được áp dụng là quy trình Scrum
 
+Giới thiệu mô hình:
++Trong Scrum công việc được thực hiện qua các phân đoạn lặp liên tiếp gọi là Sprint.
++Sprint: Là 1 khung thời gian nhỏ hơn 4 tuần để nhóm phát triển sản xuất được một phần tăng trưởng của sản phẩm
+
+
++Lập kế hoạch Sprint: Là sự kiện diễn ra ở đầu mỗi Sprint. Và đặt mục tiêu trả lời cho câu hỏi: "Sẽ làm gì?" và "Sẽ làm như thế nào?"
++Mục tiêu Sprint:mô tả kết quả đạt được sau khi kết thúc mỗi sprint.
++Sơ kết Sprint: dùng thử phần sản phẩm vừa hoàn thành và trao đổi để điều chỉnh chon hợp lý.
++Cải tiến sprint: cải tiến cách làm việc.
+
+Hoạt động thực tiễn dựa trên mô hình scrum:
++Product owner: Nhóm 30
++Scrum master:Trưởng nhóm
++Nhóm phát triển: Nhóm 30.
+
 # Quá trình phát triển được chia thành 4 lần (4 Sprint)
 + Sprint 1:
    - Tuần 1: Thu thập yêu cầu về sản phẩm muốn làm
