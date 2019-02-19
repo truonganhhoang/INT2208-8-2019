@@ -1,3 +1,3 @@
-Họ và tên: Đào Trọng Đạt
-ngày sinh: 16/03/1999
-mssv: 17020668
+Họ và tên: Đào Trọng Đạt.
+Ngày sinh: 16/03/1999.
+MSSV: 17020668.
