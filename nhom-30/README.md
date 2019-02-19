@@ -19,7 +19,7 @@ Hoạt động thực tiễn dựa trên mô hình scrum:
 
 +Scrum master:Trưởng nhóm
 
-+Nhóm phát triển: Nhóm 30.
++Nhóm phát triển: Nhóm 30
 
 # Quá trình phát triển được chia thành 4 lần (4 Sprint)
 + Sprint 1:
