@@ -43,3 +43,59 @@
  
  <img src="https://uphinhnhanh.com/images/2019/02/13/FOS1.png">
  <img src="https://uphinhnhanh.com/images/2019/02/13/FOS2.png">
+ 
+ ## Kế hoạch thực hiện
+ #### (Dựa theo phương pháp Scrum trong nhóm phương pháp linh hoạt)
+- Mô hình chung của các sprint
+  - Lập kế hoạch
+  - Thiết kế 
+  - Xây dựng
+  - Kiểm thử 
+  - Rà soát
+  - Triển khai
+- Sprint 1
+###### Thảo luận chủ đề về ứng dụng, đặt tên ứng dụng.
+###### Lên kế hoạch thiết kế giao diện đầu tiên của ứng dụng.
+###### Nhóm thảo luận về giao diện sau đó đi đến thống nhất chung.
+###### Bắt đầu vào xây dựng.
+###### Rà soát lại giao diện khi đã xây dựng
+    - Tuần 1
+    - Tuần 2
+    - Tuần 3
+    - Tuần 4
+- Sprint 2
+###### Thiết kế toàn bộ giao diện của các chức năng của trang web
+###### Tìm hiểu, làm sơ bộ về back-end
+    - Tuần 5
+    - Tuần 6
+    - Tuần 7
+    - Tuần 8
+#### * Mục tiêu: Hoàn thành version 1   
+- Sprint 3
+###### Tập trung làm back - end cho trang web
+    - Tuần 9
+    - Tuần 10
+    - Tuần 11
+    - Tuần 12
+#### * Mục tiêu: Hoàn thành version 2    
+
+- Sprint 4
+###### Tiến đến kiểm thử và hoàn thiện ứng dụng
+    - Tuần 13
+    - Tuần 14
+    - Tuần 15
+#### * Mục tiêu: Hoàn thành ứng dụng
+
+
+### *Tổ chứ các buổi họp Daily Sprint*
+###### Các buổi họp Daily Sprint thường kéo dài từ 10 cho tới 15 phút,  trong buổi họp này tất cả các thành viên trong nhóm sẽ lần lượt báo cáo lại:
+     - Những gì đã làm được ngày hôm qua
+     - Những gì sẽ làm ngày hôm nay
+     - Những khó khăn mắc phải
+     Từ đó cả team có thể thấy Sprint đang làm sẽ tiến triển như thế nào 
+     và liệu có cần phải cập nhật lại bản kế hoạch đã đưa ra hay không. 
+
+###### Sprint Review
+    Sau cuối mỗi Sprint, cả nhóm đánh giá lại kết quả thực hiện được từ Sprint mới hoàn thành 
+    và qua đó đưa ra những kiến nghị để có thể thực hiện tốt hơn ở Sprint sau
+     
