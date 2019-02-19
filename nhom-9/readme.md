@@ -97,5 +97,5 @@
 
 ###### Sprint Review
     Sau cuối mỗi Sprint, cả nhóm đánh giá lại kết quả thực hiện được từ Sprint mới hoàn thành 
-    và qua đó đưa ra những kiến nghị để có thể thực hiện tốt hơn ở Sprint sau
+    và qua đó đưa ra những kiến nghị để có thể thực hiện tốt hơn ở Sprint sau.
      
