@@ -14,3 +14,36 @@
   - Các hoạt động của phần mềm hoàn toàn là trực tuyến, với nhiệm vụ đăng tải thông tin về sản phẩm, giá cả, … để người mua tìm hiểu trước khi liên lạc với người bán về việc mua bán chúng.
   - Ngoài ra, mỗi người sẽ có một tài khoản gồm tên tuổi, số điện thoại, trường theo học, facebook , messenger để tiện lợi cho việc liên lạc, uy tín cho người bán. Khi quyết định được sản phẩm, ng mua sẽ theo link messenger trao đổi kĩ hơn về giá cả và phương thức vận chuyển.
   - Ngoài việc buôn bán các đồ dùng, phần mềm này còn có thể là nơi mọi người chia sẻ các tài liệu học tập, hay những yêu cầu về trao đổi với nhau những tài liệu cần thiết.
+  
+**Nhóm áp dụng quy trình Scrum vào dự án:**
+
+  *I.Vai trò của các thành viên:*
+  - Product Owner: Nguyễn Thị Thanh Quý
+  - Scrum Master: Lê Xuân Hưng
+  
+  *II. Tính năng mong muốn của sản phẩm(product backlog):*
+  - Tìm kiếm sản phẩm và đọc dược thông tin sản phẩm cần tìm hiểu
+  - Đặt mua sản phẩm và liên hệ được với người bán
+  - Một vài tin tức cho sinh viên về thị trường
+  - Đăng kí tài khoản
+  
+  *III. Kế hoạch cụ thể*
+  - Sprint 1: từ tuần 1 - tuần 4
+    
+    Công việc: 
+    + Xây dựng giao diện cơ bản, tính năng tìm kiếm sản phẩm
+    
+  - Sprint 2: từ tuần 4 - tuần 8
+
+    Công việc: 
+    + Xây dựng tính năng xem thông tin sản phẩm và đặt mua
+    + Hoàn thành mục tin tức sinh viên
+  - Sprint 3: từ tuần 8 - tuần 11
+    
+    Công việc: 
+    + Tính năng đăng kí tài khoản
+    + Khung trò chuyện (nếu có thể)
+  - Sprint 4: từ tuần 11 - tuần 12
+    
+    Công việc: 
+    + Hoàn thiện ứng dụng và kiểm thử
