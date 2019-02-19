@@ -20,6 +20,7 @@
   *I.Vai trò của các thành viên:*
   - Product Owner: Nguyễn Thị Thanh Quý
   - Scrum Master: Lê Xuân Hưng
+  - Developer: Trần Thiên Sơn - Nguyễn Thị Thanh Quý - Nguyễn Trần Phương Thảo - Lê Xuân Hưng
   
   *II. Tính năng mong muốn của sản phẩm(product backlog):*
   - Tìm kiếm sản phẩm và đọc dược thông tin sản phẩm cần tìm hiểu
