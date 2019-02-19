@@ -25,7 +25,7 @@ https://docs.google.com/spreadsheets/d/1hRc_sCYV6-O9ELMNNB0Y8MQ25Xu6XZmCN_Gbc7jU
 * Muộn nhất 22/02
 
 ### 3. Lựa chọn công nghệ  
-* Xây dựng trên android, sử dụng Kotlin cùng Android Studio, sử dụng Firebase để xây dựng tương tác người - người  
+* Xây dựng trên android, sử dụng Java cùng Android Studio, sử dụng Firebase để xây dựng tương tác người - người  
 * Đã xong  
 
 ### 4. Design UI - UX để phục vụ những tính năng đã đưa ra  
