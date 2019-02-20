@@ -5,11 +5,11 @@
 ### Thành   viên:
 
 ```sh
-1.Nguyễn Thị Minh
-2.Nguyễn Thị Ngọc
-3.Bùi Danh Tuấn
+1.Hoàng Vũ Hường
+2.Nguyễn Thị Minh
+3.Nguyễn Thị Ngọc
 4.Nguyễn Thị Thúy
-5.Hoàng Vũ Hường
+5.Bùi Danh Tuấn
 ```
 
 ### Tên ứng dụng:  2Hand_Market
@@ -23,13 +23,12 @@
 3.   Các màn hình chính:
         - Trang đăng ký/ đăng nhập
         - Trang chủ
-        ![home](https://github.com/17020932/INT2208-8-2019/blob/master/nhom-88/imagines/trang%20ch%E1%BB%A7.png)
         - Trang cá nhân người dùng
-        ![user](https://github.com/17020932/INT2208-8-2019/blob/master/nhom-88/imagines/trang%20c%C3%A1%20nh%C3%A2n.PNG)
         - Giỏ hàng
-        ![my cart](https://github.com/17020932/INT2208-8-2019/blob/master/nhom-88/imagines/gi%E1%BB%8F%20h%C3%A0ng%201.jpg)
         - Trang hiển thị thông tin chi tiết sản phẩm
-4. Quy trình
+4.   Các màn hình đã làm được
+
+5.   Quy trình
 - Áp dụng agile methods là Scrum:
     - Scrum là một quy trình quản lý và phát triển theo phương pháp phát triển linh hoạt (Agile) tập trung đặc biệt vào việc quản lý các công việc trong một môi trường phát triển theo nhóm. Về cơ bản Scrum được bắt nguồn từ các hoạt động xảy ra trong 1 vòng tuần hoàn. Scrum tin tưởng vào việc trao quyền cho nhóm phát triển và làm việc theo nhóm nhỏ (từ 7-9 người). Nó bao gồm ba vai trò với những trách nhiệm được giải thích như sau:
       - Scrum Master: Master là người chịu trách nhiệm thiết lập nhóm, thiết lập cuộc họp trong các giai đoạn phát triển và loại bỏ các vật cản ảnh hưởng đến sự phát triển.
