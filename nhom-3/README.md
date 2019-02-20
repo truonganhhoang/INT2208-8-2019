@@ -2,7 +2,6 @@
 
 
 ## Members
-<<<<<<< HEAD
     Lê Bá Công  
     Phạm Lê Việt Anh
     Nguyễn Duy Công
@@ -41,9 +40,3 @@ Công nghệ:  Python, CSS3, HTML5, Boostrap4, Django
     Maintainable
 
 
-=======
-Lê Bá Công
-Phạm Lê Việt Anh
-Nguyễn Duy Công
-Nguyễn Huy Hoàng
->>>>>>> upstream/master
