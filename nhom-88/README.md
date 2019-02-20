@@ -27,7 +27,10 @@
         - Giỏ hàng
         - Trang hiển thị thông tin chi tiết sản phẩm
 4.   Các màn hình đã làm được
-
+        - Trang chủ
+        ![home](https://github.com/17020932/INT2208-8-2019/blob/master/nhom-88/imagines/trang%20ch%E1%BB%A7.png)
+        - trang đăng tin
+        ![post-news](https://github.com/17020932/INT2208-8-2019/blob/master/nhom-88/imagines/dang-tin.PNG)
 5.   Quy trình
 - Áp dụng agile methods là Scrum:
     - Scrum là một quy trình quản lý và phát triển theo phương pháp phát triển linh hoạt (Agile) tập trung đặc biệt vào việc quản lý các công việc trong một môi trường phát triển theo nhóm. Về cơ bản Scrum được bắt nguồn từ các hoạt động xảy ra trong 1 vòng tuần hoàn. Scrum tin tưởng vào việc trao quyền cho nhóm phát triển và làm việc theo nhóm nhỏ (từ 7-9 người). Nó bao gồm ba vai trò với những trách nhiệm được giải thích như sau:
