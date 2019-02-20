@@ -1,3 +1,3 @@
-Họ và tên: Đặng Thị Ngọc Ánh
-ngày sinh: 18/12/1999
-mssv: 17020597
+Họ và tên: Đặng Thị Ngọc Ánh.
+Ngày sinh: 18/12/1999.
+MSSV: 17020597.
