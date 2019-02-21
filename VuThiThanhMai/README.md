@@ -1,3 +1,3 @@
-#### Vũ Thị Thanh Mai
+#### Họ và tên: Vũ Thị Thanh Mai
+#### MSSV: 17020877
 #### Ngày sinh: 16/11/1999
-#### Mã số sinh viên: 17020877
