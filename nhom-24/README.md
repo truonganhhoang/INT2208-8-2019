@@ -38,3 +38,21 @@
 		+ Chia sẻ kinh nghiệm sống, học tập, làm việc, ví dụ như kinh nghiệm tìm nhà trọ, tìm việc part-time,...
 	- Phản hồi
 		+ Ghi nhận các ý kiến đóng góp về những nhà trọ không uy tín, những thông tin sai lệch, hoặc các đóng góp để phát triển ứng dụng tốt hơn
+
+#### Kế hoạch
+
+	1.	Tiến trình thực hiện: lập trình cực đoan (eXtreme Programming).
+	Sơ lược về tiến trình này:
+	o	Được sử dụng rộng rãi nhất trong Agile methods
+	o	Phát triển tăng dần, với nhiều phiên bản
+	o	Khách hàng tham gia toàn bộ thời gian với đội phát triển
+	o	Lập trình đôi
+	o	Chấp nhận sự thay đổi ở các phiên bản
+	2.	Kế hoạch chi tiết từng tuần:
+	o	Tuần 1: tìm hiểu, lập kế hoạch.
+	o	Tuần 2 đến hết tuần 4: tạo ra giao diện sơ khai (chưa bao gồm back-end), đồng thời thu thập thông tin tạo lập cơ sở dữ liệu.
+	o	Tuần 5 đến hết tuần 8: tiếp tục cải tiến Font-end, xây dựng back-end để tạo ra phiên bản đầu tiên (phục vụ chức năng quan trọng nhất)
+	o	Tuần 9 đến hết tuần 11: thêm các chức năng phụ, có thể tích hợp bản đồ định vị địa chỉ.
+	o	Tuần 12 đến hết tuần 13: thiết lập chế độ tài khoản người dung.
+	o	Tuần 14 đến hết tuần 15: Bảo trì, sửa lỗi.
+
