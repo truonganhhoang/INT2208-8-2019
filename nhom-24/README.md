@@ -2,11 +2,11 @@
 
 
 ## Thành viên
-	Nguyễn Mạnh Thắng
-	Nguyễn Duy Tâm
-	Nguyễn Hữu Trí
-	Phạm Văn Thuấn
-	Đặng Văn Nguyễn
+	Nguyễn Mạnh Thắng - 17021030
+	Nguyễn Duy Tâm - 17021009
+	Nguyễn Hữu Trí - 17021080
+	Phạm Văn Thuấn - 17021049
+	Đặng Văn Nguyễn - 17020939
 
 
 ### Nội dung
@@ -43,11 +43,11 @@
 
 	1.	Tiến trình thực hiện: lập trình cực đoan (eXtreme Programming).
 	Sơ lược về tiến trình này:
-	o	Được sử dụng rộng rãi nhất trong Agile methods
-	o	Phát triển tăng dần, với nhiều phiên bản
-	o	Khách hàng tham gia toàn bộ thời gian với đội phát triển
-	o	Lập trình đôi
-	o	Chấp nhận sự thay đổi ở các phiên bản
+		o	Được sử dụng rộng rãi nhất trong Agile methods
+		o	Phát triển tăng dần, với nhiều phiên bản
+		o	Khách hàng tham gia toàn bộ thời gian với đội phát triển
+		o	Lập trình đôi
+		o	Chấp nhận sự thay đổi ở các phiên bản
 	2.	Kế hoạch chi tiết từng tuần:
 	o	Tuần 1: tìm hiểu, lập kế hoạch.
 	o	Tuần 2 đến hết tuần 4: tạo ra giao diện sơ khai (chưa bao gồm back-end), đồng thời thu thập thông tin tạo lập cơ sở dữ liệu.
