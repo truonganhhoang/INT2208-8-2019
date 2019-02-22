@@ -27,6 +27,11 @@ Công nghệ:  Python, CSS3, HTML5, Boostrap4, Django
 
 ## Process
     Quy trình sử dụng: Scum
+    Product backlog:
+    Product owner
+    Scrum Master
+    Sprint in 1 week
+    standing meeting
 
 ### Tuần 1:
     Trang chủ
