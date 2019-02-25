@@ -12,9 +12,9 @@ III. Mô tả sơ lược:
       - Admin: Thêm, sửa và xóa sách.
    
 IV. Project sử dụng:
-- Front-end: html, css, javascript (Framework: Bootstrap,...).
-- Back-end: java.
-- Database: mysql.
+- Front-end: html, css, javascript (Framework: Bootstrap,...)
+- Back-end: java
+- Database: mysql
 
 # Quy trình phát triển dự án được áp dụng là quy trình Scrum
 
