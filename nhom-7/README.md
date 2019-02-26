@@ -14,14 +14,14 @@
  + Mỗi người dùng tạo 1 tài khoản, vượt qua các vòng thi sẽ có tính điểm và xếp hạng giữa các người dùng.
 
 ### Quy trình làm việc: 
-    + **Các chức năng chính**
+   + **Các chức năng chính**
       + Version 1.0
         + Trang chủ
         + Đăng nhập
         + Chơi trò chơi 
         + Các mức độ chơi từ dễ đến khó
         + Điểm/Xếp hạng
-    + **Công việc từng tuần**
+   + **Công việc từng tuần**
       + Tuần 1
         + Xây dựng trang chủ và chức năng đăng nhập
         + Thiết kế CSDL cho trò chơi
