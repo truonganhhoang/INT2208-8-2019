@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/lvlListHeader"
+        android:text="Business"
+        android:paddingTop="5dp"
+        android:paddingLeft="10dp"
+        android:paddingBottom="30sp"
+        android:textColor="#ffffff"
+        android:textSize="30sp"
+        android:background="#956474"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>
