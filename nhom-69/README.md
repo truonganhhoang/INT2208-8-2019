@@ -15,6 +15,17 @@
   - Ngoài ra, mỗi người sẽ có một tài khoản gồm tên tuổi, số điện thoại, trường theo học, facebook , messenger để tiện lợi cho việc liên lạc, uy tín cho người bán. Khi quyết định được sản phẩm, ng mua sẽ theo link messenger trao đổi kĩ hơn về giá cả và phương thức vận chuyển.
   - Ngoài việc buôn bán các đồ dùng, phần mềm này còn có thể là nơi mọi người chia sẻ các tài liệu học tập, hay những yêu cầu về trao đổi với nhau những tài liệu cần thiết.
   
+**Các màn hình chính của phần mềm:**
+
+![52592488_2282863501987597_3743894327311466496_n](https://user-images.githubusercontent.com/43133165/53389420-d8c87d00-39c1-11e9-8be0-3e92d58327a3.png)
+
+![52825791_565301580606250_9014977973089992704_n](https://user-images.githubusercontent.com/43133165/53389421-d9611380-39c1-11e9-86a8-b62e91174d8c.png)
+
+![52941768_308327769886012_1040993385562767360_n](https://user-images.githubusercontent.com/43133165/53389422-d9611380-39c1-11e9-8304-6b27afe57fc8.png)
+
+![53268246_583524902060109_8345668471752753152_n](https://user-images.githubusercontent.com/43133165/53389425-d9f9aa00-39c1-11e9-9b53-da02eb7a1cd9.png)
+
+
 **Nhóm áp dụng quy trình Scrum vào dự án:**
 
   *I.Vai trò của các thành viên:*
