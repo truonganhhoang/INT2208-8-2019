@@ -1,24 +1,28 @@
-package Adapter;
+package com.example.jinny.vocabulary.screen.home;
 
 import android.content.Context;
+import android.graphics.Color;
 import android.graphics.Typeface;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseExpandableListAdapter;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.example.jinny.vocabulary.R;
+import com.example.jinny.vocabulary.model.Category;
+import com.example.jinny.vocabulary.model.Topic;
 
 import java.util.HashMap;
 import java.util.List;
 
 public class ExpandableListAdapter extends BaseExpandableListAdapter {
     private Context context;
-    private List<String> listData;
-    private HashMap<String,List<String>> listChild;
+    private List<Category> listData;
+    private HashMap<String,List<Topic>> listChild;
 
-    public ExpandableListAdapter(Context context, List<String> listData, HashMap<String, List<String>> listHashMap) {
+    public ExpandableListAdapter(Context context, List<Category> listData, HashMap<String, List<Topic>> listHashMap) {
         this.context = context;
         this.listData = listData;
         this.listChild = listHashMap;
@@ -31,7 +35,7 @@ public class ExpandableListAdapter extends BaseExpandableListAdapter {
 
     @Override
     public int getChildrenCount(int groupPosition) {
-        return listChild.get(listData.get(groupPosition)).size();
+        return listChild.get(listData.get(groupPosition).getName()).size();
     }
 
     @Override
@@ -41,7 +45,7 @@ public class ExpandableListAdapter extends BaseExpandableListAdapter {
 
     @Override
     public Object getChild(int groupPosition, int childPosition) {
-        return listChild.get(listData.get(groupPosition)).get(childPosition);
+        return listChild.get(listData.get(groupPosition).getName()).get(childPosition);
     }
 
     @Override
@@ -61,28 +65,32 @@ public class ExpandableListAdapter extends BaseExpandableListAdapter {
 
     @Override
     public View getGroupView(int groupPosition, boolean isExpanded, View convertView, ViewGroup parent) {
-        String headerTilte = (String)getGroup(groupPosition);
+        Category category = listData.get(groupPosition);
         if (convertView==null){
             LayoutInflater inflater = (LayoutInflater) this.context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-            convertView = inflater.inflate(R.layout.list_group,null);
-
+            convertView = inflater.inflate(R.layout.category_item,null);
         }
-        TextView lbListHeader = (TextView) convertView.findViewById(R.id.lvlListHeader);
+
+        TextView lbListHeader = convertView.findViewById(R.id.lvlListHeader);
+        LinearLayout llCategory = convertView.findViewById(R.id.ll_category);
+
         lbListHeader.setTypeface(null,Typeface.BOLD);
-        lbListHeader.setText(headerTilte);
+        lbListHeader.setText(category.getName());
+        llCategory.setBackgroundColor(Color.parseColor(category.getColor()));
+
         return convertView;
     }
 
     @Override
     public View getChildView(int groupPosition, int childPosition, boolean isLastChild, View convertView, ViewGroup parent) {
-        final String childText = (String) getChild(groupPosition,childPosition);
+        Topic topic = listChild.get(listData.get(groupPosition).getName()).get(childPosition);
         if (convertView==null)
         {
             LayoutInflater inflater = (LayoutInflater) this.context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-            convertView = inflater.inflate(R.layout.list_item,null);
+            convertView = inflater.inflate(R.layout.topic_item,null);
         }
-        TextView txtListChild = (TextView) convertView.findViewById(R.id.lblListItem);
-        txtListChild.setText(childText);
+        TextView txtListChild = convertView.findViewById(R.id.lblListItem);
+        txtListChild.setText(topic.getName());
         return convertView;
     }
 
