@@ -13,7 +13,6 @@ import java.util.List;
 
 public class MainActivity extends BaseActivity {
 
-    private static final String TAG = "MainActivity";
 
     private DatabaseManager databaseManager;
     private List<Topic> topics;
