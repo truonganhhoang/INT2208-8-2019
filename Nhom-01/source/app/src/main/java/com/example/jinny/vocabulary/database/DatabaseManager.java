@@ -66,6 +66,18 @@ public class DatabaseManager {
         return topics;
     }
 
+    public HashMap<String, List<Topic>> getHashMapTopic(
+            List<Topic> topicList) {
+        HashMap<String, List<Topic>> hashMap = new HashMap<>();
+        for (Topic topic : topicList) {
+            List<Topic> list = hashMap.get(topic.getCategory());
+            if (list == null) list = new ArrayList<>();
+            list.add(topic);
+            hashMap.put(topic.getCategory(), list);
+        }
+        return hashMap;
+    }
+
     public List<Category> getListCategory(List<Topic> topics) {
         List<Category> categories = new ArrayList<>();
 

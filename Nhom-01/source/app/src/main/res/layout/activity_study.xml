@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/colorPrimaryDark"
-    tools:context=".screen.StudyActivity">
+    tools:context=".screen.study.StudyActivity">
 
     <Space
         android:id="@+id/collapseSpace"
@@ -15,7 +15,7 @@
         android:layout_marginTop="290dp"
         android:layout_marginEnd="12dp"
         android:layout_marginBottom="326dp"
-        android:background="@android:color/background_light"
+        android:background="@android:color/white"
         android:visibility="visible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -28,12 +28,8 @@
         android:layout_height="621dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="106dp"
-        android:layout_marginEnd="12dp"
-        android:layout_marginBottom="4dp"
         android:background="@android:color/white"
         android:visibility="visible"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -43,11 +39,7 @@
         android:layout_height="60dp"
         android:layout_marginStart="14dp"
         android:layout_marginTop="16dp"
-        android:layout_marginEnd="14dp"
-        android:layout_marginBottom="655dp"
         android:visibility="visible"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -57,14 +49,10 @@
         android:layout_height="29dp"
         android:layout_marginStart="114dp"
         android:layout_marginTop="34dp"
-        android:layout_marginEnd="66dp"
-        android:layout_marginBottom="668dp"
         android:text="TOPIC"
         android:textAlignment="center"
         android:textSize="18sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -74,14 +62,10 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="31dp"
         android:layout_marginTop="303dp"
-        android:layout_marginEnd="328dp"
-        android:layout_marginBottom="407dp"
         android:text="Origin1"
         android:textAlignment="viewStart"
         android:textSize="16sp"
         android:visibility="visible"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -91,15 +75,11 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="304dp"
         android:layout_marginTop="303dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginBottom="404dp"
-        android:text="NEW WORD"
+        android:text="NEW WROD"
         android:textAlignment="center"
         android:textSize="18sp"
         android:textStyle="bold|italic"
         android:visibility="visible"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -109,14 +89,10 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="31dp"
         android:layout_marginTop="334dp"
-        android:layout_marginEnd="274dp"
-        android:layout_marginBottom="378dp"
         android:text="Pronounciation1"
         android:textAlignment="viewStart"
         android:textSize="14sp"
         android:visibility="visible"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -126,15 +102,11 @@
         android:layout_height="42dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="363dp"
-        android:layout_marginEnd="12dp"
-        android:layout_marginBottom="326dp"
         android:background="@android:color/darker_gray"
         android:text="Tap to show detail"
         android:textAlignment="center"
         android:textStyle="italic"
         android:visibility="visible"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -144,14 +116,10 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="31dp"
         android:layout_marginTop="137dp"
-        android:layout_marginEnd="328dp"
-        android:layout_marginBottom="573dp"
         android:text="Origin2"
         android:textAlignment="viewStart"
         android:textSize="16sp"
         android:visibility="visible"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -161,15 +129,11 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="304dp"
         android:layout_marginTop="137dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginBottom="570dp"
         android:text="NEW WORD"
         android:textAlignment="center"
         android:textSize="18sp"
         android:textStyle="bold|italic"
         android:visibility="visible"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -179,13 +143,9 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="31dp"
         android:layout_marginTop="167dp"
-        android:layout_marginEnd="282dp"
-        android:layout_marginBottom="545dp"
         android:text="Pronouciation2"
         android:textAlignment="viewStart"
         android:visibility="visible"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -195,13 +155,9 @@
         android:layout_height="37dp"
         android:layout_marginStart="31dp"
         android:layout_marginTop="203dp"
-        android:layout_marginEnd="59dp"
-        android:layout_marginBottom="491dp"
         android:text="Explaination"
         android:textAlignment="viewStart"
         android:visibility="visible"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -211,13 +167,9 @@
         android:layout_height="42dp"
         android:layout_marginStart="31dp"
         android:layout_marginTop="246dp"
-        android:layout_marginEnd="59dp"
-        android:layout_marginBottom="443dp"
         android:text="Type"
         android:textAlignment="textStart"
         android:visibility="visible"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -227,11 +179,7 @@
         android:layout_height="245dp"
         android:layout_marginStart="29dp"
         android:layout_marginTop="316dp"
-        android:layout_marginEnd="29dp"
-        android:layout_marginBottom="170dp"
         android:visibility="visible"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:srcCompat="@tools:sample/avatars" />
@@ -242,13 +190,9 @@
         android:layout_height="33dp"
         android:layout_marginStart="29dp"
         android:layout_marginTop="581dp"
-        android:layout_marginEnd="64dp"
-        android:layout_marginBottom="117dp"
         android:text="Example"
         android:textAlignment="viewStart"
         android:visibility="visible"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -258,13 +202,9 @@
         android:layout_height="32dp"
         android:layout_marginStart="29dp"
         android:layout_marginTop="628dp"
-        android:layout_marginEnd="66dp"
-        android:layout_marginBottom="71dp"
         android:text="Example Translation"
         android:textAlignment="viewStart"
         android:visibility="visible"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -274,14 +214,10 @@
         android:layout_height="56dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="671dp"
-        android:layout_marginEnd="203dp"
-        android:layout_marginBottom="4dp"
         android:background="@color/colorAccent"
         android:text="I knew this word"
         android:textAlignment="center"
         android:visibility="visible"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -291,13 +227,11 @@
         android:layout_height="56dp"
         android:layout_marginStart="208dp"
         android:layout_marginTop="671dp"
-        android:layout_marginBottom="4dp"
         android:background="@color/colorPrimary"
         android:hapticFeedbackEnabled="false"
         android:text="I don't know this word"
         android:textAlignment="center"
         android:visibility="visible"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 

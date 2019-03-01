@@ -1,10 +1,11 @@
-package com.example.jinny.vocabulary.screen;
+package com.example.jinny.vocabulary.screen.welcome;
 
 import android.content.Intent;
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 
 import com.example.jinny.vocabulary.R;
+import com.example.jinny.vocabulary.screen.home.MainActivity;
 
 public class SplashActivity extends AppCompatActivity {
 

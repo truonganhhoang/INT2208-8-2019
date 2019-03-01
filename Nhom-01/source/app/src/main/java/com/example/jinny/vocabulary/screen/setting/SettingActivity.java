@@ -1,4 +1,4 @@
-package com.example.jinny.vocabulary.screen;
+package com.example.jinny.vocabulary.screen.setting;
 
 import com.example.jinny.vocabulary.R;
 import com.example.jinny.vocabulary.base.BaseActivity;

@@ -1,12 +1,7 @@
-package com.example.jinny.vocabulary.screen;
+package com.example.jinny.vocabulary.screen.study;
 
-import android.media.Image;
-import android.os.Bundle;
-import android.text.Layout;
-import android.util.Log;
 import android.view.View;
 import android.widget.Button;
-import android.widget.ExpandableListView;
 import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.Space;
@@ -14,28 +9,8 @@ import android.widget.TextView;
 
 import com.example.jinny.vocabulary.R;
 import com.example.jinny.vocabulary.base.BaseActivity;
-import com.example.jinny.vocabulary.database.DatabaseManager;
-import com.example.jinny.vocabulary.model.Category;
-import com.example.jinny.vocabulary.model.Topic;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-
-import Adapter.ExpandableListAdapter;
-
-public class MainActivity extends BaseActivity {
-
-    private static final String TAG = "MainActivity";
-
-    private DatabaseManager databaseManager;
-    private List<Topic> topics;
-    private List<Category> categories;
-
-    private ExpandableListView listView;
-    private ExpandableListAdapter listAdapter;
-    private List<String> listDataHeader;
-    private HashMap<String,List<String>> listHashMap;
+public class StudyActivity extends BaseActivity {
 
     Space collapseSpace, extendSpace, topicSpace;
     TextView origin1, origin2, pronunciation1, pronunciation2, newWord1, newWord2, explaination, type, example, exampleTrans;
@@ -43,37 +18,18 @@ public class MainActivity extends BaseActivity {
     ImageView image;
     ImageButton imageButton2;
 
-
     @Override
     protected int getLayoutId() {
-        return R.layout.activity_main;
+        return R.layout.activity_study;
     }
 
     @Override
     protected void setupUI() {
-        //get Data
-        databaseManager = DatabaseManager.getInstance(this);
-        topics = databaseManager.getListTopic();
-        categories = databaseManager.getListCategory(topics);
-    }
-
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-
-        listView = (ExpandableListView) findViewById(R.id.lvExp);
-        initData();
-        listAdapter = new ExpandableListAdapter(this,listDataHeader,listHashMap);
-        listView.setAdapter(listAdapter);
-
-        // Create 3 layouts
         topicSpace = (Space) findViewById(R.id.topicSpace);
         collapseSpace = (Space) findViewById(R.id.collapseSpace);
         extendSpace = (Space) findViewById(R.id.extendSpace);
 
-        //  TextViews
+
         origin1 = (TextView) findViewById(R.id.origin1);
         origin2 = (TextView) findViewById(R.id.origin2);
 
@@ -88,7 +44,6 @@ public class MainActivity extends BaseActivity {
         example = (TextView) findViewById(R.id.example);
         exampleTrans = (TextView) findViewById(R.id.exampleTrans);
 
-        
         button3 = (Button) findViewById(R.id.button3);
         button4 = (Button) findViewById(R.id.button4);
         button5 = (Button) findViewById(R.id.button5);
@@ -165,35 +120,5 @@ public class MainActivity extends BaseActivity {
                 image.setVisibility(View.GONE);
             }
         });
-
-    }
-
-    private void initData(){
-        listDataHeader = new ArrayList<>();
-        listHashMap = new HashMap<>();
-
-        listDataHeader.add("Business");
-        listDataHeader.add("Office");
-        listDataHeader.add("Personal");
-
-        List<String> business = new ArrayList<>();
-        business.add("Contracts");
-        business.add("Marketing");
-        business.add("Conference");
-
-        List<String> office = new ArrayList<>();
-        office.add("office1");
-        office.add("office2");
-        office.add("office3");
-
-        List<String> personal = new ArrayList<>();
-        personal.add("p1");
-        personal.add("p2");
-        personal.add("p3");
-
-        listHashMap.put(listDataHeader.get(0),business);
-        listHashMap.put(listDataHeader.get(1),office);
-        listHashMap.put(listDataHeader.get(2),personal);
-
     }
 }
