@@ -1,5 +1,7 @@
 package com.example.jinny.vocabulary.screen;
 
+import android.widget.TextView;
+
 import com.example.jinny.vocabulary.R;
 import com.example.jinny.vocabulary.base.BaseActivity;
 
