@@ -69,6 +69,7 @@ public class StudyActivity extends BaseActivity {
                 origin1.setVisibility(View.GONE);
                 pronunciation1.setVisibility(View.GONE);
                 button3.setVisibility(View.GONE);
+                newWord1.setVisibility(View.GONE);
 
                 extendSpace.setVisibility(View.VISIBLE);
                 origin2.setVisibility(View.VISIBLE);
@@ -106,6 +107,7 @@ public class StudyActivity extends BaseActivity {
                 origin1.setVisibility(View.VISIBLE);
                 pronunciation1.setVisibility(View.VISIBLE);
                 button3.setVisibility(View.VISIBLE);
+                newWord1.setVisibility(View.VISIBLE);
 
                 extendSpace.setVisibility(View.GONE);
                 origin2.setVisibility(View.GONE);
