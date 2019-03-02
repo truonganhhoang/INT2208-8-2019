@@ -12,12 +12,11 @@ import com.example.jinny.vocabulary.base.BaseActivity;
 
 public class StudyActivity extends BaseActivity {
 
-    Space collapseSpace, extendSpace, topicSpace;
-    TextView origin1, origin2, pronunciation1, pronunciation2, newWord1, newWord2, explaination, type, example, exampleTrans;
+    Space topicSpace;
+    TextView origin1, origin2, pronunciation1, pronunciation2, newWord1, newWord2, explaination, type, example, exampleTrans, collapseSpace, extendSpace;
     Button button3, button4, button5;
     ImageView image;
     ImageButton imageButton2;
-
     @Override
     protected int getLayoutId() {
         return R.layout.activity_study;
@@ -26,9 +25,8 @@ public class StudyActivity extends BaseActivity {
     @Override
     protected void setupUI() {
         topicSpace = (Space) findViewById(R.id.topicSpace);
-        collapseSpace = (Space) findViewById(R.id.collapseSpace);
-        extendSpace = (Space) findViewById(R.id.extendSpace);
-
+        collapseSpace = (TextView) findViewById(R.id.collapseSpace);
+        extendSpace = (TextView) findViewById(R.id.extendSpace);
 
         origin1 = (TextView) findViewById(R.id.origin1);
         origin2 = (TextView) findViewById(R.id.origin2);

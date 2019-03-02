@@ -7,7 +7,7 @@
     android:background="@color/colorPrimaryDark"
     tools:context=".screen.study.StudyActivity">
 
-    <Space
+    <TextView
         android:id="@+id/collapseSpace"
         android:layout_width="383dp"
         android:layout_height="115dp"
@@ -22,19 +22,18 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <Space
+    <TextView
         android:id="@+id/extendSpace"
-        android:layout_width="383dp"
+        android:layout_width="404dp"
         android:layout_height="621dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="106dp"
         android:layout_marginEnd="12dp"
-        android:layout_marginBottom="4dp"
         android:background="@android:color/white"
         android:visibility="visible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.666"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0" />
@@ -43,28 +42,41 @@
         android:id="@+id/topicSpace"
         android:layout_width="383dp"
         android:layout_height="60dp"
-        android:layout_marginStart="14dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="44dp"
         android:visibility="visible"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="54dp"
+        android:layout_height="60dp"
+        android:background="@color/colorPrimaryDark"
+        android:hapticFeedbackEnabled="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.033"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.068"
+        app:srcCompat="?attr/actionModeCloseDrawable" />
 
     <TextView
         android:id="@+id/topic"
         android:layout_width="231dp"
         android:layout_height="29dp"
-        android:layout_marginStart="114dp"
-        android:layout_marginTop="34dp"
-        android:layout_marginEnd="66dp"
-        android:layout_marginBottom="668dp"
         android:text="Contracts"
         android:textAlignment="center"
-        android:textSize="18sp"
+        android:textColor="@android:color/white"
+        android:textSize="22sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.633"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.092" />
 
     <TextView
         android:id="@+id/origin1"
@@ -121,7 +133,7 @@
 
     <Button
         android:id="@+id/button3"
-        android:layout_width="335dp"
+        android:layout_width="389dp"
         android:layout_height="42dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="363dp"
@@ -153,13 +165,13 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.119" />
+        app:layout_constraintVertical_bias="0.229" />
 
     <TextView
         android:id="@+id/newWord2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="240dp"
+        android:layout_marginBottom="150dp"
         android:text="NEW WORD"
         android:textAlignment="center"
         android:textSize="18sp"
@@ -170,7 +182,7 @@
         app:layout_constraintHorizontal_bias="0.871"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.22000003" />
+        app:layout_constraintVertical_bias="0.32999998" />
 
     <TextView
         android:id="@+id/pronunciation2"
@@ -186,11 +198,11 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.165" />
+        app:layout_constraintVertical_bias="0.273" />
 
     <TextView
         android:id="@+id/explaination"
-        android:layout_width="321dp"
+        android:layout_width="336dp"
         android:layout_height="37dp"
         android:layout_marginStart="31dp"
         android:layout_marginEnd="59dp"
@@ -202,11 +214,11 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.226" />
+        app:layout_constraintVertical_bias="0.332" />
 
     <TextView
         android:id="@+id/type"
-        android:layout_width="321dp"
+        android:layout_width="336dp"
         android:layout_height="42dp"
         android:layout_marginStart="31dp"
         android:layout_marginEnd="59dp"
@@ -218,7 +230,7 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.309" />
+        app:layout_constraintVertical_bias="0.41" />
 
     <ImageView
         android:id="@+id/image"
@@ -269,23 +281,23 @@
 
     <Button
         android:id="@+id/button4"
-        android:layout_width="164dp"
-        android:layout_height="56dp"
+        android:layout_width="176dp"
+        android:layout_height="53dp"
         android:background="@color/colorAccent"
         android:text="I knew this word"
         android:textAlignment="center"
         android:visibility="visible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.059"
+        app:layout_constraintHorizontal_bias="0.01"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.942" />
+        app:layout_constraintVertical_bias="0.94" />
 
     <Button
         android:id="@+id/button5"
-        android:layout_width="173dp"
-        android:layout_height="56dp"
+        android:layout_width="180dp"
+        android:layout_height="54dp"
         android:background="@color/colorPrimary"
         android:hapticFeedbackEnabled="false"
         android:text="I don't know this word"
@@ -293,24 +305,9 @@
         android:visibility="visible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.944"
+        app:layout_constraintHorizontal_bias="0.99"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.942" />
+        app:layout_constraintVertical_bias="0.94" />
 
-    <ImageButton
-        android:id="@+id/imageButton2"
-        android:layout_width="54dp"
-        android:layout_height="60dp"
-        android:layout_marginStart="13dp"
-        android:layout_marginTop="15dp"
-        android:layout_marginEnd="344dp"
-        android:layout_marginBottom="656dp"
-        android:background="@color/colorPrimaryDark"
-        android:hapticFeedbackEnabled="true"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="?attr/actionModeCloseDrawable" />
 </androidx.constraintlayout.widget.ConstraintLayout>
