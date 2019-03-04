@@ -148,6 +148,14 @@ public class DatabaseManager {
                 "id = " + word.getId(), null);
     }
 
+    public void updateLastTime(Topic topic, String lastTime) {
+        sqLiteDatabase = assetHelper.getWritableDatabase();
+
+        ContentValues contentValues = new ContentValues();
+        contentValues.put("last_time", lastTime);
+        sqLiteDatabase.update(TABLE_TOPIC, contentValues, "id = " + topic.getId(), null);
+    }
+
     public int getNumOfMasterWordByTopicId(int topicId) {
         sqLiteDatabase = assetHelper.getReadableDatabase();
         Cursor cursor = sqLiteDatabase.rawQuery("select level from " + TABLE_WORD
