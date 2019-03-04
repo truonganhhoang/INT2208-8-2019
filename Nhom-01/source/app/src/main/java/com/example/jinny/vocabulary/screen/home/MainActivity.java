@@ -41,7 +41,7 @@ public class MainActivity extends BaseActivity {
         listAdapter = new ExpandableListAdapter(this, categories, topicHashMap);
         listView.setAdapter(listAdapter);
 
-        Intent intent = new Intent(this, StudyActivity.class);
-        startActivity(intent);
+        /*Intent intent = new Intent(this, StudyActivity.class);
+        startActivity(intent);*/
     }
 }
