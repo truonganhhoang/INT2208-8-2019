@@ -43,5 +43,8 @@ public class MainActivity extends BaseActivity {
         HashMap<String, List<Topic>> topicHashMap = databaseManager.getHashMapTopic(topics);
         listAdapter = new ExpandableListAdapter(this, categories, topicHashMap);
         listView.setAdapter(listAdapter);
+
+        /*Intent intent = new Intent(this, StudyActivity.class);
+        startActivity(intent);*/
     }
 }
