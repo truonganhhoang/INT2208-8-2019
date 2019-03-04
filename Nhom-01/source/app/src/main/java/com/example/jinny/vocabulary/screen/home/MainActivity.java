@@ -1,5 +1,6 @@
 package com.example.jinny.vocabulary.screen.home;
 
+import android.content.Intent;
 import android.widget.ExpandableListView;
 
 import com.example.jinny.vocabulary.R;
@@ -7,6 +8,7 @@ import com.example.jinny.vocabulary.base.BaseActivity;
 import com.example.jinny.vocabulary.database.DatabaseManager;
 import com.example.jinny.vocabulary.model.Category;
 import com.example.jinny.vocabulary.model.Topic;
+import com.example.jinny.vocabulary.screen.study.StudyActivity;
 
 import java.util.HashMap;
 import java.util.List;
@@ -28,6 +30,9 @@ public class MainActivity extends BaseActivity {
 
     @Override
     protected void setupUI() {
+        Intent intent = new Intent(this, StudyActivity.class);
+        startActivity(intent);
+
         //get Data
         databaseManager = DatabaseManager.getInstance(this);
         topics = databaseManager.getListTopic();
