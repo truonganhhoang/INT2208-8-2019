@@ -1,3 +1,4 @@
+{% load staticfiles %}
 <!DOCTYPE html>
 <html>
 <head>
@@ -6,17 +7,17 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 
 	<!--CSS-->
-	<link rel="stylesheet" type="text/css" href="css/bootstrap/bootstrap.min.css" />
-	<link rel="stylesheet" type="text/css" href="css/style.css" />
-	
+	<link rel="stylesheet" type="text/css" href="{% static 'css/bootstrap/bootstrap.min.css' %}" />
+	<link rel="stylesheet" type="text/css" href="static/css/style.css" />
+
 </head>
 <body>
 	<div id="wrapper">
 		<div id="header">
 			<nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-danger">
-				<div class="container"> 
+				<div class="container">
 					<div class="navbar-header">
-						<a href="#" class="navbar-brand">Grab It!</a> 
+						<a href="#" class="navbar-brand">Grab It!</a>
 					</div>
 					<!--Collapse-->
 					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-menu">
@@ -52,7 +53,7 @@
 						<!--right navbar-->
 						<ul class="nav navbar-nav ml-auto">
 							<li class="nav-item">
-								<a class="nav-link" href="#">Giỏ hàng<span><img alt="icon-store" src="images/icons/online-store.png" style="width:20px"/></span></a>
+								<a class="nav-link" href="#">Giỏ hàng<span><img alt="icon-store" src="../static/images/icons/online-store.png" style="width:20px"/></span></a>
 							</li>
 							<li class="nav-item">
 								<a class="nav-link" href="#">Đăng Ký</a>
@@ -73,22 +74,23 @@
 			<div class="header">Khám Phá</div>
 		</div>
 		<!--Content-->
+        {% block content %}{% endblock %}
 		<div id="content" class="container">
 			<div class="row">
-				<img class="san-pham col" src="images/bluetooth.jpg" />
-				<img class="san-pham col" src="images/corred_headphone.jpg" />
-				<img class="san-pham col" src="images/I7S.jpg" />
-				<img class="san-pham col" src="images/K320.jpg" />
+				<img class="san-pham col" src="static/images/bluetooth.jpg" />
+				<img class="san-pham col" src="../static/images/corred_headphone.jpg" />
+				<img class="san-pham col" src="../static/images/I7S.jpg" />
+				<img class="san-pham col" src="../static/images/K320.jpg" />
 			</div>
-			
+
 		</div>
 		<!--end content-->
 	</div>
 
 
 	<!--Javascript-->
-	<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
-	<script type="text/javascript" src="js/script.js"></script>
-	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="static/js/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript" src="static/js/script.js"></script>
+	<script type="text/javascript" src="static/js/bootstrap.min.js"></script>
 </body>
 </html>
