@@ -17,5 +17,47 @@
  * Để lại thông tin để mua sản phẩm
  * Có giỏ hàng để nhưng lần sau mua tiếp
  * Trang tham khảo mẫu là trang mwcstore
+### Quy trình làm việc theo quá trình Scrum
+ 
+ 
+<ul>
+<li>Product Owner: Vũ Trung Anh, Vi Thế Anh</li>
+<li>ScrumMaster: Vũ Trung Anh</li>
+<li>The Team:
+<ul>
+<li>Vi Thế Anh</li>
+<li>Võ Lộc Anh</li>
+<li>Vũ Trung Anh</li>
+<li>Đoàn Mạnh Cường</li>
+<li>Hà Xuân Việt</li>
+</ul>
+</li>
+</ul>
 
+### Product backlog
+<ul>
+  <li>Thiết kế giao diện </li>
+  <ul>
+    <li>Trang chủ - Thế Anh</li>
+    <li>Admin - Lộc Anh</li>
+    <li>Sản phẩm - Cường</li>
+    <li>Đăng nhập - Trung Anh </li>
+    <li>Giỏ hàng - Việt</li>
+    <li>Thanh toán - Việt</li>
+    <li>Đơn hàng - Cường</li> 
+    
+  </ul>
+  <li>Kiểm thử các thiết kế</li>
+  <ul>
+  <li>Kiểm tra lại các giao diện đã là do tất cả thành viên trong nhóm</li>
+  
+  </ul>
+</ul>
+
+### Sprint backlog
+* Tìm hiểu các về jsp, servlet, bootstrap
+* Tìm hiểu các kết nối database vào code
+* Triển khai code và match code the team
+                  
+              
 
