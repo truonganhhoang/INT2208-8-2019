@@ -63,6 +63,12 @@
   </li>
 </ul>
 
+#### Nhóm thực hiện theo quy trình Scrum
+##### Các vị trí và công việc tương ứng trong quy trình Scrum:
+* <i>Phí Xuân Hoàn</i> (<b>Product Owner</b>): Là người chịu trách nghiệm về sự thành công của ứng dụng, có nhiệm vụ tìm hiểu nhu cầu của khách hàng, từ đó hoạch định ra các hạng mục cần phát triển của dự án(lập Product Backlog). Là người có tiếng nói cuối cùng mọi quyết định liên quan đến ứng dụng.
+* <i>Trần Tiến Đức</i> (<b>ScrumMaster</b>): Là người đảm bảo nhóm luôn hoạt động năng suất. Đức giúp Hoàn quản lý Product Backlog, đảm bảo việc bố trí Product Backlog sao cho hợp lý. Phổ biến cho các thành viên trong nhóm về việc tổ chức, làm việc, kỹ thuật trong Scrum. Là người quan sát trong nhóm, sẽ giúp đỡ các thành viên khi họ gặp khó khăn.
+* <i>Tất cả thành viên nhóm</i> (<b>Nhóm phát triển</b>): Trực tiếp sản xuất ứng dụng, không có ai chịu trách nghiệm quản lý nhóm, vậy nên kết quả công việc thuộc về toàn bộ nhóm. Nhóm sẽ lập kế hoạch thực hiện các hạng mục Product Backlog trong từng Sprint. Nhóm phải thường xuyên trao đổi thường xuyên với Product Owner để đảm bảo công việc luôn đi đúng hướng.
+
 #### Các màn hình đã làm
 
 * Trang chủ
@@ -181,3 +187,5 @@
 
 * Sprint 5 (3 tuần)
 <img src="https://github.com/hoanphi2201/INT2208-8-2019/blob/master/nhom-10/week2_image/sprint_5.jpg">
+
+
