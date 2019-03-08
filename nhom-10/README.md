@@ -63,7 +63,7 @@
   </li>
 </ul>
 
-#### Nhóm thực hiện theo quy trình Scrum
+### Nhóm thực hiện theo quy trình Scrum
 ##### Các vị trí và công việc tương ứng trong quy trình Scrum:
 * <i>Phí Xuân Hoàn</i> (<b>Product Owner</b>): Là người chịu trách nghiệm về sự thành công của ứng dụng, có nhiệm vụ tìm hiểu nhu cầu của khách hàng, từ đó hoạch định ra các hạng mục cần phát triển của dự án(lập Product Backlog). Là người có tiếng nói cuối cùng mọi quyết định liên quan đến ứng dụng.
 * <i>Trần Tiến Đức</i> (<b>ScrumMaster</b>): Là người đảm bảo nhóm luôn hoạt động năng suất. Đức giúp Hoàn quản lý Product Backlog, đảm bảo việc bố trí Product Backlog sao cho hợp lý. Phổ biến cho các thành viên trong nhóm về việc tổ chức, làm việc, kỹ thuật trong Scrum. Là người quan sát trong nhóm, sẽ giúp đỡ các thành viên khi họ gặp khó khăn.
