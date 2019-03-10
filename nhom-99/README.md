@@ -25,11 +25,11 @@
 <li>ScrumMaster: Vũ Trung Anh</li>
 <li>The Team:
 <ul>
-<li>Vi Thế Anh</li>
-<li>Võ Lộc Anh</li>
-<li>Vũ Trung Anh</li>
-<li>Đoàn Mạnh Cường</li>
-<li>Hà Xuân Việt</li>
+<li>Vi Thế Anh - front end</li>
+<li>Võ Lộc Anh - fullstack</li>
+<li>Vũ Trung Anh - back end</li>
+<li>Đoàn Mạnh Cường - fullstack</li>
+<li>Hà Xuân Việt - front end, database</li>
 </ul>
 </li>
 </ul>
