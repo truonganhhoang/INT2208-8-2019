@@ -69,6 +69,8 @@
 * <i>Trần Tiến Đức</i> (<b>ScrumMaster</b>): Là người đảm bảo nhóm luôn hoạt động năng suất. Đức giúp Hoàn quản lý Product Backlog, đảm bảo việc bố trí Product Backlog sao cho hợp lý. Phổ biến cho các thành viên trong nhóm về việc tổ chức, làm việc, kỹ thuật trong Scrum. Là người quan sát trong nhóm, sẽ giúp đỡ các thành viên khi họ gặp khó khăn.
 * <i>Tất cả thành viên nhóm</i> (<b>Nhóm phát triển</b>): Trực tiếp sản xuất ứng dụng, không có ai chịu trách nghiệm quản lý nhóm, vậy nên kết quả công việc thuộc về toàn bộ nhóm. Nhóm sẽ lập kế hoạch thực hiện các hạng mục Product Backlog trong từng Sprint. Nhóm phải thường xuyên trao đổi thường xuyên với Product Owner để đảm bảo công việc luôn đi đúng hướng.
 
+Chi tiết tại: https://github.com/hoanphi2201/SoftEng-Assignments-nhom-10
+
 #### Các màn hình đã làm
 
 * Trang chủ
