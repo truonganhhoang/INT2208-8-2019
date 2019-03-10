@@ -4,6 +4,11 @@
 - Hoàng Văn Định
 - Trần Trung Hiếu
 - Đặng Hữu Tiến
+### Vai trò các thành viên theo mô hình phát triển phần mềm Scrum
+- Product Owner: Nguyễn Hữu Minh Quang
+- Scrum Master: Vũ Thị Thanh Mai
+- Development Team: Đặng Hữu Tiến, Trần Trung Hiếu, Hoàng Văn Định 
+
 ### Tên ứng dụng
 - FOS(Fond Of Study)
 ### Nhóm người dùng
