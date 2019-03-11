@@ -59,18 +59,5 @@ Sau này ứng dụng sẽ được phát triển với nhiều tính năng mớ
   + Lý Minh Nghĩa
   + Trần Thế Vượng
   + Nguyễn Tiến Sơn
-* Product Backlog
-  + Thiết kế khung trang chủ
-      https://github.com/19team/INT2208-8-2019/issues/20
-  + Cải thiện giao diện trang chủ
-      https://github.com/19team/INT2208-8-2019/issues/21
-  + Thiết kế xây dựng trang đăng nhập, đăng ký
-      https://github.com/19team/INT2208-8-2019/issues/22
-  + Thiết kế xây dựng trang trò chơi
-      https://github.com/19team/INT2208-8-2019/issues/23
-  + Thiết kế cấu trúc cơ sở dữ liệu người dùng
-      https://github.com/19team/INT2208-8-2019/issues/24
-  + Xây dựng cơ sở dữ liệu
-      https://github.com/19team/INT2208-8-2019/issues/25
-  + Tạo liên kết giữa trang đăng nhập, trang đăng kí với cơ sở dữ liệu
-      https://github.com/19team/INT2208-8-2019/issues/26
+* Product Backlog: https://github.com/19team/INT2208-8-2019/issues
+  
