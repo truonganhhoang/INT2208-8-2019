@@ -9,41 +9,34 @@
 
     <TextView
         android:id="@+id/collapseSpace"
-        android:layout_width="383dp"
+        android:layout_width="323dp"
         android:layout_height="115dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="290dp"
-        android:layout_marginEnd="12dp"
-        android:layout_marginBottom="326dp"
         android:background="@android:color/white"
         android:visibility="visible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.551" />
 
     <TextView
         android:id="@+id/extendSpace"
-        android:layout_width="404dp"
-        android:layout_height="621dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="106dp"
-        android:layout_marginEnd="12dp"
+        android:layout_width="322dp"
+        android:layout_height="381dp"
         android:background="@android:color/white"
         android:visibility="visible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.666"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="0.756" />
 
-    <Space
+    <TextView
         android:id="@+id/topicSpace"
         android:layout_width="383dp"
-        android:layout_height="60dp"
+        android:layout_height="53dp"
         android:layout_marginStart="12dp"
-        android:layout_marginTop="44dp"
+        android:layout_marginTop="24dp"
         android:visibility="visible"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -51,7 +44,7 @@
     <ImageButton
         android:id="@+id/imageButton2"
         android:layout_width="54dp"
-        android:layout_height="60dp"
+        android:layout_height="53dp"
         android:background="@color/colorPrimaryDark"
         android:hapticFeedbackEnabled="true"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -59,48 +52,44 @@
         app:layout_constraintHorizontal_bias="0.033"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.068"
+        app:layout_constraintVertical_bias="0.035"
         app:srcCompat="?attr/actionModeCloseDrawable" />
 
     <TextView
         android:id="@+id/topic"
-        android:layout_width="231dp"
+        android:layout_width="304dp"
         android:layout_height="29dp"
-        android:text="Contracts"
+        android:text="Computers n the network"
         android:textAlignment="center"
         android:textColor="@android:color/white"
         android:textSize="22sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.633"
+        app:layout_constraintHorizontal_bias="0.82"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.092" />
+        app:layout_constraintVertical_bias="0.055" />
 
     <TextView
         android:id="@+id/origin1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="25dp"
-        android:layout_marginEnd="334dp"
-        android:layout_marginBottom="295dp"
+        android:layout_width="109dp"
+        android:layout_height="34dp"
         android:text="provision"
         android:textAlignment="viewStart"
         android:textSize="16sp"
         android:visibility="visible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.165"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.975" />
+        app:layout_constraintVertical_bias="0.497" />
 
     <TextView
         android:id="@+id/newWord1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="295dp"
         android:text="NEW WORD"
         android:textAlignment="center"
         android:textSize="18sp"
@@ -108,37 +97,30 @@
         android:visibility="visible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.871"
+        app:layout_constraintHorizontal_bias="0.834"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintVertical_bias="0.499" />
 
     <TextView
         android:id="@+id/pronunciation1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="25dp"
-        android:layout_marginEnd="280dp"
-        android:layout_marginBottom="280dp"
+        android:layout_width="109dp"
+        android:layout_height="32dp"
         android:text="/provision/"
         android:textAlignment="viewStart"
         android:textSize="14sp"
         android:visibility="visible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.165"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintVertical_bias="0.545" />
 
     <Button
         android:id="@+id/button3"
-        android:layout_width="389dp"
+        android:layout_width="325dp"
         android:layout_height="42dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="363dp"
-        android:layout_marginEnd="12dp"
-        android:layout_marginBottom="326dp"
         android:background="@android:color/darker_gray"
         android:text="Tap to show detail"
         android:textAlignment="center"
@@ -146,32 +128,29 @@
         android:visibility="visible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.4"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.624" />
 
     <TextView
         android:id="@+id/origin2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="31dp"
-        android:layout_marginEnd="328dp"
+        android:layout_width="117dp"
+        android:layout_height="27dp"
         android:text="provision"
         android:textAlignment="viewStart"
         android:textSize="16sp"
         android:visibility="visible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.176"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.229" />
+        app:layout_constraintVertical_bias="0.224" />
 
     <TextView
         android:id="@+id/newWord2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="150dp"
         android:text="NEW WORD"
         android:textAlignment="center"
         android:textSize="18sp"
@@ -179,124 +158,114 @@
         android:visibility="visible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.871"
+        app:layout_constraintHorizontal_bias="0.834"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.32999998" />
+        app:layout_constraintVertical_bias="0.223" />
 
     <TextView
         android:id="@+id/pronunciation2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="31dp"
-        android:layout_marginEnd="282dp"
+        android:layout_width="119dp"
+        android:layout_height="29dp"
         android:text="/provision/"
         android:textAlignment="viewStart"
         android:visibility="visible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.171"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.273" />
+        app:layout_constraintVertical_bias="0.263" />
 
     <TextView
         android:id="@+id/explaination"
-        android:layout_width="327dp"
-        android:layout_height="37dp"
-        android:layout_marginStart="31dp"
-        android:layout_marginEnd="59dp"
-        android:text="a condition or an arrangement in a legal document"
+        android:layout_width="302dp"
+        android:layout_height="41dp"
+        android:text="a condition or an arrangement in a legal document,jkjlkjlkjlkjlkjlkjlk"
         android:textAlignment="viewStart"
         android:visibility="visible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.458"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.332" />
+        app:layout_constraintVertical_bias="0.32" />
 
     <TextView
         android:id="@+id/type"
-        android:layout_width="319dp"
-        android:layout_height="42dp"
-        android:layout_marginStart="31dp"
-        android:layout_marginEnd="59dp"
-        android:text="(n): sự dự liệu, dự trữ, dự phòng, cung cấp; điều khoản"
+        android:layout_width="295dp"
+        android:layout_height="47dp"
+        android:text="(n): s? d? li?u, d? tr?, d? phòng, cung c?p; di?u kho?n, jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkhkjhkjhlkojyy"
         android:textAlignment="textStart"
         android:visibility="visible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.41"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.41" />
+        app:layout_constraintVertical_bias="0.394" />
 
     <ImageView
         android:id="@+id/image"
-        android:layout_width="353dp"
-        android:layout_height="198dp"
+        android:layout_width="311dp"
+        android:layout_height="182dp"
         android:layout_marginStart="29dp"
-        android:layout_marginTop="316dp"
         android:layout_marginEnd="29dp"
-        android:layout_marginBottom="170dp"
         android:visibility="visible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.59"
+        tools:srcCompat="@tools:sample/avatars" />
 
     <TextView
         android:id="@+id/example"
-        android:layout_width="318dp"
-        android:layout_height="33dp"
-        android:layout_marginStart="27dp"
-        android:layout_marginEnd="47dp"
+        android:layout_width="286dp"
+        android:layout_height="47dp"
         android:text="The father made provision for his children through his will"
         android:textAlignment="viewStart"
         android:visibility="visible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.408"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.744" />
+        app:layout_constraintVertical_bias="0.754" />
 
     <TextView
         android:id="@+id/exampleTrans"
-        android:layout_width="316dp"
-        android:layout_height="32dp"
-        android:layout_marginStart="27dp"
-        android:layout_marginEnd="49dp"
-        android:text="Người cha đã truyền lại di trúc cho những đứa con của mình"
+        android:layout_width="294dp"
+        android:layout_height="43dp"
+        android:text="Ngu?i cha dã truy?n l?i di trúc cho nh?ng d?a con c?a mình"
         android:textAlignment="viewStart"
         android:visibility="visible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.435"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.818" />
+        app:layout_constraintVertical_bias="0.829" />
 
     <Button
         android:id="@+id/button4"
-        android:layout_width="176dp"
-        android:layout_height="53dp"
+        android:layout_width="178dp"
+        android:layout_height="48dp"
         android:background="@color/colorAccent"
         android:text="I knew this word"
         android:textAlignment="center"
         android:visibility="visible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.01"
+        app:layout_constraintHorizontal_bias="0.1"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.94" />
+        app:layout_constraintVertical_bias="0.93" />
 
     <Button
         android:id="@+id/button5"
-        android:layout_width="180dp"
-        android:layout_height="54dp"
+        android:layout_width="158dp"
+        android:layout_height="50dp"
         android:background="@color/colorPrimary"
         android:hapticFeedbackEnabled="false"
         android:text="I don't know this word"
@@ -304,9 +273,9 @@
         android:visibility="visible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.99"
+        app:layout_constraintHorizontal_bias="0.91"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.94" />
+        app:layout_constraintVertical_bias="0.932" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
