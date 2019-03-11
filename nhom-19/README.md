@@ -48,3 +48,16 @@ Sau này ứng dụng sẽ được phát triển với nhiều tính năng mớ
  * Tuần 5: Xây dựng mô-đun trò chơi thứ 2:
    + Try Your Best: trả lời đúng liên tiếp bao nhiêu câu hỏi.
    + Xây dựng Bảng xếp hạng.
+   
+   
+**Phân vai trong mô hình Scrum**
+* Product Owner: Vũ Hà Thành
+* Scrum Master: Hoàng Kim Minh
+* Developer Team:
+  + Vũ Hà Thành
+  + Hoàng Kim Minh
+  + Lý Minh Nghĩa
+  + Trần Thế Vượng
+  + Nguyễn Tiến Sơn
+* Product Backlog: https://github.com/19team/INT2208-8-2019/issues
+  
