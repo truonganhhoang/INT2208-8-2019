@@ -8,4 +8,7 @@ public class Constant {
     public static String USER_DATA = "user_data";
 
     public static String USER_ID = "user_id";
+
+    //noti
+    public static int NOTI_REQUEST_CODE = 1;
 }

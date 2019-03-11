@@ -12,6 +12,7 @@ import com.example.jinny.vocabulary.R;
 import com.example.jinny.vocabulary.base.BaseActivity;
 import com.example.jinny.vocabulary.database.DatabaseManager;
 import com.example.jinny.vocabulary.model.Word;
+import com.squareup.picasso.Picasso;
 
 public class StudyActivity extends BaseActivity {
 
@@ -32,6 +33,9 @@ public class StudyActivity extends BaseActivity {
         int topicID = intent.getIntExtra("topicID",0);
         String topicName = intent.getStringExtra("topicName");
         word = DatabaseManager.getInstance(this).getRandomWord(topicID,0);
+
+        image = (ImageView) findViewById(R.id.image);
+        Picasso.with(this).load(word.getImageUrl()).into(image);
 
         topicSpace = (Space) findViewById(R.id.topicSpace);
         collapseSpace = (TextView) findViewById(R.id.collapseSpace);

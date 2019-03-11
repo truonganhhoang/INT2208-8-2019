@@ -1,8 +1,6 @@
 package com.example.jinny.vocabulary.screen.home;
 
-import android.content.BroadcastReceiver;
 import android.content.Intent;
-import android.content.IntentFilter;
 import android.widget.ExpandableListView;
 
 import com.example.jinny.vocabulary.R;
@@ -11,8 +9,6 @@ import com.example.jinny.vocabulary.database.DatabaseManager;
 import com.example.jinny.vocabulary.model.Category;
 import com.example.jinny.vocabulary.model.Topic;
 import com.example.jinny.vocabulary.screen.setting.SettingActivity;
-import com.example.jinny.vocabulary.screen.study.StudyActivity;
-import com.example.jinny.vocabulary.service.ScreenOnReceiver;
 
 import java.util.HashMap;
 import java.util.List;
@@ -45,7 +41,7 @@ public class MainActivity extends BaseActivity {
         listAdapter = new ExpandableListAdapter(this, categories, topicHashMap);
         listView.setAdapter(listAdapter);
 
-//        Intent intent = new Intent(this, SettingActivity.class);
+        Intent intent = new Intent(this, SettingActivity.class);
 //        startActivity(intent);
     }
 }
