@@ -38,18 +38,17 @@
 <ul>
   <li>Thiết kế giao diện </li>
   <ul>
-    <li>Trang chủ - Thế Anh</li>
+    <li>Hiện thị cho người dùng sản phẩm, hình ảnh ở trang chủ - Thế anh, Cường</li>
     <li>Admin - Lộc Anh</li>
-    <li>Sản phẩm - Cường</li>
+    <li>Chi tiết, mô tả về sản phẩm  - Cường</li>
     <li>Đăng nhập - Trung Anh </li>
-    <li>Giỏ hàng - Việt</li>
+    <li>Giỏ hàng, lưu nhưng gì khách hàng đã lựa chọn - Việt</li>
     <li>Thanh toán - Việt</li>
-    <li>Đơn hàng - Cường</li> 
     
   </ul>
   <li>Kiểm thử các thiết kế</li>  <ul>
 
-  <li>Kiểm tra lại các giao diện đã là do tất cả thành viên trong nhóm</li>
+  <li>Kiểm tra lại do tất cả thành viên trong nhóm</li>
   
   </ul>
 </ul>
