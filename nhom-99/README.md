@@ -39,11 +39,12 @@
   <li>Thiết kế giao diện </li>
   <ul>
     <li>Hiện thị cho người dùng sản phẩm, hình ảnh ở trang chủ - Thế anh, Cường</li>
-    <li>Admin - Lộc Anh</li>
     <li>Chi tiết, mô tả về sản phẩm  - Cường</li>
     <li>Đăng nhập - Trung Anh </li>
+    <li>Admin - Lộc Anh</li>
     <li>Giỏ hàng, lưu nhưng gì khách hàng đã lựa chọn - Việt</li>
     <li>Thanh toán - Việt</li>
+   
     
   </ul>
   <li>Kiểm thử các thiết kế</li>  <ul>
@@ -54,6 +55,8 @@
 </ul>
 
 ### Sprint backlog
+* Đã thiết kế cơ bản xong trang chủ và thông tin cơ bản sản phẩm
+* Hiện tại đang phát triển trang chủ, trang sản phẩm lấy thông tin trực tiếp từ database, thiết kế trang quản lý của admin
 * Tìm hiểu các về jsp, servlet, bootstrap
 * Tìm hiểu các kết nốt database vào code
 * Triển khai code và match code the team
