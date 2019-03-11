@@ -20,8 +20,9 @@ import os
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', include('homepage.views')),
     path('accounts/', include('django.contrib.auth.urls')),
+    path('', include('homepage.views')),
+    path('login/', include('user.views'))
     # path('item/', include('item.views'))
 ]
 
