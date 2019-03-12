@@ -48,7 +48,7 @@
   *Có cải tiến và cập nhật thêm chức năng.*
   
  ***Bài tập nhóm tuần 2***
- **Quy trình áp dụng:*** Crum
+ **Quy trình áp dụng:*** Scrum
   
   - **Thời gian thực hiện:** 15 tuần.
   
@@ -63,3 +63,20 @@
     - Tuần 13, 14, 15: Kiểm thử, cải tiến và kết thúc.
     
     *Có chỉnh sửa dựa trên thực tế hoạt động.*
+    
+    **Nhóm Scrum:**
+    
+    1.Product Owner: Phạm Văn Hùng 
+      - Chịu trách nhiệm tối đa hóa giá trị của sản phẩm và công việc của Nhóm phát triển.
+      - Mô tả các hạng mục Product backlog.
+      - Đảm bảo công việc của Nhóm phát triển để đạt được mục đích và hoàn thành các nhiệm vụ.
+      
+    2.Scrum Master: Trần Hòng Phúc
+      - Giúp đỡ mọi người tương tác đạt hiệu quả cao nhất.
+      - Tìm kiếm các kĩ thuật để quản lý Product Backlog.
+      - Lập kế hoạch triển khai Scrum.
+    3.Nhóm phát triển: Các thành viên trong nhóm
+      - Thực hiện xây dựng các chức năng của sản phẩm.
+      - Nâng cấp cải tiến các chức năng.
+      
+    Product backlog: *đang cập nhật*
