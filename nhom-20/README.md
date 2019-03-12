@@ -78,4 +78,5 @@
     3.Nhóm phát triển: Các thành viên trong nhóm
       - Thực hiện xây dựng các chức năng của sản phẩm.
       - Nâng cấp cải tiến các chức năng.
+      
     Product backlog: *đang cập nhật*
