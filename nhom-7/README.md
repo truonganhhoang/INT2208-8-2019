@@ -33,5 +33,5 @@
         + Lọc các cuộc họp theo thời gian
         + Sắp xếp các cuộc họp
         + Thông báo cho người dùng biết sắp tới cuộc họp
- ### Link User Story: https://docs.google.com/spreadsheets/d/12RsD-IIKjeRqJZIg17fdHyoz-jDjkkhPMZh2Ftz9CuA/edit#gid=0 
+ ### Link User Story: https://docs.google.com/spreadsheets/d/12RsD-IIKjeRqJZIg17fdHyoz-jDjkkhPMZh2Ftz9CuA/edit?usp=sharing
       
