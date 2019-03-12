@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.jinny.vocabulary">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -9,16 +11,18 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".screen.SplashActivity">
+        <activity android:name=".screen.study.ReminderActivity"></activity>
+        <activity android:name=".screen.welcome.SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".screen.MainActivity" />
-        <activity android:name=".screen.StudyActivity" />
-        <activity android:name=".screen.SettingActivity"></activity>
+        <activity android:name=".screen.home.MainActivity" />
+        <activity android:name=".screen.study.StudyActivity" />
+        <activity android:name=".screen.setting.SettingActivity" />
+        <activity android:name=".screen.login.SignUpActivity" />
     </application>
 
 </manifest>

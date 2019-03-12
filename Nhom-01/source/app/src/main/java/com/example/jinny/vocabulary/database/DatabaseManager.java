@@ -66,6 +66,18 @@ public class DatabaseManager {
         return topics;
     }
 
+    public HashMap<String, List<Topic>> getHashMapTopic(
+            List<Topic> topicList) {
+        HashMap<String, List<Topic>> hashMap = new HashMap<>();
+        for (Topic topic : topicList) {
+            List<Topic> list = hashMap.get(topic.getCategory());
+            if (list == null) list = new ArrayList<>();
+            list.add(topic);
+            hashMap.put(topic.getCategory(), list);
+        }
+        return hashMap;
+    }
+
     public List<Category> getListCategory(List<Topic> topics) {
         List<Category> categories = new ArrayList<>();
 
@@ -134,6 +146,14 @@ public class DatabaseManager {
         contentValues.put("level", level);
         sqLiteDatabase.update(TABLE_WORD, contentValues,
                 "id = " + word.getId(), null);
+    }
+
+    public void updateLastTime(Topic topic, String lastTime) {
+        sqLiteDatabase = assetHelper.getWritableDatabase();
+
+        ContentValues contentValues = new ContentValues();
+        contentValues.put("last_time", lastTime);
+        sqLiteDatabase.update(TABLE_TOPIC, contentValues, "id = " + topic.getId(), null);
     }
 
     public int getNumOfMasterWordByTopicId(int topicId) {
