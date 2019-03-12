@@ -121,6 +121,13 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
+STATICFILES_DIRS = [
+    os.path.join(BASE_DIR, "static"),
+    '/var/www/static/',
+]
+
 # After login successful, login page redirect to '/' url
 LOGIN_REDIRECT_URL = '/'
+
+
 
