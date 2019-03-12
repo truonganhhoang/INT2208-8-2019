@@ -1,9 +1,18 @@
-# Thành viên
-	1. Nguyễn Quang Hiệp
-	2. Trần Văn Khải
-	3. Đỗ Lương Khoa
-	4. Nguyễn Đức Hoàng
-	5. Nguyễn Mạnh Hiếu
+# Thành viên và vai trò.
+	Product Owner: Nguyễn Đức Hoàng.
+	
+	ScrumMaster: Nguyễn Quang Hiệp.
+	
+	Nhóm Phát triển: - Nguyễn Quang Hiệp.
+			
+			 - Trần Văn Khải.
+			 
+			 - Đỗ Lương Khoa.
+			 
+			 - Nguyễn Mạnh Hiếu.
+			 
+			 - Nguyễn Đức Hoàng.
+	
 
 	
 # Tên ứng dụng: shop69
@@ -34,3 +43,6 @@
 - Tuần 11-12: Thêm tính năng chat với admin.
 
 - Tuần 13-14: Hoàn thiện và kiểm thử trang web.
+
+
+# Link repo: https://github.com/nguyenquanghiep17/Software-Engineering-nhom-8
