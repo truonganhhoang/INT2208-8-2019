@@ -6,28 +6,31 @@
 - Nguyễn Duy Chương
 - Phạm Minh Đức
 
-### Tên ứng dụng: English Garden.
-### Nhóm người dùng: trẻ em từ 3 đến 10 tuổi.
+### Tên ứng dụng: Scrib.
+### Đối tượng hướng đến: Các doanh nghiệp, công ty, trường học,....
 ### Mô tả tóm tắt phần mềm:
- + Ứng dụng học tiếng anh dành cho trẻ em thông qua các trò chơi sút bóng, đua xe,....
- + Chia kiến thức thành các level từ dễ đến khó.
- + Mỗi người dùng tạo 1 tài khoản, vượt qua các vòng thi sẽ có tính điểm và xếp hạng giữa các người dùng.
+ + Ứng dụng book lịch họp cho các công ty, đội nhóm, ...
+ + Người quản lý sẽ tạo ra cuộc họp và các khung giờ họp, rồi mời nhân viên chọn thời gian phù hợp
+ + Nhân viên sẽ chọn các khung giờ mình có thể tham gia
+ + Quản lý sẽ chọn ra khung giờ có đông số lượng người tham gia nhất
+### Công nghệ sử dụng: html, css, js, jquery, Django.
 
-### Quy trình làm việc: 
-   + **Các chức năng chính**
-      + Version 1.0
-        + Trang chủ
-        + Đăng nhập
-        + Chơi trò chơi 
-        + Các mức độ chơi từ dễ đến khó
-        + Điểm/Xếp hạng
-   + **Công việc từng tuần**
-      + Tuần 1
+### Quy trình làm việc: Scrum
+   + **Các nhiệm vụ cần làm:**
+        + Tìm hiểu về các công nghệ sử dụng
+        + Thiết kế giao diện cơ bản
+        + Tạo cơ sở dữ liệu
+        + Thêm các chức năng cho app
+        + Chỉnh sửa giao diện
+        + Hoàn thiện app và kiểm thử
+   + **Các chức năng chính:**
         + Xây dựng trang chủ và chức năng đăng nhập
-        + Thiết kế CSDL cho trò chơi
-      + Tuần 2,3,4
-        + Xây dựng các trò chơi
-        + Điều chỉnh cho các trò chơi tăng dần từ dễ đến khó
-      + Tuần 5
-        + Xây dựng chức năng điểm/xếp hạng
-        + Tung ra version 1.0
+        + Hiển thị các cuộc họp hiện có
+        + Hiển thị thông tin từng cuộc họp
+        + Tạo cuộc họp
+        + Chọn khung thời gian
+        + Tìm kiếm nhanh các cuộc họp
+        + Lọc các cuộc họp theo thời gian
+        + Sắp xếp các cuộc họp
+        + Thông báo cho người dùng biết sắp tới cuộc họp
+      
