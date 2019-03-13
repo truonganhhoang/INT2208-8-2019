@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SCRIB</title>
+    <meta charset=utf-8>
+    <link rel="stylesheet" type="text/css" href="../static/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="../static/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="../static/css/common.css">
+</head>
+<body>
+    <!-- Start Header -->
+    <nav id="header" class="navbar">
+        <nav class="row" style="margin: 0px auto; width: 1400px;">
+            <a href="#" class="col-8" id="header-logo">Scrib</a>
+            <nav class="col-4" id="btn-list">
+                <img src="../static/img/Nguyen_Huy_Binh1.jpg" alt="" id="user-img">
+                <div class="dropdown">
+                    <button class="btn btn-outline-success dropdown-toggle" id="btn-user" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >
+                    Kennen
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                </div>
+                <button type="button" class="btn btn-success" id="btn-create">Tạo cuộc họp</button>
+            </nav>
+        </nav>  
+    </nav>
+    <!--End Header-->
+
+    <!-- Start Content -->
+    <div id="content">
+        <div id="content-list">
+            <div class="row">
+                <h2>Tạo cuộc họp của bạn: </h2>
+                <form class="form-horizontal">
+                    <div class="form-group">
+                        <label class="control-label">Tên cuộc họp</label>
+                        <input type="text" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label">Địa điểm</label>
+                        <input type="text" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label">Ghi chú</label>
+                        <input type="text" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label">Các khung giờ cho phép</label>
+                            <div class="row" id="poll-time">
+                                    <input type="text" class="form-control col-4" placeholder="Ngày">
+                                    <input type="text" class="form-control col-3 poll-date" placeholder="Giờ bắt đầu">
+                                    <input type="text" class="form-control col-3 poll-date" placeholder="Giờ kết thúc">
+                                    <div class="col-1">
+                                        <button class="btn btn-danger"><i class="fa fa-minus"></i></button>
+                                    </div>
+                            </div>
+                    </div>
+                    <div class="form-group">
+                            <div class="row" id="poll-time">
+                                    <input type="text" class="form-control col-4" placeholder="Ngày">
+                                    <input type="text" class="form-control col-3 poll-date" placeholder="Giờ bắt đầu">
+                                    <input type="text" class="form-control col-3 poll-date" placeholder="Giờ kết thúc">
+                                    <div class="col-1">
+                                        <button class="btn btn-danger"><i class="fa fa-minus"></i></button>
+                                    </div>
+                            </div>
+                    </div>
+
+                    <div class="form-group">
+                        <div class="col-xs-offset-2 col-xs-10">
+                            <button type="submit" class="btn btn-primary">Lưu cuộc họp</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!--End Content-->
+    <!-- Start Footer -->
+    
+    <!--End Footer-->
+    <script src="../static/js/jquery-3.3.1.min.js"></script>
+    <script src="../static/js/bootstrap.min.js"></script>
+</body>
+</html>
