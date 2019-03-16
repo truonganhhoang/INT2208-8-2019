@@ -1,5 +1,7 @@
 # nhom-3
 
+## Repository link
+https://github.com/conglb/INT2208-8-2019/
 
 ## Members
     Lê Bá Công  
@@ -43,5 +45,3 @@ Công nghệ:  Python, CSS3, HTML5, Boostrap4, Django
     Scaleable   
     Readable
     Maintainable
-
-

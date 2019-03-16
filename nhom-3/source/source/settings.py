@@ -130,7 +130,7 @@ STATICFILES_DIRS = [
 # After login successful, login page redirect to '/' url
 LOGIN_REDIRECT_URL = '/'
 
-AUTH_USER_MODEL = 'user.Customer'
+AUTH_USER_MODEL = "user.Customer"
 
 
 
