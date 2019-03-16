@@ -8,34 +8,44 @@ from .models import *
 from .form import *
 # Create your views here.
 
+"""
+    Auth for log in
+"""
 def login_auth(request):
     username = request.POST["username"]
     password = request.POST["password"]
     user = authenticate(request, username= username, password= password)
     if user is not None:
-        login(request, user)
+        signin(request, user)
         return HttpResponseRedirect(reverse("homepage"))
     else:
         return render(request, "login.html", {"message": "Incorrect username and password"})
 
-def login(request):
-    template = loader.get_template('login.html')
+"""
+    Log in route for all user group
+"""
+def signin(request):
+    template = loader.get_template('template-no-sidebar.html')
     return HttpResponse(template)
 
-def register(request):
-    template = loader.get_template('register.html')
-    return HttpResponse(template)
-
+"""
+    Log out route. Come back homepage as default
+"""
 def logout(request):
-    logout(request)
-    return HttpResponseRedirect(reverse("homepage"))
+    return HttpResponse()
 
+"""
+    Sign up view for customer
+"""
 class CustomerSignUpView(CreateView):
     model = Customer
     form_class = CustomerSignUpForm
     template_name = "register.html"
 
 
+"""
+    Sign up view for restaurant
+"""
 class RestaurantSignUpView(CreateView):
     model = Restaurant
     form_class = RestaurantSignUpForm
@@ -47,13 +57,13 @@ class RestaurantSignUpView(CreateView):
 
     def form_valid(self, form):
         user = form.save()
-        login(self.request, user)
+        signin(self.request, user)
         return redirect('homepage')
 
 
 urlpatterns = [
-    path("login", login, name="login"),
-    path("register", CustomerSignUpView.as_view() ,register, name="register"),
+    path("signin", signin, name="signin"),
+    path("register", CustomerSignUpView.as_view(), name="register"),
     path("logout", logout, name="logout"),
     path("register/restaurant", RestaurantSignUpView.as_view(), name="register_restauran"),
 ]

@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'item.apps.ItemConfig',
+    'user.apps.UserConfig',
 ]
 
 MIDDLEWARE = [
@@ -128,6 +129,8 @@ STATICFILES_DIRS = [
 
 # After login successful, login page redirect to '/' url
 LOGIN_REDIRECT_URL = '/'
+
+AUTH_USER_MODEL = 'user.Customer'
 
 
 
