@@ -12,10 +12,10 @@
 	<!-- Start Header -->
 	<nav id="header" class="navbar">
 		<nav class="row" style="margin: 0px auto; width: 1400px;">
-			<a href="#" class="col-8" id="header-logo">Scrib</a>
+			<a href="/" class="col-8" id="header-logo">Scrib</a>
 			<nav class="col-4" id="btn-list">
-				<button type="button" class="btn btn-text" id="btn-dn">Đăng nhập</button>	
-				<button type="button" class="btn btn-primary" id="btn-dk">Đăng ký</button>
+				<a href="/login"><button type="button" class="btn btn-text" id="btn-dn">Đăng nhập</button></a>
+                <a href="/register"><button type="button" class="btn btn-primary" id="btn-dk">Đăng ký</button></a>
 			</nav>
 		</nav>	
 	</nav>
@@ -23,13 +23,27 @@
 
 	<!-- Start Content -->
 	<div id="content">
+        <div id="content-form">
 			<form action="" method="POST">
                 {% csrf_token %}
 				<h2 id="title-dn">Đăng ký</h2>
-                {{ form.as_p }}
+                <div class="input-container">
+				    <i class="fa fa-user icon"></i>
+				    {{ form.username }}
+                </div>
 
+                <div class="input-container">
+				    <i class="fa fa-key icon"></i>
+				    {{ form.password }}
+                </div>
+
+                <div class="input-container">
+				    <i class="fa fa-envelope icon"></i>
+				    {{ form.email }}
+                </div>
                 <button type="submit" class="btn-submit">Đăng ký</button>
             </form>
+        </div>
 	</div>
 
 	<!--End Content-->

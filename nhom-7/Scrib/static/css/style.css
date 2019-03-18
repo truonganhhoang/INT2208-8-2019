@@ -100,13 +100,13 @@ body {font-family: Arial, Helvetica, sans-serif;}
   text-align: center;
 }
 
-.input-field {
+input{
   width: 100%;
   padding: 10px;
   outline: none;
 }
 
-.input-field:focus {
+input:focus {
   border: 2px solid dodgerblue;
 }
 
