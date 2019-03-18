@@ -22,3 +22,11 @@ so that i serve it in time
 4. As a shipper,
 i want to be prompt about order,
 so that i ship exactly adress.
+
+5. As an developer, I want to create a list of customers to easily manage them.
+
+6. As a manager, I want to design a database to manage website data more easily.
+
+7. As a developer, I want to use the homepage template to save time.
+
+8. As a manager, I want to build a homepage to interact with customers.
