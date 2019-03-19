@@ -9,6 +9,10 @@ from django.contrib.auth.decorators import login_required
 from .forms import UserForm
 
 
+def index(request):
+    return render(request, 'index.html')
+
+
 def register(request):
     if request.method == 'POST':
         form = UserForm(request.POST)
