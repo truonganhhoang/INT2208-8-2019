@@ -21,8 +21,8 @@ def register(request):
             user.save()
             template = loader.get_template("homeafter.html")
             context = {'user': user}
-            return HttpResponse(template.render(context, request))
-            #return HttpResponseRedirect(r'^')
+            #return HttpResponse(template.render(context, request))
+            return HttpResponseRedirect(r'../home')
     registerForm = UserForm()
     return render(request, 'signup.html', {'form': registerForm})
 
@@ -35,7 +35,8 @@ def user_login(request):
         if user:
             if user.is_active:
                 login(request,user)
-                return render(request, 'homeafter.html')
+                #return render(request, 'homeafter.html')
+                return HttpResponseRedirect(r'../home')
     LoginForm = UserForm()
     return render(request, 'signin.html',  {'form': LoginForm})
 
