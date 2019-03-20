@@ -35,6 +35,7 @@ ALLOWED_HOSTS = [
 
 INSTALLED_APPS = [
     'account',
+    'home',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -86,7 +87,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'HOST': 'localhost',
         'NAME': 'scrib',
-        'USER': 'kennen',
+        'USER': 'root',
         'PASSWORD': '',
     }
 }
