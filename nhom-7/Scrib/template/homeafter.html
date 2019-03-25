@@ -1,69 +1,31 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>SCRIB</title>
-    <meta charset=utf-8>
-    <link rel="stylesheet" type="text/css" href="../static/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="../static/css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-</head>
-<body>
-<!-- Start Header -->
-<nav id="header" class="navbar">
-    <nav class="row" style="margin: 0px auto; width: 1400px;">
-        <a href="#" class="col-8" id="header-logo">Scrib</a>
-        <nav class="col-4" id="btn-list">
-            <img src="../static/img/Nguyen_Huy_Binh1.jpg" alt="" id="user-img">
-            <div class="dropdown">
-                <button class="btn btn-outline-success dropdown-toggle" id="btn-user" type="button"
-                        id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    {{ user.username }}
-                </button>
-                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                    <a class="dropdown-item" href="#">Action</a>
-                    <a class="dropdown-item" href="#">Another action</a>
-                    <a class="dropdown-item" href="#">Something else here</a>
-                </div>
-            </div>
-            <button type="button" class="btn btn-success" id="btn-create">Tạo cuộc họp</button>
-        </nav>
-    </nav>
-</nav>
-<!--End Header-->
+{% extends 'base.html' %}
 
-<!-- Start Content -->
-<div id="content">
-    <div id="content-list">
-        <h2>Danh sách các cuộc họp: </h2>
-        <table class="table table-bordered table-hover text-center" style="background-color: white">
-            <thead>
-            <tr>
-                <th scope="col">STT</th>
-                <th scope="col">Tên cuộc họp</th>
-            </tr>
-            </thead>
-            <tbody>
-            {% for poll in Polls %}
+{% block content %}
+    <div id="content">
+        <div id="content-list">
+            <h2>Danh sách các cuộc họp: </h2>
+            <table class="table table-bordered table-hover text-center" style="background-color: white">
+                <thead>
                 <tr>
-                    <th scope="row"> {{ poll.id }} </th>
-                    <td><a href="#"> {{ poll.name }}</a></td>
+                    <th scope="col">STT</th>
+                    <th scope="col">Tên cuộc họp</th>
                 </tr>
-            {% endfor %}
-            </tbody>
-        </table>
-        <!--<ul id="myUL">-->
-            <!--<li><a href="#">{{ user.email }}</a></li>-->
-            <!--{% for poll in Polls %}-->
-            <!--<li><a href="#">{{ poll.name }}</a></li>-->
-            <!--{% endfor %}-->
-        <!--</ul>-->
+                </thead>
+                <tbody>
+                {% for poll in Polls %}
+                    <tr>
+                        <th scope="row"> {{ poll.id }} </th>
+                        <td><a href="{% url 'poll' poll.id %}"> {{ poll.name }}</a></td>
+                    </tr>
+                {% endfor %}
+                </tbody>
+            </table>
+            <!--<ul id="myUL">-->
+                <!--<li><a href="#">{{ user.email }}</a></li>-->
+                <!--{% for poll in Polls %}-->
+                <!--<li><a href="#">{{ poll.name }}</a></li>-->
+                <!--{% endfor %}-->
+            <!--</ul>-->
+        </div>
     </div>
-</div>
-<!--End Content-->
-<!-- Start Footer -->
-
-<!--End Footer-->
-<script src="../static/js/jquery-3.3.1.min.js"></script>
-<script src="../static/js/bootstrap.min.js"></script>
-</body>
-</html>
+{% endblock %}
