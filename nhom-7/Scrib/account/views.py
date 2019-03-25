@@ -34,7 +34,7 @@ def user_login(request):
         user = authenticate(username=username, password=password)
         if user:
             if user.is_active:
-                login(request,user)
+                login(request, user)
                 #return render(request, 'homeafter.html')
                 return HttpResponseRedirect(r'../home')
     LoginForm = UserForm()
