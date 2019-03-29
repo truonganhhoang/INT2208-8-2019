@@ -7,7 +7,6 @@ from django.views.generic import CreateView
 from .models import *
 from .form import *
 # Create your views here.
-
 """
     Auth for log in
 """
@@ -25,7 +24,7 @@ def login_auth(request):
     Log in route for all user group
 """
 def signin(request):
-    template = loader.get_template('template-no-sidebar.html')
+    template = loader.get_template('template-with-sidebar.html')
     return HttpResponse(template)
 
 """
@@ -42,23 +41,13 @@ class CustomerSignUpView(CreateView):
     form_class = CustomerSignUpForm
     template_name = "register.html"
 
-
 """
     Sign up view for restaurant
 """
 class RestaurantSignUpView(CreateView):
-    model = Restaurant
+    model = Customer
     form_class = RestaurantSignUpForm
     template_name = "register.html"
-
-    def get_context_data(self, **kwargs):
-        kwargs['user_type'] = 'restaurant'
-        return super().get_context_data(**kwargs)
-
-    def form_valid(self, form):
-        user = form.save()
-        signin(self.request, user)
-        return redirect('homepage')
 
 
 urlpatterns = [

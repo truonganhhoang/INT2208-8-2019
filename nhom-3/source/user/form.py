@@ -14,7 +14,7 @@ class CustomerSignUpForm(UserCreationForm):
 class RestaurantSignUpForm(UserCreationForm):
     class Meta(UserCreationForm.Meta):
         model = Restaurant
-        fields = ('username', 'email', 'openTime', 'closeTime')
+        fields = ('openTime', 'closeTime')
 
     @transaction.atomic
     def save(self):

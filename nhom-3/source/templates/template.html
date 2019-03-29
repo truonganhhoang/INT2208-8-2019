@@ -1,20 +1,24 @@
 {% load staticfiles %}
 <!DOCTYPE html>
 <html>
+
 <head>
 	<title>Grab It!</title>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 
 	<!--CSS-->
-	<link rel="stylesheet" type="text/css" href="{% static 'css/bootstrap/bootstrap.min.css' %}" />
-	<link rel="stylesheet" type="text/css" href="static/css/style.css" />
+
+	<link rel="stylesheet" type="text/css" href="{% static 'css/bootstrap/bootstrap.min.css'%}" />
+	<link rel="stylesheet" type="text/css" href="{% static 'static/css/style.css'%}" />
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 
 </head>
+
 <body>
 	<div id="wrapper">
 		<div id="header">
-			<nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-danger">
+			<nav class="navbar navbar-expand-xl fixed-top navbar-dark bg-danger">
 				<div class="container">
 					<div class="navbar-header">
 						<a href="#" class="navbar-brand">Grab It!</a>
@@ -47,13 +51,16 @@
 							</li>
 						</ul>
 						<!--search bar-->
-						<div class="nav navbar-nav" style="width:500px;" >
-							<input class="form-control form-control-dark w-90" type="text" placeholder="Search" aria-label="Search">
+						<div class="nav navbar-nav" style="width:500px;">
+							<input class="form-control form-control-dark w-90" type="text" placeholder="Search"
+								aria-label="Search">
 						</div>
 						<!--right navbar-->
 						<ul class="nav navbar-nav ml-auto">
 							<li class="nav-item">
-								<a class="nav-link" href="#">Giỏ hàng<span><img alt="icon-store" src="../static/images/icons/online-store.png" style="width:20px"/></span></a>
+								<a class="nav-link" href="#">Giỏ hàng<span><img alt="icon-store"
+											src="../static/images/icons/online-store.png"
+											style="width:20px" /></span></a>
 							</li>
 							<li class="nav-item">
 								<a class="nav-link" href="#">Đăng Ký</a>
@@ -70,27 +77,291 @@
 		<div class="wallpaper"></div>
 		<div class="text-brand text-danger">Banner</div>
 		-->
-		<div class="sidebar-left">
-			<div class="header">Khám Phá</div>
-		</div>
-		<!--Content-->
-        {% block content %}{% endblock %}
-		<div id="content" class="container">
+		<!--home-page-->
+		<div class="home-page container position-relative " style="margin-top: 80px;">
 			<div class="row">
-				<img class="san-pham col" src="static/images/bluetooth.jpg" />
-				<img class="san-pham col" src="../static/images/corred_headphone.jpg" />
-				<img class="san-pham col" src="../static/images/I7S.jpg" />
-				<img class="san-pham col" src="../static/images/K320.jpg" />
+                {% block sidebar %}
+                {% endblock %}
+				<!--Content-->
+				<div id="content" class="container position-relative col-sm-10 col-md-10 col-lg-10 col-xl-10">
+					{% block content %}
+					{% endblock %}
+					<div class="row">
+						<div class="col-sm-6 col-md-4 col-lg-3 col-xl-3">
+							<div class="item-content">
+							<div class="avatar">
+							<a href="#"><img class=""
+							src="../static/images/products/com-tam-ali-24-277-636009082226090265.jpg" /></a>
+							</div>
+							<div class="productName">Tên sản phẩm</div>
+							<div class="productAddress">Địa chỉ</div>
+							</div>
+						</div>
+						<div class="col-sm-6 col-md-4 col-lg-3 col-xl-3">
+							<div class="item-content">
+							<div class="avatar">
+							<a href="#"><img class="san-pham"
+							src="../static/images/products/com-tam-ali-24-277-636009082226090265.jpg" /></a>
+							</div>
+							<div>Tên sản phẩm</div>
+							<div>địa chỉ</div>
+							</div>
+						</div>
+						<div class="col-sm-6 col-md-4 col-lg-3 col-xl-3">
+							<div class="item-content">
+							<div class="avatar">
+							<a href="#"><img class="san-pham"
+							src="../static/images/products/com-tam-ali-24-277-636009082226090265.jpg" /></a>
+							</div>
+							<div>Tên sản phẩm</div>
+							<div>địa chỉ</div>
+							</div>
+						</div>
+						<div class="col-sm-6 col-md-4 col-lg-3 col-xl-3">
+							<div class="item-content">
+							<div class="avatar">
+							<a href="#"><img class="san-pham"
+							src="../static/images/products/com-tam-ali-24-277-636009082226090265.jpg" /></a>
+							</div>
+							<div>Tên sản phẩm</div>
+							<div>địa chỉ</div>
+							</div>
+						</div>
+						<div class="col-sm-6 col-md-4 col-lg-3 col-xl-3">
+							<div class="item-content">
+							<div class="avatar">
+							<a href="#"><img class="san-pham"
+							src="../static/images/products/com-tam-ali-24-277-636009082226090265.jpg" /></a>
+							</div>
+							<div>Tên sản phẩm</div>
+							<div>địa chỉ</div>
+							</div>
+						</div>
+						<div class="col-sm-6 col-md-4 col-lg-3 col-xl-3">
+							<div class="item-content">
+							<div class="avatar">
+							<a href="#"><img class="san-pham"
+							src="../static/images/products/com-tam-ali-24-277-636009082226090265.jpg" /></a>
+							</div>
+							<div>Tên sản phẩm</div>
+							<div>địa chỉ</div>
+							</div>
+						</div>
+						<div class="col-sm-6 col-md-4 col-lg-3 col-xl-3">
+							<div class="item-content">
+							<div class="avatar">
+							<a href="#"><img class="san-pham"
+							src="../static/images/products/com-tam-ali-24-277-636009082226090265.jpg" /></a>
+							</div>
+							<div>Tên sản phẩm</div>
+							<div>địa chỉ</div>
+							</div>
+						</div>
+						<div class="col-sm-6 col-md-4 col-lg-3 col-xl-3">
+							<div class="item-content">
+							<div class="avatar">
+							<a href="#"><img class="san-pham"
+							src="../static/images/products/com-tam-ali-24-277-636009082226090265.jpg" /></a>
+							</div>
+							<div>Tên sản phẩm</div>
+							<div>địa chỉ</div>
+							</div>
+						</div>
+						<div class="col-sm-6 col-md-4 col-lg-3 col-xl-3">
+							<div class="item-content">
+							<div class="avatar">
+							<a href="#"><img class="san-pham"
+							src="../static/images/products/com-tam-ali-24-277-636009082226090265.jpg" /></a>
+							</div>
+							<div>Tên sản phẩm</div>
+							<div>địa chỉ</div>
+							</div>
+						</div>
+						<div class="col-sm-6 col-md-4 col-lg-3 col-xl-3">
+							<div class="item-content">
+							<div class="avatar">
+							<a href="#"><img class="san-pham"
+							src="../static/images/products/com-tam-ali-24-277-636009082226090265.jpg" /></a>
+							</div>
+							<div>Tên sản phẩm</div>
+							<div>địa chỉ</div>
+							</div>
+						</div>
+						<div class="col-sm-6 col-md-4 col-lg-3 col-xl-3">
+							<div class="item-content">
+							<div class="avatar">
+							<a href="#"><img class="san-pham"
+							src="../static/images/products/com-tam-ali-24-277-636009082226090265.jpg" /></a>
+							</div>
+							<div>Tên sản phẩm</div>
+							<div>địa chỉ</div>
+							</div>
+						</div>
+						<div class="col-sm-6 col-md-4 col-lg-3 col-xl-3">
+							<div class="item-content">
+							<div class="avatar">
+							<a href="#"><img class="san-pham"
+							src="../static/images/products/com-tam-ali-24-277-636009082226090265.jpg" /></a>
+							</div>
+							<div>Tên sản phẩm</div>
+							<div>địa chỉ</div>
+							</div>
+						</div>
+						<div class="col-sm-6 col-md-4 col-lg-3 col-xl-3">
+							<div class="item-content">
+							<div class="avatar">
+							<a href="#"><img class="san-pham"
+							src="../static/images/products/com-tam-ali-24-277-636009082226090265.jpg" /></a>
+							</div>
+							<div>Tên sản phẩm</div>
+							<div>địa chỉ</div>
+							</div>
+						</div>
+						<div class="col-sm-6 col-md-4 col-lg-3 col-xl-3">
+							<div class="item-content">
+							<div class="avatar">
+							<a href="#"><img class="san-pham"
+							src="../static/images/products/com-tam-ali-24-277-636009082226090265.jpg" /></a>
+							</div>
+							<div>Tên sản phẩm</div>
+							<div>địa chỉ</div>
+							</div>
+						</div>
+						<div class="col-sm-6 col-md-4 col-lg-3 col-xl-3">
+							<div class="item-content">
+							<div class="avatar">
+							<a href="#"><img class="san-pham"
+							src="../static/images/products/com-tam-ali-24-277-636009082226090265.jpg" /></a>
+							</div>
+							<div>Tên sản phẩm</div>
+							<div>địa chỉ</div>
+							</div>
+						</div>
+						<div class="col-sm-6 col-md-4 col-lg-3 col-xl-3">
+							<div class="item-content">
+							<div class="avatar">
+							<a href="#"><img class="san-pham"
+							src="../static/images/products/com-tam-ali-24-277-636009082226090265.jpg" /></a>
+							</div>
+							<div>Tên sản phẩm</div>
+							<div>địa chỉ</div>
+							</div>
+						</div>
+						<div class="col-sm-6 col-md-4 col-lg-3 col-xl-3">
+							<div class="item-content">
+							<div class="avatar">
+							<a href="#"><img class="san-pham"
+							src="../static/images/products/com-tam-ali-24-277-636009082226090265.jpg" /></a>
+							</div>
+							<div>Tên sản phẩm</div>
+							<div>địa chỉ</div>
+							</div>
+						</div>
+						<div class="col-sm-6 col-md-4 col-lg-3 col-xl-3">
+							<div class="item-content">
+							<div class="avatar">
+							<a href="#"><img class="san-pham"
+							src="../static/images/products/com-tam-ali-24-277-636009082226090265.jpg" /></a>
+							</div>
+							<div>Tên sản phẩm</div>
+							<div>địa chỉ</div>
+							</div>
+						</div>
+						<div class="col-sm-6 col-md-4 col-lg-3 col-xl-3">
+							<div class="item-content">
+							<div class="avatar">
+							<a href="#"><img class="san-pham"
+							src="../static/images/products/com-tam-ali-24-277-636009082226090265.jpg" /></a>
+							</div>
+							<div>Tên sản phẩm</div>
+							<div>địa chỉ</div>
+							</div>
+						</div>
+						<div class="col-sm-6 col-md-4 col-lg-3 col-xl-3">
+							<div class="item-content">
+							<div class="avatar">
+							<a href="#"><img class="san-pham"
+							src="../static/images/products/com-tam-ali-24-277-636009082226090265.jpg" /></a>
+							</div>
+							<div>Tên sản phẩm</div>
+							<div>địa chỉ</div>
+							</div>
+						</div>
+						
+					</div>
+				</div>
+				<!--end content-->
 			</div>
-
 		</div>
-		<!--end content-->
+		<!--home-page: end-->
+		<!--Footer-->
+		<footer class="position-relative" style="width: 100%; bottom: 0xp; top: 30px;">
+			<div class="footer-section">
+				<div class="footer">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-5 footer-four">
+								<h5>Thông tin</h5>
+								<div class="foot-address">
+									<ul>
+										<li><i class="fa fa-map-marker" aria-hidden="true"></i>Trường Đại học Công Nghệ - Đại học Quốc Gia
+											Hà Nội, 144 Xuân
+											Thủy, Cầu Giấy Hà Nội</li>
+									</ul>
+								</div>
+							</div>
+
+							<div class="col-md-3 footer-two">
+								<h5>Liên kết</h5>
+								<ul>
+									<li><a href="#"> Giới thiệu</a> </li>
+									<li><a href="#"> Tin tức</a> </li>
+									<li><a href="#"> Dịch vụ</a> </li>
+									<li><a href="#"> Liên hệ</a> </li>
+								</ul>
+							</div>
+
+							<div class="col-md-2 footer-one">
+								<h5>Services</h5>
+								<ul>
+									<li><a href="#"> Trang chủ</a> </li>
+									<li><a href="#"> Danh mục</a> </li>
+									<li><a href="#"> Đăng ký</a> </li>
+									<li><a href="#"> Đăng nhập</a> </li>
+								</ul>
+							</div>
+
+						</div>
+						<div class="clearfix"></div>
+					</div>
+				</div>
+
+			</div>
+			<div class="footer-bottom">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-6 ">
+							<div class="copyright-text">
+								<p>Copyright © 2019 - Thiết kế và phát triển bởi nhóm 3</p>
+							</div>
+						</div> <!-- End Col -->
+						<div class="col-sm-6  ">
+							<div class="copyright-text pull-right">
+								<p> <a href="#">Trang chủ</a> | <a href="#">Riêng tư</a> |<a href="#">Điều khoản và điều
+										kiện</a> | <a href="#">Chính sách đổi trả</a> </p>
+							</div>
+
+						</div> <!-- End Col -->
+					</div>
+				</div>
+			</div>
+			<!--Footer: end-->
 	</div>
 
-
 	<!--Javascript-->
-	<script type="text/javascript" src="static/js/jquery-3.3.1.min.js"></script>
-	<script type="text/javascript" src="static/js/script.js"></script>
-	<script type="text/javascript" src="static/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="{% static 'js/jquery-3.3.1.min.js' %}"></script>
+	<script type="text/javascript" src="{% static 'static/js/script.js' %}"></script>
+	<script type="text/javascript" src="{% static 'js/bootstrap.min.js' %}"></script>
 </body>
+
 </html>
