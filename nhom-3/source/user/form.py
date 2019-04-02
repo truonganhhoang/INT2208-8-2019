@@ -5,13 +5,16 @@ from user.models import *
 
 class CustomerSignUpForm(UserCreationForm):
     class Meta(UserCreationForm.Meta):
-        model = Customer
+        model = User
         fields = ('username', 'email')
     @transaction.atomic
     def save(self):
         return 1
 
-class RestaurantSignUpForm(UserCreationForm):
+
+class RestaurantSignUpForm(forms.ModelForm):
+    username = forms.CharField(required=True)
+    password = forms.CharField(widget=forms.PasswordInput())
     class Meta(UserCreationForm.Meta):
         model = Restaurant
         fields = ('openTime', 'closeTime')
@@ -19,3 +22,4 @@ class RestaurantSignUpForm(UserCreationForm):
     @transaction.atomic
     def save(self):
         return 1
+

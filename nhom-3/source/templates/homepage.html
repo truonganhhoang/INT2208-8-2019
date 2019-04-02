@@ -1,4 +1,5 @@
-{% extends 'template.html' %}
+{% extends 'template-with-sidebar.html' %}
+{% load item_demonstration %}
 {% block content %}
 <p>Hello</p>
 {% if user.is_authenticated %}
@@ -6,5 +7,5 @@
 {% else %}
     <h1>Please login</h1>
 {% endif %}
-
+{% newest_item %}
 {% endblock %}
