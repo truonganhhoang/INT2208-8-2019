@@ -1,281 +1,201 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/colorPrimaryDark"
-    tools:context=".screen.study.StudyActivity">
-
-    <TextView
-        android:id="@+id/collapseSpace"
-        android:layout_width="323dp"
-        android:layout_height="115dp"
-        android:background="@android:color/white"
-        android:visibility="visible"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.551" />
-
-    <TextView
-        android:id="@+id/extendSpace"
-        android:layout_width="322dp"
-        android:layout_height="381dp"
-        android:background="@android:color/white"
-        android:visibility="visible"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.756" />
-
-    <TextView
-        android:id="@+id/topicSpace"
-        android:layout_width="383dp"
-        android:layout_height="53dp"
-        android:layout_marginStart="12dp"
-        android:layout_marginTop="24dp"
-        android:visibility="visible"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <ImageButton
-        android:id="@+id/imageButton2"
-        android:layout_width="54dp"
-        android:layout_height="53dp"
-        android:background="@color/colorPrimaryDark"
-        android:hapticFeedbackEnabled="true"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.033"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.035"
-        app:srcCompat="?attr/actionModeCloseDrawable" />
-
-    <TextView
-        android:id="@+id/topic"
-        android:layout_width="304dp"
-        android:layout_height="29dp"
-        android:text="Computers n the network"
-        android:textAlignment="center"
-        android:textColor="@android:color/white"
-        android:textSize="22sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.82"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.055" />
-
-    <TextView
-        android:id="@+id/origin1"
-        android:layout_width="109dp"
-        android:layout_height="34dp"
-        android:text="provision"
-        android:textAlignment="viewStart"
-        android:textSize="16sp"
-        android:visibility="visible"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.165"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.497" />
-
-    <TextView
-        android:id="@+id/newWord1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="NEW WORD"
-        android:textAlignment="center"
-        android:textSize="18sp"
-        android:textStyle="bold|italic"
-        android:visibility="visible"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.834"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.499" />
-
-    <TextView
-        android:id="@+id/pronunciation1"
-        android:layout_width="109dp"
-        android:layout_height="32dp"
-        android:text="/provision/"
-        android:textAlignment="viewStart"
-        android:textSize="14sp"
-        android:visibility="visible"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.165"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.545" />
-
-    <Button
-        android:id="@+id/button3"
-        android:layout_width="325dp"
-        android:layout_height="42dp"
-        android:background="@android:color/darker_gray"
-        android:text="Tap to show detail"
-        android:textAlignment="center"
-        android:textStyle="italic"
-        android:visibility="visible"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.624" />
-
-    <TextView
-        android:id="@+id/origin2"
-        android:layout_width="117dp"
-        android:layout_height="27dp"
-        android:text="provision"
-        android:textAlignment="viewStart"
-        android:textSize="16sp"
-        android:visibility="visible"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.176"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.224" />
-
-    <TextView
-        android:id="@+id/newWord2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="NEW WORD"
-        android:textAlignment="center"
-        android:textSize="18sp"
-        android:textStyle="bold|italic"
-        android:visibility="visible"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.834"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.223" />
-
-    <TextView
-        android:id="@+id/pronunciation2"
-        android:layout_width="119dp"
-        android:layout_height="29dp"
-        android:text="/provision/"
-        android:textAlignment="viewStart"
-        android:visibility="visible"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.171"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.263" />
-
-    <TextView
-        android:id="@+id/explaination"
-        android:layout_width="302dp"
-        android:layout_height="41dp"
-        android:text="a condition or an arrangement in a legal document,jkjlkjlkjlkjlkjlkjlk"
-        android:textAlignment="viewStart"
-        android:visibility="visible"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.458"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.32" />
-
-    <TextView
-        android:id="@+id/type"
-        android:layout_width="295dp"
-        android:layout_height="47dp"
-        android:text="(n): s? d? li?u, d? tr?, d? phòng, cung c?p; di?u kho?n, jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkhkjhkjhlkojyy"
-        android:textAlignment="textStart"
-        android:visibility="visible"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.41"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.394" />
+    android:background="@color/colorPrimary"
+    tools:context=".screen.study.StudyActivity"
+    android:id="@+id/rl_background">
 
     <ImageView
-        android:id="@+id/image"
-        android:layout_width="311dp"
-        android:layout_height="182dp"
-        android:layout_marginStart="29dp"
-        android:layout_marginEnd="29dp"
-        android:visibility="visible"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.59"
-        tools:srcCompat="@tools:sample/avatars" />
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/iv_back"
+        android:src="@drawable/ic_arrow_back"
+        android:padding="16dp"/>
 
     <TextView
-        android:id="@+id/example"
-        android:layout_width="286dp"
-        android:layout_height="47dp"
-        android:text="The father made provision for his children through his will"
-        android:textAlignment="viewStart"
-        android:visibility="visible"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.408"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.754" />
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_topic_name"
+        android:layout_centerHorizontal="true"
+        android:text="Topic Name"
+        android:textColor="@color/colorWhite"
+        android:padding="16dp"
+        android:textSize="18sp"/>
 
-    <TextView
-        android:id="@+id/exampleTrans"
-        android:layout_width="294dp"
-        android:layout_height="43dp"
-        android:text="Ngu?i cha dã truy?n l?i di trúc cho nh?ng d?a con c?a mình"
-        android:textAlignment="viewStart"
-        android:visibility="visible"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.435"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.829" />
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/cv_word"
+        android:layout_centerInParent="true"
+        android:layout_margin="16dp">
 
-    <Button
-        android:id="@+id/button4"
-        android:layout_width="178dp"
-        android:layout_height="48dp"
-        android:background="@color/colorAccent"
-        android:text="I knew this word"
-        android:textAlignment="center"
-        android:visibility="visible"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.1"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.93" />
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/cl_full"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
 
-    <Button
-        android:id="@+id/button5"
-        android:layout_width="158dp"
-        android:layout_height="50dp"
-        android:background="@color/colorPrimary"
-        android:hapticFeedbackEnabled="false"
-        android:text="I don't know this word"
-        android:textAlignment="center"
-        android:visibility="visible"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.91"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.932" />
+            <TextView
+                android:id="@+id/tv_origin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:text="word"
+                android:textColor="@color/colorPrimary"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+            <TextView
+                android:id="@+id/tv_pronun"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:text="pronun"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tv_origin" />
+
+            <TextView
+                android:id="@+id/tv_details"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:background="#FFC8C8C8"
+                android:padding="16dp"
+                android:text="Tap to show detail"
+                android:textAlignment="center"
+                android:visibility="visible"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tv_pronun" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/cl_detail_part"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="8dp"
+                android:visibility="gone"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tv_pronun">
+
+                <TextView
+                    android:id="@+id/tv_explain"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginStart="16dp"
+                    android:text="Explain"
+                    android:textSize="12sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/tv_type"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginStart="16dp"
+                    android:text="Type"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="14sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/tv_explain" />
+
+                <ImageView
+                    android:id="@+id/iv_word"
+                    android:layout_width="0dp"
+                    android:layout_height="150dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="16dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/tv_type"
+                    app:srcCompat="@color/colorAccent" />
+
+                <TextView
+                    android:id="@+id/tv_example"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="8dp"
+                    android:text="Example_eng"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/iv_word" />
+
+                <TextView
+                    android:id="@+id/tv_example_trans"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginStart="16dp"
+                    android:text="Example_trans"
+                    android:textSize="12sp"
+                    android:textStyle="italic"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/tv_example" />
+
+                <androidx.constraintlayout.widget.Guideline
+                    android:id="@+id/guideline"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    app:layout_constraintGuide_percent="0.5" />
+
+                <TextView
+                    android:id="@+id/tv_didnt_know"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:background="#FFFFAAAC"
+                    android:padding="16dp"
+                    android:text="I didn't know this word"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/holo_red_dark"
+                    app:layout_constraintEnd_toStartOf="@+id/guideline"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/tv_example_trans" />
+
+                <TextView
+                    android:id="@+id/tv_knew"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:background="#FFBCFFC7"
+                    android:padding="16dp"
+                    android:text="I knew this word"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/holo_green_dark"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/tv_didnt_know"
+                    app:layout_constraintTop_toBottomOf="@+id/tv_example_trans" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <TextView
+                android:id="@+id/tv_level"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="16dp"
+                android:layout_marginTop="16dp"
+                android:text="Level"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

@@ -8,10 +8,12 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseExpandableListAdapter;
+import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.example.jinny.vocabulary.R;
+import com.example.jinny.vocabulary.base.Constant;
 import com.example.jinny.vocabulary.model.Category;
 import com.example.jinny.vocabulary.model.Topic;
 import com.example.jinny.vocabulary.screen.setting.SettingActivity;
@@ -19,6 +21,8 @@ import com.example.jinny.vocabulary.screen.study.StudyActivity;
 
 import java.util.HashMap;
 import java.util.List;
+
+import androidx.cardview.widget.CardView;
 
 public class ExpandableListAdapter extends BaseExpandableListAdapter {
     private Context context;
@@ -76,23 +80,28 @@ public class ExpandableListAdapter extends BaseExpandableListAdapter {
             convertView = inflater.inflate(R.layout.category_item,null);
         }
 
-        TextView listTopicsTextView = convertView.findViewById(R.id.list_topics);
-        TextView lbListHeader = convertView.findViewById(R.id.lvlListHeader);
-        LinearLayout llCategory = convertView.findViewById(R.id.ll_category);
+        TextView tvCategory = convertView.findViewById(R.id.tv_category);
+        TextView tvCategoryDes = convertView.findViewById(R.id.tv_category_des);
+        ImageView ivArrow = convertView.findViewById(R.id.iv_arrow);
+        CardView cvCategory = convertView.findViewById(R.id.cv_category);
 
         //set Text cho TextView mô tả Category
         String listTopics ="";
         for (Topic topic : topics){
             listTopics = listTopics + topic.getName() + ", ";
         }
-        listTopics = listTopics.substring(0,listTopics.length()-2);
-        listTopicsTextView.setText(listTopics);
+        tvCategoryDes.setText(listTopics);
 
         //set Text cho Category
-        lbListHeader.setTypeface(null,Typeface.BOLD);
-        lbListHeader.setText(category.getName());
-        llCategory.setBackgroundColor(Color.parseColor(category.getColor()));
+        tvCategory.setText(category.getName());
+        cvCategory.setCardBackgroundColor(Color.parseColor(category.getColor()));
 
+        //set arrow resource
+        if (isExpanded) {
+            ivArrow.setImageResource(R.drawable.ic_keyboard_arrow_up);
+        } else {
+            ivArrow.setImageResource(R.drawable.ic_keyboard_arrow_down);
+        }
         return convertView;
     }
 
@@ -108,8 +117,7 @@ public class ExpandableListAdapter extends BaseExpandableListAdapter {
         TextView txtListChild = convertView.findViewById(R.id.lblListItem);
         txtListChild.setText(topic.getName());
         final Intent intent = new Intent(context.getApplicationContext() , StudyActivity.class);
-        intent.putExtra("topicID",topic.getId());
-        intent.putExtra("topicName",topic.getName());
+        intent.putExtra(Constant.TOPIC, topic);
         convertView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

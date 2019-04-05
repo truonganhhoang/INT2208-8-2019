@@ -11,4 +11,7 @@ public class Constant {
 
     //noti
     public static int NOTI_REQUEST_CODE = 1;
+
+    //intent
+    public static String TOPIC = "topic";
 }
