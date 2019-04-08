@@ -1,6 +1,8 @@
 package com.example.jinny.vocabulary.model;
 
-public class Topic {
+import java.io.Serializable;
+
+public class Topic implements Serializable {
     private int id;
     private String name;
     private String image_url;

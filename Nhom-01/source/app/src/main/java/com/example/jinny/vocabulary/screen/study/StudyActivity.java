@@ -1,26 +1,52 @@
 package com.example.jinny.vocabulary.screen.study;
 
-import android.content.Intent;
+import android.animation.Animator;
+import android.animation.AnimatorInflater;
+import android.animation.AnimatorListenerAdapter;
+import android.animation.AnimatorSet;
+import android.animation.LayoutTransition;
+import android.graphics.Color;
 import android.view.View;
-import android.widget.Button;
-import android.widget.ImageButton;
 import android.widget.ImageView;
-import android.widget.Space;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import com.example.jinny.vocabulary.R;
 import com.example.jinny.vocabulary.base.BaseActivity;
+import com.example.jinny.vocabulary.base.Constant;
 import com.example.jinny.vocabulary.database.DatabaseManager;
+import com.example.jinny.vocabulary.model.Topic;
 import com.example.jinny.vocabulary.model.Word;
+import com.squareup.picasso.Picasso;
 
-public class StudyActivity extends BaseActivity {
+import androidx.cardview.widget.CardView;
+import androidx.constraintlayout.widget.ConstraintLayout;
+
+public class StudyActivity extends BaseActivity implements View.OnClickListener {
 
     private Word word;
-    Space topicSpace;
-    TextView origin1, origin2, pronunciation1, pronunciation2, newWord1, newWord2, explaination, type, example, exampleTrans, collapseSpace, extendSpace, topic;
-    Button button3, button4, button5;
-    ImageView image;
-    ImageButton imageButton2;
+    private int preId = -1;
+    private AnimatorSet animatorSet;
+
+    //view
+    ImageView ivBack;
+    TextView tvTopicName;
+    TextView tvOrigin;
+    TextView tvPronounce;
+    TextView tvDetails;
+    TextView tvExplain;
+    TextView tvType;
+    ImageView ivWord;
+    TextView tvExample;
+    TextView tvExampleTrans;
+    TextView tvDidntKnow;
+    TextView tvKnew;
+    ConstraintLayout clDetailPart;
+    CardView cvWord;
+    RelativeLayout rlBackGround;
+    TextView tvLevel;
+    ConstraintLayout clFull;
+
     @Override
     protected int getLayoutId() {
         return R.layout.activity_study;
@@ -28,121 +54,126 @@ public class StudyActivity extends BaseActivity {
 
     @Override
     protected void setupUI() {
-        Intent intent = this.getIntent();
-        int topicID = intent.getIntExtra("topicID",0);
-        String topicName = intent.getStringExtra("topicName");
-        word = DatabaseManager.getInstance(this).getRandomWord(topicID,0);
+        bindView();
 
-        topicSpace = (Space) findViewById(R.id.topicSpace);
-        collapseSpace = (TextView) findViewById(R.id.collapseSpace);
-        extendSpace = (TextView) findViewById(R.id.extendSpace);
+        Topic topic = (Topic)getIntent().getSerializableExtra(Constant.TOPIC);
+        tvTopicName.setText(topic.getName());
+        rlBackGround.setBackgroundColor(Color.parseColor(topic.getColor()));
 
-        topic = (TextView) findViewById(R.id.topic);
-        topic.setText(topicName);
+        word = DatabaseManager.getInstance(this).getRandomWord(topic.getId(), preId);
+        preId = word.getId();
 
-        origin1 = (TextView) findViewById(R.id.origin1);
-        origin2 = (TextView) findViewById(R.id.origin2);
-        origin2.setText(word.getOrigin());
-        origin1.setText(word.getOrigin());
+        tvOrigin.setText(word.getOrigin());
+        tvPronounce.setText(word.getPronounciation());
+        tvType.setText(word.getType());
+        tvExplain.setText(word.getExplaination());
+        tvExample.setText(word.getExample());
+        tvExampleTrans.setText(word.getExample_trans());
 
-        pronunciation1 = (TextView) findViewById(R.id.pronunciation1);
-        pronunciation2 = (TextView) findViewById(R.id.pronunciation2);
-        pronunciation1.setText(word.getPronounciation());
-        pronunciation2.setText(word.getPronounciation());
+        Picasso.with(this).load(word.getImageUrl()).into(ivWord);
 
+        switch (word.getLevel()) {
+            case 0:
+                tvLevel.setText("New word");
+                break;
+            case 1:
+            case 2:
+            case 3:
+                tvLevel.setText("Review");
+                break;
+            case 4:
+                tvLevel.setText("Master");
+                break;
+        }
 
-        newWord1 = (TextView) findViewById(R.id.newWord1);
-        newWord2 = (TextView) findViewById(R.id.newWord2);
+        ivBack.setOnClickListener(this);
+        tvDetails.setOnClickListener(this);
+        tvDidntKnow.setOnClickListener(this);
+        tvKnew.setOnClickListener(this);
 
-        explaination = (TextView) findViewById(R.id.explaination);
-        explaination.setText(word.getExplaination());
+        loadData();
+    }
 
-        type = (TextView) findViewById(R.id.type);
-        type.setText(word.getType());
+    private void bindView() {
+        ivBack = findViewById(R.id.iv_back);
+        tvTopicName = findViewById(R.id.tv_topic_name);
+        tvOrigin = findViewById(R.id.tv_origin);
+        tvPronounce = findViewById(R.id.tv_pronun);
+        tvDetails = findViewById(R.id.tv_details);
+        tvExplain = findViewById(R.id.tv_explain);
+        tvType = findViewById(R.id.tv_type);
+        ivWord = findViewById(R.id.iv_word);
+        tvExample = findViewById(R.id.tv_example);
+        tvExampleTrans = findViewById(R.id.tv_example_trans);
+        tvDidntKnow = findViewById(R.id.tv_didnt_know);
+        tvKnew = findViewById(R.id.tv_knew);
+        clDetailPart = findViewById(R.id.cl_detail_part);
+        cvWord = findViewById(R.id.cv_word);
+        rlBackGround = findViewById(R.id.rl_background);
+        tvLevel = findViewById(R.id.tv_level);
+        clFull = findViewById(R.id.cl_full);
+    }
 
-        example = (TextView) findViewById(R.id.example);
-        example.setText(word.getExample());
+    private void loadData() {
 
-        exampleTrans = (TextView) findViewById(R.id.exampleTrans);
-        exampleTrans.setText(word.getExample_trans());
+    }
 
-        button3 = (Button) findViewById(R.id.button3);
-        button4 = (Button) findViewById(R.id.button4);
-        button5 = (Button) findViewById(R.id.button5);
-        imageButton2 = (ImageButton) findViewById(R.id.imageButton2);
-        image = (ImageView) findViewById(R.id.image);
+    @Override
+    public void onPointerCaptureChanged(boolean hasCapture) {
 
-        extendSpace.setVisibility(View.GONE);
-        origin2.setVisibility(View.GONE);
-        pronunciation2.setVisibility(View.GONE);
-        newWord2.setVisibility(View.GONE);
-        explaination.setVisibility(View.GONE);
-        type.setVisibility(View.GONE);
-        example.setVisibility(View.GONE);
-        exampleTrans.setVisibility(View.GONE);
-        button4.setVisibility(View.GONE);
-        button5.setVisibility(View.GONE);
-        image.setVisibility(View.GONE);
+    }
 
-        button3.setOnClickListener(new View.OnClickListener() {
+    private void changeContent(boolean isExpanded) {
+        if (isExpanded) {
+            clDetailPart.setVisibility(View.GONE);
+            tvDetails.setVisibility(View.VISIBLE);
+        } else {
+            clDetailPart.setVisibility(View.VISIBLE);
+            tvDetails.setVisibility(View.GONE);
+        }
+    }
+
+    public void nextWord(final boolean isKnown) {
+        setAnimation(R.animator.animation_move_to_left);
+
+        animatorSet.addListener(new AnimatorListenerAdapter() {
             @Override
-            public void onClick(View view) {
-                collapseSpace.setVisibility(View.GONE);
-                origin1.setVisibility(View.GONE);
-                pronunciation1.setVisibility(View.GONE);
-                button3.setVisibility(View.GONE);
-                newWord1.setVisibility(View.GONE);
+            public void onAnimationEnd(Animator animation) {
+                super.onAnimationEnd(animation);
 
-                extendSpace.setVisibility(View.VISIBLE);
-                origin2.setVisibility(View.VISIBLE);
-                pronunciation2.setVisibility(View.VISIBLE);
-                newWord2.setVisibility(View.VISIBLE);
-                explaination.setVisibility(View.VISIBLE);
-                type.setVisibility(View.VISIBLE);
-                example.setVisibility(View.VISIBLE);
-                exampleTrans.setVisibility(View.VISIBLE);
-                button4.setVisibility(View.VISIBLE);
-                button5.setVisibility(View.VISIBLE);
-                image.setVisibility(View.VISIBLE);
+                DatabaseManager.getInstance(StudyActivity.this).updateWordLevel(word, isKnown);
+                loadData();
+
+                clFull.setLayoutTransition(null);
+
+                changeContent(true);
+                setAnimation(R.animator.animation_move_from_right);
             }
         });
+    }
 
-        button4.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {}
-        });
+    public void setAnimation(int animation) {
+        animatorSet = (AnimatorSet) AnimatorInflater.loadAnimator(this, animation);
+        animatorSet.setTarget(cvWord);
+        animatorSet.start();
+    }
 
-        button5.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {}
-        });
-
-        imageButton2.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {}
-        });
-
-        extendSpace.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                collapseSpace.setVisibility(View.VISIBLE);
-                origin1.setVisibility(View.VISIBLE);
-                pronunciation1.setVisibility(View.VISIBLE);
-                button3.setVisibility(View.VISIBLE);
-                newWord1.setVisibility(View.VISIBLE);
-
-                extendSpace.setVisibility(View.GONE);
-                origin2.setVisibility(View.GONE);
-                pronunciation2.setVisibility(View.GONE);
-                newWord2.setVisibility(View.GONE);
-                explaination.setVisibility(View.GONE);
-                type.setVisibility(View.GONE);
-                example.setVisibility(View.GONE);
-                exampleTrans.setVisibility(View.GONE);
-                button4.setVisibility(View.GONE);
-                button5.setVisibility(View.GONE);
-                image.setVisibility(View.GONE);
-            }
-        });
+    @Override
+    public void onClick(View v) {
+        switch (v.getId()) {
+            case R.id.iv_back:
+                onBackPressed();
+                break;
+            case R.id.tv_details:
+                clFull.setLayoutTransition(new LayoutTransition());
+                changeContent(false);
+                break;
+            case R.id.tv_didnt_know:
+                nextWord(false);
+                break;
+            case R.id.tv_knew:
+                nextWord(true);
+                break;
+        }
     }
 }
