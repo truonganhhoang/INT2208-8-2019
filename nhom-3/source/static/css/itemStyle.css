@@ -1,0 +1,126 @@
+body {
+    background-color: #efefee;
+}
+
+.product-summary {
+    width: 100%;
+    background-color: #ffffff;
+    margin: auto auto 20px auto;
+    padding: 10px 0px;
+    border: #deded8 solid 1px;
+}
+
+
+/*product image*/
+
+.image-product {
+    width: 480px;
+    max-width: 100%;
+    height: 100%;
+    max-height: 100%;
+}
+
+
+/*product infor*/
+
+.productName {
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.product-customer-content {
+    width: 100%;
+    height: auto;
+    ;
+    background-color: #ffffff;
+    border: #deded8 solid 1px;
+}
+
+.product-customer-wrtfeedback {
+    height: auto;
+    width: 100%;
+    padding: 20px;
+    margin: auto;
+}
+
+textarea {
+    /* box-sizing: padding-box; */
+    overflow: hidden;
+    /* demo only: */
+    width: 90%;
+    font-size: 14px;
+    margin: 10px 50px auto 20px;
+    display: block;
+    border-radius: 5px;
+    float: left;
+}
+
+.btn-submit {
+    clear: left;
+    margin-top: 1%;
+    float: right;
+    margin-right: 15%;
+    width: 150px;
+}
+
+.clearfix {
+    border-bottom: 1px solid #dcd4d4;
+    padding-bottom: 15px;
+}
+
+
+/*customer-review*/
+
+.review-item {
+    margin-bottom: 20px;
+}
+
+.image {
+    width: 65px;
+    height: 65px;
+    overflow: hidden;
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 50%;
+}
+
+.avatar-img {
+    display: block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 65px;
+    height: 65px;
+}
+
+.avatar-letter {
+    border-radius: 50%;
+    background: #d3d2d3;
+    color: #919090;
+    font-weight: 500;
+    width: 65px;
+    height: 65px;
+    display: inline-block;
+    text-align: center;
+    line-height: 65px;
+    font-size: 18px;
+    font-family: Roboto;
+}
+
+.name {
+    font-size: 14px;
+    margin: 15px 0 5px;
+    font-weight: 500;
+    text-transform: capitalize;
+    width: 100%;
+    text-align: center;
+}
+
+.days {
+    font-size: 12px;
+    color: #999;
+    margin: -2px 0 0;
+    text-align: center;
+    width: 100%;
+}
