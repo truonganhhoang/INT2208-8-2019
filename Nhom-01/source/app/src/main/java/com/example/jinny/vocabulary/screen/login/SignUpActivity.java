@@ -1,7 +1,12 @@
 package com.example.jinny.vocabulary.screen.login;
+import android.content.Context;
 import android.content.Intent;
+import android.content.pm.PackageInfo;
+import android.content.pm.PackageManager;
+import android.content.pm.Signature;
 import android.nfc.Tag;
 import android.os.Bundle;
+import android.util.Base64;
 import android.util.Log;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -20,12 +25,16 @@ import com.facebook.login.LoginResult;
 import com.facebook.login.widget.LoginButton;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
+import com.google.firebase.FirebaseApp;
 import com.google.firebase.auth.AuthCredential;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FacebookAuthProvider;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import android.view.View;
+
+import java.security.MessageDigest;
+
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
@@ -44,6 +53,9 @@ public class SignUpActivity extends BaseActivity implements View.OnClickListener
 
     @Override
     protected void setupUI() {
+        findViewById(R.id.fbSignOut).setOnClickListener(this);
+        name = findViewById(R.id.name);
+        UID = findViewById(R.id.UID);
         callbackManager = CallbackManager.Factory.create();
         fbLogin = findViewById(R.id.fbLogin);
         fbLogin.setReadPermissions("email");
@@ -70,7 +82,10 @@ public class SignUpActivity extends BaseActivity implements View.OnClickListener
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+
         mAuth = FirebaseAuth.getInstance();
+        FacebookSdk.sdkInitialize(getApplicationContext());
+        AppEventsLogger.activateApp(this);
         super.onCreate(savedInstanceState);
 
     }
@@ -116,7 +131,7 @@ public class SignUpActivity extends BaseActivity implements View.OnClickListener
             findViewById(R.id.fbLogin).setVisibility(View.GONE);
             findViewById(R.id.fbSignOut).setVisibility(View.VISIBLE);
         } else {
-            name.setText(getString(R.string.sign_out));
+            name.setText(R.string.sign_out);
             UID.setText(null);
             findViewById(R.id.fbLogin).setVisibility(View.VISIBLE);
             findViewById(R.id.fbSignOut).setVisibility(View.GONE);
