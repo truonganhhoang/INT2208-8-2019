@@ -1,5 +1,5 @@
 # nhom-24
-
+Link repo dự án: https://github.com/thangnmuet2017/TroTotHN
 
 ## Thành viên
 	Nguyễn Mạnh Thắng - 17021030
@@ -19,23 +19,9 @@
 	- Trang chủ
 	- Giới thiệu
 	- Tìm nhà trọ (dành cho người có nhu cầu tìm nhà trọ)
-		+ Chọn quận/huyện
-		+ Chọn xã/phường
-		+ Hiển thị thông tin các nhà trọ gồm:
-			--> Địa chỉ
-			--> SĐT chủ trọ
-			--> Các điều kiện cơ bản (trang thiết bị trong phòng, giờ đóng cửa, ...), có thể kèm theo hình ảnh
-			--> Mức giá và các điều kiện đặt cọc nếu có 
-			--> Các trường học lân cận
-			--> Đánh giá/bình luận về nhà trọ (nếu có)
 	- Chia sẻ nhà trọ (dành cho người muốn giới thiệu nhà trọ cho những người có nhu cầu)
-		+ Địa chỉ: Chọn quận/huyện, chọn xã/phường, ghi thêm tên ngách/ngõ và tên đường
-		+ SĐT liên hệ (điền vào nếu là chủ nhà trọ)
-		+ Giá thuê phòng
-		+ Các điều kiện cơ bản, có thể kèm theo hình ảnh càng tốt
-		+ Đánh giá, nhận xét
 	- Chuyện trò linh tinh 
-		+ Chia sẻ kinh nghiệm sống, học tập, làm việc, ví dụ như kinh nghiệm tìm nhà trọ, tìm việc part-time,...
+		+ Chia sẻ kinh nghiệm sống, học tập, làm việc, ví dụ như kinh nghiệm tìm nhà trọ,...
 	- Phản hồi
 		+ Ghi nhận các ý kiến đóng góp về những nhà trọ không uy tín, những thông tin sai lệch, hoặc các đóng góp để phát triển ứng dụng tốt hơn
 
