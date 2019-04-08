@@ -31,6 +31,8 @@ dependencies {
     //firebase
     implementation 'com.google.firebase:firebase-database:16.0.1'
     implementation 'com.google.firebase:firebase-core:16.0.1'
+    implementation 'com.facebook.android:facebook-android-sdk:[4,5)'
+    implementation 'com.google.firebase:firebase-auth:16.0.1'
     // Lifecycle components
     implementation "android.arch.lifecycle:extensions:$rootProject.archLifecycleVersion"
     annotationProcessor "android.arch.lifecycle:compiler:$rootProject.archLifecycleVersion"
