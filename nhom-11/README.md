@@ -36,3 +36,5 @@ Nhóm 11 - lớp Công nghệ phần mềm - INT2208 8:
 	    - Sprint 4(Tuần 12 đến tuần 15) :
 		    + Kiểm thử và hoàn tất ứng dụng.
 
+
+- Do có một số vấn đề nội bộ về mặt nhân sự như một số  thành viên bỏ nhóm, bỏ môn học,...etc nên nhóm 11 xin phép được giải thể. Mong có được sự đồng ý của thầy.
