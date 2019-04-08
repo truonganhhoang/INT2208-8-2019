@@ -20,6 +20,10 @@ Nhóm 11 - lớp Công nghệ phần mềm - INT2208 8:
 	    - CSDL : MongoDB.
       
     5. Kế hoạch thực hiện : Dựa vào phương pháp Scrum trong Agile Method :
+    	    - Product Owner : Phạm Nhật Hưng.
+	    - Scrum Master : Bùi Trọng A Đam.
+	    - Nhóm phát triển : Tất cả thành viên trong nhóm.
+	    - Link github của nhóm : https://github.com/SkyHunter666/SoftwareEngineering-2019.
  	    - Sprint 1 (Từ tuần 1 đến tuần 4) :
 		    + Thảo luận về các tính năng của ứng dụng.
 		    + Thiết kế giao diện chính của ứng dụng.
