@@ -27,6 +27,7 @@ public class StudyActivity extends BaseActivity implements View.OnClickListener 
     private Word word;
     private int preId = -1;
     private AnimatorSet animatorSet;
+    private Topic topic;
 
     //view
     ImageView ivBack;
@@ -56,7 +57,7 @@ public class StudyActivity extends BaseActivity implements View.OnClickListener 
     protected void setupUI() {
         bindView();
 
-        Topic topic = (Topic)getIntent().getSerializableExtra(Constant.TOPIC);
+        topic = (Topic)getIntent().getSerializableExtra(Constant.TOPIC);
         tvTopicName.setText(topic.getName());
         rlBackGround.setBackgroundColor(Color.parseColor(topic.getColor()));
 
@@ -114,8 +115,34 @@ public class StudyActivity extends BaseActivity implements View.OnClickListener 
         clFull = findViewById(R.id.cl_full);
     }
 
-    private void loadData() {
+    private void changeContent(){
+        tvOrigin.setText(word.getOrigin());
+        tvPronounce.setText(word.getPronounciation());
+        tvType.setText(word.getType());
+        tvExplain.setText(word.getExplaination());
+        tvExample.setText(word.getExample());
+        tvExampleTrans.setText(word.getExample_trans());
 
+        Picasso.with(this).load(word.getImageUrl()).into(ivWord);
+
+        switch (word.getLevel()) {
+            case 0:
+                tvLevel.setText("New word");
+                break;
+            case 1:
+            case 2:
+            case 3:
+                tvLevel.setText("Review");
+                break;
+            case 4:
+                tvLevel.setText("Master");
+                break;
+        }
+    }
+
+    private void loadData() {
+        word = DatabaseManager.getInstance(this).getRandomWord(topic.getId(),word.getId());
+        changeContent();
     }
 
     @Override
