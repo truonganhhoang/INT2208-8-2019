@@ -112,3 +112,17 @@
 ### Estimation  
     6  
     
+## 9  
+  
+### User Story  
+    As a user, i need a guideline to tell me how to use this application.  
+    
+### Details  
+    Guide user to use the application when application start.  
+    
+### Priority  
+    6  
+    
+### Estimation  
+    3  
+    
