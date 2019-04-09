@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">Vocabulary</string>
+
+    //firebase authentication
+    <string name="facebook_app_id">1203178179844520</string>
+    <string name="fb_login_protocol_scheme">fb1203178179844520</string>
+    <string name="facebook_status_fmt">Facebook User: %s</string>
+    <string name="facebook_title_text">Facebook Login</string>
+    <string name="firebase_status_fmt">Firebase User: %s</string>
+    <string name="firebase_user_management">Firebase User Management</string>
+    <string name="sign_out">Sign Out</string>
 </resources>
