@@ -69,7 +69,8 @@ public class QuizActivity extends AppCompatActivity implements View.OnClickListe
         }
         else if (v.getId()==R.id.next_button){
             word = quizWordList.get(new Random().nextInt(quizWordList.size()));
-            setContent(new Random().nextInt(4));
+            ansTextViewID = ans[new Random().nextInt(4)].getId();
+            setContent(ansTextViewID);
             status.setVisibility(View.INVISIBLE);
         }
         else {

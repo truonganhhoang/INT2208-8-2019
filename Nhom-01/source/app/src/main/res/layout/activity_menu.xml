@@ -23,6 +23,23 @@
         app:layout_constraintTop_toBottomOf="@+id/study_textview" />
 
     <TextView
+        android:id="@+id/guild_textview"
+        android:layout_width="186dp"
+        android:layout_height="67dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="8dp"
+        android:background="#FF5722"
+        android:gravity="center"
+        android:text="GUILD"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/quiz_textview" />
+
+    <TextView
         android:id="@+id/study_textview"
         android:layout_width="186dp"
         android:layout_height="67dp"

@@ -115,7 +115,7 @@
 ## 9  
   
 ### User Story  
-    As a user, i need a guideline to tell me how to use this application.  
+    As a user, i need a guideline to tell me how to use this application, so that i can easily understand application's features.  
     
 ### Details  
     Guide user to use the application when application start.  
@@ -124,5 +124,5 @@
     6  
     
 ### Estimation  
-    3  
+    4  
     

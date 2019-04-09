@@ -16,12 +16,18 @@
 - [x] Create flash card that contain words  
 - [x] Create UI showing the word's meaning. Only make the meaning visible when user click into flash card  
   
-## Sprint 4 - User Story 2..
+## Sprint 4 - User Story 2  
 - [x] Below the word flash card, create two buttons "I knew this word" and "I don't know this word" for user to choose  
 - [ ] Store information about this user's activities for future features  
 
-## Sprint 5 - User Story 2..
-- [x] Add screen Guideline when application starts    
+## Sprint 5 - User Story 9  
+- [x] Add screen Guideline navigation button to menu  
+- [x] Add Next button for Topics navigation to Guideline screen  
+- [x] Add Scrollbar for showing long Guideline  
+- [x] Add webview to ScrollView for formating Text there  
+- [x] Add webview activity to control Guideline screen  
+- [x] Test navigation buttons  
+- [x] Test charset and text formating on different devices       
   
 ## Sprint 6 - Prepare for Human-Human interaction  
 - [ ] Create Firebase account and create tables described in README.md  

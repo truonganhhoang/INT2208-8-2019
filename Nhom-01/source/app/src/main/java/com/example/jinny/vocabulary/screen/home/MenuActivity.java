@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 
 import com.example.jinny.vocabulary.R;
+import com.example.jinny.vocabulary.screen.guide.GuideActivity;
 import com.example.jinny.vocabulary.screen.quiz.QuizActivity;
 public class MenuActivity extends AppCompatActivity implements View.OnClickListener{
 
@@ -17,6 +18,7 @@ public class MenuActivity extends AppCompatActivity implements View.OnClickListe
         //set on click
         findViewById(R.id.study_textview).setOnClickListener(this);
         findViewById(R.id.quiz_textview).setOnClickListener(this);
+        findViewById(R.id.guild_textview).setOnClickListener(this);
     }
 
     @Override
@@ -31,7 +33,10 @@ public class MenuActivity extends AppCompatActivity implements View.OnClickListe
                 intent = new Intent(MenuActivity.this, QuizActivity.class);
                 startActivity(intent);
                 break;
-
+            case R.id.guild_textview:
+                intent = new Intent(MenuActivity.this, GuideActivity.class);
+                startActivity(intent);
+                break;
         }
     }
 }
