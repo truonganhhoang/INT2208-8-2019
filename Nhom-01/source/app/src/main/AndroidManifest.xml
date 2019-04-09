@@ -11,16 +11,18 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".screen.home.MenuActivity"></activity>
-        <activity android:name=".screen.quiz.QuizActivity" />
-        <activity android:name=".screen.study.ReminderActivity" />
-        <activity android:name=".screen.welcome.SplashActivity" />
-        <activity android:name=".screen.home.MainActivity">
+        <activity android:name=".screen.home.MenuActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity android:name=".screen.quiz.QuizActivity" />
+        <activity android:name=".screen.study.ReminderActivity" />
+        <activity android:name=".screen.welcome.SplashActivity" />
+        <activity android:name=".screen.home.MainActivity">
+
         </activity>
         <activity android:name=".screen.study.StudyActivity" />
         <activity android:name=".screen.setting.SettingActivity" />
