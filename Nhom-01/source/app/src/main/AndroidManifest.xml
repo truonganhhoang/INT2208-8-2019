@@ -13,18 +13,18 @@
         android:theme="@style/AppTheme">
         <activity android:name=".screen.study.ReminderActivity"></activity>
         <activity android:name=".screen.welcome.SplashActivity"></activity>
-        <activity android:name=".screen.home.MainActivity" > </activity>
+        <activity android:name=".screen.home.MainActivity" >
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
 
         <activity android:name=".screen.study.StudyActivity" />
         <activity android:name=".screen.setting.SettingActivity" />
-        <activity android:name=".screen.login.SignUpActivity" >
-
-        <intent-filter>
-            <action android:name="android.intent.action.MAIN" />
-
-            <category android:name="android.intent.category.LAUNCHER" />
-        </intent-filter>
-        </activity>
+        <activity android:name=".screen.login.SignUpActivity" ></activity>
 
 
             <meta-data android:name="com.facebook.sdk.ApplicationId"
