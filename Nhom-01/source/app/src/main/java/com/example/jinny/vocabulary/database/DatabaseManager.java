@@ -21,6 +21,7 @@ public class DatabaseManager {
 
     private static final String TABLE_TOPIC = "tbl_topic";
     private static final String TABLE_WORD = "tbl_word";
+    private static final String TABLE_QUIZ = "tbl_quiz";
 
     private SQLiteDatabase sqLiteDatabase;
     private AssetHelper assetHelper;
@@ -66,6 +67,8 @@ public class DatabaseManager {
         return topics;
     }
 
+
+
     public HashMap<String, List<Topic>> getHashMapTopic(
             List<Topic> topicList) {
         HashMap<String, List<Topic>> hashMap = new HashMap<>();
@@ -76,6 +79,38 @@ public class DatabaseManager {
             hashMap.put(topic.getCategory(), list);
         }
         return hashMap;
+    }
+
+    public List<Word> getListQuizWord(){
+        sqLiteDatabase = assetHelper.getReadableDatabase();
+
+        List<Word> words = new ArrayList<>();
+
+        Cursor cursor =sqLiteDatabase.rawQuery("SELECT * from tbl_word INNER JOIN tbl_quiz On tbl_word.id=tbl_quiz.id",null);
+        cursor.moveToFirst();
+        while (!cursor.isAfterLast()) {
+            //read data
+            int id = cursor.getInt(0);
+            String origin = cursor.getString(1);
+            String explanation = cursor.getString(2);
+            String type = cursor.getString(3);
+            String pronunciation = cursor.getString(4);
+            String imageUrl = cursor.getString(5);
+            String example = cursor.getString(6);
+            String exampleTrans = cursor.getString(7);
+            int topicId = cursor.getInt(8);
+            int level = cursor.getInt(9);
+
+            Word word = new Word(id, origin, explanation, type, pronunciation, imageUrl, example, exampleTrans, topicId, level);
+
+            words.add(word);
+
+            //move to next line
+            cursor.moveToNext();
+        }
+
+        return words;
+
     }
 
     public List<Category> getListCategory(List<Topic> topics) {
@@ -130,6 +165,14 @@ public class DatabaseManager {
         Word word = new Word(id, origin, explanation, type, pronunciation, imageUrl, example, exampleTrans, topicId, level);
 
         return word;
+    }
+
+    public void addWordToMyWordlist(Word word){
+        sqLiteDatabase = assetHelper.getWritableDatabase();
+        int wordID = word.getId();
+        ContentValues contentValues = new ContentValues();
+        contentValues.put("id",wordID);
+        sqLiteDatabase.insert("tbl_quiz",null,contentValues);
     }
 
     public void updateWordLevel(Word word, boolean isKnown) {
