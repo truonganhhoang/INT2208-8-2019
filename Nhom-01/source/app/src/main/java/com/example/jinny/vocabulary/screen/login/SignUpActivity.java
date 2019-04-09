@@ -8,9 +8,11 @@ import android.nfc.Tag;
 import android.os.Bundle;
 import android.util.Base64;
 import android.util.Log;
+import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.example.jinny.vocabulary.screen.home.MainActivity;
 import com.facebook.AccessToken;
 import com.facebook.CallbackManager;
 import com.facebook.FacebookCallback;
@@ -39,11 +41,11 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
 
-public class SignUpActivity extends BaseActivity implements View.OnClickListener{
+public class SignUpActivity extends BaseActivity implements View.OnClickListener {
     protected FirebaseAuth mAuth;
     protected CallbackManager callbackManager;
     protected LoginButton fbLogin;
-
+    protected Button anonymousLogin;
     protected String fbTag = "Facebook Login";
     protected TextView name,UID;
     @Override
@@ -53,12 +55,11 @@ public class SignUpActivity extends BaseActivity implements View.OnClickListener
 
     @Override
     protected void setupUI() {
-        findViewById(R.id.fbSignOut).setOnClickListener(this);
-        name = findViewById(R.id.name);
-        UID = findViewById(R.id.UID);
         callbackManager = CallbackManager.Factory.create();
         fbLogin = findViewById(R.id.fbLogin);
+        anonymousLogin = findViewById(R.id.anonymousLogin);
         fbLogin.setReadPermissions("email");
+        anonymousLogin.setOnClickListener(this);
         fbLogin.registerCallback(callbackManager, new FacebookCallback<LoginResult>() {
             @Override
             public void onSuccess(LoginResult loginResult) {
@@ -93,8 +94,6 @@ public class SignUpActivity extends BaseActivity implements View.OnClickListener
     @Override
     protected void onStart() {
         super.onStart();
-        FirebaseUser currentUser = mAuth.getCurrentUser();
-        updateUI(currentUser);
     }
 
     protected void handleFbAccessToken(AccessToken token) {
@@ -106,37 +105,18 @@ public class SignUpActivity extends BaseActivity implements View.OnClickListener
                     public void onComplete(@NonNull Task<AuthResult> task) {
                         if (task.isSuccessful()) {
                             Log.d(fbTag, "signInWithCredentical:success");
-                            FirebaseUser user = mAuth.getCurrentUser();
-                            updateUI(user);
+                            Toast.makeText(SignUpActivity.this, "Authentication succesfully!",
+                                    Toast.LENGTH_SHORT).show();
                         } else {
                             Log.w(fbTag, "signInWithCredential:failure", task.getException());
                             Toast.makeText(SignUpActivity.this, "Authentication failed.",
                                     Toast.LENGTH_SHORT).show();
-                            updateUI(null);
                         }
                     }
                 });
-    }
-
-    protected void signOut() {
-        mAuth.signOut();
-        LoginManager.getInstance().logOut();
-        updateUI(null);
-    }
-
-    protected void updateUI(FirebaseUser user) {
-        if (user != null) {
-            name.setText(getString(R.string.facebook_status_fmt, user.getDisplayName()));
-            UID.setText(getString(R.string.firebase_status_fmt, user.getUid()));
-            findViewById(R.id.fbLogin).setVisibility(View.GONE);
-            findViewById(R.id.fbSignOut).setVisibility(View.VISIBLE);
-        } else {
-            name.setText(R.string.sign_out);
-            UID.setText(null);
-            findViewById(R.id.fbLogin).setVisibility(View.VISIBLE);
-            findViewById(R.id.fbSignOut).setVisibility(View.GONE);
-
-        }
+        Intent intent = new Intent(this, MainActivity.class);
+        startActivity(intent);
+        this.finish();
     }
 
     @Override
@@ -147,9 +127,10 @@ public class SignUpActivity extends BaseActivity implements View.OnClickListener
 
     @Override
     public void onClick(View v) {
-        int i = v.getId();
-        if (i == R.id.fbSignOut) {
-            signOut();
-        }
+        Intent intent = new Intent(this, MainActivity.class);
+        Toast.makeText(SignUpActivity.this, "Guest access!",
+                Toast.LENGTH_SHORT).show();
+        startActivity(intent);
+        this.finish();
     }
 }
