@@ -26,7 +26,7 @@
   
 ## Sprint 6 - User Story 7  
 - [x] Create Facebook login for user to login with Facebook  
-- [ ] Create User's ID on Firebase at the first time user login with Facebook  
+- [x] Create User's ID on Firebase at the first time user login with Facebook  
   
 ## Sprint 7 - User Story 6  
 - [ ] Create fuction for adding new word list into Firebase  
