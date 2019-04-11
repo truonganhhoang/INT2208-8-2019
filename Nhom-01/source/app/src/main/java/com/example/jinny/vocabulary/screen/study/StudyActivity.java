@@ -10,6 +10,7 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.example.jinny.vocabulary.R;
 import com.example.jinny.vocabulary.base.BaseActivity;
@@ -27,8 +28,10 @@ public class StudyActivity extends BaseActivity implements View.OnClickListener 
     private Word word;
     private int preId = -1;
     private AnimatorSet animatorSet;
+    private Topic topic;
 
     //view
+    ImageView ivStar;
     ImageView ivBack;
     TextView tvTopicName;
     TextView tvOrigin;
@@ -56,7 +59,7 @@ public class StudyActivity extends BaseActivity implements View.OnClickListener 
     protected void setupUI() {
         bindView();
 
-        Topic topic = (Topic)getIntent().getSerializableExtra(Constant.TOPIC);
+        topic = (Topic)getIntent().getSerializableExtra(Constant.TOPIC);
         tvTopicName.setText(topic.getName());
         rlBackGround.setBackgroundColor(Color.parseColor(topic.getColor()));
 
@@ -90,11 +93,13 @@ public class StudyActivity extends BaseActivity implements View.OnClickListener 
         tvDetails.setOnClickListener(this);
         tvDidntKnow.setOnClickListener(this);
         tvKnew.setOnClickListener(this);
+        ivStar.setOnClickListener(this);
 
         loadData();
     }
 
     private void bindView() {
+        ivStar = findViewById(R.id.star_imageview);
         ivBack = findViewById(R.id.iv_back);
         tvTopicName = findViewById(R.id.tv_topic_name);
         tvOrigin = findViewById(R.id.tv_origin);
@@ -114,8 +119,34 @@ public class StudyActivity extends BaseActivity implements View.OnClickListener 
         clFull = findViewById(R.id.cl_full);
     }
 
-    private void loadData() {
+    private void changeContent(){
+        tvOrigin.setText(word.getOrigin());
+        tvPronounce.setText(word.getPronounciation());
+        tvType.setText(word.getType());
+        tvExplain.setText(word.getExplaination());
+        tvExample.setText(word.getExample());
+        tvExampleTrans.setText(word.getExample_trans());
 
+        Picasso.with(this).load(word.getImageUrl()).into(ivWord);
+
+        switch (word.getLevel()) {
+            case 0:
+                tvLevel.setText("New word");
+                break;
+            case 1:
+            case 2:
+            case 3:
+                tvLevel.setText("Review");
+                break;
+            case 4:
+                tvLevel.setText("Master");
+                break;
+        }
+    }
+
+    private void loadData() {
+        word = DatabaseManager.getInstance(this).getRandomWord(topic.getId(),word.getId());
+        changeContent();
     }
 
     @Override
@@ -173,6 +204,10 @@ public class StudyActivity extends BaseActivity implements View.OnClickListener 
                 break;
             case R.id.tv_knew:
                 nextWord(true);
+                break;
+            case R.id.star_imageview:
+                DatabaseManager.getInstance(this).addWordToMyWordlist(word);
+                Toast.makeText(StudyActivity.this,"Added",Toast.LENGTH_SHORT).show();
                 break;
         }
     }

@@ -193,6 +193,14 @@
                 android:textStyle="bold"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
+            <ImageView
+                android:id="@+id/star_imageview"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginStart="12dp"
+                app:layout_constraintStart_toEndOf="@+id/tv_origin"
+                app:layout_constraintTop_toTopOf="@+id/tv_origin"
+                app:srcCompat="@android:drawable/btn_star_big_off" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 
