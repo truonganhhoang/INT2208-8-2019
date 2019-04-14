@@ -15,6 +15,8 @@ import com.example.jinny.vocabulary.model.Category;
 import com.example.jinny.vocabulary.model.Topic;
 import com.example.jinny.vocabulary.screen.login.SignUpActivity;
 import com.example.jinny.vocabulary.screen.setting.SettingActivity;
+import com.facebook.FacebookSdk;
+import com.facebook.appevents.AppEventsLogger;
 import com.facebook.login.LoginManager;
 import com.google.android.material.navigation.NavigationView;
 import com.google.firebase.auth.FirebaseAuth;
@@ -63,6 +65,8 @@ public class MainActivity extends BaseActivity {
         navigationView = findViewById(R.id.navigationView);
         menu = navigationView.getMenu();
         headerView = navigationView.getHeaderView(0);
+        FacebookSdk.sdkInitialize(getApplicationContext());
+        AppEventsLogger.activateApp(this);
 
         FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
         updateUI(user);

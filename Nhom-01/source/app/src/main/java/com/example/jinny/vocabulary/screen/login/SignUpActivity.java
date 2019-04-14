@@ -85,8 +85,6 @@ public class SignUpActivity extends BaseActivity implements View.OnClickListener
     protected void onCreate(Bundle savedInstanceState) {
 
         mAuth = FirebaseAuth.getInstance();
-        FacebookSdk.sdkInitialize(getApplicationContext());
-        AppEventsLogger.activateApp(this);
         super.onCreate(savedInstanceState);
 
     }
@@ -107,6 +105,10 @@ public class SignUpActivity extends BaseActivity implements View.OnClickListener
                             Log.d(fbTag, "signInWithCredentical:success");
                             Toast.makeText(SignUpActivity.this, "Authentication succesfully!",
                                     Toast.LENGTH_SHORT).show();
+                            while (mAuth.getCurrentUser() == null) {}
+                            Intent intent = new Intent(SignUpActivity.this, MainActivity.class);
+                            startActivity(intent);
+                            SignUpActivity.this.finish();
                         } else {
                             Log.w(fbTag, "signInWithCredential:failure", task.getException());
                             Toast.makeText(SignUpActivity.this, "Authentication failed.",
@@ -114,10 +116,6 @@ public class SignUpActivity extends BaseActivity implements View.OnClickListener
                         }
                     }
                 });
-        while (mAuth.getCurrentUser() == null) {}
-        Intent intent = new Intent(this, MainActivity.class);
-        startActivity(intent);
-        this.finish();
     }
 
     @Override
