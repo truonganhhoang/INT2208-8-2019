@@ -11,6 +11,7 @@ import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
+import android.os.Bundle;
 
 import com.example.jinny.vocabulary.R;
 import com.example.jinny.vocabulary.base.BaseActivity;
@@ -22,6 +23,9 @@ import com.squareup.picasso.Picasso;
 
 import androidx.cardview.widget.CardView;
 import androidx.constraintlayout.widget.ConstraintLayout;
+import android.speech.tts.*;
+
+import java.util.Locale;
 
 public class StudyActivity extends BaseActivity implements View.OnClickListener {
 
@@ -31,6 +35,7 @@ public class StudyActivity extends BaseActivity implements View.OnClickListener 
     private Topic topic;
 
     //view
+    ImageView ivAudio;
     ImageView ivStar;
     ImageView ivBack;
     TextView tvTopicName;
@@ -49,6 +54,41 @@ public class StudyActivity extends BaseActivity implements View.OnClickListener 
     RelativeLayout rlBackGround;
     TextView tvLevel;
     ConstraintLayout clFull;
+
+    TextToSpeech t1;
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_study);
+
+        setupUI();
+
+        t1 = new TextToSpeech(getApplicationContext(), new TextToSpeech.OnInitListener() {
+            @Override
+            public void onInit(int status) {
+                if(status != TextToSpeech.ERROR) {
+                    t1.setLanguage(Locale.UK);
+                }
+            }
+        });
+
+        ivAudio.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(getApplicationContext(), word.getOrigin(),Toast.LENGTH_SHORT).show();
+                t1.speak(word.getOrigin(), TextToSpeech.QUEUE_FLUSH, null);
+            }
+        });
+    }
+
+    public void onPause(){
+        if(t1 != null){
+            t1.stop();
+            t1.shutdown();
+        }
+        super.onPause();
+    }
 
     @Override
     protected int getLayoutId() {
@@ -94,11 +134,13 @@ public class StudyActivity extends BaseActivity implements View.OnClickListener 
         tvDidntKnow.setOnClickListener(this);
         tvKnew.setOnClickListener(this);
         ivStar.setOnClickListener(this);
+        ivAudio.setOnClickListener(this);
 
         loadData();
     }
 
     private void bindView() {
+        ivAudio = findViewById(R.id.iv_audio);
         ivStar = findViewById(R.id.star_imageview);
         ivBack = findViewById(R.id.iv_back);
         tvTopicName = findViewById(R.id.tv_topic_name);

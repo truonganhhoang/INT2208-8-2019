@@ -202,6 +202,15 @@
                 app:layout_constraintTop_toTopOf="@+id/tv_origin"
                 app:srcCompat="@android:drawable/btn_star_big_off" />
 
+            <ImageView
+                android:id="@+id/iv_audio"
+                android:layout_width="28dp"
+                android:layout_height="22dp"
+                android:layout_marginStart="8dp"
+                app:layout_constraintStart_toEndOf="@+id/tv_pronun"
+                app:layout_constraintTop_toBottomOf="@+id/star_imageview"
+                app:srcCompat="@drawable/speaker" />
+
         </androidx.constraintlayout.widget.ConstraintLayout>
 
     </androidx.cardview.widget.CardView>
