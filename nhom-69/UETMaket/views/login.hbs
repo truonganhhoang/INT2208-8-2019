@@ -29,7 +29,7 @@
 </div>
 <div class="title1">
     <p title="Liên hệ" class="hotline">Hotline: <span style="color:#ffd633">0393457435</span></p>
-    <p> <a href="#" ><img title="trang chủ" src="img/icon5.png"> </a> VNU'S MARKET </span></p>
+    <p> <a href="http://localhost:3000" ><img title="trang chủ" src="img/icon5.png"> </a> VNU'S MARKET </span></p>
     <p title="giỏ hàng" class="icon2"> <a href="#" ><img src="img/hang.jpg"> </a></p>
     <p title="tài khoản" class="icon1"> <a href="login" ><img src="img/taikhoan1.jpg"> </a></p>
 </div>
@@ -61,28 +61,34 @@
       </div>
     </div>
     <div class="content">
-      <!--Đăng nhập-->
+      <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~Đăng nhập~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
       <div class="sign">
         <p id="sign">Đăng nhập tài khoản</p>
-        <p>Nếu bạn đã có tài khoản, đăng nhập tại đây</p>
-        <label style="padding-top: 40px;">Email *</label> </br>
-        <input type="email" id="email" placeholder="Email" /> </br>
-        <p style="padding-top: 20px;">Mật khẩu *</p> </br>
-        <input type="password" id="password" placeholder="Mật khẩu" /><br>
+        <p style="padding-bottom: 20px">Nếu bạn đã có tài khoản, đăng nhập tại đây</p>
+         {{# if messages}}
+            <div class="alert alert-danger" style="width:80%">
+              <p>{{messages}}</p>
+            </div>
+         {{/if}}
+        <form action="/signin" method="post">
+        <label>Email *</label> </br>
+        <input type="email" id="email" name="email" placeholder="Email" /> </br>
+        <label style="padding-top: 20px">Mật khẩu *</label> </br>
+        <input type="password" id="password" name="password" placeholder="Mật khẩu" /><br>
         <button style="color:white; margin-top:20px" type="submit"> Đăng nhập</button>
+         <input type="hidden" name="_csrf" value="{{ csrfToken }}">
+        </form>
       </div>
       <!--Đăng kí tài khoản-->
       <div class="sign">
-        <p id="sign">Đăng kí tài khoản</p>
-        <p style="padding-bottom: 40px">Vui lòng đăng kí tài khoản tại đây</p>
-          {{# if hasError}}
-            <div class="alert alert-danger">
-              {{# each message}}
-              <p>{{this}}</p>
-             {{/each}}
+        <p  id="sign">Đăng kí tài khoản</p>
+        <p style="padding-bottom: 20px">Vui lòng đăng kí tài khoản tại đây</p>
+       {{# if messages1}}
+            <div class="alert alert-danger" style="width:80%" >
+              <p>{{messages1}}</p>
             </div>
-          {{/if}}
-        <form action="/login" method="post">
+         {{/if}} 
+       <form action="/signup" method="post" style="margin:0px"> 
         <label>Họ *</label>
         <input type="text" placeholder="Họ" class="name" />
         <label style="margin-left: 100px">Tên *</label>
@@ -91,10 +97,10 @@
         <input type="email" id="email" name="email" placeholder="Email" /></br>
         <label style="padding-top: 20px">Mật khẩu *</label> </br>
         <input type="password" id="password" name="password" placeholder="Mật khẩu" /> <br>
-        <input type="hidden" name="_csrf" value="{{ csrfToken }}">
+         <input type="hidden" name="_csrf" value="{{ csrfToken }}">
         <button style="color:white; margin-top:20px" type="submit">Đăng kí </button>
-    
-     </form>
+   
+      </form>
       </div>
     </div>
     <!--Thông tin cuối page-->

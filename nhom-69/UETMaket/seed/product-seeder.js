@@ -1,7 +1,7 @@
 var Product= require('../models/product');
 var mongoose = require('mongoose');
 
-mongoose.connect('mongodb://localhost:27017/UETMarket', { useNewUrlParser: true });
+mongoose.connect('mongodb+srv://ThanhQuy:2911thanhquyxinhgai@cluster0-f5ii6.mongodb.net/test', { useNewUrlParser: true });
 
 // tạo 1 mảng đối tượng
 var products = [

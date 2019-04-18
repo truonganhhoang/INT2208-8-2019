@@ -242,6 +242,7 @@ div.cook {
 a.cook1 {
 	position: absolute;
 	right: 0px;
+	margin-left: 40px;
 }
 div.container {
 	position: relative;
@@ -323,3 +324,114 @@ img.MXH {
 img.MXH:hover {
 	background-color: #ffcc00;
 }
+.product-price{
+	float:left;
+	display:block;
+}
+.saleright{
+	border-top-left-radius: 0.4em;
+    border-top-right-radius: 0.4em;
+    border-bottom-right-radius: 0.4em;
+    border-bottom-left-radius: 0.4em;
+    float: none;
+    position: absolute;
+    background: #ffb400;
+    text-align: center;
+    top: 240px;
+    right: 20px;
+	z-index: 55;
+	color: white;
+	font-family:MYRIADPRO-SEMIBOLD;
+	font-weight: 70%;
+	padding: 5px;
+}
+.product-title{
+	text-decoration: none;
+	font-family:MYRIADPRO-SEMIBOLD;
+}
+.product-title :hover{
+	text-decoration: none;
+	font-family:MYRIADPRO-SEMIBOLD;
+	color:#ffb400;
+
+}
+
+.product h4 a{
+	color:black;
+}
+#evaluate-product{
+	position:relative;
+	height:12px;
+	float:right;
+	padding-top: 3px;
+}
+
+.old-price{
+	font-family:MYRIADPRO-SEMIBOLD;
+	font-size: 15px;
+    font-weight: 400;
+    padding-bottom: 2px;
+    color: #8c8c8c;
+    text-decoration: line-through;
+}
+.current-price{
+	font-family:MYRIADPRO-SEMIBOLD;
+	font-size: 15px;
+    font-weight: 500;
+    color: #e42a00;
+}
+.caption {
+	height: 100px;
+}
+/* dùng css để vẽ hình ngôi sao */
+.star-five {
+	margin: 5px 0;
+	position: relative;
+	display: block;
+	color: red;
+	width: 0px;
+	height: 0px;
+	border-right:  10px solid transparent;
+	border-bottom: 7px  solid yellow;
+	border-left:   10px solid transparent;
+	-moz-transform:    rotate(35deg);
+	-webkit-transform: rotate(35deg);
+	-ms-transform:     rotate(35deg);
+	-o-transform:      rotate(35deg);
+	float:left;
+ }
+ .star-five:before {
+	border-bottom: 8px solid yellow;
+	border-left: 3px solid transparent;
+	border-right: 3px solid transparent;
+	position: absolute;
+	height: 0;
+	width: 0;
+	top: -4.5px;
+	left: -6.5px;
+	display: block;
+	content: '';
+	-webkit-transform: rotate(-35deg);
+	-moz-transform:    rotate(-35deg);
+	-ms-transform:     rotate(-35deg);
+	-o-transform:      rotate(-35deg);
+  
+ }
+ .star-five:after {
+	position: absolute;
+	display: block;
+	color: yellow;
+	top: 0.3px;
+	left: -10.5px;
+	width: 0px;
+	height: 0px;
+	border-right: 10px solid transparent;
+	border-bottom: 7px solid yellow;
+	border-left: 10px solid transparent;
+	-webkit-transform: rotate(-70deg);
+	-moz-transform:    rotate(-70deg);
+	-ms-transform:     rotate(-70deg);
+	-o-transform:      rotate(-70deg);
+	content: '';
+ }
+ 

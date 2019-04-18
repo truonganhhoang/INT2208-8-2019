@@ -2,7 +2,7 @@ var moogoose = require('mongoose');
 var Customer= require('../models/customer');
 
 var customer= Customer();
-moogoose.connect('mongodb://localhost:27017/UETMarket', { useNewUrlParser: true });
+moogoose.connect('mongodb+srv://ThanhQuy:2911thanhquyxinhgai@cluster0-f5ii6.mongodb.net/test', { useNewUrlParser: true });
 var customers = [
     new Customer({
         id: 1,

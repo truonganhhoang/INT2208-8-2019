@@ -1,9 +1,10 @@
-var express = require('express');
+/*var express = require('express');
 var router = express.Router();
 var Product= require('../models/product');
 var Cart= require('../models/cart');
 
-/* GET home page. */
+
+/* GET home page. 
 router.get('/', function(req, res, next) {
   Product.find(function(err,docs){ // hàm trả về 1 biến lỗi và 1 biến kết quả
     var productinfo= [];
@@ -15,7 +16,6 @@ router.get('/', function(req, res, next) {
   });
   
 });
-
 router.get('/add-to-cart/:id', function(req, res, next) {
     var productId= req.params.id;
     x= req.session.cart ? 0 :1;
@@ -34,4 +34,4 @@ router.get('/add-to-cart/:id', function(req, res, next) {
 
 });
 
-module.exports = router;
+module.exports = router;*/
