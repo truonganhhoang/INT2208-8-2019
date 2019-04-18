@@ -4,7 +4,7 @@ div.mainhead {
 	padding:0px;
 	height:84px;
 }
-input {
+.headersearch > input {
 	border: 1px solid #ccccb3;
 	border-radius: 5px;
 	height: 50px;
@@ -51,7 +51,6 @@ p.hotline {
 div.list {
 	padding: 30px;
 	border-top: 0.5px ridge #ccccb3;
-	border-bottom: 0.5px ridge #ccccb3;
 	display: flex;
 	justify-content: center;
 
@@ -434,4 +433,55 @@ img.MXH:hover {
 	-o-transform:      rotate(-70deg);
 	content: '';
  }
- 
+ .title-profile {
+	 font-family: MYRIADPRO-COND;
+	 text-align: center;
+	 font-size: 320%;
+	padding: 10px;
+ }
+ .loginname {
+	color:white; 
+	margin-top:10px;
+	font-family:MYRIADPRO-SEMIBOLD;
+}
+input.logininput {
+	border-bottom: 1px solid;
+	border-top:none;
+	border-left: none;
+	border-right: none;
+	margin-top: 10px;
+	margin-bottom: 30px;
+	background-color: white;
+	width: 500px;
+	
+
+}
+input.logininput:focus {
+	border-bottom: 1px solid #ffcc00 ;
+	border-top:none;
+	border-left: none;
+	border-right: none;
+	outline: none;
+	background-color: white;
+	
+
+}
+.extra {
+	display: none;
+	max-width: 280px;
+	font-family:OCR A Std Regular;
+	font-size: 70%;
+}
+#password:focus ~ .extra  {
+	display: block;
+	margin-right: 5px;
+}
+.lable {
+	margin-left: 30%;
+	padding-right: 50px;
+}
+.listprofile {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}

@@ -23,10 +23,11 @@ passport.use('local.signup', new localStratepy({
         if(user) {
             return done(null, false,  {message:'Email đã được sử dụng, vui lòng chọn email khác'});
         }
-      
         var newUser= new User();
         newUser.email= email;
         newUser.password= newUser.encryptPass(password);
+        newUser.name= req.body.name;
+        newUser.number=req.body.number;
         newUser.save(function(err,result ) {
             if(err) { return done(err)}
             return done(null, newUser);

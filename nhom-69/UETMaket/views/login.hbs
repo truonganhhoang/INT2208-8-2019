@@ -71,11 +71,10 @@
             </div>
          {{/if}}
         <form action="/signin" method="post">
-        <label>Email *</label> </br>
-        <input type="email" id="email" name="email" placeholder="Email" /> </br>
-        <label style="padding-top: 20px">Mật khẩu *</label> </br>
-        <input type="password" id="password" name="password" placeholder="Mật khẩu" /><br>
-        <button style="color:white; margin-top:20px" type="submit"> Đăng nhập</button>
+        <input type="email" class="logininput" id="email" name="email" placeholder="Email" /> <br>
+        <input type="password" class="logininput" id="password" name="password" placeholder="Mật khẩu" />
+        <div class="extra"> Type 6 character or more </div> <br>
+        <button class="loginname" type="submit"> Đăng nhập</button>
          <input type="hidden" name="_csrf" value="{{ csrfToken }}">
         </form>
       </div>
@@ -89,16 +88,17 @@
             </div>
          {{/if}} 
        <form action="/signup" method="post" style="margin:0px"> 
-        <label>Họ *</label>
-        <input type="text" placeholder="Họ" class="name" />
-        <label style="margin-left: 100px">Tên *</label>
-        <input type="text" placeholder="Tên" class="name" /> </br>
-        <label  style="padding-top: 20px">Email *</label>  </br>
-        <input type="email" id="email" name="email" placeholder="Email" /></br>
-        <label style="padding-top: 20px">Mật khẩu *</label> </br>
-        <input type="password" id="password" name="password" placeholder="Mật khẩu" /> <br>
+       
+        <input type="text" class="logininput" placeholder="Your Name" class="name" id="name" name="name" />
+        
+        <input type="text" class="logininput" placeholder="Your Number" class="name" id="number" name="number" /> </br>
+      
+        <input type="email" class="logininput" id="email" name="email" placeholder="Your Email" /></br>
+        
+        <input type="password" class="logininput" id="password" name="password" placeholder="Your Password" /> <br>
+         <div class="extra"> Type 6 character or more </div> <br>
          <input type="hidden" name="_csrf" value="{{ csrfToken }}">
-        <button style="color:white; margin-top:20px" type="submit">Đăng kí </button>
+        <button class="loginname" type="submit">Đăng kí </button>
    
       </form>
       </div>

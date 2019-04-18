@@ -13,7 +13,9 @@ var csrfProtection = csrf({ cookie: true });
 var parseForm = bodyParser.urlencoded({ extended: false });
 
 // load login
+
 router.get('/login', csrfProtection, function(req, res, next) {
+
   res.render("login",{csrfToken: req.csrfToken() }) ;
 });
 // load khi đăng nhập thành công
@@ -28,7 +30,7 @@ passport.authenticate('local.signup',function(err, user, info) {
   if (!user) { //ko có user tồn tại trả về
     return res.status(409).render('login', {csrfToken: req.csrfToken(),messages1: info.message}); // khi mà có user tồn tại
   }
-  return res.status(302).redirect('/ok'); // đúng thì chuyển hướng
+  return res.status(302).render('loginOK', {number: req.body.number,name: req.body.name,email: req.body.email}); // đúng thì chuyển hướng
 
 })(req, res, next);
 });
@@ -40,7 +42,7 @@ router.post('/signin',  parseForm, csrfProtection,function(req, res, next) {
     if (!user) {
       return res.status(409).render('login', {csrfToken: req.csrfToken(),messages: info.message}); // khi mà có user tồn tại, tạo csrf mới
     }
-    return res.status(302).redirect('/ok'); // đúng thì chuyển hướng
+    return res.status(302).redirect('/'); // đúng thì chuyển hướng
   })(req, res, next);
   });
 
@@ -51,7 +53,7 @@ router.post('/signin',  parseForm, csrfProtection,function(req, res, next) {
       for(var i=0;i<docs.length;i+= numerinfor) {
         productinfo.push(docs.slice(i,i+numerinfor));
       }
-      res.render('Mainpage', { title: 'UETMarket', products: productinfo });
+      res.render('Mainpage', { title: 'UETMarket', products: productinfo});
     });
     
   });
