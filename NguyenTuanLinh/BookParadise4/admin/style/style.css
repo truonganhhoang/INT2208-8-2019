@@ -1,0 +1,70 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+    padding: 0;
+    margin: 0;
+}
+table{
+    border-collapse: collapse !important;
+}
+.wrapper{
+    width: 90%;
+    height: auto;
+    border: 1px solid #000000;
+    margin: auto;
+}
+.header{
+    width: 100%;
+    height: 120px;
+    border: 1px solid #000000;
+}
+.menu{
+    width: 100%;
+    height: 40px;
+    border: 1px solid #000000;
+}
+.menu ul{
+    width: 100%;
+    height: 40px;
+    list-style: none;
+}
+.menu ul li{
+    width: auto;
+    float: left;
+    height: 40px;
+    line-height: 40px;
+    margin-right: 20px;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: #000000;
+}
+.menu a:hover{
+    color: #930;
+}
+.left{
+    width: auto;
+    height: auto;
+    border: 1px solid #000;
+    float: left;
+}
+.right{
+    width: auto;
+    height: auto;
+    border: 1px solid #000;
+    float: left;
+    margin-left: 10px;
+}
+.content{
+    width: 100%;
+    height: auto;
+    border: 1px solid #000000;
+}
+.clear{
+    clear: both;
+}
+.footer{
+    width: 100%;
+    height: 80px;
+    border: 1px solid #000000;
+}
