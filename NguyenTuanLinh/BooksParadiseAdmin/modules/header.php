@@ -8,30 +8,27 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
               <li class="nav-item active">
-                <a class="nav-link" href="index.php">Trang chủ<span class="sr-only">(current)</span></a>
-              </li>
-              <li class="nav-item">
                 <a class="nav-link" href="index.php?quanly=chitietsach">Sách</a>
               </li>
-              <li class="nav-item">
+              <li class="nav-item active">
                 <a class="nav-link" href="index.php?quanly=theloaisach">Thể loại</a>
               </li>
             </ul>
             <ul class="navbar-nav ml-lg-auto">
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Tài Khoản</a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                      <a class="dropdown-item" href="#">Tài khoản</a>
-                      <a class="dropdown-item" href="#">Đăng nhập</a>
-                      <div class="dropdown-divider"></div>
-                      <a class="dropdown-item" href="#">Đăng xuất</a>
-                    </div>
-                </li>
                 <form class="form-inline my-2 my-lg-0">
-                  <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                  <button class="btn btn-primary my-2 my-sm-0" type="submit">Search</button>
+                  <input class="form-control mr-sm-2" type="search" placeholder="Nhập từ tìm kiếm..." aria-label="Search">
+                  <button class="btn btn btn-info my-2 my-sm-0" type="submit">Tìm kiếm</button>
+                </form>
+                <form action="" method="post">
+                    <input type="submit" class="btn btn-info" value="Thoát" name="out" style="margin-left: 10px">
                 </form>
             </ul>
         </div>
     </nav>
 </header>
+<?php
+    if (isset($_POST['out'])){
+        session_destroy();
+        header('location:index.php');
+    }
+?>

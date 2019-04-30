@@ -23,7 +23,7 @@
                                         <input type="file" class="form-control-file" name="hinhanh">
                                     </div>
                                     <div class="col-md-6">
-                                        <img src="modules/chitietsach/uploads/<?php echo $dong['hinhanh'] ?>" width="40" height="auto">
+                                        <img src="modules/chitietsach/uploads/<?php echo $dong['hinhanh'] ?>" width="30" height="auto">
                                     </div>
                                 </div>
                                 <label class="col-form-label">Tác giả:</label>

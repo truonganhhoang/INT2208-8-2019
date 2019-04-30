@@ -11,8 +11,17 @@
 
 <body>
     <?php
+        session_start();
+        if (!isset($_SESSION['dangnhap'])){
+            header('location:login.php');
+        }
+    ?>
+    <?php
         include('modules/config.php');
         include('modules/header.php');
+        if(!isset ($_GET['quanly'])){
+            header('location:index.php?quanly=chitietsach');
+        }
         include('modules/content.php');
     ?>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
