@@ -9,37 +9,43 @@ var products = [
         imagePath : "img/nhabep.jpg",
         name: "Jimin",
         description : "ca sĩ hàn quốc" ,
-        price : 200
+        price : 200,
+        group: 'Cook'
     }),
     new Product( {
         imagePath : "img/nhabep.jpg",
         name: "Jimin",
         description : "ca sĩ hàn quốc" ,
-        price : 200
+        price : 200,
+        group: 'Cook'
     }),
     new Product( {
-        imagePath : "img/nhabep.jpg",
+        imagePath : "img/dodandung3.jpg",
         name: "Jimin",
         description : "ca sĩ hàn quốc" ,
-        price : 200
+        price : 200,
+        group: 'house'
     }),
     new Product( {
-        imagePath : "img/nhabep.jpg",
+        imagePath : "/img/dodandung3.jpg",
         name: "Jimin",
         description : "ca sĩ hàn quốc" ,
-        price : 200
+        price : 200,
+        group: 'house'
     }),
     new Product( {
-        imagePath : "img/nhabep.jpg",
+        imagePath : "img/dodandung3.jpg",
         name: "Jimin",
         description : "ca sĩ hàn quốc" ,
-        price : 200
+        price : 200,
+        group: 'house'
     }),
     new Product( {
-        imagePath : "img/nhabep.jpg",
+        imagePath : "img/thucpham3.jpg",
         name: "Jimin",
         description : "ca sĩ hàn quốc" ,
-        price : 200
+        price : 200,
+        group: 'food'
     })
 ];
 var done=0;

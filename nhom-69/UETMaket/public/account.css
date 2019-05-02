@@ -34,12 +34,14 @@ input.input1 {
     height: 50px;
     width: 600px;
     float:right;
-    padding: 0px;
+	padding: 0px;
+	outline: none;
  
 }
 input.input1:focus {
     height: 50px;
-    width: 600px;
+	width: 600px;
+	outline: none;
  
 }
 p.icon1 {
@@ -63,12 +65,14 @@ div.list {
 }
 div.title1 {
 	border-top: 0.5px ridge #ccccb3;
+	
+	
+}
+p.maintitle {
 	font-family: Nixmat;
 	text-align: center;
-	font-size: 200%;
 	padding-top: 30px;
 	padding-bottom: 20px;
-
 }
 p.hotline {
 	font-family:MYRIADPRO-COND;
@@ -290,6 +294,7 @@ input.logininput:focus {
 	font-size: 70%;
 }
 #password:focus ~ .extra  {
-	display: block;
+	display: inline;
 	margin-right: 5px;
 }
+  

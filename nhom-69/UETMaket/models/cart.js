@@ -11,9 +11,15 @@ module.exports= function Cart(oldcart) {
         productItem.qty++;
         productItem.price=  productItem.item.price * productItem.qty;
         this.totalQty++;
-        this.totalPrice+= productItem.price;
+        this.totalPrice+= productItem.item.price;
 
     };
+    this.reduceOne= function(id) {
+        this.items[id].qty--;
+        this.items[id].price -= this.items.item.price;
+        
+
+    }
     this.generrateArray = function() {
         var arr=[];
         for( var id in this.items) {

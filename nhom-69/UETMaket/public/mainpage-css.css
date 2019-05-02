@@ -12,7 +12,7 @@ div.mainhead {
 	float: right;
 	margin-left: 150px;
 	font-size: 100%;
-	font-family:MYRIADPRO-SEMIBOLD;
+	outline: none;
 
 }
 @font-face {
@@ -34,12 +34,31 @@ div.mainhead {
 
 div.title1 {
 	border-top: 0.5px ridge #ccccb3;
+	
+	
+}
+p.maintitle {
 	font-family: Nixmat;
 	text-align: center;
 	font-size: 200%;
 	padding-top: 30px;
 	padding-bottom: 20px;
-
+}
+p.maintitle2 {
+	font-family: Nixmat;
+	text-align: center;
+	font-size: 100%;
+	padding-top: 30px;
+	padding-bottom: 20px;
+}
+p.maintitle1 {
+	font-family: Nixmat;
+	text-align: center;
+	font-size: 200%;
+	padding-top: 30px;
+	padding-bottom: 20px;
+	color: white;
+	border-bottom: 0.5px ridge #ccccb3;
 }
 p.hotline {
 	font-family:MYRIADPRO-COND;
@@ -47,6 +66,7 @@ p.hotline {
 	position: absolute;
 	top: 80px;
 	left: 0px;
+	font-size: 200%;
 }
 div.list {
 	padding: 30px;
@@ -96,18 +116,8 @@ ul.Mainlist li a:hover {
 img.center:hover  {
 	opacity: 0.5;	
 }
-p.icon1 {
-	position: absolute;
-	right: 10px;
-	top:155px;
-	padding: 10px;
-}
-p.icon2 {
-	position: absolute;
-	right: 70px;
-	top: 155px;
-	padding: 10px;
-}
+
+
 .g-list {
 	position: relative;
 }
@@ -313,7 +323,7 @@ div.address {
 	text-align: center;
 	font-family: MYRIADPRO-BOLDIT;
 	font-weight: bold;
-
+	color:rgb(151, 147, 140);
 	
 }
 img.MXH {
@@ -473,7 +483,7 @@ input.logininput:focus {
 	font-size: 70%;
 }
 #password:focus ~ .extra  {
-	display: block;
+	display: inline;
 	margin-right: 5px;
 }
 .lable {
@@ -485,3 +495,66 @@ input.logininput:focus {
 	flex-direction: column;
 	align-items: center;
 }
+.dropbtn {
+	
+	background-color: white;
+	color: white;
+	border: none;
+	cursor: pointer;
+	
+	
+  }
+  
+  .dropdown {
+	position: relative;
+	margin-left: 1200px;
+	display: inline;
+  }
+  
+  .dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #f9f9f9;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+	right:10px;
+  }
+  
+  .dropdown-content a {
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #f1f1f1; text-decoration: none;}
+  
+  .dropdown:hover .dropdown-content {
+	display: block;
+  }
+  
+  .dropdown:hover .dropbtn {
+	background-color: white;
+	}
+	.button-cart {
+
+			background-color:#ffcc00 ;
+			border: none;
+			color: white;
+			padding: 10px 23px;
+			text-align: center;
+			text-decoration: none;
+			display: inline-block;
+			font-size: 15px;
+			margin: 4px 2px;
+			cursor: pointer;
+			-webkit-transition-duration: 0.4s; /* Safari */
+			transition-duration: 0.4s;
+			border-radius: 7px;
+			font-family: MYRIADPRO-SEMIBOLD;
+			
+	}
+	.button-cart:hover {
+		box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+	}

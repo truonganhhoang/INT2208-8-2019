@@ -16,13 +16,12 @@ var validator= require('express-validator');
 
 
 var usersRouter = require('./routes/users');
-var loginRouter= require('./routes/login');
-var ListRouter= require('./routes/product-list')
+var Router= require('./routes/router');
 var HBSexpress= require('express-handlebars');
 var MongoStore= require('connect-mongo')(session);
 //var csrfProtection = csrf({ cookie: true })
 //var parseForm = bodyParser.urlencoded({ extended: false })
-var urlencodedParser = bodyParser.urlencoded({ extended: false });
+var urlencodedParser = bodyParser.urlencoded({ extended: true });
 var app = express();
 
 mongoose.connect('mongodb+srv://ThanhQuy:2911thanhquyxinhgai@cluster0-f5ii6.mongodb.net/test', /* từ phiên bản >= 3.0 */ { useNewUrlParser: true });
@@ -42,9 +41,8 @@ app.use(cookieParser());
 app.use(session({ // bắt buộc sau body và cookie: là 1 phiên llamf việc
   secret:"Super secret",
   resave: false,
-  saveUninitialized: true,
+  saveUninitialized: false,
   store: new MongoStore ({mongooseConnection: mongoose.connection }),
-  cookie: { secure:true }
 }));
 app.use(flash());
 
@@ -58,9 +56,15 @@ app.use(passport.session()) // lấy thông tin user gán vào req.user
 app.use(express.urlencoded({ extended: false }));
 app.use(express.json());
 app.use(express.static(path.join(__dirname, 'public')));
+
+app.use(function(req, res, next) {
+  res.locals.login=req.isAuthenticated();
+  res.locals.session= req.session;
+  next();
+})
 app.use('/users', usersRouter);
-app.use('/', loginRouter);
-app.use('/list', ListRouter);
+app.use('/', Router);
+
 
 
 app.use(function(req, res, next) {

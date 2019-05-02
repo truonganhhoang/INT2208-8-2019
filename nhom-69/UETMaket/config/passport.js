@@ -23,14 +23,18 @@ passport.use('local.signup', new localStratepy({
         if(user) {
             return done(null, false,  {message:'Email đã được sử dụng, vui lòng chọn email khác'});
         }
+        if(req.body.password.length<6) {
+            return done(null, false,  {message:'Mật khẩu phải dài hơn 6 kí tự'});
+        }
         var newUser= new User();
         newUser.email= email;
         newUser.password= newUser.encryptPass(password);
         newUser.name= req.body.name;
         newUser.number=req.body.number;
+        message='';
         newUser.save(function(err,result ) {
             if(err) { return done(err)}
-            return done(null, newUser);
+            return done(null, newUser,{name:req.body.name , number:req.body.number});
         })
     })
 }));
@@ -44,9 +48,9 @@ passport.use('local.signin', new localStratepy({
     User.findOne({'email': email}, function(err, user) {
         if(err) {    console.log('err'); return done(err)};
         if(!user) {   console.log('1'); return done(null, false, { message:'Tài khoản đăng nhập không tồn tai xin vui lòng thử lại.'})};
-        if(!user.validPass(password)) {   console.log('2');return done(null, false,  {message:'Mật khẩu không hợp lệ'})};
-        console.log('ok');
-        return(done(null, user));
+        if(!user.validPass(password)) { return done(null, false,  {message:'Mật khẩu không hợp lệ'})};
+        
+        return(done(null, user, {name: user.name, number:user.number}));
         
     })
 }))
