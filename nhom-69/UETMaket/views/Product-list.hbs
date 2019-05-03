@@ -10,33 +10,32 @@
     <link rel="stylesheet" type="text/css" href="style_page_search.css" />
 	<link rel="stylesheet" href="bootstrap-4.3.1-dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-
     <link href='http://fonts.googleapis.com/css?family=Raleway:400,800,500,600' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="HoverEffectIdeas-master/css/set1.css" />
-		<link rel="stylesheet" type="text/css" href="HoverEffectIdeas-master/fonts/font-awesome-4.2.0/css/font-awesome.min.css" />
     <script src="jquery.js"></script>
     <script src="mainpage-js.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-	 <script type="text/javascript" src="JavaScript/jquery-ui-1.12.1/jquery-ui.js"></script>
+	
     <script type="text/javascript" src="JavaScript/events.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-    <script src="bootstrap-4.3.1-dist/js/bootstrap.min.js"></script>
+   
 
     <title>VNU's MARKET</title>
 </head>
 <body> 
-    <header>
+  <header>
     <div class="mainhead">
-    <form>
+    <form class="headersearch">
         <input title="tìm kiếm sản phẩm" type="text" placeholder="Bạn muốn tìm gì?"> 
+    
     </form>
 </header>
+
 <div class="title1">
     <p title="Liên hệ" class="hotline">Hotline: <span style="color:#ffd633">0393457435</span></p>
-    <p class="maintitle2"> <a href="http://localhost:3000" ><img title="trang chủ" src="img/icon5.png"> </a>VNU'S MARKET </p>
-    
-<div class="dropdown">
+    <p class="maintitle"> <a href="/" ><img title="trang chủ" src="img/icon5.png"> </a>VNU'S MARKET </p>
+   
+ <!--   <p title="tài khoản" class="icon1"> <a href="Login" ><img src="img/taikhoan1.jpg"> </a></p> -->
+ <div class="dropdown">
   <button class="dropbtn"><img src="img/taikhoan1.jpg"></button>
   <div class="dropdown-content">
   <a href="Login">Tài khoản</a>
@@ -47,7 +46,7 @@
   <a href="logout">Đăng xuất</a>
   </div>
     </div>
- {{# if name}}
+    {{# if name}}
     <p style="display:inline;font-family:Florence, cursive "> {{name}}</p>
     {{else}}
     <p style="display:inline;font-family:Florence, cursive "> &#8592;Mua ngay</p>
@@ -55,7 +54,7 @@
 </div>
     <div class="list">
         <ul class="Mainlist"> 
-            <li> <a href="#" >Trang chủ</a></li>
+            <li> <a href="/" >Trang chủ</a></li>
             <li> <a href="#" >Giới thiệu</a></li>
             <li> <div class="g-list" >
                     <a class="content-drop" href="#" > Sản phẩm </a> 
@@ -73,7 +72,6 @@
             <li> <a href="#" >Liên hệ </a></li>
         </ul>
     </div>
-  </div>
    <div id="option">
     	<a href="Demo-Web.html" style="margin-left:30px;padding:2px"> Trang chủ </a>
         <span> /  Sản phẩm nổi bật </span> 
@@ -395,12 +393,12 @@
 	</br>
  <div class="foot">
     <div class="title1">
-      <p style="color:white; padding: 10px; border-bottom: 0.2px ridge #ccccb3; "> VNU'S MARKET </p> 
+      <p class="maintitle1" > VNU'S MARKET </p> 
     </div>
     <div class="address">
       ĐỊA CHỈ <br>
       TRƯỜNG ĐẠI HỌC CÔNG NGHỆ-ĐẠI HỌC QUỐC GIA HÀ NỘI <br>
-      144-Xuân Thủy Cầu Giấy Hà Nội <br>
+      144-Xuân Thủy Cầu Giấy Hà Nội {{imgpath}} <br>
       <div style="float:center; padding:20px">
         <img title="facebook" class="MXH" src="img/facebook.png">
         <img title="twitter" class="MXH" src="img/tweet.png">

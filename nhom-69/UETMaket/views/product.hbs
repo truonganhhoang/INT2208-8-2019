@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-    <head><title>Mẫu trang sản phẩm không thể bỏ qua bằng CSS3 và jQuery</title>
+    <head><title>Chi tiết mặt hàng</title>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<meta name="viewport" content="width=device-width,initial-scale=1" />
     <link rel="stylesheet" type="text/css" href="demo.css" media="all" />
@@ -25,7 +25,7 @@
 
 <div class="title1">
     <p title="Liên hệ" class="hotline">Hotline: <span style="color:#ffd633">0393457435</span></p>
-    <p class="maintitle"> <a href="http://localhost:3000" ><img title="trang chủ" src="img/icon5.png"> </a>VNU'S MARKET </p>
+    <p class="maintitle"> <a href="/" ><img title="trang chủ" src="img/icon5.png"> </a>VNU'S MARKET </p>
    
  <!--   <p title="tài khoản" class="icon1"> <a href="Login" ><img src="img/taikhoan1.jpg"> </a></p> -->
  <div class="dropdown">
@@ -47,7 +47,7 @@
 </div>
     <div class="list">
         <ul class="Mainlist"> 
-            <li> <a href="#" >Trang chủ</a></li>
+            <li> <a href="/" >Trang chủ</a></li>
             <li> <a href="#" >Giới thiệu</a></li>
             <li> <div class="g-list" >
                     <a class="content-drop" href="#" > Sản phẩm </a> 
@@ -69,9 +69,9 @@
 
       <!-- Left Column / Headphones Image -->
       <div class="left-column">
-        <img data-image="black" src="img/nhabep.jpg" alt="">
-        <img data-image="blue" src="img/nhabep.jpg" alt="">
-        <img data-image="red" class="active" src="img/nhabep.jpg" alt="">
+        <img data-image="black" src="{{imgpath}}" alt="">
+        <img data-image="blue" src="{{imgpath}}" alt="">
+        <img data-image="red" class="active" src="{{imgpath}}" alt="">
       </div>
 
 
@@ -126,7 +126,7 @@
         <!-- Product Pricing -->
         <div class="product-price">
           <span>148$</span>
-          <a href="#" class="cart-btn">Add to cart</a>
+           <a href="/add-to-cart/{{id}}" class="cart-btn">Add to cart</a>
         </div>
       </div>
 </main>
@@ -155,7 +155,7 @@
     <div class="address">
       ĐỊA CHỈ <br>
       TRƯỜNG ĐẠI HỌC CÔNG NGHỆ-ĐẠI HỌC QUỐC GIA HÀ NỘI <br>
-      144-Xuân Thủy Cầu Giấy Hà Nội <br>
+      144-Xuân Thủy Cầu Giấy Hà Nội {{imgpath}} <br>
       <div style="float:center; padding:20px">
         <img title="facebook" class="MXH" src="img/facebook.png">
         <img title="twitter" class="MXH" src="img/tweet.png">

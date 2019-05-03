@@ -12,10 +12,19 @@ var Cart= require('../models/cart');
 
 var csrfProtection = csrf({ cookie: true });
 var parseForm = bodyParser.urlencoded({ extended: false });
-var name='', email='',number='';
+var name='', email='',number='', idPro='';
 // load login
+router.get('/find/:id', function(req, res, next) {
+  var {id}= req.params;
+   Product.findById(id, function(err, product) {
+    if(err) {return res.redirect('/');}
+    idPro= product;
+    res.redirect('/product');
+})
+})
+
 router.get('/product', function(req, res, next) {
-  res.render('product');
+    res.render('product', {imgpath: idPro.imagePath, id: idPro.id});
 })
 var messages='', messages1='';
 router.post('/signup',  parseForm, csrfProtection,function(req, res, next) {
@@ -28,7 +37,7 @@ passport.authenticate('local.signup',function(err, user, info) {
   if (!user) { return res.redirect('/login'); }
   req.logIn(user, function(err) {
     if (err) { return next(err); }
-    return res.redirect('/ok');
+    return res.redirect('/profile');
   });
 })(req, res, next);
 });
@@ -42,7 +51,7 @@ router.post('/signin', function(req, res, next) {
     if (!user) { return res.redirect('/login'); }
     req.logIn(user, function(err) {
       if (err) { return next(err); }
-      return res.redirect('/ok');
+      return res.redirect('/profile');
     });
   })(req, res, next);
 
@@ -80,7 +89,7 @@ router.get('/list', function(req, res, next) {
   res.render("login",{title: "Login",csrfToken: req.csrfToken(),messages1: messages1,messages: messages,name:name }) ;
 });
 // load khi đăng nhập thành công
-router.get('/ok',Isloggin, csrfProtection, function(req, res, next) {
+router.get('/profile',Isloggin, csrfProtection, function(req, res, next) {
   
   res.render("loginOk",{title: "Your profile",name:name, number:number, email: email}) ;
 });
@@ -101,7 +110,7 @@ router.get('/ok',Isloggin, csrfProtection, function(req, res, next) {
         res.redirect('/');
   })
 
-  router.get('/add-to-cart/:id', function(req, res, next) {
+  router.get('/add-to-cart/:id',Isloggin, function(req, res, next) {
       var productId= req.params.id;
       var x= req.session.cart ? 'có' :'chưa có';
       console.log(x);
@@ -114,7 +123,7 @@ router.get('/ok',Isloggin, csrfProtection, function(req, res, next) {
         cart.add(product, product.id); // add sản phẩm vs id đó theo hàm add trong cart.js
         req.session.cart=cart; // gán danh sách sản phẩm chọn của phiên làm việc này là cart
         console.log(req.session.cart);
-        res.redirect('/'); // chuyển hướng
+        res.redirect('/cart'); // chuyển hướng
       });
   
   });
@@ -132,17 +141,31 @@ router.get('/ok',Isloggin, csrfProtection, function(req, res, next) {
   router.post('/check-ok', function(req, res, next) {
     res.send(req.body.address);
   })
+  router.get('/reduce/:id', function(req, res, next) {
+    var {id}= req.params;
+    var cart= new Cart(req.session.cart ? req.session.cart : {} );
+    cart.reduceOne(id);
+    req.session.cart= cart;
+    res.redirect("/cart");
+  })
+  router.get('/remove/:id', function(req, res, next) {
+    var {id}= req.params;
+    var cart= new Cart(req.session.cart ? req.session.cart : {} );
+    cart.remove(id);
+    req.session.cart= cart;
+    res.redirect("/cart");
+  })
 module.exports = router;
 function Isloggin(req, res, next){
     if(req.isAuthenticated()) {
      return next();
     }
    // res.redirect("/");
-   else {res.redirect("/");}
+   else {res.redirect("/login");}
 }
 function Isnotloggin(req, res, next){
   if(!req.isAuthenticated()) {
    return next();
   }
-  res.redirect("/ok");
+  res.redirect("/profile");
 }

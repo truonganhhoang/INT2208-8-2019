@@ -15,9 +15,24 @@ module.exports= function Cart(oldcart) {
 
     };
     this.reduceOne= function(id) {
-        this.items[id].qty--;
-        this.items[id].price -= this.items.item.price;
         
+        this.items[id].qty--;
+        this.items[id].price -= this.items[id].item.price;
+        this.totalQty--;
+        this.totalPrice -=this.items[id].item.price;
+        if(this.items[id].qty <=0) {
+            delete this.items[id];
+
+        }
+        if(this.totalQty<0) {this.totalQty=0}
+    }
+
+
+    this.remove= function(id) {
+        this.totalQty-=this.items[id].qty ;
+        this.totalPrice-=  this.items[id].price;
+        delete this.items[id];
+        if(this.totalQty<0) {this.totalQty=0}
 
     }
     this.generrateArray = function() {

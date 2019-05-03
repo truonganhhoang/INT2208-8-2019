@@ -28,7 +28,7 @@
 
 <div class="title1">
     <p title="Liên hệ" class="hotline">Hotline: <span style="color:#ffd633">0393457435</span></p>
-    <p class="maintitle"> <a href="http://localhost:3000" ><img title="trang chủ" src="img/icon5.png"> </a>VNU'S MARKET </p>
+    <p class="maintitle"> <a href="/" ><img title="trang chủ" src="img/icon5.png"> </a>VNU'S MARKET </p>
 <div class="dropdown">
     <button class="dropbtn"><img src="img/taikhoan1.jpg"></button>
     <div class="dropdown-content">
@@ -40,17 +40,22 @@
     <a href="logout">Đăng xuất</a>
     </div>
 </div>
-  <p style="display:inline;font-family:Florence, cursive "> {{name}}</p>
+  {{# if name}}
+    <p style="display:inline;font-family:Florence, cursive "> {{name}}</p>
+    {{else}}
+    <p style="display:inline;font-family:Florence, cursive "> &#8592;Mua ngay</p>
+    {{/if}}
 </div>
     <div class="list">
         <ul class="Mainlist"> 
-            <li> <a href="#" >Trang chủ</a></li>
+            <li> <a href="/" >Trang chủ</a></li>
             <li> <a href="#" >Giới thiệu</a></li>
             <li> <a href="#" > Sản phẩm </a> </li>
             <li><a  href="#">Tin tức</a></li>
             <li> <a href="#" >Liên hệ </a></li>
         </ul>
     </div>
+    <br>
     <div class="row">
     <div class="col-sm-6 col-md-6 col-md-offset-3 col-sm-offset-3">
     <strong>Khách hàng : {{name}}</strong>
@@ -67,8 +72,8 @@
             <span style="margin-left:130px" >{{this.qty}}</span>
              <span  style="margin-left:50px;margin-right:50px" >{{this.price}}</span>
          
-            <button class="button-cart">remove</button>
-             <button class="button-cart">reduce 1</button>
+            <a href="/remove/{{this.item._id}}" ><button class="button-cart">remove</button></a>
+            <a href="/reduce/{{this.item._id}}"><button class="button-cart">reduce 1</button></a>
             </li>
             {{/each}}
         </ul>
