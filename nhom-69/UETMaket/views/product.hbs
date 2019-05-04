@@ -6,7 +6,7 @@
     <link rel="stylesheet" type="text/css" href="demo.css" media="all" />
     <link href='http://fonts.googleapis.com/css?family=Roboto:400,700,500' rel='stylesheet' type='text/css'>
     <link rel='stylesheet prefetch' href='//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css'>
-    <link rel="icon" href="http://www.thuthuatweb.net/wp-content/themes/HostingSite/favicon.ico" type="image/x-ico"/>
+    <link rel="icon" href="img/icon5.ico" type="image/x-ico"/>
     <link rel="stylesheet" href="mainpage-css.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
     <script src="jquery.js"></script>
@@ -80,9 +80,9 @@
 
         <!-- Product Description -->
         <div class="product-description">
-          <span>Headphones</span>
-          <h1>Beats EP</h1>
-          <p>The preferred choice of a vast range of acclaimed DJs. Punchy, bass-focused sound and high isolation. Sturdy headband and on-ear cushions suitable for live performance</p>
+          <span></span>
+          <h1>{{namepro}}</h1>
+          <p>{{des}}</p>
         </div>
 
         <!-- Product Configuration -->
@@ -111,21 +111,19 @@
 
           <!-- Cable Configuration -->
           <div class="cable-config">
-            <span>Cable configuration</span>
+            <span>Chất lượng</span>
 
             <div class="cable-choose">
-              <button>Straight</button>
-              <button>Coiled</button>
-              <button>Long-coiled</button>
+              <button>Trung bình</button>
+              <button>Nét</button>
+              <button>Cực nét</button>
             </div>
-
-            <a href="#">How to configurate your headphones</a>
           </div>
         </div>
 
         <!-- Product Pricing -->
         <div class="product-price">
-          <span>148$</span>
+          <span>{{price}}.000đ</span>
            <a href="/add-to-cart/{{id}}" class="cart-btn">Add to cart</a>
         </div>
       </div>
@@ -147,7 +145,9 @@
   });
 
 });
-</script>   
+</script>  
+<br>
+<br> 
  <div class="foot">
     <div class="title1">
       <p class="maintitle1" > VNU'S MARKET </p> 

@@ -24,7 +24,7 @@ router.get('/find/:id', function(req, res, next) {
 })
 
 router.get('/product', function(req, res, next) {
-    res.render('product', {imgpath: idPro.imagePath, id: idPro.id});
+    res.render('product', {imgpath: idPro.imagePath, id: idPro.id, namepro: idPro.name, des: idPro.description, price: idPro.price});
 })
 var messages='', messages1='';
 router.post('/signup',  parseForm, csrfProtection,function(req, res, next) {

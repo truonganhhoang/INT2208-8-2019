@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" href="img/icon5.ico" type="image/x-ico"/>
     <link rel="stylesheet" href="mainpage-css.css">
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
@@ -95,7 +96,7 @@
           </div>
     <div class="smallmaingood">
         
-        <a title="trang chủ" class="choose" href="#" >Trang chủ</a>
+        <a title="trang chủ" class="choose" href="/" >Trang chủ</a>
         <a title="giới thiệu" class="choose" href="#" > Giới thiệu </a>
        <a title="sản phẩm" class="choose" href="#" > Sản phẩm   </a>
        <a title="Tin tức" class="choose" href="#" >Tin tức</a>
@@ -222,14 +223,14 @@
                             <img src="{{this.imagePath}}" alt="Lights" style="width:100%">
                             <div class="caption">
                               	<p class="product-title">
-                        		<a href="/find/{{this.id}}" title="Lò nướng Calibe 30 inch">Lò nướng Caliber 30 inch</a>
+                        		<a href="/find/{{this.id}}" title="{{this.name}}">{{this.name}}</a>
                         	      </p>
                               <div class="product-price">
-                        		<span class="old-price">12.000.000₫</span><br />
-                            	<span class="current-price">9.990.000₫</span>
+                        		<span class="old-price">{{this.price}}.000₫</span><br />
+                            	<span class="current-price">{{this.price}}.000₫</span>
                         	</div>
                           <div class="saleright">
-								          <span>-17%</span>
+								          <span>-0%</span>
 							              </div>
                         <br>
                         <div id="evaluate-product">
@@ -246,6 +247,7 @@
                           </a>
                         </div>
                       </div>
+        
                    {{/each}}     
             </div>
           
@@ -394,14 +396,14 @@
                             <img src="{{this.imagePath}}" alt="Lights" style="width:100%">
                             <div class="caption">
                               	<p class="product-title">
-                        		<a href="find/{{this.id}}" title="Lò nướng Calibe 30 inch">Lò nướng Caliber 30 inch</a>
+                        		<a href="find/{{this.id}}" title="{{this.name}}">{{this.name}}</a>
                         	      </p>
                               <div class="product-price">
-                        		<span class="old-price">12.000.000₫</span><br />
-                            	<span class="current-price">9.990.000₫</span>
+                        		<span class="old-price">{{this.price}}.000₫</span><br />
+                            	<span class="current-price">{{this.price}}.000₫</span>
                         	</div>
                           <div class="saleright">
-								          <span>-17%</span>
+								          <span>-0%</span>
 							              </div>
                         <br>
                         <div id="evaluate-product">
@@ -561,14 +563,14 @@
                             <img src="{{this.imagePath}}" alt="Lights" style="width:100%">
                             <div class="caption">
                               	<p class="product-title">
-                        		<a href="find/{{this.id}}" title="Lò nướng Calibe 30 inch">Lò nướng Caliber 30 inch</a>
+                        		<a href="find/{{this.id}}" title="{{this.name}}">{{this.name}}</a>
                         	      </p>
                               <div class="product-price">
-                        		<span class="old-price">12.000.000₫</span><br />
-                            	<span class="current-price">9.990.000₫</span>
+                        		<span class="old-price">{{this.price}}.000₫</span><br />
+                            	<span class="current-price">{{this.price}}.000₫</span>
                         	</div>
                           <div class="saleright">
-								          <span>-17%</span>
+								          <span>-0%</span>
 							              </div>
                         <br>
                         <div id="evaluate-product">
