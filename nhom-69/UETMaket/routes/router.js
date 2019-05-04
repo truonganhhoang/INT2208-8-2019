@@ -12,7 +12,7 @@ var Cart= require('../models/cart');
 
 var csrfProtection = csrf({ cookie: true });
 var parseForm = bodyParser.urlencoded({ extended: false });
-var name='', email='',number='', idPro='';
+var name='', email='',number='', idPro='', namead='';
 // load login
 router.get('/find/:id', function(req, res, next) {
   var {id}= req.params;
@@ -155,6 +155,31 @@ router.get('/profile',Isloggin, csrfProtection, function(req, res, next) {
     req.session.cart= cart;
     res.redirect("/cart");
   })
+
+  router.get('/admin', function (req, res, next) {
+    res.render('admin');
+    
+  })
+  router.get('/:id', function(req, res,next) {
+    var {id}= req.params;
+    if(id == namead) {
+      return res.render("payment");
+    }
+    return redirect('/');
+  })
+  router.post('/admin-signin', function(req, res, next) {
+    passport.authenticate('admin.signin', function(err, admin, info) {
+      if (err) { return next(err); }
+      if (!admin) { return res.redirect('/login'); }
+      req.logIn(admin, function(err) {
+        if (err) { return next(err); }
+        namead= info.namead;
+        return res.redirect('/'+ info.namead);
+      });
+    })(req, res, next);
+  
+  });
+ 
 module.exports = router;
 function Isloggin(req, res, next){
     if(req.isAuthenticated()) {

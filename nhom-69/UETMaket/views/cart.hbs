@@ -16,7 +16,25 @@
     <script src="mainpage-js.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-    <title>VNU's MARKET</title>
+    <title>Cart</title>
+    <style>
+    
+    table, td, th {  
+        border: none;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        
+     }
+    table {
+        border-collapse: collapse;
+        width: 50%;
+    }
+
+    th, td {
+    padding: 15px;
+    }
+</style>
 </head>
 <body> 
     <header>
@@ -64,22 +82,25 @@
         </div>
         <br>
         {{# if product}}
-        <div class="row">
-    <div class="col-sm-6 col-md-6 col-md-offset-3 col-sm-offset-3">
-        <ul class="list-group">
-            {{# each product}}
-            <li class="list-group-item">
-            <span style=" font-weight:bold" >{{this.item.name}}</span>
-            <span style="margin-left:130px" >{{this.qty}}</span>
-             <span  style="margin-left:50px;margin-right:50px" >{{this.price}}</span>
-         
-            <a href="/remove/{{this.item._id}}" ><button class="button-cart">remove</button></a>
-            <a href="/reduce/{{this.item._id}}"><button class="button-cart">reduce 1</button></a>
-            </li>
-            {{/each}}
-        </ul>
-        </div>
-        </div>
+        <table>
+    <tr>
+    <th>Tên sản phẩm</th>
+    <th>Số lượng</th>
+    <th>Giá sản phẩm</th>
+    <th></th>
+    <th></th>
+  </tr>
+  <tr>
+       {{# each product}}
+    <td>{{this.item.name}}</td>
+    <td>{{this.qty}}</td>
+    <td>{{this.price}}</td>
+    <td> <a href="/remove/{{this.item._id}}"  ><button style="margin-right:0px" class="button-cart">remove</button></a></td>
+    <td><a href="/reduce/{{this.item._id}}" style="margin-right:60px"><button class="button-cart">reduce 1</button></a></td>
+
+  </tr>
+  {{/each}}
+</table>
     <div class="row">
     <div class="col-sm-6 col-md-6 col-md-offset-3 col-sm-offset-3">
     <strong>Total: {{price}}</strong>
@@ -99,6 +120,24 @@
         </div>
 
         {{/if}}
+        <br>
+        <br>
+      <div class="foot">
+    <div class="title1">
+      <p class="maintitle1" > VNU'S MARKET </p> 
+    </div>
+    <div class="address">
+      ĐỊA CHỈ <br>
+      TRƯỜNG ĐẠI HỌC CÔNG NGHỆ-ĐẠI HỌC QUỐC GIA HÀ NỘI <br>
+      144-Xuân Thủy Cầu Giấy Hà Nội <br>
+      <div style="float:center; padding:20px">
+        <img title="facebook" class="MXH" src="img/facebook.png">
+        <img title="twitter" class="MXH" src="img/tweet.png">
+        <img title="instagram" class="MXH" src="img/instagram.png">
+        <img title="youtube" class="MXH" src="img/youtube.png">
+      </div>
+    </div>
+  </div>
     
   </body>
   </html>

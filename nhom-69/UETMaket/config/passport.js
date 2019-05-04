@@ -1,5 +1,6 @@
 var passport= require('passport');
 var User= require('../models/user');
+var Admin= require('../models/admin');
 var localStratepy = require('passport-local').Strategy;
 passport.serializeUser(function(user,done ) { // hàm đc gọi khi xác thực thành công lưu dl vào sesion
     done(null, user.id);
@@ -51,6 +52,21 @@ passport.use('local.signin', new localStratepy({
         if(!user.validPass(password)) { return done(null, false,  {message:'Mật khẩu không hợp lệ'})};
         
         return(done(null, user, {name: user.name, number:user.number}));
+        
+    })
+}))
+//--------------------admin-----------------------
+passport.use('admin.signin', new localStratepy({
+    usernameField: 'email',
+    passwordField: 'password',
+    passReqToCallback: true
+}, function(req, email, password, done) {
+    Admin.findOne({'email': email}, function(err, admin) {
+        if(err) {    console.log('err'); return done(err)};
+        if(!admin) {  console.log('1'); return done(null, false, { message:'Tài khoản đăng nhập không tồn tai xin vui lòng thử lại.'})};
+        if(!admin.validPass(password)) { return done(null, false,  {message:'Mật khẩu không hợp lệ'})};
+        
+        return(done(null, admin, {namead: admin.number}));
         
     })
 }))

@@ -450,9 +450,24 @@ img.MXH:hover {
 	padding: 10px;
  }
  .loginname {
+	width: 150px;
+	height: 50px;
+	font-family: "Roboto","HelveticaNeue","Helvetica Neue",sans-serif;
+	font-size: 13px;
+	text-transform: uppercase;
+	font-weight: 600;
+	border: 1px solid #ffb400;
+	background-color: #ffb400;
+	color: #fff;
+	text-align: center;
+	margin: 50px 150px;
 	color:white; 
 	margin-top:10px;
-	font-family:MYRIADPRO-SEMIBOLD;
+	
+}
+.loginname:hover{
+	background-color: chocolate;
+    border: 1px solid chocolate;
 }
 input.logininput {
 	border-bottom: 1px solid;

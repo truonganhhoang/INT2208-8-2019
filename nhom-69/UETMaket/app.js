@@ -1,3 +1,4 @@
+
 // để ý phiên bản của các phiên bản của các API trong npm để chú ý cách sd
 var createError = require('http-errors');
 var express = require('express');
@@ -15,7 +16,7 @@ var flash= require('connect-flash');
 var validator= require('express-validator');
 
 
-var usersRouter = require('./routes/users');
+
 var Router= require('./routes/router');
 var HBSexpress= require('express-handlebars');
 var MongoStore= require('connect-mongo')(session);
@@ -56,13 +57,19 @@ app.use(passport.session()) // lấy thông tin user gán vào req.user
 app.use(express.urlencoded({ extended: false }));
 app.use(express.json());
 app.use(express.static(path.join(__dirname, 'public')));
+ 
+
+ 
+// set .html as the default extension
+
+
 
 app.use(function(req, res, next) {
   res.locals.login=req.isAuthenticated();
   res.locals.session= req.session;
   next();
 })
-app.use('/users', usersRouter);
+
 app.use('/', Router);
 
 
@@ -79,6 +86,8 @@ app.use(function(err, req, res, next) {
   // render the error page
   res.status(err.status || 500);
   res.render('error');
-});
+})
+
+   
 
 module.exports = app;
