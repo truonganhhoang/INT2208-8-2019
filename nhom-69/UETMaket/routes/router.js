@@ -139,7 +139,8 @@ router.get('/profile',Isloggin, csrfProtection, function(req, res, next) {
     res.render('check', {title:"Mua hàng", price: cart.totalPrice, name:name, number:number });
   })
   router.post('/check-ok', function(req, res, next) {
-    res.send(req.body.address);
+    //res.send(req.body.address);
+    res.render('checkOK');
   })
   router.get('/reduce/:id', function(req, res, next) {
     var {id}= req.params;
