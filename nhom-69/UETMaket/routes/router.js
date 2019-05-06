@@ -91,7 +91,7 @@ router.get('/list', function(req, res, next) {
 // load khi đăng nhập thành công
 router.get('/profile',Isloggin, csrfProtection, function(req, res, next) {
   
-  res.render("loginOk",{title: "Your profile",name:name, number:number, email: email}) ;
+  res.render("loginOK",{title: "Your profile",name:name, number:number, email: email}) ;
 });
   router.get('/', function(req, res, next) {
     Product.find(function(err,docs){ // hàm trả về 1 biến lỗi và 1 biến kết quả
