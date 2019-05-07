@@ -32,11 +32,16 @@
    6 **Kiểm thử** : Đảm bảo mã nguồn không bị lỗi, chạy và sử dụng tốt (Kiểm thử hộp trắng)
    
    
-  > Hướng dẫn sử dụng phẩn mềm
+  > ## Hướng dẫn sử dụng phẩn mềm
+  
   1. Bạn mở trình duyệt web bất kì: Chrome, Cốc Cốc,...
   2 Mở đường dẫn link: [https://vnumarket.herokuapp.com](https://vnumarket.herokuapp.com)
   3.Trang chủ VNU's Market hiện ra với Logo và các trang mục,moij người có thể nhìn thấy các danh mục sản phẩm cụ thể với từng sản phẩm có giá và hình ảnh trực quan
   <img src="https://i.imgur.com/IlA8wYx.png">
+  
+  4. Tất cả các tính năng đăng nhập và đăng kí, giỏ hàng đều trong mục có hình ảnh "người dùng" ở góc phải của trang chủ
+  <img src=" <img src="https://i.imgur.com/IlA8wYx.png">
+  
   
   
    
