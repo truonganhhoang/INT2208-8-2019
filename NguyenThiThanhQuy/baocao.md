@@ -22,22 +22,22 @@
     
   2. **Áp dụng quy trình phát triển Scrum** : 
      * Kế hoạch cụ thể
-      + Sprint 1: từ tuần 1 - tuần 4: Xây dựng giao diện cơ bản, tính năng tìm kiếm sản phẩm
-      + Sprint 2: từ tuần 4 - tuần 8: Xây dựng tính năng xem thông tin sản phẩm và đặt mua-Hoàn thành mục tin tức sinh viên
-      + Sprint 3: từ tuần 8 - tuần 11:Tính năng đăng kí tài khoản- thêm giỏ hàng
+      + Sprint 1: từ tuần 1 - tuần 4: Xây dựng giao diện cơ bản, và tạo hệ quản trị csdl
+      + Sprint 2: từ tuần 4 - tuần 8: Xây dựng tính năng xem thông tin sản phẩm và đặt mua
+      + Sprint 3: từ tuần 8 - tuần 11: Xây dựng tính năng đăng kí tài khoản- thêm giỏ hàng
       + Sprint 4: từ tuần 11 - tuần 12: Hoàn thiện tính năng và kiểm thử
       
    3. **High level design** :  chọn hệ quản trị dữ liệu MongoDB và xây dựng sơ đồ lớp 
    4. **Low level design**:  Sử dụng mô hình MVC của framework Express
    5. **Mã nguồn sản phẩm**: [Sản phẩm](https://github.com/tranthiensonuet/INT2208-8-2019/tree/master/nhom-69/UETMaket)
-   6 **Kiểm thử** : Đảm bảo mã nguồn không bị lỗi, chạy và sử dụng tốt (Kiểm thử hộp trắng)
+   6. **Kiểm thử** : Đảm bảo mã nguồn không bị lỗi, chạy và sử dụng tốt (Kiểm thử hộp trắng)
    
    
   > ## Hướng dẫn sử dụng phẩn mềm
   
   1. Bạn mở trình duyệt web bất kì: Chrome, Cốc Cốc,...
   2. Mở đường dẫn link: [https://vnumarket.herokuapp.com](https://vnumarket.herokuapp.com)
-  3.Trang chủ VNU's Market hiện ra với Logo và các trang mục,moij người có thể nhìn thấy các danh mục sản phẩm cụ thể với từng sản phẩm có giá và hình ảnh trực quan
+  3. Trang chủ VNU's Market hiện ra với Logo và tiêu đề trang web,mọi người có thể nhìn thấy các danh mục sản phẩm cụ thể với từng sản phẩm có giá và hình ảnh trực quan
   <img src="https://i.imgur.com/IlA8wYx.png">
   
   4. Tất cả các tính năng đăng nhập và đăng kí, giỏ hàng đều trong mục có hình ảnh "người dùng" ở góc phải của trang chủ
