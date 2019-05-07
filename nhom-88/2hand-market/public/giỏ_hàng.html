@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Home</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css">
+    <script src="main.js"></script>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+    <div class="jumbotron text-center" style="margin-bottom:0">
+        <h1>My First Bootstrap 4 Page</h1>
+        <p>Resize this responsive page to see the effect!</p>
+    </div>
+
+    <!--navbar-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-danger sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="#"><b><i>2hand market</i></b></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Trang chủ
+                            <span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                    	<a href="#" class="nav-link">
+                    	<!-- /<i class="icon-pencil-6"></i> -->
+                    	Đăng tin miễn phí
+                		</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- content -->
+    <div class="container">
+    	<form action="/action_page.php" class="m-3 p-3">
+  			<h2 class="mb-3 ">ĐĂNG TIN RAO</h2>
+  			<hr>
+  			<div class="form-group ">
+    			<label for="topic">Tiêu đề</label>
+    			<input type="text" class="form-control" id="topic">
+  			</div>
+  			<div class="form-group">
+    			<label for="content">Nội dung mô tả</label>
+    			<textarea type="text" class="form-control" rows="5" id="content"></textarea>
+  			</div>
+  			<div class="form-group">
+    			<div>
+    				<p>Hình ảnh sản phẩm</p>
+    				<p class="hint">Được phép tối đa 6 ảnh</p>
+    			</div>
+  			</div>
+  			<div class="form-group">
+  				<label for="price">Gía sản phẩm</label>
+  				<input type="text" class="form-control" id="price" >
+  			</div>
+  			<div class=" form-group">
+  				<select name="category" class="custom-select form-control mb-3">
+      				<option selected>Danh mục sản phẩm</option>
+      				<option value="Thời trang và phụ kiện">Thời trang và phụ kiện</option>
+      				<option value="Thiết bị điện tử">Thiết bị điện tử</option>
+      				<option value="Đồ gia dụng">Đồ gia dụng</option>
+      				
+    			</select>
+  			</div>
+  			<button type="submit" class="btn btn-primary">Đăng tin</button>
+		</form>
+    </div>
+
+    <!--footer-->
+    <footer class="py-5 bg-danger">
+        <div class="container">
+            <p class="m-0 text-center text-white">Copyright © Your Website 2019</p>
+        </div>
+        <!-- /.container -->
+    </footer>
+
+</body>
+
+</html>

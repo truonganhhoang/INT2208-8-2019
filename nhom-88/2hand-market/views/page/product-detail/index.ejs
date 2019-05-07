@@ -1,0 +1,118 @@
+<!-- header -->
+<% include ./../../element/header-2 %>
+
+<!-- content -->
+<div class="container">
+  <div class="row">
+    <div class="col-md-6 row m-3 p-3" style="z-index: 999;">
+      <!-- hiển thị ảnh sản phẩm -->
+      <div class="mr-2" style="width: 15%;">
+        <% for(let i=0; i<item.link_img.length; i++) { %>
+          <img src="<%= item.link_img[i]%>" class="imgProductSmall">
+        <%}%>
+      </div>
+
+      <div class="show" href="<%= item.link_img[0]%>" style="position: relative; width: 75%;">
+        <img src="<%= item.link_img[0]%>" id="show-img" class="imgProduct">
+        <div
+            style="position: absolute; left: 5.5px; top: 300px; background-color: rgb(0, 0, 0); width: 100px; height: 100px; opacity: 0.2; border: 1px solid rgb(204, 204, 204); cursor: crosshair; display: none;">
+        </div>
+      </div>
+    </div>
+
+      <div class="col-md-5 m-3 p-3">
+        <div class="box mb-2">
+          <div class="box-title">
+            <h5>Thông tin sản phẩm</h5>
+          </div>
+
+          <div class="box-body">
+            <p><b>Tên sản phẩm: </b><span><i id="name"><%= item.name%></i></span></p>
+            <p><b>Giá sản phẩm: </b><span id="price"><%= item.price%></span>đ</p>
+            <p><b>Mô tả: </b><span><i><%= item.desc%></i></span></p>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="box-title">
+            <h5>Chọn màu sắc kích cỡ</h5>
+          </div>
+
+          <div class="box-body">
+            <form class="form-group">
+              <div>
+                <div class="m-2 p-2"><span>Số lượng: </span><input type="number" name="amount" min="1" max="<%= item.status %>" id="amount" value="1"></div>
+                <div class="m-2 p-2">
+                  <span>size: </span>
+                  <select class="ml-4" name="size" id="size">
+                    <option value="S" >S</option>
+                    <option value="M">M</option>
+                    <option value="L">L</option>
+                  </select>
+                </div>
+                <div class="m-2 p-2">
+                  <span>Màu sắc: </span>
+                  <select name="color">
+                    <option value="red">red</option>
+                    <option value="blue">blue</option>
+                    <option value="green">green</option>
+                  </select>
+                </div>
+                <div>
+                  <input type="text" value="<%=item.id%>" hidden id="id">
+                </div>
+
+                <div class="row m-2 p-2">
+                  <button type="button" class="btn btn-danger mr-2" id="add-to-cart" onclick="addToCart()">Thêm vào giỏ hàng</button>
+                  <!-- onclick="addToCart()" -->
+                  <a href="/danh-muc-san-pham"><input type="button" class="btn btn-info" value="xem sản phẩm khác"></a>
+                </div>
+                 
+              </div>
+            </form>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div style="height: 60px;">
+      <button class="tablink" onclick="openTab('ChinhSachDoiTra', this, '3px solid red')" id="defaultOpen" style="outline: none"><b>Chính sách đổi trả</b></button>
+      <button class="tablink" onclick="openTab('ThongTinVanChuyen', this, '3px solid red')" style="outline: none"><b>Thông tin vận chuyển</b></button>
+      <button class="tablink" onclick="openTab('ThongTinThanhToan', this, '3px solid red')" style="outline: none"><b>Thông tin thanh toán</b></button>
+    </div>
+    
+    <div id="ChinhSachDoiTra" class="tabcontent  bg-light">
+      <p>Quý khách vui lòng xuất trình hóa đơn mua hàng khi có yêu cầu đổi hàng. Không chấp nhận việc trả hàng để lấy tiền (TIỀN MẶT HAY TRỪ VÀO THẺ TÍN DỤNG) Trong bất kỳ tình huống nào, chỉ chấp nhận việc đổi hàng còn mới, chưa qua sử dụng, trong vòng 7 ngày ( Đối với khách ở các tỉnh , mua online  ), kể từ ngày mua hàng. Hàng được đổi vì lý do kỹ thuật phải có sự đồng ý và xác nhận của Germe. Hàng đổi phải còn mới và giữ nguyên tình trạng ban đầu, còn nguyên tem, nhãn mác. Hàng chưa qua sử dụng, chưa giặt và không bị hư hại. Hàng không bị bẩn, không dính các vết mỹ phẩm, không nhiễm mùi như nước hoa, kem cạo râu, chất khử mùi cơ thể hay khói thuốc lá, v.v… Hàng bán trong thời gian khuyến mãi, hoặc hàng đã được đổi một lần trước đó sẽ không áp dụng chính sách đổi trả hàng, trừ trường hợp do lỗi kỹ thuật.</p>
+    </div>
+
+    <div id="ThongTinVanChuyen" class="tabcontent  bg-light">
+      
+      <p>Có 2 hình thức vận chuyển : </p>
+
+      <ul>
+        <li>
+           Đối với khách hàng ở nội thành Hà Nội sẽ giao hàng trong vòng 24h và khi nhận hàng khách hàng sẽ thanh toán với người giao hàng.
+        </li>
+        <li>
+           Đối với khách hàng ở các tỉnh thành khác thì sẽ giao hàng trong vòng 48h và sau khi nhận hàng khách hàng sẽ thanh toán với người nhận hàng.
+        </li>
+      </ul>  
+
+    </div>  
+
+    <div id="ThongTinThanhToan" class="tabcontent  bg-light ">
+      
+      <p>Có 2 hình thức thanh toán : </p>
+
+      <ul>
+        <li>
+           Nếu khách hàng chọn hình thức thanh toán COD ( thanh toán sau khi nhận hàng )  thì khi nhận hàng sẽ thanh toán số tiền mà bên Germe đã báo trước khi giao hàng ( Bao Gồm Phí Cước Chuyển Phát Nhanh + Tiền hàng – Còn Cước Phí COD bên Germe sẽ Miễn Phí cho khách hàng )
+        </li>
+        <li>
+           Nếu khách hàng chọn hình thức thanh toán chuyển khoản hoặc chuyển tiền thì khi nhận hàng khách hàng sẽ không phải thanh toán bất kỳ khi chi phí nào. ( Vì khách hàng đã thanh toán Cước Phí Chuyển Phát Nhanh + Tiền Hàng qua hình thức thanh toán Chuyển khoản hoặc Chuyển Tiền )
+        </li>
+      </ul>  
+
+    </div>  
+  </div>
