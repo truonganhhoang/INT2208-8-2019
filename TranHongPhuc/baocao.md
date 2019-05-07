@@ -9,6 +9,7 @@ Với tư cách là một admin tôi muốn:
 
 
 Hướng giải quyết của nhóm phát triển:
+- [x]Tự học HTML,CSS,Nodejs, JavaScript, Ajax.
 - [x] Làm rõ yêu cầu thống nhất chức năng.
 (2 ngày)
  [edx](https://docs.google.com/document/d/1a4i_31R8WBUAnF91syr1FwBpKoAiTY6rEJt1xWjb74M/edit#heading=h.fvjpas4blmex)
@@ -65,5 +66,20 @@ Password: admin
 
 Hình ảnh:
 <img src = "https://i.imgur.com/SOty1KW.png">
+
+Màn hình hiển thị sau khi đăng nhập sẽ có là:
+<img src = "https://imgur.com/nXsZSzu.png">
+
+Để xóa truyện thì nhấp nút xóa như bạn thấy
+
+Để thêm chap truyện bạn nhấp insert màn hình chuyển đến như hình:
+<img src = "https://imgur.com/hrRUt7D.png">
+
+Để thêm truyện mới thì cần nhấp vào insert trên thanh menu rồi nhấp New Story như hình:
+<img src = "https://imgur.com/lDFRnN7">
+
+Để sử thông tin truyện bạn trở lại All-Story rồi nhấp Detail màn hình hiển thị như hình:
+<img src = "https://imgur.com/biijkDh">
+
 
 
