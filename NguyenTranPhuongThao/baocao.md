@@ -30,7 +30,7 @@
    5. **Mã nguồn sản phẩm**: [Sản phẩm](https://github.com/tranthiensonuet/INT2208-8-2019/tree/master/nhom-69/UETMaket)
    6. **Kiểm thử** : Đảm bảo mã nguồn không bị lỗi, chạy và sử dụng tốt (Kiểm thử hộp trắng)
    
-   * Giới thiệu sản phẩm
+   * **Giới thiệu sản phẩm**
    
       + Khi vào trang web [https://vnumarket.herokuapp.com](https://vnumarket.herokuapp.com) mọi người có thể nhìn thấy các danh mục sản phẩm có giá cả và hình ảnh minh họa
       <img src="https://i.imgur.com/IlA8wYx.png">
