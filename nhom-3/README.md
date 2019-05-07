@@ -71,6 +71,9 @@ Công nghệ:  Python, CSS3, HTML5, Boostrap4, Django
         + Trang đăng nhập:
 <img src="https://scontent.fhan5-4.fna.fbcdn.net/v/t1.15752-9/59923915_419075365539637_3455369166079393792_n.png?_nc_cat=104&_nc_oc=AQmZZjvFUJrhoilyDYV6sRwL7FqfIB9tXHmvyt5Hxb9Bmizbq1hXzg_CGLhJ_pv5kDY&_nc_ht=scontent.fhan5-4.fna&oh=3c664e0a57fbf9c164870ba67e311e06&oe=5D692888">
 
+        + Trang thông tin của một sản phẩm:
+<img src="https://scontent.fhan5-3.fna.fbcdn.net/v/t1.15752-9/60010691_320297541973643_1254564933618630656_n.png?_nc_cat=106&_nc_oc=AQmv3nCfljGI3LhxIaTp7p5tNVCpQK7X5Okg8cN8nYhMPRZ8MX4eknYdZ5udTbKEqW8&_nc_ht=scontent.fhan5-3.fna&oh=4607546647bc9b960d8df36fef9c2ba3&oe=5D74E7D6">
+
 ### Non-functionality
     Runable
     Scaleable   
