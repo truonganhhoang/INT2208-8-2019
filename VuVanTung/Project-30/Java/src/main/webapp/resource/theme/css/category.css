@@ -1,0 +1,425 @@
+@font-face{
+	font-family: OpenSans-Regular;
+	src: url(../font/OpenSans-Regular.ttf);
+}
+body, div, img, ul, li, h1, h2, h3, h4, h5, h6, p, span, form, input{
+	margin: 0;
+	padding: 0;
+}
+span{
+	display: inline-block;
+}
+body{
+	font-family: OpenSans-Regular;
+	color: #606366;
+}
+ul{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	color: inherit;
+}
+#categoryScreen .container{
+	width: 1176px;
+	margin: 0 auto;
+}
+#categoryScreen .container-flex{
+	display: flex;
+	height: 47px;
+	align-items: center;
+}
+#categoryScreen .header-top{
+	font-size: 13px;
+	font-weight: 100;
+	border-bottom: 1px solid #e3e3e3;
+	height: 100%;
+
+}
+#categoryScreen .header-contact{
+	display: flex;
+}
+
+
+#categoryScreen.header-menu{
+	display: flex;
+	margin-left: auto;
+}
+#categoryScreen .header-contact, .header-menu{
+	height: 100%;
+}
+#categoryScreen .header-contact li {
+	border-right: 1px solid #e3e3e3;
+	display: flex;
+	align-items: center;
+	padding: 0 30px;
+}
+#categoryScreen .header-contact li:first-child {
+	border-left: 1px solid #e3e3e3;
+}
+#categoryScreen .header-menu li{
+	border-right: 1px solid #e3e3e3;
+	display: flex;
+	align-items: center;
+	padding: 0 30px;
+}
+#categoryScreen .header-menu li:first-child {
+	border-left: 1px solid #e3e3e3;
+}
+#categoryScreen .header-top i{
+	margin-right: 10px;
+	font-size: 11px;
+}
+#categoryScreen .header-contact a{
+	color: inherit;
+  	text-decoration: inherit;
+}
+#categoryScreen .header-menu a{
+	color: inherit;
+  	text-decoration: inherit;
+}
+#categoryScreen .header-top a:hover{
+	color: black;
+}
+#categoryScreen .header-mid{
+	margin: 30px 0 0px;
+}
+#categoryScreen .hero-img img{
+	width: 200px;
+	height: 78px;
+
+}
+#categoryScreen .header-mid-right{
+	margin-left: auto;
+}
+#categoryScreen .header-mid-margin{
+	float: left;
+}
+#categoryScreen #btn-search{
+	position: absolute;
+    right: 6px;
+    top: 0;
+    bottom: 0;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+#categoryScreen #form-search{
+	width: 218px;
+	display: inline-block;
+	position: relative;
+}
+#categoryScreen #input-search{
+	height: 37px;
+	border: 1px solid #e1e1e1;
+	width: 190px;
+	padding: 0 12px;
+}
+#categoryScreen .cart{
+    height: 37px;
+    line-height: 37px;
+    padding: 0 10px;
+    font-size: 13px;
+	font-weight: 100;
+}
+#categoryScreen .cart .cart-item i:first-child {
+    margin-right: 3px;
+    color: #999da0;
+    padding-left: 0;
+    padding-right: 0;
+    font-size: 14px;	
+}
+#categoryScreen .header-bottom{
+	font-weight: 100;
+	margin-top: 30px;
+	height: 60px;
+	border-top: 1px solid #e3e3e3;
+	border-bottom: 1px solid #e3e3e3;
+	background-color: #0277b8; 
+}
+#categoryScreen .header-nav{
+	display: flex;
+	height: 60px;
+	align-items: center;
+}
+#categoryScreen .header-nav li{
+	height: 43px;
+	display: flex;
+	align-items: center;
+	position: relative;
+}
+#categoryScreen .header-nav a{
+	height: 100%;
+	display: flex;
+	align-items: center;
+}
+
+#categoryScreen .header-nav li:hover .header-sub-nav {
+	display: block;
+}
+
+#categoryScreen .header-sub-nav {
+	position: absolute;
+	top: 100%;
+	left: 0;
+	background: #fff;
+	min-width:200px;
+	display: none;
+	transition: width 2s;
+	box-shadow: 0px 5px 19px 0px rgba(0,0,0,0.75);
+}
+
+#categoryScreen .header-sub-nav li a {
+	color: black;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	padding-left: 28px; 
+}
+#categoryScreen .header-sub-nav li{
+	border-bottom: 1px solid #e3e3e3; 
+}
+#categoryScreen .header-sub-nav li a:hover{
+	color: #fff;
+}
+#categoryScreen .current-nav{
+	width: 100%;
+	padding: 0 30px 0 30px;
+	color: white;
+  	text-decoration: inherit;
+}
+#categoryScreen .header-nav a:hover{
+	background: rgb(58, 92, 131);
+}
+
+/* content */
+#categoryScreen .content{
+	height: 1150px;
+}
+#categoryScreen .clearfix{
+	margin-top: 26px;
+	display: flex;
+}
+#categoryScreen .page-title{
+	font-weight: 100;
+	margin-top: 25px;
+}
+#categoryScreen .page-control{
+	display: flex;
+	align-items: center;
+	margin-left: auto;
+	font-weight: 100;
+}
+
+#categoryScreen .page-control li::after {
+	content: '/';
+	display: inline-block;
+	margin: 0 4px;
+}
+#categoryScreen .page-control li:last-child::after {
+	display: none;
+}
+#categoryScreen .page-control-item a:hover{
+	text-decoration: underline;
+}
+#categoryScreen .page-control-item a{
+	color: black;
+}
+#categoryScreen .content-hero{
+	margin-top: 80px;
+	display: flex;
+}
+#categoryScreen .content-left{
+	width: 20%;
+	margin-right: 72px;
+}
+#categoryScreen .product-img-price{
+	display: flex;
+}
+#categoryScreen .content-right{
+	background-color: #fff;
+	width: 80%;
+}
+#categoryScreen .categories{
+	margin: 0 -25px 0 9px;
+	background: #f8f8f8;
+    border: 1px solid #e5e4e4;
+}
+#categoryScreen .category-item:not(:last-child){
+	border-bottom: 1px solid #e5e4e4;
+}
+#categoryScreen .category-item{
+	margin: 10px 0 10px 25px;
+	width: 200px;
+	padding-bottom: 8px;
+	padding-top: 10px;
+}
+#categoryScreen .title-product{
+	margin-top: -30px;
+	margin-bottom: 22px;
+}
+#categoryScreen .product-item{
+	padding-right: 30px;
+	float: left;
+	margin-bottom: 70px;
+}
+#categoryScreen .product-name{
+	font-weight: 100;
+	margin-top: 10px;
+	font-size: 14px;
+}
+#categoryScreen .product-price{
+	font-weight: 100;
+}
+#categoryScreen .product-buy-detail{
+	margin-top: 10px;
+}
+#categoryScreen .product-buy-detail a{
+	color: #606366; 
+	border: 1px solid #e3e3e3; 
+}
+#categoryScreen .add-item-cart{
+	color: #606366; 
+	margin-right: 2px;
+	background-color: #3a5c83;
+	padding: 8px;
+
+}
+#categoryScreen .add-item-cart i{
+	color: #fff;
+	font-size: 22px;
+}
+#categoryScreen .item-detail{
+	font-weight: 100;
+	font-size: 16px;
+	padding: 9px 25px 9px 25px;
+}
+#categoryScreen .item-detail i{
+	color: #f90;
+	font-size: 10px;
+	margin-left: 10px;
+}
+#categoryScreen .add-item-cart:hover{
+	background: #f90;
+}
+#categoryScreen .item-detail:hover{
+	background: #3a5c83;
+	color: #fff;
+}
+
+#categoryScreen .product-item:hover .add-item-cart {
+	background: #f90;
+}
+#categoryScreen .product-item:hover .img-product{
+	transform: scale(1.05);
+}
+
+#categoryScreen .product-item a img {
+	transition: all 0.1s;
+	height: 320px;
+    width: 264px;
+}
+/* code phần footer */
+#categoryScreen .footer{
+	margin-top: 35px;
+	font-size: 13px;
+}
+#categoryScreen .footer-top{
+	padding-top: 70px;
+	height: 330px;
+	background: #172431;
+}
+#categoryScreen .footer-bottom{
+	height: 50px;
+}
+#categoryScreen .information{
+	padding-left: 110px;
+}
+#categoryScreen .contact{
+	padding-left: 110px;
+}
+#categoryScreen .subscribe{
+	padding-left: 80px;
+	width: 173px;
+}
+#categoryScreen .container-flex-bot{
+	display: flex;
+}
+#categoryScreen .info-title{
+	font-weight: 100;
+	color: #adbac8;
+	margin-bottom: 22px;
+}
+#categoryScreen .information-sub li{
+	margin-bottom: 10px;
+}
+#categoryScreen .information-sub li a{
+	color: #7b8fa3;
+	font-size: 13px;
+}
+#categoryScreen .information-sub li a:hover{
+	color: #f90;
+}
+#categoryScreen .information-sub li i{
+	color: #f90;
+    margin-right: 5px;
+    font-size: 10px
+}
+#categoryScreen .contact i{
+	color: #f90;
+    font-size: 28px;
+    position: absolute;
+}
+#categoryScreen .font-size-p{
+	font-size: 14px;
+	margin: 0 0 10px;
+	color: #7b8fa3;
+	padding-left: 34px;
+}
+#categoryScreen .contact-sub{
+	position: relative;
+	padding-left: 35px;
+}
+#categoryScreen #input-subscribe{
+	border: 1px solid #4e5862;
+	background: #232f3c;
+	height: 37px;
+	width: 100%;
+	margin-bottom: 5px;
+	
+}
+#categoryScreen .btn-subscribe i{
+	margin-left: 5px;
+    font-size: 10px;
+    color: #f90;	
+}
+#categoryScreen .btn-subscribe{
+	background: none;
+    border: 1px solid #4e5862;
+    color: #adbac8;
+    height: 37px;
+    padding: 0 15px;
+    margin-left: 25px;
+    cursor: pointer;
+}
+#categoryScreen .footer-bottom{
+	background: #1a1a1a;
+	display: flex;
+	align-items: center;
+}
+#categoryScreen .footer-bottom p{
+	font-size: 14px;
+	color: #fff;
+}
+#categoryScreen .footer-bottom-flex{
+	display: flex;
+	align-items: center;
+}
+#categoryScreen .pull-right{
+	padding-top: 5px;
+	margin-left: auto;
+}
+#categoryScreen .pull-right a{
+	margin-left: 5px;
+}
