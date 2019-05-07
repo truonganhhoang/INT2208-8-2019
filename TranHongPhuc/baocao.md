@@ -64,6 +64,6 @@ Gmail: admin@gmail.com
 Password: admin
 
 Hình ảnh:
-<img src = "https://imgur.com/SOty1KW">
+<img src = "https://i.imgur.com/SOty1KW.png">
 
 
