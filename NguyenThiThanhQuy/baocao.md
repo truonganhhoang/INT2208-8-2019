@@ -35,7 +35,7 @@
   > ## Hướng dẫn sử dụng phẩn mềm
   
   1. Bạn mở trình duyệt web bất kì: Chrome, Cốc Cốc,...
-  2 Mở đường dẫn link: [https://vnumarket.herokuapp.com](https://vnumarket.herokuapp.com)
+  2. Mở đường dẫn link: [https://vnumarket.herokuapp.com](https://vnumarket.herokuapp.com)
   3.Trang chủ VNU's Market hiện ra với Logo và các trang mục,moij người có thể nhìn thấy các danh mục sản phẩm cụ thể với từng sản phẩm có giá và hình ảnh trực quan
   <img src="https://i.imgur.com/IlA8wYx.png">
   
@@ -43,9 +43,11 @@
   <img src="https://i.imgur.com/2XugggP.png">
   
   5: Giao diện đăng nhập đăng kí :
+  
   <img src="https://i.imgur.com/gofa67H.png">
   
   6: Giao diện thêm giỏ hàng:
+  
   <img src="https://i.imgur.com/oOiQZZt.png">
   
   
