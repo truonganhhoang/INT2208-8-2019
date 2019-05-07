@@ -40,7 +40,15 @@
   <img src="https://i.imgur.com/IlA8wYx.png">
   
   4. Tất cả các tính năng đăng nhập và đăng kí, giỏ hàng đều trong mục có hình ảnh "người dùng" ở góc phải của trang chủ
-  <img src=" <img src="https://i.imgur.com/2XugggP.png">
+  <img src="https://i.imgur.com/2XugggP.png">
+  
+  5: Giao diện đăng nhập đăng kí :
+  <img src="https://i.imgur.com/gofa67H.png">
+  
+  6: Giao diện thêm giỏ hàng:
+  <img src="https://i.imgur.com/oOiQZZt.png">
+  
+  
   
   
   
