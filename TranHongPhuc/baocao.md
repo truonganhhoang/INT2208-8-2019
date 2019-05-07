@@ -44,3 +44,23 @@ Tiêu chí:
 - Ước lượng được.(Có thể được phát triển trong 3-5 ngày và thường được làm đầu tiên.)
 - Đủ nhỏ.(Chức năng đủ nhỏ để xây dựng trong thời gian ngắn)
 - Có thể kiểm thử.(Kiểm thử cho khách hàng check lỗi  và khả năng hoạt động ổn định của các chức năng)
+
+
+Giới thiệu chức năng:
+
+Chức năng được tạo ra để phù hợp yêu cầu của khách hàng theo user story ở trên. Với các tính năng gồm:
+- Xem các truyện đang có trên trang web.
+- Xóa truyện. 
+- Thêm truyện mới.
+- Thêm chap cho truyện đã có sẵn.
+- Sửa một số thông tin của truyện đang có trên web.
+
+Hướng dẫn sử dụng:
+
+Đăng nhập vào tài khoản admin đã được cung cấp:
+Gmail: admin@gmail.com
+Password: admin
+
+<img src = "https://imgur.com/SOty1KW">
+
+
