@@ -12,7 +12,7 @@
   Trang web bán hàng online [VNU's Market](https://vnumarket.herokuapp.com)- [Link hướng dẫn sản phẩm](https://github.com/tranthiensonuet/INT2208-8-2019/tree/master/nhom-69)
   
   > User story: Là khách hàng, tôi muốn lựa chọn sản phẩm và bắt đầu công việc mua hàng để có được sản phẩm mong muốn 
-  * chi tiết user story: [link](https://github.com/truonganhhoang/INT2208-8-2019/issues/138)
+  * Chi tiết user story: [link](https://github.com/truonganhhoang/INT2208-8-2019/issues/138)
   
   1. **Xác định yêu cầu mong muốn** :
   * Các tính năng mong muốn
