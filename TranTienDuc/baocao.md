@@ -18,7 +18,9 @@
 
 - [x] Vẽ sơ đồ tương tác giữa các component. [Tham khảo Technical Representation](https://docs.google.com/document/d/1a4i_31R8WBUAnF91syr1FwBpKoAiTY6rEJt1xWjb74M/edit#heading=h.9sexdtfjiyvo)
 
-- [x] Thiết kế form nhập thông tin thêm, chỉnh sửa (2h)  [Link commit](https://github.com/hoanphi2201/SoftEng-Assignments-nhom-10/commit/2ac62d3f95faae0781fdfb090d9cdaff479febc0) & [edx](https://docs.google.com/document/d/1a4i_31R8WBUAnF91syr1FwBpKoAiTY6rEJt1xWjb74M/edit#heading=h.t50jyopjk04o)
+- [x] Tìm hiểu nguyên lý chia nhỏ giao diện  [Tham khảo EDX](https://docs.google.com/document/d/1a4i_31R8WBUAnF91syr1FwBpKoAiTY6rEJt1xWjb74M/edit#heading=h.t50jyopjk04o)
+
+- [x] Thiết kế form nhập thông tin thêm, chỉnh sửa (2h)  [Link commit](https://github.com/hoanphi2201/SoftEng-Assignments-nhom-10/commit/2ac62d3f95faae0781fdfb090d9cdaff479febc0)
 
 - [x] Viết html form hiển thị (sử dụng modal) (1h)  [Link commit](https://github.com/hoanphi2201/SoftEng-Assignments-nhom-10/commit/2ac62d3f95faae0781fdfb090d9cdaff479febc0)
 
@@ -28,15 +30,15 @@
 
 - [x] Hiển thị dữ liệu khi mở form từ list (khi thêm và khi sửa) (30p)  [Link commit](https://github.com/hoanphi2201/SoftEng-Assignments-nhom-10/commit/582267631012cb6545c902547a46d99c10c1f49e)
 
-- [x] Tạo form data, validate dữ liệu (1h) [Link commit](https://github.com/hoanphi2201/SoftEng-Assignments-nhom-10/commit/f977a712e9ed4a352201385bd8508ece5763e966)
+- [x] Tạo form data, xử lý ảnh upload lên, validate dữ liệu (1h) [Link commit](https://github.com/hoanphi2201/SoftEng-Assignments-nhom-10/commit/f977a712e9ed4a352201385bd8508ece5763e966)
 
 - [x] Chức năng lựa chọn giờ thi - sử dụng date-picker (30p)  [Link commit](https://github.com/hoanphi2201/SoftEng-Assignments-nhom-10/commit/2ac62d3f95faae0781fdfb090d9cdaff479febc0)
 
 - [x] Chức năng nhập số câu và đáp án (1h)  [Link commit](https://github.com/hoanphi2201/SoftEng-Assignments-nhom-10/commit/893bfa22a3ada76dd93ea5174d81cc49c5789519)
 
-- [x] Xử lý khi click button Submit (1h)  [Link commit](https://github.com/hoanphi2201/SoftEng-Assignments-nhom-10/commit/360736fbe864852a19a0aa938395ce9688bfebd5)
+- [x] Xử lý khi click button Submit (báo thất bại hoặc thành công) (1h)  [Link commit](https://github.com/hoanphi2201/SoftEng-Assignments-nhom-10/commit/360736fbe864852a19a0aa938395ce9688bfebd5)
 
-- [x] View list sau khi báo thêm (sửa) thành công (2h)[commit](https://github.com/hoanphi2201/SoftEng-Assignments-nhom-10/commit/edbb2b7540b30921cca92e05a37ea92b99104a6e)
+- [x] View list sau khi báo thêm (sửa) thành công (2h)  [Link commit](https://github.com/hoanphi2201/SoftEng-Assignments-nhom-10/commit/edbb2b7540b30921cca92e05a37ea92b99104a6e)
 
 ##### TESTING
 - [x] Kiểm thử hộp trắng độ bao phủ  [Tham khảo EDX](https://docs.google.com/document/d/1a4i_31R8WBUAnF91syr1FwBpKoAiTY6rEJt1xWjb74M/edit#heading=h.ryzy80x4sqk1)
@@ -44,6 +46,6 @@
 - [x] Cho các thành viên trong nhóm kiểm thử và dùng thử, mời 1 số người dùng trải nghiệm
 
 ### Ghi chú: Tổng hợp quá trình làm bài tập nhóm
-- Repo sản phẩm được triển khai tại [Link Repo]()
-- Link Vieo báo cáo và demo user story 
-- Link sản phẩm của nhóm deloy server node.js và angular chế độ development tại [Link sản phẩm]()
+- Repo sản phẩm được triển khai tại [GITHUB]()
+- Video báo cáo và demo user story tại [YOUTUBE](https://youtu.be/SSHt6mW1eN0)
+- Link sản phẩm của nhóm deloy server node.js và angular chế độ development tại [SẢN PHẨM](http://webthi-angular.s3-website-ap-southeast-1.amazonaws.com)
