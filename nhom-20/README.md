@@ -31,19 +31,22 @@
 
 **Các màn hình:** 
 
-  - Trang chủ: thanh công cụ tìm kiếm,menu thể loại, đăng nhập tài khoản, danh sách truyện mới cập nhật chia theo từng thể loại.
+  - Trang chủ: thanh công cụ tìm kiếm,menu thể loại, đăng nhập/đăng ký tài khoản, danh sách truyện mới cập nhật chia theo từng thể loại.
   
-  ![alt](https://raw.githubusercontent.com/tiep2999/dictionaryTest/master/home.jpg)
+  ![alt](https://github.com/tiep2999/aaaa/blob/master/home1.png)
   
-  - Trang đăng nhập, đăng kí.
+  - Trang đăng kí.
   
-  ![alt](https://github.com/tiep2999/dictionaryTest/blob/master/as/login-up.jpg?raw=true)
+  ![alt](https://github.com/tiep2999/aaaa/blob/master/logup.png)
   
-  - Trang cá nhân người dùng: thông tin cá nhân ,danh sách truyện đã đọc, yêu thích,...
+  - Trang đăng nhập.
   
-  ![alt](https://github.com/tiep2999/dictionaryTest/blob/master/user.jpg?raw=true)
+  ![alt](https://github.com/tiep2999/aaaa/blob/master/login.png)
   
- **Công nghệ sử dụng:** *sẽ cập nhật sau.*
+ **Công nghệ sử dụng:**
+  + Cơ sở dữ liệu: MySQL.
+  + Frontend: HTML, CSS, JS, Boostrap 4.
+  + Backend: NodeJS, AJAX,... 
  
  **Liên lạc giữa các thành viên nhóm:** Facebook, Messenger
  
@@ -80,5 +83,3 @@
     3.Nhóm phát triển: Các thành viên trong nhóm
       - Thực hiện xây dựng các chức năng của sản phẩm.
       - Nâng cấp cải tiến các chức năng.
-      
-    Product backlog: *đang cập nhật*
