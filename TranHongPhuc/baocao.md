@@ -58,9 +58,12 @@ Chức năng được tạo ra để phù hợp yêu cầu của khách hàng th
 Hướng dẫn sử dụng:
 
 Đăng nhập vào tài khoản admin đã được cung cấp:
+
 Gmail: admin@gmail.com
+
 Password: admin
 
+Hình ảnh:
 <img src = "https://imgur.com/SOty1KW">
 
 
