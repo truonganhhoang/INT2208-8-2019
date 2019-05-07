@@ -9,7 +9,7 @@ Với tư cách là một admin tôi muốn:
 
 
 Hướng giải quyết của nhóm phát triển:
-- [x]Tự học HTML,CSS,Nodejs, JavaScript, Ajax.
+- [x] Tự học HTML,CSS,Nodejs, JavaScript, Ajax.
 - [x] Làm rõ yêu cầu thống nhất chức năng.
 (2 ngày)
  [edx](https://docs.google.com/document/d/1a4i_31R8WBUAnF91syr1FwBpKoAiTY6rEJt1xWjb74M/edit#heading=h.fvjpas4blmex)
@@ -76,10 +76,10 @@ Màn hình hiển thị sau khi đăng nhập sẽ có là:
 <img src = "https://imgur.com/hrRUt7D.png">
 
 Để thêm truyện mới thì cần nhấp vào insert trên thanh menu rồi nhấp New Story như hình:
-<img src = "https://imgur.com/lDFRnN7">
+<img src = "https://imgur.com/lDFRnN7.png">
 
 Để sử thông tin truyện bạn trở lại All-Story rồi nhấp Detail màn hình hiển thị như hình:
-<img src = "https://imgur.com/biijkDh">
+<img src = "https://imgur.com/biijkDh.png">
 
 
 
