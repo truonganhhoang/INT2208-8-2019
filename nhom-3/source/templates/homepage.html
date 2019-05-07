@@ -1,0 +1,9 @@
+{% extends 'template-with-sidebar.html' %}
+{% block content %}
+{% if user.is_authenticated %}
+    <h1>Have login</h1>
+{% else %}
+    <h1>Please login</h1>
+{% endif %}
+
+{% endblock %}
