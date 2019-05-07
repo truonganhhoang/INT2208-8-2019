@@ -1,4 +1,5 @@
-### Nhóm 20
+# Bài tập lớn Môn học Công nghệ phần mềm INT2208-8-2019
+## Nhóm 20.
 
 **Thành viên nhóm:**
 
@@ -12,49 +13,52 @@
   
   - Phạm Nhật Hưng.
 
+## Phần mềm và quy trình xây dựng, phát triển phần mềm.
 
-***Bài tập nhóm tuần 1***
-
-**Tên phần mềm:** Web đọc truyện online.
+**Tên phần mềm:** Web đọc truyện tranh online.
 
 **Người dùng:** Tất cả lứa tuổi, thích đọc truyện.
 
 **Mô tả:** Web đọc truyện tranh online với nhiều thể loại dành cho nhiều lứa tuổi.
 
-**Link repositories (mã nguồn sản phẩm của nhom-20):** [github Web-truyen-tranh](https://github.com/tiep2999/Website-truyen-tranh)
+**Link repositories (mã nguồn sản phẩm của nhom-20):** [github Web-truyen-tranh](https://github.com/tiep2999/Website-truyen-tranh).
 
-**Các chức năng**
+**Các chức năng tiêu biểu:**
 
   - Đăng kí, đăng nhập tài khoản.
   - Tìm kiếm truyện theo tên,theo thể loại.
   - Chia thể loại, danh mục truyện.
   - Phản hồi, đánh giá truyện.
   - Liên hệ với admin trang web. 
+  - Chức năng riêng cho admin trang web: Thêm, sửa, xóa cơ sở dữ liệu truyện tranh.
 
-**Các màn hình:** 
+**Các màn hình chính:** 
 
-  - Trang chủ: thanh công cụ tìm kiếm,menu thể loại, đăng nhập/đăng ký tài khoản, danh sách truyện mới cập nhật chia theo từng thể loại.
+  - Trang chủ: thanh công cụ tìm kiếm,menu thể loại, đăng nhập/đăng ký tài khoản, danh sách truyện mới cập nhật chia theo từng thể loại :
   
   ![alt](https://github.com/tiep2999/aaaa/blob/master/home1.png)
   
-  - Trang đăng kí.
+  - Trang đăng kí:
   
   ![alt](https://github.com/tiep2999/aaaa/blob/master/logup.png)
   
-  - Trang đăng nhập.
+  - Trang đăng nhập:
   
   ![alt](https://github.com/tiep2999/aaaa/blob/master/login.png)
+  
+  - Trang quản lý cơ sở dữ liệu truyện tranh của admin:
+  
+  ![alt](https://github.com/tiep2999/aaaa/blob/master/admin.png)
   
  **Công nghệ sử dụng:**
   + Cơ sở dữ liệu: MySQL.
   + Frontend: HTML, CSS, JS, Boostrap 4.
   + Backend: NodeJS, AJAX,... 
  
- **Liên lạc giữa các thành viên nhóm:** Facebook, Messenger
+ **Liên lạc giữa các thành viên nhóm:** Facebook, Messenger.
  
   *Có cải tiến và cập nhật thêm chức năng.*
   
- ***Bài tập nhóm tuần 2***
  **Quy trình áp dụng:*** Scrum
   
   - **Thời gian thực hiện:** 15 tuần.
@@ -86,3 +90,7 @@
     3.Nhóm phát triển: Các thành viên trong nhóm
       - Thực hiện xây dựng các chức năng của sản phẩm.
       - Nâng cấp cải tiến các chức năng.
+      
+    ## Hướng dẫn sử dụng phần mềm
+    
+    
