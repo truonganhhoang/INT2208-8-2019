@@ -7,8 +7,8 @@
   
   
 - [x] xây dựng user story theo nguyên lí INVEST:
-  Independent: chức năng này có thể được phát triển độc lập mà không ảnh hưởng đến các chức năng khác
-  Negotiable :
-  Valuable : nó có giá trị trong việc giúp người đăng kí dễ dàng chỉnh sửa tốn ít thời gian hơn
-  Estimable : chức năng này làm có thể ước lượng được thiết kế trong khoảng 2 ngày
-  Testable : chức năng có thể dễ dang kiểm thử được
+  Independent: chức năng này có thể được phát triển độc lập mà không ảnh hưởng đến các chức năng khác</md>
+  Negotiable :</md>
+  Valuable : nó có giá trị trong việc giúp người đăng kí dễ dàng chỉnh sửa tốn ít thời gian hơn</md>
+  Estimable : chức năng này làm có thể ước lượng được thiết kế trong khoảng 2 ngày</md>
+  Testable : chức năng có thể dễ dang kiểm thử được</md>
