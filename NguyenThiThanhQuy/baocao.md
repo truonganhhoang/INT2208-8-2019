@@ -15,9 +15,9 @@
   * chi tiết user story: [link](https://github.com/truonganhhoang/INT2208-8-2019/issues/138)
   
   1. **Xác định yêu cầu mong muốn** :
-    * Tìm kiếm và xem thông tin về sản phẩm trên trang chủ
-    * Đăng nhập tài khoản bắt đầu việc mua sắm
-    * Thêm giỏ hàng các sản phẩm mong muốn
+    + Tìm kiếm và xem thông tin về sản phẩm trên trang chủ
+    + Đăng nhập tài khoản bắt đầu việc mua sắm
+    + Thêm giỏ hàng các sản phẩm mong muốn
     
   2. **Áp dụng quy trình phát triển Scrum** : 
      * Kế hoạch cụ thể
