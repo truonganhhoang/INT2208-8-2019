@@ -21,6 +21,8 @@
 
 **Mô tả:** Web đọc truyện tranh online với nhiều thể loại dành cho nhiều lứa tuổi.
 
+**Link repositories (mã nguồn sản phẩm của nhom-20):** [github Web-truyen-tranh](https://github.com/tiep2999/Website-truyen-tranh)
+
 **Các chức năng**
 
   - Đăng kí, đăng nhập tài khoản.
