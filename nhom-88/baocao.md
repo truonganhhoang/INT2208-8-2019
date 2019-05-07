@@ -14,6 +14,7 @@
 -<b>Hướng dẫn sử dụng </b>:
 
 1.Mở trình duyệt của bạn lên.
+
 2.Gõ vào ô tìm kiếm địa chỉ sau:(đang cập nhật)
 3.Bây giờ bạn dùng thanh cuộn trang kéo xuống sẽ thấy sản phẩm hiện thị.
 //(Ảnh của từng màn hình )
