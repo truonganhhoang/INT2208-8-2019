@@ -1,4 +1,9 @@
-{% extends 'template.html' %}
+{% extends 'template-with-sidebar.html' %}
 {% block content %}
-<p>Hello</p>
+{% if user.is_authenticated %}
+    <h1>Have login</h1>
+{% else %}
+    <h1>Please login</h1>
+{% endif %}
+
 {% endblock %}

@@ -6,6 +6,7 @@ from django.urls import path
 # Create your views here.
 def homepage(request):
     template = loader.get_template('homepage.html')
+
     return HttpResponse(template.render())
 
 urlpatterns = [

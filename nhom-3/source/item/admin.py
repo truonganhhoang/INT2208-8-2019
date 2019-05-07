@@ -9,4 +9,4 @@ class CommentAdmin(admin.ModelAdmin):
 
 # Register your models here.
 admin.site.register(Item, ItemAdmin)
-admin.site.register(Comment, CommentAdmin)
+#admin.site.register(Comment, CommentAdmin)

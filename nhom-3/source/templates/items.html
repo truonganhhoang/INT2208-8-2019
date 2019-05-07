@@ -1,0 +1,130 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sản phẩm</title>
+	<meta charset="utf-8" lang="vi" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	
+	<link rel="stylesheet" type="text/css" href="{% static 'css/bootstrap/bootstrap.min.css' %}" />
+	<link rel="stylesheet" type="text/css" href="{% static 'css/itemStyle.css' %}" />
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+</head>
+<body>
+	<div class="container pt-5" style="width:100%">
+		<!--row-->
+		<div class="row product-summary">
+			<div class="col-sm-6 col-md-6 col-lg-6 col-xl-6">
+				<div class="image-product img-rounded" >
+					<img class="image-product" alt="Ảnh sản phẩm" src="{% static 'images/products/com-tam-ali-24-277-636009082226090265.jpg'%}"/>
+				</div>
+			</div>
+			<div class="col-sm-6 col-md-6 col-lg-6 col-xl-6">
+				<div class="productDetail">
+					<div class="productName">
+						Tên sản phẩm
+					</div>
+					<div class="restaurantName">
+						Tên nhà hàng
+					</div>
+					<div class="productAddress">
+						<span> <i class="fas fa-map-marker-alt"></i> số nhà, đường, quận, huyện, thành phố</span>
+					</div>
+					<div class="rating">
+						<span><i class="fas fa-star"></i></span>
+						<span><i class="fas fa-star"></i></span>
+						<span><i class="fas fa-star"></i></span>
+						<span><i class="fas fa-star"></i></span>
+						<span><i class="fas fa-star"></i></span>
+						<span><a href="#">Xem đánh giá</a></span>
+					</div>
+					<div class="restaurantStatus">
+						<span>Mở cửa <i class="far fa-clock"></i> 8:00 - 22:30</span>
+					</div>
+					<div class="productCost">
+						<i class="fas fa-dollar-sign"></i> Giá sản phẩm
+					</div>
+				</div>
+				<div class="btn-order btn btn-danger mb-0 pt-0">Chọn mua <i class="fas fa-shopping-cart"></i></div>
+			</div>
+		</div>
+		<!--end row-->
+		<!--product-customer-box-->
+		<div class="product-customer-box m-auto">
+			<div class="product-customer-title">KHÁCH HÀNG NHẬN XÉT</div>
+			<div class="product-customer-content">
+				<div class="row">
+					<div class="product-customer-wrtfeedback">
+						<textarea rows="3"  placeholder="Thêm nhận xét của bạn tại đây..." name="comment-content"></textarea>
+						<button type="submit" class="btn btn-primary btn-submit">Gửi nhận xét</button>
+					</div>
+					<div class="col-xl-12">
+						<div class="review-list ml-4">
+							<div class="review-item">
+								<div class="row">
+									<div class="col-2">
+										<div class="image">
+											<div class="avatar-img">
+												<span class="avatar-letter">CN</span>
+											</div>
+										</div>
+										<div class="name" itemprop="author">Cong Nguyen</div>
+										<div class="days">2 ngày trước</div>
+									</div>
+									<div class="col-10">Đây là bình luận</div>
+								</div>
+							</div>
+							<div class="review-item">
+								<div class="row">
+									<div class="col-2">
+										<div class="image">
+											<div class="avatar-img">
+												<span class="avatar-letter">CN</span>
+											</div>
+										</div>
+										<div class="name" itemprop="author">Cong Nguyen</div>
+										<div class="days">2 ngày trước</div>
+									</div>
+									<div class="col-10">Đây là bình luận</div>
+								</div>
+							</div>
+							<div class="review-item">
+								<div class="row">
+									<div class="col-2">
+										<div class="image">
+											<div class="avatar-img">
+												<span class="avatar-letter">CN</span>
+											</div>
+										</div>
+										<div class="name" itemprop="author">Cong Nguyen</div>
+										<div class="days">2 ngày trước</div>
+									</div>
+									<div class="col-10">Đây là bình luận</div>
+								</div>
+							</div>
+							<div class="review-item">
+								<div class="row">
+									<div class="col-2">
+										<div class="image">
+											<div class="avatar-img">
+												<span class="avatar-letter">CN</span>
+											</div>
+										</div>
+										<div class="name" itemprop="author">Cong Nguyen</div>
+										<div class="days">2 ngày trước</div>
+									</div>
+									<div class="col-10">Đây là bình luận</div>
+								</div>
+							</div>
+						</div>
+					</div> 
+				</div>
+			</div>
+		</div>
+		<!--end product-customer-box-->
+	</div>
+<!--Javascript-->
+	<script type="text/javascript" src="{% static 'js/jquery-3.3.1.min.js' %}"></script>
+	<script type="text/javascript" src="{% static 'js/bootstrap.min.js' %}"></script>
+</body>
+</html>
