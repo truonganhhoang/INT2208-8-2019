@@ -1,17 +1,22 @@
-#### Nhóm dự án: Nhóm 88
-**Nguyễn Thị Ngọc-17020932**
+# Nhom-88
 
-**Nguyễn Thị Minh-17021898**
+---
 
-**Nguyễn Thị Thúy-17021054**
+### Thành   viên:
 
-**Bùi Danh Tuấn-17021101**
-
-**Hoàng Vũ Hường-17020823**
+```sh
+1.Hoàng Vũ Hường
+2.Nguyễn Thị Minh
+3.Nguyễn Thị Ngọc
+4.Nguyễn Thị Thúy
+5.Bùi Danh Tuấn
+```
 
 # Báo cáo môn học Công nghệ phần mềm
 
-- Hoàn thành khóa học trên edx
+
+### Tên ứng dụng:  2Hand_Market
+
 -- Bài tập nhóm: **Dự án web bán hàng online**
 [link repo](https://github.com/17020932/2hand-market/tree/master/2hand-market)
 
