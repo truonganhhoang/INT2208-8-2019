@@ -36,7 +36,7 @@
   1. Bạn mở trình duyệt web bất kì: Chrome, Cốc Cốc,...
   2 Mở đường dẫn link: [https://vnumarket.herokuapp.com](https://vnumarket.herokuapp.com)
   3.Trang chủ VNU's Market hiện ra với Logo và các trang mục,moij người có thể nhìn thấy các danh mục sản phẩm cụ thể với từng sản phẩm có giá và hình ảnh trực quan
-  <img src="https://imgur.com/a/Ocr2eww">
+  <img src="https://i.imgur.com/IlA8wYx.png">
   
   
    
