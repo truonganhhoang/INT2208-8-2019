@@ -27,9 +27,11 @@
 2.	Gõ vào ô tìm kiếm địa chỉ sau:(đang cập nhật)
 
 3.	Bây giờ bạn dùng thanh cuộn trang kéo xuống sẽ thấy sản phẩm hiện thị.
-//(Ảnh của từng màn hình )
+
 	-Trang chủ:
+	![home](https://github.com/17020932/INT2208-8-2019/blob/master/nhom-88/imagines/trang%20ch%E1%BB%A71.png)
 	-Trang hiển thị thông tin chi tiết sản phẩm:
+	![product-detail](https://github.com/17020932/INT2208-8-2019/blob/master/nhom-88/imagines/trang%20th%C3%B4ng%20tin%20chi%20ti%E1%BA%BFt.PNG)
 	-Trang giỏ hàng:
 	![cart](https://github.com/17020932/INT2208-8-2019/blob/master/nhom-88/imagines/gi%E1%BB%8F%20h%C3%A0ng.jpg)
 	-Trang đăng tin:
