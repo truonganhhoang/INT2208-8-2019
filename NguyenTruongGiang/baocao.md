@@ -2,13 +2,13 @@
 
 <h2>Nội dung công việc</h2>
 
-Giúp thay đổi trạng thái, special của từng đề thi
+- Giúp thay đổi trạng thái, special của từng đề thi
 
-Giúp thay đổi trạng thái, special của tất cả đề thi
+- Giúp thay đổi trạng thái, special của tất cả đề thi
 
-Tạo chức năng sắp xếp các đề thi theo môn học
+- Tạo chức năng sắp xếp các đề thi theo môn học
 
-Tạo chức năng tìm kiếm đề thi theo tên
+- Tạo chức năng tìm kiếm đề thi theo tên
 
 <h2>Các công việc cần làm</h2>
 
@@ -50,6 +50,8 @@ Tài liệu tham khảo:
 
 [Khóa học SoftEng1x](https://courses.edx.org/courses/course-v1:UBCx+SoftEng1x+1T2018/course/)
 
-Video demo user story: https://youtu.be/j8DLMewBbEY
+### Video demo user story: [YOUTUBE](https://youtu.be/j8DLMewBbEY)
 
+### Repo sản phẩm được triển khai tại: [GITHUB](https://github.com/hoanphi2201/SoftEng-Assignments-nhom-10)
 
+### Link sản phẩm: http://webthi-angular.s3-website-ap-southeast-1.amazonaws.com/
