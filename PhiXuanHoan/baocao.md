@@ -47,8 +47,8 @@ Facebook: [url]( https://developers.facebook.com/apps/325860808251746/dashboard/
 
 # Tổng hợp quá trình làm bài tập nhóm 
 
-#### Repo sản phẩm được triển khai tại [GITHUB](https://github.com/hoanphi2201/SoftEng-Assignments-nhom-10)
+- Repo sản phẩm được triển khai tại [GITHUB](https://github.com/hoanphi2201/SoftEng-Assignments-nhom-10)
 
-#### Link Vieo báo cáo và demo dự án:  [YOUTUBE](https://youtu.be/bxZMtXm2gAk)
+- Link Vieo báo cáo và demo dự án:  [YOUTUBE](https://youtu.be/bxZMtXm2gAk)
 
-#### Link sản phẩm của nhóm deloy server node.js và angular chế độ development tại: [Link Sản phầm](http://webthi-angular.s3-website-ap-southeast-1.amazonaws.com)
+- Link sản phẩm của nhóm deloy server node.js và angular chế độ development tại: [Link Sản phầm](http://webthi-angular.s3-website-ap-southeast-1.amazonaws.com)
