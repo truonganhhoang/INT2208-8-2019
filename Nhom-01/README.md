@@ -24,10 +24,10 @@ https://docs.google.com/spreadsheets/d/1hRc_sCYV6-O9ELMNNB0Y8MQ25Xu6XZmCN_Gbc7jU
 Đã viết chi tiết trong file ProductBacklog.md bên ngoài.  
 
 ## Báo cáo demo cũng như hướng dẫn sử dụng sản phẩm nhóm  
-https://www.youtube.com/watch?v=Gys20IEQ81E
-https://www.youtube.com/watch?v=Ftl1i1LIA5Y
-https://youtu.be/qXeL1_9i78U
-https://www.youtube.com/watch?v=J_Hutor-dPs
+https://www.youtube.com/watch?v=Gys20IEQ81E  
+https://www.youtube.com/watch?v=Ftl1i1LIA5Y  
+https://youtu.be/qXeL1_9i78U  
+https://www.youtube.com/watch?v=J_Hutor-dPs  
 https://www.youtube.com/watch?v=DWSUQxiJfto  
 
 ## HDSD (tài liệu HDSD)  
