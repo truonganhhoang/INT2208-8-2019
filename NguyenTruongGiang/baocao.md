@@ -1,13 +1,20 @@
 <h1>Báo cáo cá nhân</h1>
 Nguyên tắc INVEST:
+
 - <b>Độc lập</b>: Không phụ thuộc vào các userstory khác, có chức năng riêng là lọc các môn học theo trạng thái.
+
 - <b>Có thể thương lượng</b>: Bàn bạc về phương án triển khai như thiết kế giao diện, thực hiện chức năng lọc bằng API.
+
 - <b>Có giá trị với khách hàng</b>: Dùng để lọc đề thi các môn học mà khách hàng cần, khách hàng có thể góp ý để thêm các môn học hay sửa chữa cho hợp lý.
+
 - <b>Ước lượng được</b>: Mức độ ưu tiên khá quan trọng, là thành phần cần thiết giúp người dùng có thể tìm kiếm môn học dễ dàng hơn.
+
 - <b>Đủ nhỏ</b>: Không quá lớn, thực hiện vẽ giao diện trong khoảng 2 giờ, thiết kế chức năng lọc trong 2 giờ, kiểm thử trong 1 giờ.
+
 - <b>Có thể kiểm thử</b>: Có thể dùng các test case để kiểm thử, kiểm thử theo yêu cầu người dùng và các chuẩn mực quy định.
 
 <b>* Task list</b>:
+
 <h2>Các công việc cần làm</h2>
 
 - [x] Vẽ sơ đồ tương tác giữa các component User - List - Exam - Form (30p) [EDX](https://docs.google.com/document/d/1a4i_31R8WBUAnF91syr1FwBpKoAiTY6rEJt1xWjb74M/edit#heading=h.mbo17pwlhzz2)
@@ -43,6 +50,9 @@ Nguyên tắc INVEST:
 - [x] Kiểm thử (24h) [Tài liệu Edx](https://docs.google.com/document/d/1a4i_31R8WBUAnF91syr1FwBpKoAiTY6rEJt1xWjb74M/edit#heading=h.zhrswbsdiifd)
 
 Tài liệu tham khảo:
+
 [Bài giảng tiếng Việt](https://docs.google.com/document/d/1a4i_31R8WBUAnF91syr1FwBpKoAiTY6rEJt1xWjb74M/edit#heading=h.mbo17pwlhzz2)
+
 [Khóa học SoftEng1x](https://courses.edx.org/courses/course-v1:UBCx+SoftEng1x+1T2018/course/)
+
 Video demo user story: https://youtu.be/j8DLMewBbEY
