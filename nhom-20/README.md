@@ -82,6 +82,7 @@
       - Giúp đỡ mọi người tương tác đạt hiệu quả cao nhất.
       - Tìm kiếm các kĩ thuật để quản lý Product Backlog.
       - Lập kế hoạch triển khai Scrum.
+      
     3.Nhóm phát triển: Các thành viên trong nhóm
       - Thực hiện xây dựng các chức năng của sản phẩm.
       - Nâng cấp cải tiến các chức năng.
