@@ -9,6 +9,8 @@
   - Phạm Duy Tiếp.
   
   - Trần Hồng Phúc.
+  
+  - Phạm Nhật Hưng.
 
 
 ***Bài tập nhóm tuần 1***
@@ -71,7 +73,7 @@
       - Mô tả các hạng mục Product backlog.
       - Đảm bảo công việc của Nhóm phát triển để đạt được mục đích và hoàn thành các nhiệm vụ.
       
-    2.Scrum Master: Trần Hòng Phúc
+    2.Scrum Master: Trần Hồng Phúc
       - Giúp đỡ mọi người tương tác đạt hiệu quả cao nhất.
       - Tìm kiếm các kĩ thuật để quản lý Product Backlog.
       - Lập kế hoạch triển khai Scrum.
