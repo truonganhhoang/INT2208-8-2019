@@ -31,7 +31,9 @@
 	-Trang chủ:
 	-Trang hiển thị thông tin chi tiết sản phẩm:
 	-Trang giỏ hàng:
+	![cart](https://github.com/17020932/INT2208-8-2019/blob/master/nhom-88/imagines/gi%E1%BB%8F%20h%C3%A0ng.jpg)
 	-Trang đăng tin:
+	![post-news](https://github.com/17020932/INT2208-8-2019/blob/master/nhom-88/imagines/dang-tin.PNG)
 	
 ### Trang chủ
 
