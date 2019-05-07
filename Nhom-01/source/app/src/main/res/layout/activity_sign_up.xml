@@ -17,17 +17,17 @@
 
     <com.facebook.login.widget.LoginButton
         android:id="@+id/fbLogin"
-        android:layout_width="wrap_content"
+        android:layout_width="201dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
+        android:text="Login with Facebook"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.53"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/guideline3"
-        android:text="Login with Facebook"/>
+        app:layout_constraintTop_toTopOf="@+id/guideline3" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline3"
@@ -36,39 +36,18 @@
         android:orientation="horizontal"
         app:layout_constraintGuide_begin="365dp" />
 
-
-    <TextView
-        android:id="@+id/name"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginBottom="8dp"
-        android:text="name"
-        app:layout_constraintBottom_toTopOf="@+id/fbLogin"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
-
-    <TextView
-        android:id="@+id/UID"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginBottom="8dp"
-        android:text="UID"
-        app:layout_constraintBottom_toTopOf="@+id/name"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
-
     <Button
-        android:id="@+id/fbSignOut"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:id="@+id/anonymousLogin"
+        android:layout_width="201dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
-        android:text="Sign Out"
+        android:text="Continue anonymously"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/activity_sign_up_toolbar" />
+        app:layout_constraintHorizontal_bias="0.53"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fbLogin" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
