@@ -1,0 +1,57 @@
+<% include ./../../element/header-2 %>
+
+
+
+<div >
+  <div class="container" style="background-color: #f4f4f4;">
+    <form role="form" action="/dang-tin-mien-phi/save" class="m-3 p-3" enctype="multipart/form-data" method="POST">
+      <div class="">
+        <h2 class="mb-3 " >ĐĂNG TIN RAO</h2>
+      </div>
+      
+      <hr>
+      <div class="form-group ">
+        <label for="topic">Tiêu đề: </label>
+        <input type="text" class="form-control" id="topic" name="topic" value="">
+      </div>
+      <div class="form-group">
+        <label for="content">Nội dung mô tả: </label>
+        <textarea type="text" class="form-control" rows="5" id="content" name="content" value=""></textarea>
+      </div>
+      <div class="form-group">
+        <div>
+          <label for="myFile">Chọn ảnh: </label>
+          <input type="file" id="myFile" name="photos" multiple>
+        </div>
+      </div>
+      <div class="form-group" style="width: 50%;">
+        <label for="price">Giá sản phẩm: </label>
+        <input type="text" class="form-control" id="price" name="price" value="0">
+      </div>
+  
+      <div class="p-3" style="border: 1px solid darkgray">
+        <h5>Thông tin người bán</h5>
+        <div class="row">
+          <div style="width: 45%;" class="pr-4 pl-4">
+            <label for="nameOfSale">tên người bán: </label>
+            <input type="text" class="form-control" id="nameOfSale" name="nameOfSale" value="">
+          </div>
+  
+          <div style="width: 45%;" class="pl-4" >
+            <label for="phoneNumber">Số điện thoại: </label>
+            <input type="text" class="form-control" id="phoneNumber" name="phoneNumber" value="">
+          </div>
+  
+          <div style="width: 45%;" class="pr-4 pl-4">
+            <label for="EmailOfSale">Email: </label>
+            <input type="email" class="form-control" id="EmailOfSale" name="Email" value="">
+          </div>
+        </div>
+        
+          
+      </div>
+      <button type="submit" class="btn btn-primary mt-3" id="submit">Đăng tin</button>
+    </form> 
+   
+  </div>
+</div>

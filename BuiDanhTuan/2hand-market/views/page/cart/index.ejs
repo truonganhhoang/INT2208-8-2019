@@ -1,0 +1,160 @@
+
+<% include ./../../element/header-2 %>
+
+<!-- content -->
+<div class="container mt-3 mb-3">
+    <div id="titleCart">
+        <div class="step1">
+            <i class="bg-danger">1</i>
+            <span>giỏ hàng</span>
+        </div>
+        <div class="step2">
+            <i>2</i>
+            <span>thông tin thanh toán</span>
+        </div>
+        <div class="step3">
+            <i>3</i>
+            <span>xác nhận thành công</span>
+        </div>
+        <span id="bdTCart"></span>
+    </div>
+</div>
+
+<div class="m-3 p-3" id="cart-detail" style="display: block;">
+    <h5>Thông tin giỏ hàng</h5>
+    <table class="table .table-secondary table-striped mt-3" id="cart">
+        <thead>
+            <tr>
+                <th>ảnh sản phẩm</th>
+                <th>tên sản phẩm</th>
+                <th>mã sản phẩm</th>
+                <th>số lượng</th>
+                <th>thành tiền</th>
+                <th>xóa</th>
+            </tr>
+        </thead>
+        <tbody id="cartBody">
+
+        </tbody>
+    </table>
+    <div style="text-align: center; color: red;" id="note">
+        <p>bạn hiện chưa có sản phẩm nào</p>
+    </div>
+    <div class="row justify-content-end m-3">
+        <a href="/danh-muc-san-pham"><button id="" class="mr-2">xem sản phẩm khác</button></a>
+        <button id="payment">thanh toán</button>
+    </div>
+    
+</div>
+
+<form style="position: relative; display: none;" id="bill" class="mt-3" action="/gio-hang/save" method="POST">
+    <div class="row justify-content-center">
+        <div class="ml-3 p-2 col-md-3">
+            <h5>Thông tin thanh toán</h5>
+            <div class="form-group">
+                <label for="InputName">Họ tên <span> *</span></label>
+                <input type="text" class="form-control" id="InputName" name="InputName" placeholder="Enter your name...">
+            </div>
+            <div class="form-group">
+                <label for="InputCity">Tỉnh/Thành phố <span> *</span></label>
+                <select name="InputCity" id="InputCity" class="form-control" placeholder="VD: Hà Nội..." >
+                    <option>VD: Hà Nội...</option>
+                </select>
+            </div>
+  
+            <div class="form-group">
+                <label for="InputDistrict">Địa chỉ nhận hàng<span> *</span></label>
+                <select name="InputDistrict" id="InputDistrict" class="form-control" placeholder="chọn một tùy chọn bất kì...." >
+                    <option>Chọn một tùy chọn bất kì....</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="InputEmail1">Email address<span> *</span></label>
+                <input type="email" name="InputEmail" class="form-control" id="InputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+            </div>
+            <div class="form-group">
+                <label for="InputName">Điện thoại<span> *</span></label>
+                <input type="text" name="InputPhoneNumber" class="form-control" id="InputPhoneNumber" placeholder="Enter your number...">
+            </div>
+        </div>
+
+        <div class="ml-3 p-2 col-md-4">
+            <h5>Đơn hàng của bạn</h5>
+            <div class="form-group">
+                <input type="radio" name="gender" value="Chuyển khoản ngân hàng" > Chuyển khoản ngân hàng<br>
+                <input type="radio" name="gender" value="Thanh toán khi nhận hàng"> Thanh toán khi nhận hàng<br>
+            </div>
+            <div>
+                <p>Note: </p>
+                <ul>
+                    <li>Chỉ nhận ship chuyển khoản với hàng Sale</li>
+                    <li>Hàng sale không nhận đổi trả dưới mọi hình thức. vui lòng cân nhắc trước khi đặt hàng.</li>
+                    <li>Sau khi đặt hàng, bộ phận CSKH sẽ check hàng tồn kho và gọi điện xác nhân đơn hàng với quý khách. Vui lòng không thanh toán trước khi Germe Shop liên hệ và hướng dẫn.</li>
+                </ul>
+                <p><b>PHÍ SHIP CÁC TỈNH: 30,000 Đ</b></p>
+            </div>
+        </div>
+        <!-- <button type="submit" class="btn btn-primary">Submit</button> -->
+        <div class="ml-3 p-2 col-md-4">
+            <table class="table .table-secondary " id="billCart" name="billCart">
+                <thead>
+                    <tr>
+                        <th>sản phẩm</th>
+                        <th style="display: none;">Ma san pham</th>
+                        <th>thành tiền</th>
+                    </tr>
+                </thead>
+                <tbody id= "billCartBody"></tbody>
+          </table>
+          <!-- / -->
+          <input type="text" name="cart" id="InputCart" > 
+          <div>phí giao hàng: <span>30.000đ</span></div>
+          <div>tổng: <span id="totalBill"></span>đ</div>
+        </div>
+    </div>
+    <div style="display: none;" id="order-box">
+        <div class="overlay"></div>
+        <div class="light-box" style="min-height: 150px; min-width: 280px; overflow-x: hidden;">
+            <h3 class="m-4">Xác nhận đặt hàng</h3>
+            <button type="submit" class="btn btn-primary">Đồng ý</button>
+            <button type="button" class="btn btn-danger" id="cancle-order">Hủy</button>  
+        </div>
+    </div>
+    
+    <button type="button" class="btn btn-primary" style="right: 100px; bottom: 10px; position: absolute;" id="order">Đặt hàng</button>
+</form>
+
+
+<style type="text/css">
+    .form-group span {
+        color: red;
+    }
+
+    .overlay {
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: black;
+        opacity: 0.5;
+        position: fixed;
+        z-index: 10000;
+    }
+
+    .light-box {
+        top: 30%;
+        left: 24%;
+        width: 40%;
+        position: fixed;
+        background: white;          
+        height: 150px;
+        text-align: center;
+        color: blue;
+        border: 2px solid pink;
+        border-radius: 10px;
+        z-index: 10001;
+        overflow-x: hidden;
+    }
+</style>
