@@ -109,7 +109,7 @@
                 <tbody id= "billCartBody"></tbody>
           </table>
           <!-- / -->
-          <input type="text" name="cart" id="InputCart" > 
+          <input type="text" name="cart" id="InputCart" hidden> 
           <div>phí giao hàng: <span>30.000đ</span></div>
           <div>tổng: <span id="totalBill"></span>đ</div>
         </div>
@@ -117,9 +117,11 @@
     <div style="display: none;" id="order-box">
         <div class="overlay"></div>
         <div class="light-box" style="min-height: 150px; min-width: 280px; overflow-x: hidden;">
-            <h3 class="m-4">Xác nhận đặt hàng</h3>
-            <button type="submit" class="btn btn-primary">Đồng ý</button>
+            <h5 class="m-3">Xác nhận đặt hàng</h5>
+            
+            <button type="submit" class="btn btn-primary" id="order-button">Đồng ý</button>
             <button type="button" class="btn btn-danger" id="cancle-order">Hủy</button>  
+            <p style="color: #dedede;">sau khi xác nhận thành bạn sẽ nhận đc email đính kèm hóa đơn mua hàng</p>
         </div>
     </div>
     
@@ -127,34 +129,3 @@
 </form>
 
 
-<style type="text/css">
-    .form-group span {
-        color: red;
-    }
-
-    .overlay {
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background-color: black;
-        opacity: 0.5;
-        position: fixed;
-        z-index: 10000;
-    }
-
-    .light-box {
-        top: 30%;
-        left: 24%;
-        width: 40%;
-        position: fixed;
-        background: white;          
-        height: 150px;
-        text-align: center;
-        color: blue;
-        border: 2px solid pink;
-        border-radius: 10px;
-        z-index: 10001;
-        overflow-x: hidden;
-    }
-</style>

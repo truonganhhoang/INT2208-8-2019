@@ -27,7 +27,7 @@ router.get('(/:status)?', function(req, res, next) {
   //pagination
   let pagination = {
     itemsTotal : 1,
-    totalItemsPerPage : 5,
+    totalItemsPerPage : 12,
     currentPage: 1,
     pagesRange : 3
   }

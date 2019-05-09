@@ -69,7 +69,7 @@ router.post('/save', function(req, res, next) {
     }
   });
 
-  res.end("chúng tôi đã gửi mail xác nhận và hóa đơn cho bạn vào email. Hãy kiểm tra hòm thư của mình!!!");
+  res.redirect('/');
 
 });
 module.exports = router;

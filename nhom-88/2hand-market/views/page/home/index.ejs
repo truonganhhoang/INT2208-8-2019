@@ -9,9 +9,12 @@
         <% include ./../../element/nav-bar-right %>
         <!-- /.col-lg-3 -->
 
-        <div class="col-lg-9">
+        <div class="col-lg-9 mt-4">
+            <div class="box-name">
+                <h7>Danh mục sản phẩm <span>><%= currentStatus.split("-").join(" ")%></span></h7>
+            </div>
             <!-- col-lg-9 -->
-            <div id="carouselExampleIndicators" class="carousel slide my-4" data-ride="carousel">
+            <!-- <div id="carouselExampleIndicators" class="carousel slide my-4" data-ride="carousel">
                 <ol class="carousel-indicators">
                     <li data-target="#carouselExampleIndicators" data-slide-to="0" class=""></li>
                     <li data-target="#carouselExampleIndicators" data-slide-to="1" class="active"></li>
@@ -36,19 +39,19 @@
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                     <span class="sr-only">Next</span>
                 </a>
-            </div>
+            </div> -->
 
             <div class="row">
 
                 <% items.forEach((item)=>{ %>
-                <div class="col-lg-4 col-md-6 mb-4 product-card">
+                <div class="col-lg-3 col-md-3 col-sm-4 mb-4 product-card">
                     <div class="card h-100">
                         <a href="/danh-muc-san-pham/thong-tin-chi-tiet/<%= item.id %>"><img class="card-img-top img-size" src="<%= item.link_img[0] %>" alt=""></a>
                         <div class="card-body">
                             <h4 class="card-title">
                                 <a href="/danh-muc-san-pham/thong-tin-chi-tiet/<%= item.id %> "><%= item.name %></a>
                             </h4>
-                            <h5><%= item.price %>đ</h5>
+                            <h6><%= item.price %>đ</h6>
                             <!-- <p class="card-text"><%= item.desc %></p> -->
                         </div>
                         <div class="card-footer">
@@ -73,3 +76,19 @@
      
       </div>
 </div>
+<style>
+    .row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: 0px;
+    margin-left: 0px;
+    }
+
+    .box-name {
+        border: 1px solid #6c757d;
+        margin-bottom: 20px;
+        padding: 10px;
+    }
+</style>

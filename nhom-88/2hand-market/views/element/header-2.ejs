@@ -12,14 +12,16 @@
 
         <div class="row justify-content-md-center">
             <a href="#"><img src="./img/logo2.png" style="width: 300px; height: 100px;" class="mr-4 p-3"></a>
-            <div>
-                <form class="form-inline mr-4 mt-4 p-3" style="width: 500px;"
-                    action="/danh-muc-san-pham" method="GET">
-                    <input class="form-control mr-1" style="width: 80%;" type="search" placeholder="Tìm kiếm..."
-                        name="keyWord" aria-label="Search">
-                    <button class="btn btn-danger " type="submit">tìm kiếm</button>
-                </form>
-            </div>
+            <form class="mr-4 mt-4 p-3 col-lg-5 col-md-4" action="/danh-muc-san-pham" method="GET">
+                <div class="input-group">
+                    <input type="search" class="form-control" placeholder="nhập tên sản phẩm..." name="keyWord"
+                        >
+                    <div class="input-group-append">
+                        <button class="btn btn-outline-secondary btn-danger" type="submit" style="color: white;">Tìm
+                            kiếm</button>
+                    </div>
+                </div>
+            </form>
             <a href="#"><span><img src="./img/cart-icon1.png" class="mt-3 ml-3 mb-3 pt-3 pl-3 pb-3"></span></a>
             <div class="Qty qty-header"></div>
         </div>
