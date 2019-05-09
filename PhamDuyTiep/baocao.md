@@ -31,10 +31,11 @@
 - [x] Làm sạch, tối ưu lại mã nguồn(1h).
       - EDX: [Mã dễ đọc hơn](https://docs.google.com/document/d/1a4i_31R8WBUAnF91syr1FwBpKoAiTY6rEJt1xWjb74M/edit#heading=h.ocf6iosigvwc).
 - [x] Các thành viên trong nhóm tham gia kiểm thử.
-## Sản phẩm:
+## Giới thiệu, hướng dẫn chức năng tương ứng với User story.
+   Link trang web: [Web Truyện Tranh]().
    Sản phẩm được xây dựng và phát triển tại: [Repositories GitHub](https://github.com/phamhung99/Website-truyen-tranh).
-
-   link video demo: [user story và demo chức năng đăng nhập đăng ký](https://www.youtube.com/watch?v=eeN7UqVwMn8&t=75s).
+   Cá nhân tham gia xây dựng chức năng đăng ký/đăng nhập cho trang Web này. Tạo tài khoản và đăng nhập bằng tài khoản được tạo đó.
+   link video demo, hướng dẫn chức năng đăng nhập/đăng ký: [user story và demo chức năng đăng nhập đăng ký](https://www.youtube.com/watch?v=eeN7UqVwMn8&t=75s).
 
    **Hướng dẫn sử dụng chức năng đăng nhập/đăng ký:**
    ##### 1.Đăng ký
@@ -45,3 +46,27 @@
      **Lưu ý:**
      - Nếu tên người dùng, email chỉ được sử dụng để đăng ký cho một tài khoản duy nhất. Nên nếu bị trùng lặp, bản phải nhập tên người          dùng hoặc email khác để đăng ký.
      - "Password" và "Confirm Password" phải giống nhau tuyệt đối.
+     
+   - Sau khi nhập xong thông tin và được tích dấu V xanh, chọn đăng ký.
+   
+   ![alt](https://github.com/tiep2999/aaaa/blob/master/CNPM/enterLog.png)
+     
+   - Nếu thành công màn hình sẽ đăng ký thành công, ngược lại sẽ thông báo thất bại và yêu cầu quay lại trang đăng ký nhập lại thông          tin.
+     - Đăng nhập thành công.  
+   ![alt](https://github.com/tiep2999/aaaa/blob/master/CNPM/loginOK.png)
+     - Đăng nhập thất bại.
+   ![alt](https://github.com/tiep2999/aaaa/blob/master/CNPM/failLog.png)
+   
+   ##### 2.Đăng nhập
+   - Sau khi đăng ký thành công tài khoản, bạn chọn đến trang đăng nhập để tiến hành đăng nhập tài khoản.
+   - Nhập Email, Password đã đăng ký và chọn đăng nhập.
+   - Sau khi đăng nhập:
+      - Nếu là tài khoản User bạn sẽ được đưa đến trang profile cá nhân.
+      
+      ![alt](https://github.com/tiep2999/aaaa/blob/master/CNPM/profile.png)
+      
+      - Đặc biệt: Nếu là tài khoản của admin sẽ đưa đến trang riêng của Admin để quản lý cơ sở dữ liệu truyện tranh. Tài khoản Admin bí         mật chỉ có duy nhất và không thể đăng ký.
+      
+      ![alt](https://github.com/tiep2999/aaaa/blob/master/CNPM/admin.png)
+      
+      
