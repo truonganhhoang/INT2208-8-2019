@@ -81,3 +81,27 @@ $(document).ready(function(){
         $(".step3 i").removeClass("bg-danger");
   })
 });
+//hien thi don hang
+async function showBill() {
+    let billCart = JSON.parse(localStorage.cart);
+    if(billCart.length == 0) {
+        $("billCartBody").css("visibility", "hidden");
+        return;
+    }
+
+    $("#billCartBody").css("visibility", "visible");
+    $("#billCartBody").empty();
+    let totalBill = 30000;
+    for (let i in billCart) {
+        let item = cart[i];
+        let Qty = parseInt(item.Qty);
+        let Price = parseInt(item.Price.split('.').join(''));
+        let row = "<tr><td style='vertical-align: middle;'>" + "<img src='" + item.Img + "' style='height:80px; wigth:45px;border:1px solid;'><br>" + item.Product + " (x" + item.Qty + ")" +
+            "</td><td style='vertical-align: middle; display: none' >" + item.id +
+            "</td><td style='vertical-align: middle;'>" + Qty * Price + "đ</td>";
+        $("#billCartBody").append(row);
+        totalBill +=  Qty * Price 
+    }
+    $("#totalBill").text(totalBill);
+    $("#InputCart").val(localStorage.cart);
+}
