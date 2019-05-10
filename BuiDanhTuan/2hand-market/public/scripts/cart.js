@@ -51,3 +51,25 @@ $(document).ready(function(){
     showBill();
     
   });
+  //xu ly su kien dat hang
+  $("#order").click(function() {
+
+    if($('#InputName').val() == "" ||
+       $('#InputCity').val() == "VD: Hà Nội..." ||
+       $('#InputDistrict').val() == "Chọn một tùy chọn bất kì...." ||
+       $('#InputEmail1').val() == "" ||
+       $('#InputPhoneNumber').val() == "" ) {
+        
+        alert("bạn cần hoàn thiện các thông tin bên dưới")
+    }
+    else {
+        let a = $("#order-box").css("display");
+        if (a == "none") {
+            $("#order-box").css("display", "block");
+            $(".step2 i").removeClass("bg-danger");
+            $(".step3 i").addClass("bg-danger");
+            $(".step1 i").removeClass("bg-danger");
+        }
+    }
+    
+  });
