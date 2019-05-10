@@ -4,11 +4,11 @@
 ### Nhóm dự án: 69
 ### Vai trò: Scrum master and developer
 
-# Báo cáo cá nhân môn học công nghệ phần mềm.
+# Báo cáo cá nhân môn học công nghệ phần mềm
 - Hoàn thành khóa học trên EDX: [edx]()
 - Tham gia làm bài tập nhóm: Web bán hàng online [Link trang web](https://vnumarket.herokuapp.com/)
                                                  [Link mô tả](https://github.com/tranthiensonuet/INT2208-8-2019/tree/master/nhom-69)
-### User story: Là một khách hàng, tôi muốn xem các sản phẩm được phân loại theo chức năng, để tìm mua dễ dàng và nhanh chóng hơn.
+#### User story: Là một khách hàng, tôi muốn xem các sản phẩm được phân loại theo chức năng, để tìm mua dễ dàng và nhanh chóng hơn.
 - Chi tiết user story: [Link](https://github.com/truonganhhoang/INT2208-8-2019/issues/136)
 
 - Link youtube: https://youtu.be/p4Tz_FAdJbo
@@ -23,10 +23,10 @@
        
   **II. Áp dụng quy trình phát triển Scrum vào làm dự án nhóm:**
     + Kế hoạch cụ thể
-      + Sprint 1: từ tuần 1 - tuần 4: Xây dựng giao diện cơ bản, và tạo hệ quản trị csdl
-      + Sprint 2: từ tuần 4 - tuần 8: Xây dựng tính năng xem thông tin sản phẩm và đặt mua
-      + Sprint 3: từ tuần 8 - tuần 11: Xây dựng tính năng đăng kí tài khoản- thêm giỏ hàng
-      + Sprint 4: từ tuần 11 - tuần 12: Hoàn thiện tính năng và kiểm thử
+      + Sprint 1: từ tuần 1 - tuần 4: Xây dựng giao diện cơ bản, và tạo hệ quản trị csdl.
+      + Sprint 2: từ tuần 4 - tuần 8: Xây dựng tính năng xem thông tin sản phẩm và đặt mua.
+      + Sprint 3: từ tuần 8 - tuần 11: Xây dựng tính năng đăng kí tài khoản- thêm giỏ hàng.
+      + Sprint 4: từ tuần 11 - tuần 12: Hoàn thiện tính năng và kiểm thử.
        
   **III. High Level Design:** chọn hệ quản trị dữ liệu MySql và xây dựng sơ đồ lớp.
   
@@ -49,7 +49,7 @@
  
  - **Để tìm kiếm, bạn nhập sản phẩm cần tìm vào ô tìm kiếm (màu trắng).**
  
- Ví dụ: bạn gõ từ "balo", sau đo ấn enter hoặc kích vào biểu tượng tìm kiếm. Trang web sẽ trả lại kết quả.
+ Ví dụ: bạn gõ từ **"balo"**, sau đo ấn enter hoặc kích vào biểu tượng tìm kiếm. Trang web sẽ trả lại kết quả.
  <img src="https://i.imgur.com/nA2GZSQ.png">
  
  - **Để tìm kiếm sản phẩm theo bộ lọc giá cả, bạn click 1 trong các ô giá bên trái có sẵn trên màn hình.**
