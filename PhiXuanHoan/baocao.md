@@ -1,3 +1,14 @@
+# Báo cáo quá trình tự học
+#### Tham gia các khoá học HTML CSS JS Node.js trên freecodecamp để có kiến thức làm bài tập lớn: 
+
++ >100%, Responsive Web Design, [ảnh dẫn chứng](https://github.com/hoanphi2201/INT2208-8-2019/blob/master/PhiXuanHoan/images/Certification_Responsive_Web_Design.png)
++ >100%, Javascript Algorithms And Data Structures, [ảnh dẫn chứng](https://github.com/hoanphi2201/INT2208-8-2019/blob/master/PhiXuanHoan/images/Javascript%20Algorithms%20And%20Data%20Structures%20Certification.png)
++ >100%, Front End Libraries , [ảnh dẫn chứng](https://github.com/hoanphi2201/INT2208-8-2019/blob/master/PhiXuanHoan/images/Front%20End%20Libraries.png)
++ >100%, Data Visualization  , [ảnh dẫn chứng](https://github.com/hoanphi2201/INT2208-8-2019/blob/master/PhiXuanHoan/images/DataVisualization.png)
++ >100%, Apis And Microservices , [ảnh dẫn chứng](https://github.com/hoanphi2201/INT2208-8-2019/blob/master/PhiXuanHoan/images/APIsandMicroservices.png)
+
+#### Khoá học trên EDX:  [Ảnh dẫn chứng](https://github.com/hoanphi2201/INT2208-8-2019/blob/master/PhiXuanHoan/SoftEng1x.jpg)
+
 # Báo cáo công việc đã làm trong quá trình học
 
 ## User Story được giao
