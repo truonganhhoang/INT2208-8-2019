@@ -6,7 +6,7 @@
 # Báo cáo các nhân môn học Công nghệ phần mềm
 
 * #### Hoàn thiện khoá học trên edx [EDX](https://github.com/tranthiensonuet/INT2208-8-2019/blob/master/TranThienSon/SoftEng1x.jpg)
-* #### Hoàn thiện câu hỏi trắc nghiệm trên hoclieu.sachmem [Học Liệu](https://hoclieu.sachmem.vn/live_class/class/5c7e14f1efebf54d2bd93791/assignments)
+* #### Hoàn thiện câu hỏi trắc nghiệm trên hoclieu.sachmem
 * #### Tham gia làm bài tập nhóm: Web bán hành online [WEB](https://vnumarket.herokuapp.com), [Github](https://github.com/tranthiensonuet/INT2208-8-2019/tree/master/nhom-69)
 * #### User Story: Là một khách hàng, tôi muốn đăng kí tài khoản để có thể đặt mua đơn hàng của mình. [User Story](https://github.com/truonganhhoang/INT2208-8-2019/issues/145)
   
@@ -42,9 +42,13 @@
      - Thêm cơ sở dữ liệu cho ứng dụng.
      - Đẩy code lên heroku để chạy ứng dụng.
   - Hình ảnh minh họa:
-     - Trang đăng kí, đăng nhập 
+     - Trang đăng kí, đăng nhập tài khoản
    ![68747470733a2f2f692e696d6775722e636f6d2f676f66613637482e706e67](https://user-images.githubusercontent.com/43133165/57501771-fa73a800-7312-11e9-90b5-f2c6826bcf73.png)
    
+     - Đăng nhập, đăng kí tài khoản thành công
+     ![123](https://user-images.githubusercontent.com/43133165/57502191-d618cb00-7314-11e9-83a0-a680c9a5c99f.png)
+
+     
  * #### Mã nguồn sản phẩm [Link](https://github.com/tranthiensonuet/INT2208-8-2019/tree/master/nhom-69/UETMaket)
  
  * #### Giới thiệu sản phẩm
