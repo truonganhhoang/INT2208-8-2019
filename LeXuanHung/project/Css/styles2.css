@@ -1,0 +1,648 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face {
+	font-family: Nixmat;
+	src: url(../font/Nixmat.ttf);
+}
+@font-face {
+	font-family:MYRIADPRO-SEMIBOLD;
+	src: url(../font/MYRIADPRO-SEMIBOLD.OTF);
+}
+@font-face {
+	font-family:MYRIADPRO-BOLDIT;
+	src: url(../font/MYRIADPRO-BOLDIT.OTF);
+}
+@font-face {
+	font-family:MYRIADPRO-COND;
+	src: url(../font/MYRIADPRO-COND.OTF);
+}
+
+/*thêm ở đây*/
+.container{
+	
+    
+}
+.carousel-item{
+	width:100px;
+	height:50px;
+	background-color:#F9CC76;
+	border:1px solid #F99;
+	border-bottom-color:white;
+}
+#title_under_header{
+	background-color:#50A625;
+	font-size:bold;
+	font-family:MYRIADPRO-SEMIBOLD;
+	color:black;
+	margin-top:4px;
+	padding:10px;
+	text-align:center;
+}
+
+#MainHeader{
+	background-image: url(../img/bia4.jpg);
+	padding:0px;
+	height:84px;
+}
+
+
+#search1{
+	border:1px solid #F9CC76;
+	width:280px;
+	height:50px;
+	border-bottom-color:white;
+	float:left;
+    margin-left:-30px;
+	font-size:100%;
+	font-family:MYRIADPRO-COND;
+	opacity:0.5;
+}
+
+#form-search i{
+	position:absolute;
+	right:120px;
+	top:15px;
+}
+
+input#search{
+	border:1px solid #09F;
+	border-radius: 5px;
+	width:400px;
+	height:40px;
+	float:right;
+	margin-left:150px;
+	font-size:100%;
+	font-family:MYRIADPRO-COND;
+}
+
+
+	
+/* kết thúc */
+
+
+
+
+
+
+
+
+div.title1{
+	border-top: 1px ridge #F9CC76;
+	font-family: Nixmat;
+	text-align: center;
+	font-size: 200%;
+	padding-top: 0px;
+	padding-bottom: 10px;
+}
+p.hotline{
+	font-size:100%;
+	font-family:MYRIADPRO-COND;
+	position:absolute;
+	top:140px;
+	left:0px;
+}
+a#icon_hang{
+	position:absolute;
+	right:85px;
+	top:210px;
+	padding:10px;
+}
+a#icon_taikhoan1{
+	position:absolute;
+	top: 210px;
+	right:20px;
+	padding:10px;
+}
+div.list {
+	padding: 30px;
+	border-top: 0.5px ridge #ccccb3;
+	border-bottom: 0.5px ridge red;
+	margin-bottom: 10px;
+	z-index:1;
+	
+}
+ul.Mainlist li {
+	display: block;
+	font-family:MYRIADPRO-SEMIBOLD;
+	font-weight: bold;
+	float: left;
+	list-style-type: none;
+
+}
+ul.Mainlist {
+	margin-left: 25%;
+	margin-top: 0px;
+	height:10px;
+}
+
+ul.Mainlist li a {
+	color: #000000;
+	text-decoration: none;
+	background-color: white;
+	padding: 30px;
+	position: relative;
+	
+}
+ul.Mainlist li a:hover {
+	background-color: #ffcc00;
+	color: white;
+	text-decoration: none;
+	padding-top: 31px;
+	text-align: top;
+	padding: 30px;
+	position: relative;
+	
+}
+
+
+div#option{
+	background-color:#FFFAFA;
+	border-top-color:white;
+	margin-top:-10px;
+	padding:14px;
+	height:50px;
+	width:100%;
+}
+
+
+.content{
+	z-index:-2;
+}
+
+div#title-content{
+	font-family:MYRIADPRO-SEMIBOLD;
+	padding:15px;
+	font-weight:bolder;
+	text-align:center;
+	
+}
+	
+#decorate-title{
+	position:absolute;
+	left:498px;
+	top:477px;
+	width:28px;
+	height:10px;
+	background-color:#F96;
+	z-index:-1;
+}
+
+.classify{
+	margin-left:-35px;
+}
+
+.classify h4{
+	padding-left:16px;
+	font-family:MYRIADPRO-SEMIBOLD;
+	font-weight:bolder;
+}
+
+.category{
+	position:relative;
+	text-align:left;
+}
+
+
+.sidenav {
+  margin-top:-30px;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: white;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+/* Style the sidenav links and the dropdown button */
+.sidenav a, .dropdown-btn {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+  display: block;
+  border: none;
+  background: none;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+  outline: none;
+}
+
+/* On mouse-over */
+.sidenav a:hover, .dropdown-btn:hover {
+	text-decoration:none;
+    color: orange;
+}
+
+
+/* Add an active class to the active dropdown button */
+.active {
+  background-color: white;
+  border:1px solid white;
+  border-bottom-color:white;
+  color: #818181;
+}
+
+/* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
+.dropdown-container {
+  display: none;
+  background-color: white;
+  border:1px solid white;
+  padding-left: 8px;
+  margin-left:30px;
+}
+
+/* Optional: Style the caret down icon */
+.fa-caret-down {
+  float: right;
+  padding-right: 8px;
+}
+
+/* Some media queries for responsiveness */
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+
+#filter-price label, #filter-dimension label{
+	padding:5px;
+}
+
+
+
+#title-filter-product {
+	float:right;
+	padding:10px;
+	margin:5px;
+	margin-top:0px;
+}   
+
+
+
+
+
+.row{
+	float:left;
+
+}
+.product{
+	position:relative;
+	border:1px solid #C9E4D6;
+	margin:10px;
+	width:227px;
+	height:370px;
+}
+.img_product{
+	position:relative;
+    text-align:center;
+	padding:10px;
+	margin:10px;
+	margin-left:-10px;
+}
+
+.img{
+	width:226px;
+	height:250px;
+}
+
+.old-price{
+	font-size: 14px;
+    font-weight: 400;
+    padding-bottom: 2px;
+    color: #8c8c8c;
+    text-decoration: line-through;
+}
+.current-price{
+	font-size: 18px;
+    font-weight: 700;
+    color: #e42a00;
+}
+
+.saleright{
+	border-top-left-radius: 0.4em;
+    border-top-right-radius: 0.4em;
+    border-bottom-right-radius: 0.4em;
+    border-bottom-left-radius: 0.4em;
+    float: none;
+    position: absolute;
+    background: #ffb400;
+    padding: 0;
+    text-align: center;
+    top: 260px;
+    right: 20px;
+    z-index: 55;
+}
+
+.product-price{
+	float:left;
+	display:block;
+}
+
+.product-title{
+	float:left;
+	text-align:center;
+	overflow:hidden;
+}
+.product-title a:hover{
+	text-decoration:none;
+	color:orange;
+}
+
+.product h4 a{
+	color:black;
+}
+
+#evaluate-product{
+	position:relative;
+	width:120px;
+	height:12px;
+
+	float:left;
+}
+
+/* dùng css để vẽ hình ngôi sao */
+.star-five {
+   margin: 5px 0;
+   position: relative;
+   display: block;
+   color: red;
+   width: 0px;
+   height: 0px;
+   border-right:  10px solid transparent;
+   border-bottom: 7px  solid yellow;
+   border-left:   10px solid transparent;
+   -moz-transform:    rotate(35deg);
+   -webkit-transform: rotate(35deg);
+   -ms-transform:     rotate(35deg);
+   -o-transform:      rotate(35deg);
+   float:left;
+}
+.star-five:before {
+   border-bottom: 8px solid yellow;
+   border-left: 3px solid transparent;
+   border-right: 3px solid transparent;
+   position: absolute;
+   height: 0;
+   width: 0;
+   top: -4.5px;
+   left: -6.5px;
+   display: block;
+   content: '';
+   -webkit-transform: rotate(-35deg);
+   -moz-transform:    rotate(-35deg);
+   -ms-transform:     rotate(-35deg);
+   -o-transform:      rotate(-35deg);
+ 
+}
+.star-five:after {
+   position: absolute;
+   display: block;
+   color: yellow;
+   top: 0.3px;
+   left: -10.5px;
+   width: 0px;
+   height: 0px;
+   border-right: 10px solid transparent;
+   border-bottom: 7px solid yellow;
+   border-left: 10px solid transparent;
+   -webkit-transform: rotate(-70deg);
+   -moz-transform:    rotate(-70deg);
+   -ms-transform:     rotate(-70deg);
+   -o-transform:      rotate(-70deg);
+   content: '';
+}
+
+
+/*
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}*/
+
+ul#mainlist li {
+	display: block;
+	font-family:"Times New Roman", Times, serif;
+	padding:10px;
+	float: none;
+	list-style-type: none;
+
+}
+
+ul#mainlist li a{
+	color: #000000;
+	padding:20px;
+	text-decoration:none;
+	position: relative;
+}
+	
+.g-list{
+	position:relative;
+}
+.list-content {
+	z-index:1;
+	display: none;
+	position: absolute;
+}
+
+.list-content1.active {
+	display: block;
+	position: relative;
+}
+
+.content-drop {
+	position:relative;
+}
+
+
+.list-content a{
+	display:block;
+	font-size:100%;
+	text-align:center;
+}
+div.content {
+	background-image:url(../img/new0091.jpg);
+	height:430px;
+	width: 100%;
+	background-repeat: no-repeat;
+}
+div.smallmaingood{
+	margin-left:33%;
+}
+div.smallmaingood:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+a.choose {
+	position: relative;
+	text-decoration: none;
+	float: left;
+	color: gray;
+	padding: 15px;
+	font-family:MYRIADPRO-SEMIBOLD ;
+}
+
+a.choose:hover {
+	color:black;
+	text-decoration:blink;
+}
+a.choose:after {
+	content: '';
+	position: absolute;
+	top: 0px;
+	left:0px;
+	width:0%;
+	height: 100%;  /* sửa ở đây */
+	background-color: yellow;
+	transition: 0.3s;
+	z-index:-1;
+	
+}
+a.choose:hover:after{
+	width: 100%;
+}
+div.cook {
+	border-bottom: 0.5px ridge #ccccb3;
+	border-top: 0.5px ridge #ccccb3;
+	height:400px;
+
+}
+div.gallery-maingood{
+	border: 1px solid #ccc;
+	float: left;
+	margin-left: 20px;
+	text-align: center;
+}
+
+div.gallery-content {
+	padding: 15px;
+	text-align: center;
+	text-decoration: none;
+	color: black;
+	font-family: MYRIADPRO-SEMIBOLD;
+}
+
+div.gallery-maingood img {
+	width: 100%;
+	height: 100%;
+}
+div.gallery-maingood a:hover{
+	text-decoration: none;
+}
+
+
+a.cook1 {
+	position:absolute;
+	right: 0px;
+}
+div.gallery-maingood img {
+	width: 100%;
+	height: 100%;
+}
+div.gallery-maingood a:hover{
+	text-decoration: underline;
+}
+div.container {
+	position: relative;
+	
+}
+div#myCarousel {
+	position: absolute;
+	left: 270px;
+}
+div#myCarousel1 {
+	position: absolute;
+	left: 270px;
+}
+div#myCarousel2 {
+	position: absolute;
+	left: 270px;
+}
+
+div#and{
+	background-image:url(../img/bia4.jpg);
+	opacity:0.5;
+	height:100px;
+}
+div.main-gallery-news {
+	float: left;
+	width: 22%;
+	text-align: center;
+	margin: 10px;
+	
+}
+div.main-gallery-news img {
+	width: 100%;
+	height: 100%;
+}
+p.main-news-header {
+	font-family:MYRIADPRO-SEMIBOLD;
+	text-align: center;
+	padding: 15px;
+	font-size: 200%;
+	margin: 20px;
+}
+div.main-news-content {
+	padding: 15px;
+	text-align:right;
+	text-decoration: none;
+	color: gray;
+	font-family:MYRIADPRO-COND;
+	font-size: 110%;
+}
+div.main-gallery-news a:hover{
+	text-decoration: none;
+}
+div.main-gallery-news {
+	margin-left: 20px;
+}
+div.divnews {
+	margin-left: 2%;
+	margin-bottom: 30px;
+}
+div.divnews:after { /* ????? */
+	content: "";
+	display: table;
+	clear: both;
+}
+p.header-news {
+	font-weight: bold;
+	color: black;
+	font-size: 150%;
+
+}
+p.header-news:hover {
+	color: #ffcc00;
+}
+
+div.foot {
+	background-color: black;
+	height: 350px;
+	width:115%;
+	margin-left:-77px;
+
+}
+div.address {
+	font-style:italic;
+	text-align: center;
+	font-family: MYRIADPRO-BOLDIT;
+	font-weight: bold;
+}
+img.MXH {
+	width: 8%;
+	height: 100px;;
+	background-color: white;
+}
+img.MXH:hover {
+	background-color: #ffcc00;
+}
+#CopyRight{
+	position:relative;
+	text-align:center;
+}

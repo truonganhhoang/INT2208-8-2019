@@ -164,6 +164,31 @@ router.get('/list', function(req, res, next) {
   res.render('Product-list', {title: "List", name:name,arr :arr});
 })
 
+  router.get('/login',Isnotloggin, csrfProtection, function(req, res, next) {
+  
+  res.render("login",{title: "Login",csrfToken: req.csrfToken(),messages1: messages1,messages: messages,name:name }) ;
+});
+// load khi đăng nhập thành công
+router.get('/profile',Isloggin, csrfProtection, function(req, res, next) {
+  
+  res.render("loginOK",{title: "Your profile",name:name, number:number, email: email}) ;
+});
+  router.get('/', function(req, res, next) {
+    Product.find(function(err,docs){ // hàm trả về 1 biến lỗi và 1 biến kết quả
+      var productinfo= [];
+      var numerinfor=3;
+      for(var i=0;i<docs.length;i+= numerinfor) {
+        productinfo.push(docs.slice(i,i+numerinfor));
+      }
+      res.render('Mainpage', { title: 'UETMarket', products: productinfo, name:name});
+    });
+    
+  });
+  router.get('/logout', function(req, res, next) {
+    name=''; email='';number='';
+        req.logout();
+        res.redirect('/');
+  })
 
 
 
@@ -217,6 +242,8 @@ router.get('/list', function(req, res, next) {
     payment.save(function(err,result ) {
       if(err) { return done(err)}
      
+    //res.send(req.body.address);
+    res.render('checkOK');
   })
   cart.remove(productlist[i].item._id);
   req.session.cart= cart;
