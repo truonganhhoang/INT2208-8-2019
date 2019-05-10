@@ -6,8 +6,7 @@
 
 # Báo cáo cá nhân môn học công nghệ phần mềm
 - Hoàn thành khóa học trên EDX: [edx]()
-- Tham gia làm bài tập nhóm: Web bán hàng online [Link trang web](https://vnumarket.herokuapp.com/)
-                                                 [Link mô tả](https://github.com/tranthiensonuet/INT2208-8-2019/tree/master/nhom-69)
+- Tham gia làm bài tập nhóm: Web bán hàng online: [Link trang web](https://vnumarket.herokuapp.com/), [Link mô tả](https://github.com/tranthiensonuet/INT2208-8-2019/tree/master/nhom-69)
 #### User story: Là một khách hàng, tôi muốn xem các sản phẩm được phân loại theo chức năng, để tìm mua dễ dàng và nhanh chóng hơn.
 - Chi tiết user story: [Link](https://github.com/truonganhhoang/INT2208-8-2019/issues/136)
 
