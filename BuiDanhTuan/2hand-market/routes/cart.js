@@ -36,3 +36,8 @@ router.post('/save', function(req, res, next) {
     },
     product: products
    });
+      // save model to database
+      bill.save(function (err, bill) {
+        if (err) return console.error(err);
+        console.log(" saved to bookstore collection.");
+      });
