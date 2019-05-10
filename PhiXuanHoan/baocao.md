@@ -62,4 +62,7 @@ Facebook: [url]( https://developers.facebook.com/apps/325860808251746/dashboard/
 
 - Link Vieo báo cáo và demo dự án:  [YOUTUBE](https://youtu.be/bxZMtXm2gAk)
 
-- Link sản phẩm của nhóm deloy server node.js và angular chế độ development tại: [Link Sản phầm](http://webthi-angular.s3-website-ap-southeast-1.amazonaws.com)
+- Sản phẩm được deloy sử dụng ec2 và s3 của amazon: 
++ >Trang chủ http://luyenthi365.xyz
++ >Trang quản trị [Link](http://webthi-angular.s3-website-ap-southeast-1.amazonaws.com)
++ >Link dự phòng [Link](http://luyenthi365.xyz.s3-website-ap-southeast-1.amazonaws.com)
