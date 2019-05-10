@@ -73,3 +73,11 @@ $(document).ready(function(){
     }
     
   });
+    //xu ly su kien huy don dat hang
+    $("#cancle-order").click(function() {
+        $("#order-box").css("display", "none");
+        $(".step1 i").removeClass("bg-danger");
+        $(".step2 i").addClass("bg-danger");
+        $(".step3 i").removeClass("bg-danger");
+  })
+});
