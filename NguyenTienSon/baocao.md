@@ -22,7 +22,7 @@ I:Đánh giá theo tiêu chí INVEST
 
 II:CÁC CÔNG VIỆC CẦN LÀM
 
-  - Thu thập yêu cầu
+  -Thu thập yêu cầu
 
   -Đánh giá user story Specifications (Đặc tả)
 
