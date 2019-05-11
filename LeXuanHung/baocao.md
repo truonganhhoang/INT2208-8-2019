@@ -46,9 +46,9 @@
  3. Sau khi trang web hiện ra, bạn ấn vào ô **xem thêm** (màu vàng) để hiển thị tất cả sản phẩm.
  <img src="https://i.imgur.com/IlA8wYx.png">
  
- - **Để tìm kiếm, bạn nhập sản phẩm cần tìm vào ô tìm kiếm (màu trắng).**
- 
+ - **Để tìm kiếm, bạn nhập sản phẩm cần tìm vào ô tìm kiếm (màu trắng).** 
  Ví dụ: bạn gõ từ **"balo"**, sau đo ấn enter hoặc kích vào biểu tượng tìm kiếm. Trang web sẽ trả lại kết quả.
+ 
  <img src="https://i.imgur.com/nA2GZSQ.png">
  
  - **Để tìm kiếm sản phẩm theo bộ lọc giá cả, bạn click 1 trong các ô giá bên trái có sẵn trên màn hình.**
