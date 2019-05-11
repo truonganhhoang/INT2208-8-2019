@@ -11,33 +11,32 @@
 	[Chi tiết](https://github.com/truonganhhoang/INT2208-8-2019/issues/190):
 	1) Xác định yêu cầu, mong muốn: 
 		- Đăng bán sản phẩm ngay trên trang web (yêu cầu chức năng - specifications)
-		- Tìm kiếm nhanh và chính xác sản phẩm hoặc những sản phẩm có liên quan đến từ khóa người dùng nhập (yêu cầu phi chức năng - specifications)
 	Yêu cầu này đã đảm bảo nguyên tắc INVEST guideline.
 	2) Quy trình phát triển Scrum (process)
 	3) Thiết kế cấu trúc cơ sở dữ liệu và sơ đồ lớp (high level design)
 	4) Sử dụng mô hình MVC của framework Laravel (low level design)
-	5) Viết mã([chi tiết](https://github.com/hoangvuhuong/17020823/tree/master/2hand-market/2hand-market/views/page/post-news/index.ejs))
+	5) Viết mã([Chi tiết](https://github.com/hoangvuhuong/17020823/tree/master/2hand-market/2hand-market/views/page/post-news/index.ejs))
 	6) Kiểm thử:
-		- Kiểm thử hộp trắng đảm bảo mã nguồn không bị lỗi, build và run được.
-		- Sử dụng localhost để chỉnh bố cục cho thanh tìm kiếm trên web
-		- Sử dụng localhost kiểm tra xem web có cho gõ vào thanh tìm kiếm hay không
-		- Sử dụng localhost để kiểm tra xem web trả về có đúng kết quả tìm kiếm hay không
+		- [x] Kiểm thử hộp đen để kiểm thử giao diện ( 1 tiếng )
+  Link tài liệu: [Kiểm thử hộp đen](https://docs.google.com/document/d/1a4i_31R8WBUAnF91syr1FwBpKoAiTY6rEJt1xWjb74M/edit#heading=h.zhrswbsdiifd)
+		- [x]  Dựa vào kiểm thử hộp trắng ( 1 tiếng )
+  Link tài liệu: [Kiểm thử hộp trắng](https://docs.google.com/document/d/1a4i_31R8WBUAnF91syr1FwBpKoAiTY6rEJt1xWjb74M/edit#heading=h.ryzy80x4sqk1)
+		
 	7) Tái cấu trúc: Rà soát mã nguồn để đảm bảo rõ ràng, đơn giản, sạch sẽ và không có mã xấu.(construction)
 * Hướng dẫn sử dụng:
 1. Mở trình duyệt của bạn lên. Google chrome hoặc FireFox,... tùy trình duyệt bạn cài đặt.
 
 2. Gõ vào ô tìm kiếm địa chỉ sau: https://clover-shop.herokuapp.com/
 
-3. Sau khi trang web hiện ra bạn sẽ nhìn thấy ngay ô tìm kiếm màu trắng nằm ngang hàng với Logo của website. Hãy click vào đó và gõ từ khóa bạn cần tìm. ví dụ: Bánh mặn, Chocolate,...
-Rồi sau đó bạn click vào icon ![search](look.png) hoặc hãy nhấn Enter trang sẽ trả về kết quả cho bạn.
+3. Sau khi trang web hiện ra bạn sẽ nhìn thấy ngay phần **Đăng tin miễn phí** trên phần menu của website. Hãy click vào đó và bắt đầu đăng tin.
 
-![type keyword](typekeyword.png)
+![type keyword](home.png)
 
-4. Kết quả hiển thị sẽ cho biết được số sản phẩm tìm được và thông tin của từng sản phẩm bao gồm hình ảnh, giá. bạn click vào **Detail** để xem chi tiết về sản phẩm và biểu tượng giỏ
-hàng để mua sản phẩm.
+4. Bạn điền thông tin sản phẩm gồm tiêu đề, nội dung mô tả, chọn ảnh sản phẩm , đăng giá sản phẩm và điền thông tin người bán.
 
-![result](result.png)
-
-Nếu bạn nhập từ không đúng hoặc sản phẩm đó đã hết hàng hoặc chưa có bày bán thì kết quả sẽ trả về là **hiện chưa có sản phẩm này**
-
-![result1](result1.png)
+![result](dangtin.png)
+5. Sau khi điền đầy đủ thông tin sản phẩm, bạn click chuột vào nút **Đăng tin**
+![result1](nudang.png)
+6. Khi bạn click đăng tin sẽ hiện ra cửa sổ hỏi xác nhận đăng tin. Click xác nhận để đăng tin.
+![result2](xacnhan.png)
+7. Video demo [video](https://www.youtube.com/watch?v=3jBU_tT_kc0)
