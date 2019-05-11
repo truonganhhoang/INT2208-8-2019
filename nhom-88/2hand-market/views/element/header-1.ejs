@@ -9,23 +9,22 @@
     </div>
 
     <div class="container " style="border-top: 1px solid white">
-
-        <div class="row justify-content-md-center">
-            <a href="#"><img src="./img/logo2.png" style="width: 300px; height: 100px;" class="mr-4 p-3"></a>
-            
-            <form class="mr-4 mt-4 p-3 col-lg-5 col-md-4" action="/danh-muc-san-pham/<%= currentStatus %>" method="GET">
+        <div class="row justify-content-md-around">
+            <a href="#"><img src="./img/clover_1.png" style="width: 250px; height: 100px;" ></a>
+            <form class=" mt-3 p-3 col-lg-5 col-md-4" style="margin-left: -40px;" action="/danh-muc-san-pham/<%= currentStatus %>" method="GET">
                 <div class="input-group">
-                    <input type="search" class="form-control" placeholder="nhập tên sản phẩm..." name="keyWord"
-                        value="<%= keyWord %>">
+                    <input type="search" class="form-control" placeholder="nhập tên sản phẩm..." name="keyWord" value="<%= keyWord %>">
                     <div class="input-group-append">
                         <button class="btn btn-outline-secondary btn-danger" type="submit" style="color: white;">Tìm
                             kiếm</button>
                     </div>
                 </div>
             </form>
-            
-            <a href="#"><span><img src="./img/cart-icon1.png" class="mt-3 ml-3 mb-3 pt-3 pl-3 pb-3"></span></a>
-            <div class="Qty qty-header">(0)</div>
+            <div  class="">
+                <a href="#"><img src="./img/cart-icon1.png" class="mt-4 "></a>
+                <div class="Qty qty-header" style="margin-left: -10px; margin-top:-5px;">(0)</div>
+            </div>
+
         </div>
     </div>
 
@@ -35,7 +34,7 @@
 <!--navbar-->
 <nav class=" shadow navbar navbar-expand-lg navbar-dark bg-danger sticky-top">
     <div class="container">
-        <a class="navbar-brand" href="/"><b><i>2hand market</i></b></a>
+        <a class="navbar-brand" href="/"><b><i>CLOVER SHOP</i></b></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
             aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>

@@ -4,7 +4,7 @@ var multer = require('multer');
 var path = require('path');
 
 var itemsModel = require('./../schemas/items');
-const fileHelper = require('./../helper/uploadimg');
+const fileHelper = require('./../helper/uploadImg');
 
 
 /* GET home page. */

@@ -19,7 +19,7 @@ router.get('/', function (req, res, next) {
     itemsModel.find(condition)
     .then((items) => {
         res.render('page/introduce/index', {
-        title: 'introduce',
+        title: 'clover_shop',
         items,
         statusFilter,
         currentStatus
