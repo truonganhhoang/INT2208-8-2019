@@ -1,0 +1,30 @@
+#rank {
+  color: #ffffff;
+}
+
+#number0 {
+  color: rgb(255, 255, 255);
+  background-color: red;
+  font-family: LinotteBold;
+}
+
+#number1 {
+  color: #01446b;
+  background-color: orange;
+  font-family: LinotteBold;
+}
+
+#number2 {
+  color: rgb(102, 2, 102);
+  background-color: yellow;
+  font-family: LinotteBold;
+}
+
+#number3 {
+  color: tomato;
+}
+
+#number4 {
+  color: plum;
+}
+
