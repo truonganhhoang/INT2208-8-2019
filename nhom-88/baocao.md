@@ -44,6 +44,10 @@
 
 ### Trang chủ
 
+![home](https://github.com/17020932/INT2208-8-2019/blob/master/nhom-88/imagines/trang%20ch%E1%BB%A7.png)
+
+                                    
+
 5.	Bây giờ bạn dùng thanh cuộn trang kéo xuống sẽ thấy tất cả sản phẩm hiện có trên web. Các sản phẩm sẽ được sắp xếp hiển thị theo ngày đăng, sản phẩm có ngày đăng gần nhất sẽ được hiển thị đầu tiên.
 
 6.	Ô tìm kiếm ở đầu trang: nhập từ khóa mà bạn muốn rồi ấn vào ô tìm kiếm hoặc enter.
@@ -58,6 +62,8 @@
 8.	Ấn vào các hình ảnh sản phẩm để xem chi tiết thông tin.
 
 ### Thông tin chi tiết sản phẩm
+
+
 
 9. Bố cục trang thông tin chi tiết gồm: hình ảnh chi tiết của sản phẩm, thông tin chi tiết của sản phẩm, phần lựa chọn số lượng,size, màu sắc sản phẩm.
 
@@ -82,6 +88,8 @@
 18.	Hiện ra thông báo "Bạn xác nhận đặt hàng". Nếu đồng ý xác nhận đặt hàng thì trang web sẽ gửi tới gmail của bạn thông báo đặt hàng thành công kèm theo hóa đơn đơn hàng của bạn.
 
 ### Đăng tin rao bán
+
+![post-news](https://github.com/17020932/INT2208-8-2019/blob/master/nhom-88/imagines/dang-tin.PNG)
 
 19.	Người dùng có thể đăng tin rao bán gồm: tiêu đề(tên sản phẩm), nội dung mô tả sản phẩm, lựa chọn ảnh để mô tả sản phẩm(có thể chọn tối đa 4 ảnh), giá sản phẩm, thông tin của người bán.
 
