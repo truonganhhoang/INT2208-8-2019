@@ -1,4 +1,8 @@
-# Báo cáo quá trình tự học
+##### Họ Tên: Phí Xuân Hoàn
+##### Ngày Sinh: 22/01/1999
+##### Mã Sinh Viên: 17020759
+
+## Báo cáo quá trình tự học
 #### Tham gia các khoá học HTML CSS JS Node.js trên freecodecamp để có kiến thức làm bài tập lớn: 
 
 + >100%, Responsive Web Design, [ảnh dẫn chứng](https://github.com/hoanphi2201/INT2208-8-2019/blob/master/PhiXuanHoan/images/Certification_Responsive_Web_Design.png)
@@ -9,9 +13,9 @@
 
 #### Khoá học trên EDX:  [Ảnh dẫn chứng](https://github.com/hoanphi2201/INT2208-8-2019/blob/master/PhiXuanHoan/SoftEng1x.jpg)
 
-# Báo cáo công việc đã làm trong quá trình học
+## Báo cáo công việc đã làm trong quá trình học
 
-## User Story được giao
+#### User Story được giao
 
 - [x] Làm rõ yêu cầu (giao diện như thế nào, sau khi đăng nhập chuyển đến trang nào, cần những dữ liệu nào mà google, facebook trả về hệ thống của mình) [edx](https://docs.google.com/document/d/1a4i_31R8WBUAnF91syr1FwBpKoAiTY6rEJt1xWjb74M/edit#heading=h.fvjpas4blmex)
 
@@ -47,7 +51,7 @@ Facebook: [url]( https://developers.facebook.com/apps/325860808251746/dashboard/
 - [x] Xử lý trùng tên đăng nhập (1 giờ)  [commit](https://github.com/hoanphi2201/API-NOP/commit/4c7972f0c5994e8c439b3eefc38cb4bc76019bef)  [commit](https://github.com/hoanphi2201/API-NOP/commit/a6e3258b34ed581890ef6f0481174f658921d11a)
 
 
-#### Testing
+##### Testing
 
 - [x] Kiểm thử hộp trắng độ bao phủ [edx](https://docs.google.com/document/d/1a4i_31R8WBUAnF91syr1FwBpKoAiTY6rEJt1xWjb74M/edit#heading=h.ryzy80x4sqk1)
 
@@ -57,7 +61,7 @@ Facebook: [url]( https://developers.facebook.com/apps/325860808251746/dashboard/
 
 - [ ] Cho các thành viên trong nhóm kiểm thử và dùng thử, mời 1 số người dùng trải nghiệm.
 
-# Tổng hợp quá trình làm bài tập nhóm 
+## Tổng hợp quá trình làm bài tập nhóm 
 
 - Repo sản phẩm được triển khai tại [GITHUB](https://github.com/hoanphi2201/SoftEng-Assignments-nhom-10)
 
