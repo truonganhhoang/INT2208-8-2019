@@ -1,6 +1,9 @@
-##### Họ Tên: Phí Xuân Hoàn
-##### Ngày Sinh: 22/01/1999
-##### Mã Sinh Viên: 17020759
+#### Họ Tên: Phí Xuân Hoàn
+#### Ngày Sinh: 22/01/1999
+#### Mã Sinh Viên: 17020759
+#### Nhóm dự án: Nhóm 10
+#### Vau trò: Product Owner & Developer
+
 
 ## Báo cáo quá trình tự học
 #### Tham gia các khoá học HTML CSS JS Node.js trên freecodecamp để có kiến thức làm bài tập lớn: 
