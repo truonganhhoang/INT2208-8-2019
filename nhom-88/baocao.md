@@ -18,7 +18,7 @@
 ### Tên ứng dụng:  Clover Shop
 -- Bài tập nhóm: **Dự án web bán hàng online**
 [link repo](https://github.com/17020932/2hand-market/tree/master/2hand-market), 
-[website](https://clover-shop.herokuapp.com/)
+[website](http://clover-shop.herokuapp.com/)
 
 -<b>Hướng dẫn sử dụng </b>:
 
