@@ -19,7 +19,9 @@
 -- Bài tập nhóm: **Dự án web bán hàng online**
 [link repo](https://github.com/17020932/2hand-market/tree/master/2hand-market)
 [website](https://clover-shop.herokuapp.com/)
+
 -<b>Hướng dẫn sử dụng </b>:
+
 1.	Mở trình duyệt của bạn lên.
 
 2.	Gõ vào ô tìm kiếm địa chỉ sau: https://clover-shop.herokuapp.com/
@@ -28,15 +30,15 @@
 
     .Bố cục của trang web:
 
-                           + Headder: logo, trang tìm kiếm,giỏ hàng,thanh công cụ sẽ mô tả hết chức năng của trang web.
+                + Headder: logo, trang tìm kiếm,giỏ hàng,thanh công cụ sẽ mô tả hết chức năng của trang web.
 
-                           + Slide show giới thiệu xu hướng thời trang mà trang web hướng tới.
+                + Slide show giới thiệu xu hướng thời trang mà trang web hướng tới.
 
-                           + Phần thân trang web sẽ hiển thị: Sản phẩm nổi bật, sản phẩm mới, sản phẩm theo xu hướng.
+                + Phần thân trang web sẽ hiển thị: Sản phẩm nổi bật, sản phẩm mới, sản phẩm theo xu hướng.
 
-                                                              Bộ lọc sản phẩm của trang web
+                                                   Bộ lọc sản phẩm của trang web
                             
-                           + Footer
+                + Footer
 
 4. Bấm vào "Trang chủ" trên thanh công cụ để trở về trang chủ.
 
