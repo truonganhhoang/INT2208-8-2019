@@ -14,13 +14,20 @@
  - Chức năng hiển thị các sản phẩm theo  từng nhóm danh mục
  - Trong mỗi danh mục , hiển thị được các sản phẩm
 
-**2) Quy trình phát triển Scrum (process)** [(Quy trình Scrum)](https://docs.google.com/document/d/1a4i_31R8WBUAnF91syr1FwBpKoAiTY6rEJt1xWjb74M/edit#heading=h.wgcflgn6nhvc)**
-**3)  Thiết kế cấu trúc cơ sở dữ liệu và sơ đồ lớp** [(high level design)](https://docs.google.com/document/d/1a4i_31R8WBUAnF91syr1FwBpKoAiTY6rEJt1xWjb74M/edit#heading=h.s1gtpk2qxmyz)**
-**4)  Sử dụng mẫu thiết kế theo kiểu MVC**[(low level design)](https://docs.google.com/document/d/1a4i_31R8WBUAnF91syr1FwBpKoAiTY6rEJt1xWjb74M/edit#heading=h.kehlqoeo6d9r)**
-**5) Viết mã**
-      Sắp xếp danh mục theo sản phẩm 
-      Sắp xếp sản phẩm theo danh mục
-      [(Link code)](https://github.com/trunganhvu/projectWeb/tree/master/L%E1%BB%99c%20Anh)
+**2) Quy trình phát triển Scrum (process)[(Quy trình Scrum)](https://docs.google.com/document/d/1a4i_31R8WBUAnF91syr1FwBpKoAiTY6rEJt1xWjb74M/edit#heading=h.wgcflgn6nhvc)**
+
+**3)  Thiết kế cấu trúc cơ sở dữ liệu và sơ đồ lớp [(high level design)](https://docs.google.com/document/d/1a4i_31R8WBUAnF91syr1FwBpKoAiTY6rEJt1xWjb74M/edit#heading=h.s1gtpk2qxmyz)**
+
+**4)  Sử dụng mẫu thiết kế theo kiểu MVC [(low level design)](https://docs.google.com/document/d/1a4i_31R8WBUAnF91syr1FwBpKoAiTY6rEJt1xWjb74M/edit#heading=h.kehlqoeo6d9r)**
+
+**5) Viết mã :**
+
+	
+
+ - Sắp xếp sản phẩm theo danh mục
+ - Sắp xếp danh mục theo sản phẩm
+ - [(Link code)](https://github.com/trunganhvu/projectWeb/tree/master/L%E1%BB%99c%20Anh)
+
 **6) Kiểm thử :**
 
 	
