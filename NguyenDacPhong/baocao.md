@@ -21,10 +21,15 @@
 * Khóa học Edx : [Black Box Testing (Equivalence Class Partitioning)](https://docs.google.com/document/d/1a4i_31R8WBUAnF91syr1FwBpKoAiTY6rEJt1xWjb74M/edit#heading=h.zhrswbsdiifd)
 - [x] Tái cấu trúc mã nguồn , tách hàm tiện ích và loại bỏ chức năng thừa.(3 ngày)
 * Khóa học Edx : [Refactoring](https://docs.google.com/document/d/1a4i_31R8WBUAnF91syr1FwBpKoAiTY6rEJt1xWjb74M/edit#heading=h.bxti8dsihgwm)
-#### Tính năng xây dựng giúp người đọc dễ dãng tìm kiếm những cuốn truyện phù hợp với bản thân , sau đây là một số hướng dẫn sử dụng : 
-* Click vào thanh tìm kiếm ở góc phải màn hình.
- <img src="https://imgur.com/LAoNXFy">
-* Nhập tên truyện cần tìm và nhấn vào biểu tượng Search.
- <img src="https://imgur.com/jMjdbth">
- *Đợi màn hình hiển thị kết quá , bây giờ chỉ cần nhấn vào truyện cần đọc , chúc bạn thành công.
- <img src="https://imgur.com/ovGjqAA">
+#### Tính năng xây dựng giúp người đọc dễ dãng tìm kiếm những cuốn truyện phù hợp với bản thân , sau đây là hướng dẫn sử dụng :
+* ### Click vào thanh tìm kiếm ở góc phải màn hình.
+
+<img src="https://i.imgur.com/LAoNXFy.png">
+
+ * ### Nhập tên truyện cần tìm và nhấn vào biểu tượng Search.
+
+<img src="https://i.imgur.com/jMjdbth.png">
+
+* ### Đợi màn hình hiển thị kết quá , bây giờ chỉ cần nhấn vào truyện cần đọc , chúc bạn thành công.
+
+<img src ="https://i.imgur.com/ovGjqAA.png">
