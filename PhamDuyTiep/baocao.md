@@ -34,7 +34,9 @@
 ## Giới thiệu, hướng dẫn chức năng tương ứng với User story.
    Link trang web: [Web Truyện Tranh]().
    Sản phẩm được xây dựng và phát triển tại: [Repositories GitHub](https://github.com/phamhung99/Website-truyen-tranh).
+   
    Cá nhân tham gia xây dựng chức năng đăng ký/đăng nhập cho trang Web này. Tạo tài khoản và đăng nhập bằng tài khoản được tạo đó.
+   
    link video demo, hướng dẫn chức năng đăng nhập/đăng ký: [user story và demo chức năng đăng nhập đăng ký](https://www.youtube.com/watch?v=eeN7UqVwMn8&t=75s).
 
    **Hướng dẫn sử dụng chức năng đăng nhập/đăng ký:**
