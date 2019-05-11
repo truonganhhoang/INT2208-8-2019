@@ -1,5 +1,4 @@
-var multer = require('multer')
-// var randomstring = require("randomstring");
+var multer = require('multer');
 var path = require('path');
 let uploadFile = (field, maxCount, folder, fileNameLength, fileSize, fileExtension) => {
     var storage = multer.diskStorage({

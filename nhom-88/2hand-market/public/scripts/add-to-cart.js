@@ -12,7 +12,7 @@
         }
     });
 
-    function addToCart() {
+    async function addToCart() {
         var price = $("#price").text();
         var name = $("#name").text();
         var qty = $("#amount").val();
@@ -25,10 +25,11 @@
                 cart[i].Qty = qty;
                 showCart();
                 saveCart();
-                setTimeout(function () { alert("đã thêm vào giỏ hàng");
-                $(".Qty").text("(" + localStorage.getItem("total") + ")"); }, 500);
                 let sum = total();
                 localStorage.setItem('total', sum);
+                alert("đã thêm vào giỏ hàng");
+                $(".Qty").text("(" + localStorage.getItem("total") + ")"); 
+                
                 return;
             }
         }
@@ -37,10 +38,13 @@
         cart.push(item);
         saveCart();
         showCart();
-        setTimeout(function () { alert("Thêm vào giỏ hàng thành công"); 
-        $(".Qty").text("(" + localStorage.getItem("total") + ")");}, 500);
+        // setTimeout(function () { alert("Thêm vào giỏ hàng thành công"); 
+        // $(".Qty").text("(" + localStorage.getItem("total") + ")");}, 500);
         let sum = total();
         localStorage.setItem('total', sum);
+        alert("Thêm vào giỏ hàng thành công"); 
+        $(".Qty").text("(" + localStorage.getItem("total") + ")");
+        
     }
 
     function deleteItem(index) {

@@ -85,6 +85,7 @@ $(document).ready(function(){
 
   $('#order-button').click(function() {
       alert("Đặt hàng thành công");
+      localStorage.setItem('cart', []);
   })
 });
 
