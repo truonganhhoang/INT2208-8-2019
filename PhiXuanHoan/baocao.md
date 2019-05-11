@@ -39,12 +39,13 @@ Facebook: [url]( https://developers.facebook.com/apps/325860808251746/dashboard/
 
 - [x] Viết service gửi thông tin người dùng cho server của hệ thống thực hiện xác minh [commit](https://github.com/hoanphi2201/SoftEng-Assignments-nhom-10/commit/5e8034457fd0959ff363c897a0e4b3fc62bd3056)
 
-- [x] Viết API ghi nhận người dùng vào hệ thống (2-3 giờ) [commit](https://github.com/hoanphi2201/API-WebThiThu/commit/a83fe434ce8ed77dc8ea6c3490f409fa6401cb6c)  [commit](https://github.com/hoanphi2201/API-WebThiThu/commit/59c355d06a1a68d02fcfe197624d1d52fcdfa861)
+- [x] Viết API ghi nhận người dùng vào hệ thống (2-3 giờ) [commit](https://github.com/hoanphi2201/API-NOP/commit/d681199e3df39c26d788a49aed992990a3f1c9ae)  [commit](https://github.com/hoanphi2201/API-NOP/commit/d7e33413608ddeeb253931e961a603f8f1d9bd82) [commit](https://github.com/hoanphi2201/API-NOP/commit/2702888155158a965559b876a7f407fb0d6c7510) 
 
-- [x] Xử lý download ảnh đại diện về hệ thống của mình (1-2 giờ) [commit](https://github.com/hoanphi2201/API-WebThiThu/commit/a90a66d33a0aef07e477f310432fff5e4639d498)  [commit](https://github.com/hoanphi2201/API-WebThiThu/commit/aa59f2673318f53ad529a085d82b48b047b0f968)
+- [x] Xử lý download ảnh đại diện về hệ thống của mình (1-2 giờ) [commit](https://github.com/hoanphi2201/API-NOP/commit/4c7972f0c5994e8c439b3eefc38cb4bc76019bef)  [commit](https://github.com/hoanphi2201/API-NOP/commit/a6e3258b34ed581890ef6f0481174f658921d11a)
 
 
-- [x] Xử lý trùng tên đăng nhập (1 giờ)  [commit](https://github.com/hoanphi2201/API-WebThiThu/commit/a83fe434ce8ed77dc8ea6c3490f409fa6401cb6c)  [commit](https://github.com/hoanphi2201/API-WebThiThu/commit/aa59f2673318f53ad529a085d82b48b047b0f968)
+- [x] Xử lý trùng tên đăng nhập (1 giờ)  [commit](https://github.com/hoanphi2201/API-NOP/commit/4c7972f0c5994e8c439b3eefc38cb4bc76019bef)  [commit](https://github.com/hoanphi2201/API-NOP/commit/a6e3258b34ed581890ef6f0481174f658921d11a)
+
 
 #### Testing
 
