@@ -43,6 +43,7 @@ CÁC CÔNG VIỆC CẦN LÀM
   -Kiểm tra database bằng cách thêm thủ công người dùng và chỉnh sửa nếu có lỗi phát sinh (30 phút)
   
 Video mô tả : https://youtu.be/N5bMxCjCYdk
+
 Là một nhà phát triển, tôi muốn tất cả câu hỏi được lưu trong cơ sở dữ liệu , để quản lý và lấy ra một cách dễ dàng.
 
 Independent : việc phát triển cơ sở dữ liệu cho câu hỏi là độc lập, không xung đột với các câu chuyện người dùng khác
