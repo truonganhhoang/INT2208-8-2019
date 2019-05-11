@@ -1,5 +1,5 @@
 <?php
-    $sql = "select * from theloaisach order by id_theloaisach desc";
+    $sql = "select * from types order by id_types desc";
     $run = mysqli_query($conn, $sql);
 ?>
 <div class="lietke">
@@ -19,7 +19,7 @@
                 ?>
                 <tr>
                   <th scope="row"><?php echo $i ?></th>
-                  <td><?php echo $dong['theloaisach'] ?></td>
+                  <td><?php echo $dong['type'] ?></td>
                   <td><?php include('sua.php') ?></td>
                   <td><?php include('xoa.php') ?></td>
                 </tr>

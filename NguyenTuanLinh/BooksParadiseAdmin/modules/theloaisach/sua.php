@@ -1,9 +1,9 @@
 <div class="container-fluid">
     <form action="modules/theloaisach/xuly.php" method="post" enctype="multipart/form-data">
         
-        <button type="button" class="btn btn-success btn-sm" data-toggle="modal" data-target="#sua<?php echo $dong['id_theloaisach'] ?>">Sửa</button>
+        <button type="button" class="btn btn-success btn-sm" data-toggle="modal" data-target="#sua<?php echo $dong['id_types'] ?>">Sửa</button>
             
-        <div class="modal fade" id="sua<?php echo $dong['id_theloaisach'] ?>" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal fade" id="sua<?php echo $dong['id_types'] ?>" tabindex="-1" role="dialog" aria-hidden="true">
             <div class="modal-dialog" role="document">
                 <div class="modal-content">
                     <div class="modal-header">
@@ -16,8 +16,8 @@
                         <form>
                             <div class="form-group">
                                 <label for="sua" class="col-form-label">Thể loại sách:</label>
-                                <input type="text" class="form-control" id="theloaisach" name="theloaisach" value="<?php echo $dong['theloaisach'] ?>">
-                                <input type="number" name="id" value="<?php echo $dong['id_theloaisach'] ?>" style="display: none">
+                                <input type="text" class="form-control" id="theloaisach" name="theloaisach" value="<?php echo $dong['type'] ?>">
+                                <input type="number" name="id" value="<?php echo $dong['id_types'] ?>" style="display: none">
                             </div>
                         </form>
                     </div>

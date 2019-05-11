@@ -22,7 +22,7 @@
                                 <input type="text" class="form-control" name="tacgia">
                                 <div class="row">
                                     <?php
-                                        $sql = "select * from theloaisach";
+                                        $sql = "select * from types";
                                         $run = mysqli_query($conn, $sql);
                                     ?>
                                     <div class="col-md-6">
@@ -31,7 +31,7 @@
                                             <?php
                                                 while ($dong = mysqli_fetch_array($run)){
                                             ?>
-                                              <option value="<?php echo $dong['id_theloaisach'] ?>"><?php echo $dong['theloaisach'] ?></option>
+                                              <option value="<?php echo $dong['type'] ?>"><?php echo $dong['type'] ?></option>
                                             <?php
                                                 }
                                             ?>

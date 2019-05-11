@@ -1,9 +1,9 @@
 <div class="container-fluid">
     <form action="modules/theloaisach/xuly.php" method="post" enctype="multipart/form-data">
         
-        <button type="button" class="btn btn-danger btn-sm" data-toggle="modal" data-target="#xoa<?php echo $dong['id_theloaisach'] ?>">Xóa</button>
+        <button type="button" class="btn btn-danger btn-sm" data-toggle="modal" data-target="#xoa<?php echo $dong['id_types'] ?>">Xóa</button>
             
-        <div class="modal fade" id="xoa<?php echo $dong['id_theloaisach'] ?>" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal fade" id="xoa<?php echo $dong['id_types'] ?>" tabindex="-1" role="dialog" aria-hidden="true">
             <div class="modal-dialog" role="document">
                 <div class="modal-content">
                     <div class="modal-header">
@@ -16,7 +16,7 @@
                         <form>
                             <div class="form-group">
                                 <p>Bạn có chắc muốn xóa thể loại này?</p>
-                                <input type="number" name="id" value="<?php echo $dong['id_theloaisach'] ?>" style="display: none">
+                                <input type="number" name="id" value="<?php echo $dong['id_types'] ?>" style="display: none">
                             </div>
                         </form>
                     </div>

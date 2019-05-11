@@ -1,5 +1,5 @@
 <?php
-    $sql = "select * from chitietsach,theloaisach where theloaisach.id_theloaisach=chitietsach.id_theloai order by chitietsach.id_sach desc";
+    $sql = "select * from products order by id desc";
     $run = mysqli_query($conn, $sql);
 ?>
 <div class="lietke">
@@ -25,13 +25,13 @@
                 ?>
                 <tr>
                     <th scope="row"><?php echo $i ?></th>
-                    <td><?php echo $dong['tensach'] ?></td>
-                    <td><?php echo $dong['tacgia'] ?></td>
-                    <td><img src="modules/chitietsach/uploads/<?php echo $dong['hinhanh'] ?>" width="60" height="auto"></td>
-                    <td><?php echo $dong['theloaisach'] ?></td>
-                    <td><?php echo $dong['sotrang'] ?></td>
-                    <td><?php echo $dong['gia'] ?></td>
-                    <td><?php echo $dong['daban'] ?></td>
+                    <td><?php echo $dong['title'] ?></td>
+                    <td><?php echo $dong['author'] ?></td>
+                    <td><img src="modules/chitietsach/uploads/<?php echo $dong['image'] ?>" width="60" height="auto"></td>
+                    <td><?php echo $dong['type'] ?></td>
+                    <td><?php echo $dong['numberpage'] ?></td>
+                    <td><?php echo $dong['cost'] ?></td>
+                    <td><?php echo $dong['quantityInStock'] ?></td>
                     <td><?php include('sua.php') ?></td>
                     <td><?php include('xoa.php') ?></td>
                 </tr>
