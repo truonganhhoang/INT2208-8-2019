@@ -1,0 +1,84 @@
+<% layout('../layouts/layout') -%>
+  <script type="text/javascript" src="../javascripts/QuizGame.js"></script>
+  <script type="text/javascript" src="../javascripts/classic-mode-controller.js"></script>
+
+  <div id="game-container">
+    <div class="row">
+      <div id="intro-stage" class="col-12 col-sm-12 col-md-12 col-xl-12 rounded text-center" style="padding: 0 15rem; background: #272727; border: solid 1px #272727; min-height: 30rem;">
+        <div>
+          <p style="font-size: 90px; text-align: center; font-family: LinotteHeavy; color:#14a76c">
+            Classic
+          </p>
+        </div>
+        <div class="game-info">
+          <ul>
+            <li>
+              Số lượng câu hỏi: 10
+            </li>
+            <li>
+              Lĩnh vực: bất kỳ
+            </li>
+            <li>Cách chơi: chọn đáp án đúng trong 4 đáp án cho trước</li>
+          </ul>
+        </div>
+        <a id="" class="start-btn rounded-btn" class="nav-item text-center">Bắt đầu</a>
+      </div>
+      <div id="game-stage" class="col-12 col-sm-12 col-md-12 col-xl-12 text-center" style="display: none; padding: 0 15rem; background: #272727; border: solid 1px #272727; min-height: 30rem;">
+        <div>
+          <p style="font-size: 90px; text-align: center; font-family: LinotteHeavy; color:#14a76c">
+            Classic
+          </p>
+        </div>
+        <div class="row">
+          <span class="col-6 align-text-middle" id="topic"></span>
+          <span class="col-6 align-text-middle" id="countdown"></span>
+        </div>
+        <div>
+          <p id="question" style="padding: 15px 15px;font-size: 30px;width: 100%;">
+            <strong></strong>
+          </p>
+          <div>
+            <button id="answerA" class="btn btn-light btn-block btn-answer" type="button"></button>
+          </div>
+          <div>
+            <button id="answerB" class="btn btn-light btn-block btn-answer" type="button"></button>
+          </div>
+          <div>
+            <button id="answerC" action="/getQuestion" method="post" class="btn btn-light btn-block btn-answer" type="button"></button>
+          </div>
+          <div>
+            <button id="answerD" class="btn btn-light btn-block btn-answer" type="button"></button>
+          </div>
+          <div id="nextQuestion" style="display: none;">
+            <button class="btn btn-light btn-block" type="button">
+              Câu tiếp
+            </button>
+          </div>
+
+          <div class="question-container"></div>
+        </div>
+        <script type="text/javascript">
+          $(window).on("beforeunload", function () {
+            var c = confirm();
+            if (c) {
+              return true;
+            } else return false;
+          });
+        </script>
+      </div>
+      <div id="end-stage" class="col-12 col-sm-12 col-md-12 col-xl-12 text-center" style="display: none; padding: 0 15rem; background: #272727; border: solid 1px #272727; min-height: 30rem;">
+        <div>
+          <p style="font-size: 90px; text-align: center; font-family: LinotteHeavy; color:#14a76c">
+            Classic
+          </p>
+        </div>
+        <div>
+          <p style="font-size: 40px; color:#ffe400; font-family: LinotteBold; margin-left: 20px;">
+            Kết thúc trò chơi!
+          </p>
+          <p id="result" style="color:#14a76c; font-size: 25px;padding-left: 10px;margin-left: 20px;"></p>
+          <a id="" class="start-btn rounded-btn" class="nav-item text-center">Chơi lại</a>
+        </div>
+      </div>
+    </div>
+  </div>

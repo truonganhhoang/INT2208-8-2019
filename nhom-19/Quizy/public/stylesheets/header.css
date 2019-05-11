@@ -1,0 +1,35 @@
+#btn-signin {
+  font-size: 16px;
+  color: #ffe400;
+  letter-spacing: 1px;
+  line-height: 35px;
+  background: transparent;
+  transition: all 0.3s ease 0s;
+  width: 110px;
+  -webkit-margin-collapse: collapse;
+}
+
+#btn-signin:hover {
+  color: #14a76c;
+  background: #272727;
+}
+
+#btn-signup {
+  font-size: 16px;
+  color: #272727;
+  letter-spacing: 1px;
+  line-height: 35px;
+  border: 2px solid  #fff;
+  border-spacing: 4px;
+  border-radius: 40px;
+  background: #fff;
+  transition: all 0.3s ease 0s;
+  width: 130px;
+}
+
+#btn-signup:hover {
+  color: #14a76c;
+  background: #272727;
+  border: 2px solid #14a76c;
+}
+

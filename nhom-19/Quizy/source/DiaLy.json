@@ -1,0 +1,107 @@
+﻿[
+	{
+		"question" : "Quốc gia nào nhỏ nhất thế giới về diện tích?",
+		"key" : "Vantican",
+		"falseAnswer1" : "Monaco",
+		"falseAnswer2" : "San Mario",
+		"falseAnswer3" : "Cộng Hòa Nauru"
+	},
+	{
+		"question" : "Thành phố châu Âu nào được gọi là thành phố vĩnh cửu?",
+		"key" : "Roma, Ý",
+		"falseAnswer1" : "Paris, Pháp ",
+		"falseAnswer2" : "London, Anh",
+		"falseAnswer3" : "Berlin, Đức"
+	},
+	{
+		"question" : "Hồ nội địa nào sâu nhất thế giới?",
+		"key" : "Baican, Nga",
+		"falseAnswer1" : "Hồ xanh lớn, Belice",
+		"falseAnswer2" : "Hồ lớn Kimberley, Nam Phi",
+		"falseAnswer3" : "Hồ Morning Glory, bang Wyoming, Hoa Kì"
+	},
+	{
+		"question" : "Hãy kể tên 4 nước lớn nhất về diện tích",
+		"key" : "Liên Bang Nga, Trung Quốc, Canada, Mỹ",
+		"falseAnswer1" : "Liên Bang Nga, Trung Quốc, Canada, Brazil",
+		"falseAnswer2" : "Liên Bang Nga, Trung Quốc, Mỹ, Brazil",
+		"falseAnswer3" : "Liên Bang Nga, Trung Quốc, Canada, Úc"
+	},
+	{
+		"question" : "Thác nước tự nhiên, không ngắt quãng cao nhất thế giới- Thác Thiên Thần nằm ở đâu?",
+		"key" : "Venezuela",
+		"falseAnswer1" : "Trung Quốc",
+		"falseAnswer2" : "Canada",
+		"falseAnswer3" : "Nga"
+	},
+	{
+		"question" : "Dãy núi nào dài nhất thế giới?",
+		"key" : "Andes ",
+		"falseAnswer1" : "Bạch Mã",
+		"falseAnswer2" : "Himalaya",
+		"falseAnswer3" : "Huang"
+	},
+	{
+		"question" : "Sa mạc Gobi nằm ở châu lục nào?",
+		"key" : "Châu Á",
+		"falseAnswer1" : "Châu Mỹ",
+		"falseAnswer2" : "Châu Phi",
+		"falseAnswer3" : "Châu Úc"
+	},
+	{
+		"question" : "Đất nước có quốc kỳ là hai hình tam giác chồng lên nhau",
+		"key" : "Nepal",
+		"falseAnswer1" : "Nga ",
+		"falseAnswer2" : "Uruguay",
+		"falseAnswer3" : "Mianma"
+	},
+	{
+		"question" : "Tên quốc gia nào có nghĩa : vùng đất của thỏ?",
+		"key" : "Tây Ban Nha",
+		"falseAnswer1" : "Bồ Đào Nha",
+		"falseAnswer2" : "Oxtraylia",
+		"falseAnswer3" : "Uruguay"
+	},
+	{
+		"question" : "Tên gọi của đất nước Chile có ý nghĩa gì?",
+		"key" : "Nơi tận cùng thế giới ",
+		"falseAnswer1" : "Ớt lửa",
+		"falseAnswer2" : "Núi Lửa",
+		"falseAnswer3" : "Tình yêu trên thảo nguyên"
+	},
+	{
+		"question" : "Thành phố của chiếc vương miện tím là thành phố nào",
+		"key" : "Athens",
+		"falseAnswer1" : "Hokkaido",
+		"falseAnswer2" : "Rome",
+		"falseAnswer3" : "Los Angeles"
+	},
+	{
+		"question" : "Địa danh nào dưới đây được gọi là thành phố của những giấc mơ và cũng là thành phố thịnh vượng nhất nước?",
+		"key" : "Mumbai",
+		"falseAnswer1" : "Bắc Kinh",
+		"falseAnswer2" : "Thượng Hải",
+		"falseAnswer3" : "New York"
+	},
+	{
+		"question" : "Nước nào có dân số đông nhất châu Phi?",
+		"key" : "Nigeria",
+		"falseAnswer1" : "Nam Phi",
+		"falseAnswer2" : "Ai Cập",
+		"falseAnswer3" : "Ấn Độ"
+	},
+	{
+		"question" : "Châu lục nào khô nhất trên Trái đất?",
+		"key" : "Châu Nam Cực",
+		"falseAnswer1" : "Châu PHi",
+		"falseAnswer2" : "Châu Á",
+		"falseAnswer3" : "Châu Mỹ"
+	},
+	{
+		"question" : " Đất nước triệu voi là",
+		"key" : "Thái Lan",
+		"falseAnswer1" : "Lào ",
+		"falseAnswer2" : "Campuchia",
+		"falseAnswer3" : "Myanma"
+	}
+]

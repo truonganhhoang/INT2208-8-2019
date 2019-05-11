@@ -1,0 +1,143 @@
+[
+	{
+		"question" : "Văn bản được coi là tác phẩm đầu tiên về Hà Nội?",
+		"key" : "Chiếu dời đô",
+		"falseAnswer1" : "Hoàng Lê Nhất Thống chí",
+		"falseAnswer2" : "Long Thành cầm giả ca",
+		"falseAnswer3" : "Điếu La thành ca giả"
+	},
+	{
+		"question" : "Bài thơ được coi là ''Bản tuyên ngôn độc lập'' đầu tiên của tổ quốc ta do ai viết?",
+		"key" : "Lý Thường Kiệt",
+		"falseAnswer1" : "Trần Quốc Tuấn",
+		"falseAnswer2" : "Quang Trung",
+		"falseAnswer3" : "Trần Thái Tông"
+	},
+	{
+		"question" : "Vị vua nào đã làm hai câu thơ ''Xã tắc hai phen chồn ngựa đá. Non sông ngàn thủa vững âu vàng ''?",
+		"key" : "Trần Nhân Tông",
+		"falseAnswer1" : "Trần Thái Tông",
+		"falseAnswer2" : "Lý Nhân Tông",
+		"falseAnswer3" : "Lý Anh Tông"
+	},
+	{
+		"question" : "Người ta tạo ra vận mệnh chứ không phải vận mệnh tạo ra con người'' là câu nói nổi tiếng của ai?",
+		"key" : "Lê Quý Đôn",
+		"falseAnswer1" : "Nguyễn Du",
+		"falseAnswer2" : "Nguyễn Trãi",
+		"falseAnswer3" : "Hồ Chí Minh"
+	},
+	{
+		"question" : "Nhà thơ nào đã ví: 'Thân em như quả mít trên cây?'",
+		"key" : "Hồ Xuân Hương",
+		"falseAnswer1" : "Xuân Quỳnh",
+		"falseAnswer2" : "Lâm Thị Mỹ Dạ",
+		"falseAnswer3" : "Thảo Phương"
+	},
+	{
+		"question" : "Trong Truyện Kiều Nguyễn Du đã sử dụng loài hoa nào để miêu tả nàng Kiều?",
+		"key" : "Hoa Hải Đường",
+		"falseAnswer1" : "Hoa Oải Hương",
+		"falseAnswer2" : "Hoa Đỗ Quyên",
+		"falseAnswer3" : "Hoa Mẫu Đơn"
+	},
+	{
+		"question" : "Thúy Kiều mang họ gì?",
+		"key" : "Vương",
+		"falseAnswer1" : "Tạ",
+		"falseAnswer2" : "Ninh",
+		"falseAnswer3" : "Minh"
+	},
+	{
+		"question" : "Cuốn sách đầu tiên Nguyễn Trãi viết để dạy vua có tên là gì?",
+		"key" : "Dư địa khí",
+		"falseAnswer1" : "Bình Ngô sách",
+		"falseAnswer2" : "Bình Ngô đại cáo",
+		"falseAnswer3" : "Ức Trai Thi tập"
+	},
+	{
+		"question" : "Ai đã thay vua Quang Trung viết 'Chiếu khuyến học'?",
+		"key" : "Ngô Thì Nhậm",
+		"falseAnswer1" : "Vũ Văn Dũng",
+		"falseAnswer2" : "Trương Văn Hiến",
+		"falseAnswer3" : "Nguyễn Thiếp"
+	},
+	{
+		"question" : "Tác Giả Đại Việt Sử ký toàn thư?",
+		"key" : "Ngô Sỹ Liên",
+		"falseAnswer1" : "Lê Văn Hưu",
+		"falseAnswer2" : "Tập thể sử quán Triều Nguyễn",
+		"falseAnswer3" : "Lê Tắc"
+	},
+	{
+		"question" : "Tác giả An Nam Chí Lược?",
+		"key" : "Lê Tắc",
+		"falseAnswer1" : "Lê Văn Hưu",
+		"falseAnswer2" : "Ngô Sỹ Liên",
+		"falseAnswer3" : "Tập thể Sử quan Triều Nguyễn"
+	},
+	{
+		"question" : "Tác giả của Lịch sử nước ta?",
+		"key" : "Hồ Chí Minh",
+		"falseAnswer1" : "Lê Tắc",
+		"falseAnswer2" : "Lên Văn Hưu",
+		"falseAnswer3" : "Ngô Sỹ Liên"
+	},
+	{
+		"question" : "Sự tích Trầu cau xảy ra vào đời vua Hùng thứ bao nhiêu?",
+		"key" : "Đời vua Hùng thứ 12",
+		"falseAnswer1" : "Đời vua Hùng thứ 13",
+		"falseAnswer2" : "Đòi vua Hùng thứ 9",
+		"falseAnswer3" : "Đời vua hùng thứ 10"
+	},
+	{
+		"question" : "Tác giả của bút ký Hà Nội 36 Phố phường?",
+		"key" : "Thạch Lam",
+		"falseAnswer1" : "Nguyên Hồng",
+		"falseAnswer2" : "VŨ Trọng Phụng",
+		"falseAnswer3" : "Dương Nguyên"
+	},
+	{
+		"question" : "Người khởi nguồn hội Tao Đàn?",
+		"key" : "Tản Đà",
+		"falseAnswer1" : "Lê Thánh Tông",
+		"falseAnswer2" : "Thân Nhân Trung",
+		"falseAnswer3" : "Đỗ Nhuận"
+	},
+	{
+		"question" : "Nhà văn đầu tiên đã nghiên cứu và dịch tác phẩm của Lỗ Tấn sang Tiếng Việt là ai?",
+		"key" : "Đặng Thai Mai",
+		"falseAnswer1" : "Phan Khôi",
+		"falseAnswer2" : "Trương Chính",
+		"falseAnswer3" : "Phạm Nguyên Trường"
+	},
+	{
+		"question" : "'Đề cương Văn hóa Việt Nam' của Đảng do ai biên soạn?",
+		"key" : "Tổng bí thư Trường Chinh",
+		"falseAnswer1" : "Chủ tịch Hồ Chí Minh",
+		"falseAnswer2" : "Tổng bí thư Trần Phú",
+		"falseAnswer3" : "Tổng bí thư Hà Huy Tập"
+	},
+	{
+		"question" : "Trong thần thoại Hy Lạp, thần Mặt Trời tên là gì?",
+		"key" : "Helios",
+		"falseAnswer1" : "Zeus",
+		"falseAnswer2" : "Poseidon ( Neptune)",
+		"falseAnswer3" : "Apollo"
+	},
+	{
+		"question" : "Tác phẩm 'Chiến tranh và Hòa bình' viết trong bao lâu?",
+		"key" : "7 năm",
+		"falseAnswer1" : "8 năm",
+		"falseAnswer2" : "4 năm",
+		"falseAnswer3" : "5 năm"
+	},
+	{
+		"question" : "Theo thần thoại Trung Quốc, bà Nữ Oa đã dùng loại đá gì để vá trời?",
+		"key" : "Đá Ngũ Sắc",
+		"falseAnswer1" : "Khổng Tước Thạch",
+		"falseAnswer2" : "Ngọc Thạch Lựu",
+		"falseAnswer3" : "Kê Huyết Thạch"
+	}
+]
+	
