@@ -83,7 +83,7 @@ router.get('/login', csrfProtection, function(req, res, next) {
 
 router.get('/profile',Isloggin, csrfProtection, function(req, res, next) {
   
-  res.render("loginOk",{title: "Your profile",name:name, number:number, email: email}) ;
+  res.render("loginOK",{title: "Your profile",name:name, number:number, email: email}) ;
 });
 
 //---------------Đăng xuất----------------
@@ -119,7 +119,8 @@ router.get('/find/:id', function(req, res, next) {
 })
 // thông tin từng sản phẩm
 router.get('/product', function(req, res, next) {
-    res.render('product', {imgpath: idPro.imagePath, id: idPro.id, namepro: idPro.name, des: idPro.description, price: idPro.price});
+  var cart= new Cart(req.session.cart);
+    res.render('product', {price: cart.totalPrice, name:name, number:number, imgpath: idPro.imagePath, id: idPro.id, namepro: idPro.name, des: idPro.description, price: idPro.price});
 })
 
 
@@ -248,7 +249,7 @@ router.get('/profile',Isloggin, csrfProtection, function(req, res, next) {
   cart.remove(productlist[i].item._id);
   req.session.cart= cart;
   }
-  res.render('checkOK');
+  res.render('checkOK', {title: "Mua hàng", price: cart.totalPrice, name:name, number:number});
 
   });
 
