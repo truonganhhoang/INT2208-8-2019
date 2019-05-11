@@ -1,0 +1,27 @@
+<nav class="navbar navbar-light navbar-expand-lg fixed-top bg-secondary text-uppercase" id="mainNav">
+  <div class="container">
+    <a class="navbar-brand js-scroll-trigger" href="/">Quizy</a>
+    <button class="navbar-toggler navbar-toggler-right text-uppercase bg-primary text-white rounded" data-toggle="collapse"
+      data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      <i class="fa fa-bars"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="nav navbar-nav ml-auto">
+        <li class="nav-item mx-0 mx-lg-1" role="presentation">
+          <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="/games">Chơi</a>
+        </li>
+        <li class="nav-item mx-0 mx-lg-1" role="presentation">
+          <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="/user/rank">Bảng xếp hạng</a>
+        </li>
+      </ul>
+      <% if (!isLogged) { %>
+        <a id="btn-signin" href="/user/signin" class="nav-item text-center">Đăng nhập</a>
+        <a id="btn-signup" href="/user/signup" class="nav-item text-center">Đăng ký</a>
+        <% } else { %>
+          <a id="btn-signup" href="/user/profile" class="nav-item text-center">
+            <%= username %>
+          </a>
+          <% } %>
+    </div>
+  </div>
+</nav>
