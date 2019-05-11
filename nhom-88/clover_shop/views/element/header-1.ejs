@@ -1,0 +1,69 @@
+<div class="  bg-white" style="background-image: linear-gradient(-180deg, rgba(255,0,0,0), rgb(255, 209, 209));">
+    <div class="row justify-content-md-around">
+        <div class="col-lg-3 pt-2 pb-2 hotline"><b>Hot line : </b>0123456789</div>
+        <div class="col-lg-3 pt-2 pb-2 row justify-content-end">
+            <a href="#" class=" pr-3" style="border-right: 1px solid">Trợ giúp</a>
+            <a href="#" class=" pl-3 pr-3" style="border-right: 1px solid"> Đăng nhập</a>
+            <a href="#" class=" pl-3"> Đăng kí </a>
+        </div>
+    </div>
+
+    <div class="container " style="border-top: 1px solid white">
+        <div class="row justify-content-md-around">
+            <div class="header-logo"><a href="#">&nbsp;<img src="./img/clover_1.png"
+                        style="width: 250px; height: 100px;">&nbsp;</a></div>
+            <form class=" p-3 col-lg-5 col-md-4 header-search" action="/danh-muc-san-pham/<%= currentStatus %>"
+                method="GET">
+                <div class="input-group">
+                    <input type="search" class="form-control" placeholder="nhập tên sản phẩm..." name="keyWord"
+                        value="<%= keyWord %>">
+                    <div class="input-group-append">
+                        <button class="btn btn-outline-secondary btn-danger" type="submit" style="color: white;">Tìm
+                            kiếm</button>
+                    </div>
+                </div>
+            </form>
+
+
+            <div class="header-cart">
+                <a href="#"><img src="./img/cart-icon1.png" class="mt-4"></a>
+                <div class="Qty qty-header" style="margin-left: -10px; margin-top:-5px;">(0)</div>
+            </div>
+
+        </div>
+    </div>
+
+
+</div>
+
+<!--navbar-->
+<nav class=" shadow navbar navbar-expand-lg navbar-dark bg-danger sticky-top">
+    <div class="container">
+        <a class="navbar-brand" href="/"><b><i>CLOVER SHOP</i></b></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+            aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="/danh-muc-san-pham">Trang chủ
+                        <span class="sr-only">(current)</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/gio-hang">Giỏ hàng<span class="Qty">(0)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Dịch vụ</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Liên Hệ</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/dang-tin-mien-phi">Đăng tin miễn phí</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
