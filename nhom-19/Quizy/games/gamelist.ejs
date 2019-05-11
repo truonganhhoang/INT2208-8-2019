@@ -1,0 +1,19 @@
+<% layout('../layouts/layout') -%>
+
+<div class="row">
+    <% gameList.forEach(function (element, index) { %>
+    <div class="col-sm-6 col-md-4 col-xl-3" style="font-size: 1.5rem; margin: 1rem">
+        <div class="card" style="width: 18rem;">
+            <img class="img-fluid img-thumbnail" src="<%= element.imageLink %>" class="card-img-top"
+                alt="...">
+            <div class="card-body">
+                <h5 class="card-title"><%= element.name %></h5>
+                <p class="description"><%= element.description %></p>
+                <div class="clearfix">
+                    <a href="/games/<%= element.id %>" class="btn btn-success float-sm-right">Chơi ngay</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <% }) %>
+</div>
