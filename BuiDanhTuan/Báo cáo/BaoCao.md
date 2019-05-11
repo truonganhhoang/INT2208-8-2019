@@ -35,12 +35,12 @@
 
 Video demo sản phẩm: http://youtu.be/R4a4umE5PbA
 * Hướng dẫn sử dụng:
-1. ở đầu của trang giỏ hàng là thanh thể hiện các bước để mua hàng. Bạn đang ở bước nào thì bước đó sẽ được in đậm.
+1. ở đầu của trang giỏ hàng là thanh thể hiện các bước để mua hàng. Bạn đang ở bước nào thì bước đó sẽ được in đậm.<img src="https://github.com/17020932/INT2208-8-2019/blob/master/BuiDanhTuan/B%C3%A1o%20c%C3%A1o/thanh%20tr%E1%BA%A1ng%20th%C3%A1i.PNG">
 
-2.	Trang giỏ hảng chứa các sản phẩm bạn đã chọn. Có thể xóa bỏ những sản phẩm không vừa ý hoặc quay về trang chủ để lựa chọn những sản phẩm khác vào giỏ hàng.
+2.	Trang giỏ hảng chứa các sản phẩm bạn đã chọn. Có thể xóa bỏ những sản phẩm không vừa ý hoặc quay về trang chủ để lựa chọn những sản phẩm khác vào giỏ hàng.<img src="https://github.com/17020932/INT2208-8-2019/blob/master/BuiDanhTuan/B%C3%A1o%20c%C3%A1o/x%C3%B3a.PNG">
 
-3.	Khi đã quyết định mua hàng ấn vào nút thanh toán. Ở đây sẽ hiện thêm phần thông tin người nhận để thanh toán. Lưu ý nếu giỏ hàng trống bấm vào nút thanh toán sẽ hiện ra thông báo "Giỏ hàng của bạn chưa có sản phẩm".
+3.	Khi đã quyết định mua hàng ấn vào nút thanh toán. Ở đây sẽ hiện thêm phần thông tin người nhận để thanh toán. Lưu ý nếu giỏ hàng trống bấm vào nút thanh toán sẽ hiện ra thông báo "Giỏ hàng của bạn chưa có sản phẩm".<img src="https://github.com/17020932/INT2208-8-2019/blob/master/BuiDanhTuan/B%C3%A1o%20c%C3%A1o/Thanh%20to%C3%A1n.PNG">
 
-4.	Ấn vào nút đặt hàng để hoàn tất thanh toán. Bạn phải điền đầy đủ thông tin nếu chưa thì sẽ hiển thị thông báo yêu cầu hoàn thiện đầy đủ thông tin cần thiết.
+4.	Ấn vào nút đặt hàng để hoàn tất thanh toán. Bạn phải điền đầy đủ thông tin nếu chưa thì sẽ hiển thị thông báo yêu cầu hoàn thiện đầy đủ thông tin cần thiết.<img src="https://github.com/17020932/INT2208-8-2019/blob/master/BuiDanhTuan/B%C3%A1o%20c%C3%A1o/ch%C6%B0a%20%C4%91i%E1%BB%81n%20th%C3%B4ng%20tin.PNG">
 
 5.	Hiện ra thông báo "Bạn xác nhận đặt hàng". Nếu đồng ý xác nhận đặt hàng thì trang web sẽ gửi tới gmail của bạn thông báo đặt hàng thành công kèm theo hóa đơn đơn hàng của bạn.
