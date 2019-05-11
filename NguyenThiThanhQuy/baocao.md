@@ -52,6 +52,14 @@
   
   <img src="https://i.imgur.com/oOiQZZt.png">
   
+  7. Ngoài ra em còn bổ sung thêm tính năng đăng nhập admin, hiện tại em chỉ để 1 tk duy nhất có thể truy cập admin 
+  
+ <img src="https://i.imgur.com/BtVnRAn.png">
+ 
+ 8 Dưới đây là giao diện payment của các đơn đặt hàng sau khi admin truy cập, từ đó liên hệ và giao hàng cho khách hàng
+ <img src="https://i.imgur.com/8RuAGfs.png">
+ 
+  
   
   
   
