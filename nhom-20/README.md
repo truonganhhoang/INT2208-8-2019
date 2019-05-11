@@ -3,15 +3,15 @@
 
 **Thành viên nhóm:**
 
-  - Phạm Văn Hùng.
+     Phạm Văn Hùng - 17021064
   
-  - Nguyễn Đắc Phong.
+     Nguyễn Đắc Phong - 17020953
   
-  - Phạm Duy Tiếp.
+     Phạm Duy Tiếp - 17021064
   
-  - Trần Hồng Phúc.
+     Trần Hồng Phúc - 17020962
   
-  - Phạm Nhật Hưng.
+     Phạm Nhật Hưng - 17020817
 
 ## Phần mềm và quy trình xây dựng, phát triển phần mềm.
 
@@ -20,6 +20,7 @@
 **Người dùng:** Tất cả lứa tuổi, thích đọc truyện.
 
 **Mô tả:** Web đọc truyện tranh online với nhiều thể loại dành cho nhiều lứa tuổi.
+**Link trang web: [Web-truyeen-tranh]().
 
 **Link repositories (mã nguồn sản phẩm của nhom-20):** [github Web-truyen-tranh](https://github.com/tiep2999/Website-truyen-tranh).
 
@@ -92,5 +93,7 @@
       - Nâng cấp cải tiến các chức năng.
       
     ## Hướng dẫn sử dụng phần mềm
+    #### Các chức năng tiêu biểu:
+      **1.Đăng nhập/đăng ký tài khoản.
     
     
