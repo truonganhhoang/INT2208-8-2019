@@ -28,6 +28,11 @@
 
 3.	Bây giờ trang giới thiệu trang sẽ hiện lên: 
 
+### Trang giới thiệu
+
+![introduce](https://github.com/17020932/INT2208-8-2019/blob/master/nhom-88/imagines/introduce_0.PNG)
+                                    
+                                    
     .Bố cục của trang web:
 
                 + Headder: logo, trang tìm kiếm,giỏ hàng,thanh công cụ sẽ mô tả hết chức năng của trang web.
@@ -45,8 +50,7 @@
 ### Trang chủ
 
 ![home](https://github.com/17020932/INT2208-8-2019/blob/master/nhom-88/imagines/trang%20ch%E1%BB%A7.png)
-
-                                    
+                                                                       
 
 5.	Bây giờ bạn dùng thanh cuộn trang kéo xuống sẽ thấy tất cả sản phẩm hiện có trên web. Các sản phẩm sẽ được sắp xếp hiển thị theo ngày đăng, sản phẩm có ngày đăng gần nhất sẽ được hiển thị đầu tiên.
 
@@ -63,7 +67,7 @@
 
 ### Thông tin chi tiết sản phẩm
 
-
+![producr_detail](https://github.com/17020932/INT2208-8-2019/blob/master/nhom-88/imagines/trang%20th%C3%B4ng%20tin%20chi%20ti%E1%BA%BFt.PNG)
 
 9. Bố cục trang thông tin chi tiết gồm: hình ảnh chi tiết của sản phẩm, thông tin chi tiết của sản phẩm, phần lựa chọn số lượng,size, màu sắc sản phẩm.
 
@@ -76,6 +80,9 @@
 13.	Ở cuối trang hiển thị chính sách mua hàng gồm có: Chính sách đổi trả, thồn tin vận chuyển và thông tin thanh toán.
 
 ### Giỏ hàng
+
+![post-news](https://github.com/17020932/INT2208-8-2019/blob/master/nhom-88/imagines/cart_0.PNG)
+
 
 14. ở đầu của trang giỏ hàng là thanh thể hiện các bước để mua hàng. Bạn đang ở bước nào thì bước đó sẽ được in đậm.
 
