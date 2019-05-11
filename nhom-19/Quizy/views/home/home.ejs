@@ -202,6 +202,17 @@
                             <button class="btn btn-primary btn-xl" id="sendMessageButton">Gửi</button>
                         </div>
                     </form>
+		            <script type="text/javascript">
+                        $("#sendMessageButton").click(() => {
+                            $.post("/contact", {
+                                name: $("#name").val(),
+                                email: $("#email").val(),
+                                phoneNumber: $("#phone").val(),
+                                message: $("#message").val()
+                            });
+                            alert("Cảm ơn bạn đã phản hồi!\nKiểm tra mail xác nhận từ Quizy nhé!");
+                        });
+                    </script>
                 </div>
             </div>
         </div>
