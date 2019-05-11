@@ -243,12 +243,12 @@ router.get('/profile',Isloggin, csrfProtection, function(req, res, next) {
       if(err) { return done(err)}
      
     //res.send(req.body.address);
-    res.render('checkOK');
+   
   })
   cart.remove(productlist[i].item._id);
   req.session.cart= cart;
   }
-  return res.send(idPro.id);
+  res.render('checkOK');
 
   });
 
@@ -292,13 +292,11 @@ router.get('/profile',Isloggin, csrfProtection, function(req, res, next) {
               each.userinfo= user;
               
          })
-         
       await Product.findById(docs[i].idProduct, function(err, product) {
           each.productinfo= product;
         //  console.log(product)
      })
-      each.number= docs[i].number;
-  
+      each.number= docs[i].number
       payments[k]=each;
       k++;
       console.log(payments.valueOf())
