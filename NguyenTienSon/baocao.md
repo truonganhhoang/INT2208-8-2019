@@ -1,13 +1,23 @@
 Báo cáo cá nhân môn học Công Nghệ Phần Mềm
+
 Sinh viên: Nguyễn Tiến Sơn
+
 MSV:17021002
+
 User story:Là một nhà phát triển, tôi muốn lưu trữ thông tin của người dùng trong cơ sở dữ liệu để tôi có thể quản lý chúng dễ dàng.
-Independent: Độc lập với các câu chuyện người dùng khác , không gây xung đột .
-Negestiable: Liên tục mở rộng và cập nhật thông tin người dùng và phát triển thêm . Từ đó đưa ra trò chơi phù hợp với người chơi . Dễ dàng thay đổi trong tương lai để phục vụ các mục đích khác .
-Valuable : Giúp đảm bảo an toàn dữ liệu người dùng , lưu giữ một cách nhanh chóng đơn giản . Phát hiện người dùng giả mạo thông tin hay có mục đích bất chính khác .
+
+Independent: Độc lập với các câu chuyện người dùng khác , không gây xung đột.
+
+Negestiable: Liên tục mở rộng và cập nhật thông tin người dùng và phát triển thêm . Từ đó đưa ra trò chơi phù hợp với người chơi . Dễ dàng thay đổi trong tương lai để phục vụ các mục đích khác.
+
+Valuable : Giúp đảm bảo an toàn dữ liệu người dùng , lưu giữ một cách nhanh chóng đơn giản . Phát hiện người dùng giả mạo thông tin hay có mục đích bất chính khác.
+
 Estimable : Nhóm phát triển có thể ước lượng được những công việc cần làm để hoàn thiện chức năng.
-Small : Tính năng này đủ nhỏ để có thể xây dựng trong một thời gian ngắn .
+
+Small : Tính năng này đủ nhỏ để có thể xây dựng trong một thời gian ngắn.
+
 Testable : Công việc dễ kiểm thử , có thể kiểm tra xem người dùng viết sai , hay chưa đầy đủ thông tin.
+
 CÁC CÔNG VIỆC CẦN LÀM
 
   - Thu thập yêu cầu
@@ -31,15 +41,23 @@ CÁC CÔNG VIỆC CẦN LÀM
   -Tối ưu hóa mã nguồn, loại bỏ mã xấu, thêm comment để mã dễ đọc hơn
 
   -Kiểm tra database bằng cách thêm thủ công người dùng và chỉnh sửa nếu có lỗi phát sinh (30 phút)
+  
 Video mô tả : https://youtu.be/N5bMxCjCYdk
-Là một nhà phát triển, tôi muốn tất cả câu hỏi được lưu trong cơ sở dữ liệu , để quản lý và lấy ra một cách dễ dàng 
+Là một nhà phát triển, tôi muốn tất cả câu hỏi được lưu trong cơ sở dữ liệu , để quản lý và lấy ra một cách dễ dàng.
+
 Independent : việc phát triển cơ sở dữ liệu cho câu hỏi là độc lập, không xung đột với các câu chuyện người dùng khác
+
 Negotiable: cơ sở dữ liệu câu hỏi là sự phát triển lâu dài của trang web, là cần thiết, không thể thiếu.
 Mở rộng liên tục, thay đổi đề phù hợp với người dùng.
-Valuable: có giá trị cao, là cốt lõi, nội dung chính của trang Web
+
+Valuable: có giá trị cao, là cốt lõi, nội dung chính của trang Web.
+
 Estimable: Nhóm phát triển có thể ước lượng được những công việc cần làm để hoàn thiện chức năng.
-Small: Tính năng này có thể chia đủ nhỏ để có thể xây dựng trong một thời gian ngắn .
-Testing: kiểm thử dễ dàng
+
+Small: Tính năng này có thể chia đủ nhỏ để có thể xây dựng trong một thời gian ngắn.
+
+Testing: kiểm thử dễ dàng.
+
 Các công việc cần làm
   -Đánh giá user story theo quy tắc INVEST (1h)
 
