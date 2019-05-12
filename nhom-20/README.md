@@ -20,7 +20,7 @@
 **Người dùng:** Tất cả lứa tuổi, thích đọc truyện.
 
 **Mô tả:** Web đọc truyện tranh online với nhiều thể loại dành cho nhiều lứa tuổi.
-**Link trang web: [Web-truyeen-tranh]().
+**Link trang web: [Web-truyeen-tranh](https://afternoon-gorge-98922.herokuapp.com/?fbclid=IwAR1Y6H9KRQORxnZ4Ux0ViRx64Tq0uWPh2bId4Rhwl4C8rbbdatYqRwYxOyU).
 
 **Link repositories (mã nguồn sản phẩm của nhom-20):** [github Web-truyen-tranh](https://github.com/tiep2999/Website-truyen-tranh).
 
@@ -92,8 +92,65 @@
       - Thực hiện xây dựng các chức năng của sản phẩm.
       - Nâng cấp cải tiến các chức năng.
       
-    ## Hướng dẫn sử dụng phần mềm
-    #### Các chức năng tiêu biểu:
-      **1.Đăng nhập/đăng ký tài khoản.
+ ## Hướng dẫn sử dụng phần mềm
+   
+   ####1.Hướng dẫn sử dụng chức năng đăng nhập/đăng ký:**
+   
+   ##### 1.1 Đăng ký
+   - Sau khi đăng nhập vào trang Web bạn sẽ được dẫn đến trang chủ.
+   - Chọn vào phần "Đăng ký" trên thanh công cụ menu.
+   - Sau khi chọn phần đăng ký, bạn sẽ được chuyển đến trang mới để đăng ký tài khoản. Tại đây, bạn nhập các thông tin yêu cầu cần            thiết để tạo một tài khoản.
+   
+     **Lưu ý:**
+     - Nếu tên người dùng, email chỉ được sử dụng để đăng ký cho một tài khoản duy nhất. Nên nếu bị trùng lặp, bản phải nhập tên người          dùng hoặc email khác để đăng ký.
+     - "Password" và "Confirm Password" phải giống nhau tuyệt đối.
+     
+   - Sau khi nhập xong thông tin và được tích dấu V xanh, chọn đăng ký.
+   
+   ![alt](https://github.com/tiep2999/aaaa/blob/master/CNPM/enterLog.png)
+     
+   - Nếu thành công màn hình sẽ đăng ký thành công, ngược lại sẽ thông báo thất bại và yêu cầu quay lại trang đăng ký nhập lại thông          tin.
+     - Đăng nhập thành công.  
+   ![alt](https://github.com/tiep2999/aaaa/blob/master/CNPM/loginOK.png)
+     - Đăng nhập thất bại.
+   ![alt](https://github.com/tiep2999/aaaa/blob/master/CNPM/failLog.png)
+   
+   ##### 1.2.Đăng nhập
+   
+   - Sau khi đăng ký thành công tài khoản, bạn chọn đến trang đăng nhập để tiến hành đăng nhập tài khoản.
+   - Nhập Email, Password đã đăng ký và chọn đăng nhập.
+   - Sau khi đăng nhập:
+      - Nếu là tài khoản User bạn sẽ được đưa đến trang profile cá nhân.
+      
+      ![alt](https://github.com/tiep2999/aaaa/blob/master/CNPM/profile.png)
+      
+      - Đặc biệt: Nếu là tài khoản của admin sẽ đưa đến trang riêng của Admin để quản lý cơ sở dữ liệu truyện tranh. Tài khoản Admin bí         mật chỉ có duy nhất và không thể đăng ký.
+      
+      ![alt](https://github.com/tiep2999/aaaa/blob/master/CNPM/admin.png)
+      
+  ## Hướng dẫn sử thêm, sửa, xóa cơ sở dữ liệu truyện.
+  
+  Đăng nhập vào tài khoản admin đã được cung cấp:
+
+Gmail: admin@gmail.com
+
+Password: admin
+
+Hình ảnh:
+<img src = "https://i.imgur.com/SOty1KW.png">
+
+Màn hình hiển thị sau khi đăng nhập sẽ có là:
+<img src = "https://imgur.com/nXsZSzu.png">
+
+Để xóa truyện thì nhấp nút xóa như bạn thấy
+
+Để thêm chap truyện bạn nhấp insert màn hình chuyển đến như hình:
+<img src = "https://imgur.com/hrRUt7D.png">
+
+Để thêm truyện mới thì cần nhấp vào insert trên thanh menu rồi nhấp New Story như hình:
+<img src = "https://imgur.com/lDFRnN7.png">
+
+Để sử thông tin truyện bạn trở lại All-Story rồi nhấp Detail màn hình hiển thị như hình:
+<img src = "https://imgur.com/biijkDh.png">
     
     
