@@ -1,0 +1,58 @@
+.btn-answer {
+    font-size: 20px;
+    color: #212529;
+}
+
+#question {
+    color: #ffffff;
+} 
+
+
+#topic,
+#countdown {
+  color: #ffffff;
+  height: 45.6px;
+  min-width: 50%;
+  max-width: 50%;
+  text-align: center;
+}
+
+#topic {
+  background-color: #14a76c;
+}
+
+#countdown {
+  background-color: #ff652f;
+}
+
+.rounded-btn {
+  font-size: 30px;
+  color: #272727;
+  letter-spacing: 1px;
+  line-height: 40px;
+  border: 2px solid #fff;
+  border-spacing: 4px;
+  border-radius: 40px;
+  background: #fff;
+  transition: all 0.3s ease 0s;
+  width: 140px;
+  padding: 10px;
+  display: flex;
+  margin: 0 auto;
+}
+
+.rounded-btn:hover {
+  color: #14a76c;
+  background: #14a76c;
+  border: 2px solid #14a76c;
+}
+
+#nextQuestion {
+  color: #747474
+}
+
+.game-info {
+  color:#ffe400;
+  font-size: 25px;
+  padding-left: 10px;
+}
