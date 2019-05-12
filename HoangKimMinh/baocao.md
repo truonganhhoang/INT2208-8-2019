@@ -44,7 +44,6 @@
   - Đánh giá REST API (30 phút) [REST Development](https://docs.google.com/document/d/1a4i_31R8WBUAnF91syr1FwBpKoAiTY6rEJt1xWjb74M/edit?fbclid=IwAR2RKT8WWnwXfrP30tY3u2ylD1AWJlfZV5B1npknln1boppF-TUEkdcFl98#heading=h.rxyqst9dtgtt)
   - Thiết kế controller cho game API (2h) [Link commit](https://github.com/19team/INT2208-8-2019/commit/40a613f379b39ecff77c67765d050ed51bbb065a)
   - Viết route điều khiển trò chơi trong API (1h) [Link commit](https://github.com/19team/INT2208-8-2019/commit/42959c88259681a55d356c3e032e7ade57aec20c)
-  -
   - Đánh giá API dễ sử dụng (30 phút) [API Usability](https://docs.google.com/document/d/1a4i_31R8WBUAnF91syr1FwBpKoAiTY6rEJt1xWjb74M/edit?fbclid=IwAR2RKT8WWnwXfrP30tY3u2ylD1AWJlfZV5B1npknln1boppF-TUEkdcFl98#heading=h.58qkxg2rderr)
 
 - Viết class ClassicGame điều khiển phía Client (30 phút) [Link commit](https://github.com/19team/INT2208-8-2019/commit/42959c88259681a55d356c3e032e7ade57aec20c)
@@ -84,4 +83,4 @@
   *Kết thúc trò chơi*
   ![alt text](https://i.ibb.co/NskBB4Q/anh5.png) <br/>
 
-### **4. Video mô tả:** https://youtu.be/nehOPPW_pW4
+### **4. Video mô tả:** https://youtu.be/uEJS_ESguHM
