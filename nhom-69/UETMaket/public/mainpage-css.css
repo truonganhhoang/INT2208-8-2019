@@ -21,7 +21,7 @@ div.mainhead {
 }
 @font-face {
 	font-family:MYRIADPRO-SEMIBOLD;
-	src: url(font/MYRIADPRO-SEMIBOLD.otf);
+	src: url(font/MYRIADPRO-SEMIBOLD.ttf);
 }
 @font-face {
 	font-family:MYRIADPRO-BOLDIT;
@@ -29,7 +29,7 @@ div.mainhead {
 }
 @font-face {
 	font-family:MYRIADPRO-COND;
-	src: url(font/MYRIADPRO-COND.otf);
+	src: url(font/MYRIADPRO-COND.ttf);
 }
 
 div.title1 {
@@ -448,6 +448,7 @@ img.MXH:hover {
 	 text-align: center;
 	 font-size: 320%;
 	padding: 10px;
+	
  }
  .loginname {
 	width: 150px;

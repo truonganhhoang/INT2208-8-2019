@@ -33,20 +33,22 @@
 <table>
   <tr>
     <th>Tên khách hàng</th>
-    <th>Địa chỉ</th>
     <th>Số điện thoại</th>
     <th>Tên sản phẩm</th>
     <th>Số lượng</th>
-    <th>Tổng tiền</th>
+    <th>Giá sản phẩm</th>
   </tr>
   <tr>
-    <td>Peter</td>
-    <td>USA</td>
-    <td>123</td>
-    <th>Bowl</th>
-    <th>5</th>
-    <th>100.000đ</th>
+ {{# each payments}} 
+  
+    <td>{{this.userinfo.name}}</td>
+    <td>{{this.userinfo.number}}</td>
+    <td>{{this.productinfo.name}}</td>
+    <td>{{this.number}}</td>
+    <td>{{this.productinfo.price}}</td>
+  
   </tr>
+  {{/each}} 
 </table>
 
     </body>

@@ -39,10 +39,7 @@
 <body> 
     <header>
     <div class="mainhead">
-    <form class="headersearch">
-        <input title="tìm kiếm sản phẩm" type="text" placeholder="Bạn muốn tìm gì?"> 
-    
-    </form>
+  </div>
 </header>
 
 <div class="title1">
@@ -94,28 +91,29 @@
        {{# each product}}
     <td>{{this.item.name}}</td>
     <td>{{this.qty}}</td>
-    <td>{{this.price}}</td>
-    <td> <a href="/remove/{{this.item._id}}"  ><button style="margin-right:0px" class="button-cart">remove</button></a></td>
-    <td><a href="/reduce/{{this.item._id}}" style="margin-right:60px"><button class="button-cart">reduce 1</button></a></td>
+    <td>{{this.price}}.000đ</td>
+    <td> <a href="/remove/{{this.item._id}}"  ><button style="margin-right:0px" class="button-cart">Gỡ bỏ</button></a></td>
+    <td><a href="/reduce/{{this.item._id}}" style="margin-right:60px"><button class="button-cart">Giảm 1</button></a></td>
+    
 
   </tr>
   {{/each}}
 </table>
     <div class="row">
     <div class="col-sm-6 col-md-6 col-md-offset-3 col-sm-offset-3">
-    <strong>Total: {{price}}</strong>
+    <strong>Tổng tiền: {{price}}.000đ</strong>
         </div>
         </div>
         <br>
     <div class="row">
     <div class="col-sm-6 col-md-6 col-md-offset-3 col-sm-offset-3">
-    <a href="check"> <button class="button-cart">Check</button></a>
+    <a href="check"> <button class="button-cart">Thanh toán</button></a>
         </div>
         </div>
     {{else}}
     <div class="row">
     <div class="col-sm-6 col-md-6 col-md-offset-3 col-sm-offset-3">
-    <Strong>Don't have product in your cart</Strong>
+    <Strong>Giỏ hàng hiện tại của bạn đang trống</Strong>
         </div>
         </div>
 

@@ -4,9 +4,8 @@
    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	 <link rel="icon" href="img/icon5.ico" type="image/x-ico"/>
     <link rel="stylesheet" href="mainpage-css.css">
-	
- 
     <link rel="stylesheet" type="text/css" href="style_page_search.css" />
 	<link rel="stylesheet" href="bootstrap-4.3.1-dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
@@ -24,10 +23,7 @@
 <body> 
   <header>
     <div class="mainhead">
-    <form class="headersearch">
-        <input title="tìm kiếm sản phẩm" type="text" placeholder="Bạn muốn tìm gì?"> 
-    
-    </form>
+        </div>
 </header>
 
 <div class="title1">
@@ -59,9 +55,9 @@
             <li> <div class="g-list" >
                     <a class="content-drop" href="#" > Sản phẩm </a> 
                     <div class="list-content">
-                        <a  class="l1" href="#" style="padding:15px"> Nấu nướng </a>
-                        <a  class="l2" href="#" style="padding:15px"> Đồ gia dụng</a> 
-                        <a  class="l3" href="#" style="padding:15px"> Thực phẩm</a>  
+                        <a  class="l1" href="list/cook" style="padding:15px"> Nấu nướng </a>
+                        <a  class="l2" href="list/house" style="padding:15px"> Đồ gia dụng</a> 
+                        <a  class="l3" href="list/food" style="padding:15px"> Thực phẩm</a>  
                         <a  class="l4" href="#" style="padding:15px"> Thời trang </a> 
                         <a  class="l5" href="#" style="padding:15px">Tài liệu học tập</a>
             </div>
@@ -179,217 +175,30 @@
                 </div>
                 <br />
                 <div id="main-product">
+					 {{# each arr}}
                 	<div class="row">
-                		<div class="product">
-                			<a class="img_product" href="#" title="sản phẩm ... ">
-                				<img style="width:226px;" src="img/dodandung.jpg" alt"..." />
-                    		</a>
-                        	<div class="product-price">
-                        		<span class="old-price">12.000.000₫</span><br />
-                            	<span class="current-price">9.990.000₫</span>
-                        	</div>
-                   			<div class="saleright">
-								<span>-17%</span>
-							</div>
-                        	<h4 class="product-title">
-                        		<a href="#" title="Lò nướng Calibe 30 inch">Lò nướng Caliber 30 inch</a>
-                        	</h4>
-                        	<div id="evaluate-product">
-                        		<i data-alt="3" class="star-five" title="gorgeous"></i>
-                            	<i data-alt="3" class="star-five" title="gorgeous"></i>
-                            	<i data-alt="3" class="star-five" title="gorgeous"></i>
-                            	<i data-alt="3" class="star-five" title="gorgeous"></i>
-                            	<i data-alt="3" class="star-five" title="gorgeous"></i>
-                        	</div>
-                    	</div>
-                    	<div class="product">
-                			<a class="img_product" href="#" title="sản phẩm ... ">
-                				<img class="img" src="img/dodandung.jpg" alt"..." />
-                    		</a>
-                        	<div class="product-price">
-                        		<span class="old-price">12.000.000₫</span><br />
-                            	<span class="current-price">9.990.000₫</span>
-                        	</div>
-                        	<div class="saleright">
-								<span>-17%</span>
-							</div>
-                        	<h4 class="product-title">
-                        		<a href="#" title="Lò nướng Calibe 30 inch">Lò nướng Caliber 30 inch</a>
-                        	</h4>
-                        	<div id="evaluate-product">
-                        		<i data-alt="3" class="star-five" title="gorgeous"></i>
-                            	<i data-alt="3" class="star-five" title="gorgeous"></i>
-                            	<i data-alt="3" class="star-five" title="gorgeous"></i>
-                            	<i data-alt="3" class="star-five" title="gorgeous"></i>
-                            	<i data-alt="3" class="star-five" title="gorgeous"></i>
-                        	</div>
-                    	</div>
-                    	<div class="product">
-                			<a class="img_product" href="#" title="sản phẩm ... ">
-                				<img class="img" src="img/dodandung.jpg" alt"..." />
-                    		</a>
-                        	<div class="product-price">
-                        		<span class="old-price">12.000.000₫</span><br />
-                            	<span class="current-price">9.990.000₫</span>
-                        	</div>
-                        	<div class="saleright">
-								<span>-17%</span>
-							</div>
-                        	<h4 class="product-title">
-                        		<a href="#" title="Lò nướng Calibe 30 inch">Lò nướng Caliber 30 inch</a>
-                         	</h4>
-                        
-                       		<div id="evaluate-product">
-                        		<i data-alt="3" class="star-five" title="gorgeous"></i>
-                            	<i data-alt="3" class="star-five" title="gorgeous"></i>
-                            	<i data-alt="3" class="star-five" title="gorgeous"></i>
-                            	<i data-alt="3" class="star-five" title="gorgeous"></i>
-                            	<i data-alt="3" class="star-five" title="gorgeous"></i>
-                        	</div>
-                    	</div>
+						  {{# each this}}
+                		<div class="product" >
+                		  <a href="/find/{{this.id}}" >
+                            <img src="{{this.imagePath}}" alt="Lights" style="width:100%">
+                            <div class="caption">
+                              	<p style="text-align:center; padding-top:10px; font-family:Lucida, sans-serif">
+                        		<a style="text-decoration: none;" href="/find/{{this.id}}" title="{{this.name}}">{{this.name}}</a>
+                        	      </p>
+                            
+                            	<p style="text-align:center; font-weight:bold; color: red;font-family:Helvetica, sans-serif">{{this.price}}.000₫</p>
+                        	
+                         
+                    	
                 	</div>
-                <div class="row">
-                		<div class="product">
-                			<a class="img_product" href="#" title="sản phẩm ... ">
-                				<img style="width:226px;" src="img/dodandung.jpg" alt"..." />
-                    		</a>
-                        	<div class="product-price">
-                        		<span class="old-price">12.000.000₫</span><br />
-                            	<span class="current-price">9.990.000₫</span>
-                        	</div>
-                   			<div class="saleright">
-								<span>-17%</span>
-							</div>
-                        	<h4 class="product-title">
-                        		<a href="#" title="Lò nướng Calibe 30 inch">Lò nướng Caliber 30 inch</a>
-                        	</h4>
-                        	<div id="evaluate-product">
-                        		<i data-alt="3" class="star-five" title="gorgeous"></i>
-                            	<i data-alt="3" class="star-five" title="gorgeous"></i>
-                            	<i data-alt="3" class="star-five" title="gorgeous"></i>
-                            	<i data-alt="3" class="star-five" title="gorgeous"></i>
-                            	<i data-alt="3" class="star-five" title="gorgeous"></i>
-                        	</div>
-                    	</div>
-                    	<div class="product">
-                			<a class="img_product" href="#" title="sản phẩm ... ">
-                				<img class="img" src="img/dodandung.jpg" alt"..." />
-                    		</a>
-                        	<div class="product-price">
-                        		<span class="old-price">12.000.000₫</span><br />
-                            	<span class="current-price">9.990.000₫</span>
-                        	</div>
-                        	<div class="saleright">
-								<span>-17%</span>
-							</div>
-                        	<h4 class="product-title">
-                        		<a href="#" title="Lò nướng Calibe 30 inch">Lò nướng Caliber 30 inch</a>
-                        	</h4>
-                        	<div id="evaluate-product">
-                        		<i data-alt="3" class="star-five" title="gorgeous"></i>
-                            	<i data-alt="3" class="star-five" title="gorgeous"></i>
-                            	<i data-alt="3" class="star-five" title="gorgeous"></i>
-                            	<i data-alt="3" class="star-five" title="gorgeous"></i>
-                            	<i data-alt="3" class="star-five" title="gorgeous"></i>
-                        	</div>
-                    	</div>
-                    	<div class="product">
-                			<a class="img_product" href="#" title="sản phẩm ... ">
-                				<img class="img" src="img/dodandung.jpg" alt"..." />
-                    		</a>
-                        	<div class="product-price">
-                        		<span class="old-price">12.000.000₫</span><br />
-                            	<span class="current-price">9.990.000₫</span>
-                        	</div>
-                        	<div class="saleright">
-								<span>-17%</span>
-							</div>
-                        	<h4 class="product-title">
-                        		<a href="#" title="Lò nướng Calibe 30 inch">Lò nướng Caliber 30 inch</a>
-                         	</h4>
-                        
-                       		<div id="evaluate-product">
-                        		<i data-alt="3" class="star-five" title="gorgeous"></i>
-                            	<i data-alt="3" class="star-five" title="gorgeous"></i>
-                            	<i data-alt="3" class="star-five" title="gorgeous"></i>
-                            	<i data-alt="3" class="star-five" title="gorgeous"></i>
-                            	<i data-alt="3" class="star-five" title="gorgeous"></i>
-                        	</div>
-                    	</div>
-                	</div>
-					<div class="row">
-                		<div class="product">
-                			<a class="img_product" href="#" title="sản phẩm ... ">
-                				<img style="width:226px;" src="img/dodandung.jpg" alt"..." />
-                    		</a>
-                        	<div class="product-price">
-                        		<span class="old-price">12.000.000₫</span><br />
-                            	<span class="current-price">9.990.000₫</span>
-                        	</div>
-                   			<div class="saleright">
-								<span>-17%</span>
-							</div>
-                        	<h4 class="product-title">
-                        		<a href="#" title="Lò nướng Calibe 30 inch">Lò nướng Caliber 30 inch</a>
-                        	</h4>
-                        	<div id="evaluate-product">
-                        		<i data-alt="3" class="star-five" title="gorgeous"></i>
-                            	<i data-alt="3" class="star-five" title="gorgeous"></i>
-                            	<i data-alt="3" class="star-five" title="gorgeous"></i>
-                            	<i data-alt="3" class="star-five" title="gorgeous"></i>
-                            	<i data-alt="3" class="star-five" title="gorgeous"></i>
-                        	</div>
-                    	</div>
-                    	<div class="product">
-                			<a class="img_product" href="#" title="sản phẩm ... ">
-                				<img class="img" src="img/dodandung.jpg" alt"..." />
-                    		</a>
-                        	<div class="product-price">
-                        		<span class="old-price">12.000.000₫</span><br />
-                            	<span class="current-price">9.990.000₫</span>
-                        	</div>
-                        	<div class="saleright">
-								<span>-17%</span>
-							</div>
-                        	<h4 class="product-title">
-                        		<a href="#" title="Lò nướng Calibe 30 inch">Lò nướng Caliber 30 inch</a>
-                        	</h4>
-                        	<div id="evaluate-product">
-                        		<i data-alt="3" class="star-five" title="gorgeous"></i>
-                            	<i data-alt="3" class="star-five" title="gorgeous"></i>
-                            	<i data-alt="3" class="star-five" title="gorgeous"></i>
-                            	<i data-alt="3" class="star-five" title="gorgeous"></i>
-                            	<i data-alt="3" class="star-five" title="gorgeous"></i>
-                        	</div>
-                    	</div>
-                    	<div class="product">
-                			<a class="img_product" href="#" title="sản phẩm ... ">
-                				<img class="img" src="img/dodandung.jpg" alt"..." />
-                    		</a>
-                        	<div class="product-price">
-                        		<span class="old-price">12.000.000₫</span><br />
-                            	<span class="current-price">9.990.000₫</span>
-                        	</div>
-                        	<div class="saleright">
-								<span>-17%</span>
-							</div>
-                        	<h4 class="product-title">
-                        		<a href="#" title="Lò nướng Calibe 30 inch">Lò nướng Caliber 30 inch</a>
-                         	</h4>
-                        
-                       		<div id="evaluate-product">
-                        		<i data-alt="3" class="star-five" title="gorgeous"></i>
-                            	<i data-alt="3" class="star-five" title="gorgeous"></i>
-                            	<i data-alt="3" class="star-five" title="gorgeous"></i>
-                            	<i data-alt="3" class="star-five" title="gorgeous"></i>
-                            	<i data-alt="3" class="star-five" title="gorgeous"></i>
-                        	</div>
-                    	</div>
-                	</div>
-            	</div>        
+			
+            	</div>   
+				{{/each}}     
             </div>
+				{{/each}}
         </div>
     </div>
+	</div>
 	</br>
  <div class="foot">
     <div class="title1">

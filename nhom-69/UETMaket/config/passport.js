@@ -35,7 +35,7 @@ passport.use('local.signup', new localStratepy({
         message='';
         newUser.save(function(err,result ) {
             if(err) { return done(err)}
-            return done(null, newUser,{name:req.body.name , number:req.body.number});
+            return done(null, newUser,{name:req.body.name , number:req.body.number, id: newUser.id});
         })
     })
 }));
@@ -51,7 +51,7 @@ passport.use('local.signin', new localStratepy({
         if(!user) {   console.log('1'); return done(null, false, { message:'Tài khoản đăng nhập không tồn tai xin vui lòng thử lại.'})};
         if(!user.validPass(password)) { return done(null, false,  {message:'Mật khẩu không hợp lệ'})};
         
-        return(done(null, user, {name: user.name, number:user.number}));
+        return(done(null, user, {name: user.name, number:user.number,id: user.id}));
         
     })
 }))
