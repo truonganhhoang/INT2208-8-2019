@@ -2,7 +2,7 @@
 **Thành viên:**
   - Trần Thiên Sơn - 17021006
   - Nguyễn Thị Thanh Quý - 17020991 - [Link báo cáo cá nhân](https://github.com/tranthiensonuet/INT2208-8-2019/blob/master/NguyenThiThanhQuy/baocao.md)
-  - Nguyễn Trần Phương Thảo - 17021024
+  - Nguyễn Trần Phương Thảo - 17021024 - [Link báo cáo cá nhân](https://github.com/tranthiensonuet/INT2208-8-2019/blob/master/NguyenTranPhuongThao/baocao.md)
   - Lê Xuân Hưng - 17020814
   
  **Tên ứng dụng:** Mua bán online cho sinh viên
