@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+    <head><title>Chi tiết mặt hàng</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="demo.css" media="all" />
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,700,500' rel='stylesheet' type='text/css'>
+    <link rel='stylesheet prefetch' href='//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css'>
+    <link rel="icon" href="img/icon5.ico" type="image/x-ico"/>
+    <link rel="stylesheet" href="mainpage-css.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="jquery.js"></script>
+    <script src="mainpage-js.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+ <header>
+    <div class="mainhead">
+    <form class="headersearch">
+        <input title="tìm kiếm sản phẩm" type="text" placeholder="Bạn muốn tìm gì?"> 
+    
+    </form>
+</header>
+
+<div class="title1">
+    <p title="Liên hệ" class="hotline">Hotline: <span style="color:#ffd633">0393457435</span></p>
+    <p class="maintitle"> <a href="/" ><img title="trang chủ" src="img/icon5.png"> </a>VNU'S MARKET </p>
+   
+ <!--   <p title="tài khoản" class="icon1"> <a href="Login" ><img src="img/taikhoan1.jpg"> </a></p> -->
+ <div class="dropdown">
+  <button class="dropbtn"><img src="img/taikhoan1.jpg"></button>
+  <div class="dropdown-content">
+  <a href="Login">Tài khoản</a>
+  <a href="cart">Giỏ hàng 
+    {{# if session.cart.totalQty}}
+    <span style="margin-left:30px;padding:3px 10px; background-color:gray; border-radius: 10px">{{session.cart.totalQty}}</span></a>
+    {{/if}}
+  <a href="logout">Đăng xuất</a>
+  </div>
+    </div>
+    {{# if name}}
+    <p style="display:inline;font-family:Florence, cursive "> {{name}}</p>
+    {{else}}
+    <p style="display:inline;font-family:Florence, cursive "> &#8592;Mua ngay</p>
+    {{/if}}
+</div>
+    <div class="list">
+        <ul class="Mainlist"> 
+            <li> <a href="/" >Trang chủ</a></li>
+            <li> <a href="#" >Giới thiệu</a></li>
+            <li> <div class="g-list" >
+                    <a class="content-drop" href="#" > Sản phẩm </a> 
+                    <div class="list-content">
+                        <a  class="l1" href="list/cook" style="padding:15px"> Nấu nướng </a>
+                        <a  class="l2" href="list/house" style="padding:15px"> Đồ gia dụng</a> 
+                        <a  class="l3" href="list/food" style="padding:15px"> Thực phẩm</a>  
+                        <a  class="l4" href="#" style="padding:15px"> Thời trang </a> 
+                        <a  class="l5" href="#" style="padding:15px">Tài liệu học tập</a>
+            </div>
+            
+          </div>
+        </li>
+            <li><a  href="#" name="Các bài viết có ích cho sv">Tin tức</a></li>
+            <li> <a href="#" >Liên hệ </a></li>
+        </ul>
+    </div>
+<main class="container">
+
+      <!-- Left Column / Headphones Image -->
+      <div class="left-column">
+        <img data-image="black" src="{{imgpath}}" alt="">
+        <img data-image="blue" src="{{imgpath}}" alt="">
+        <img data-image="red" class="active" src="{{imgpath}}" alt="">
+      </div>
+
+
+      <!-- Right Column -->
+      <div class="right-column">
+
+        <!-- Product Description -->
+        <div class="product-description">
+          <span></span>
+          <h1>{{namepro}}</h1>
+          <p>{{des}}</p>
+        </div>
+
+        <!-- Product Configuration -->
+        <div class="product-configuration">
+
+          <!-- Product Color -->
+          <div class="product-color">
+
+          </div>
+
+          <!-- Cable Configuration -->
+          <div class="cable-config">
+            <span>Chất lượng</span>
+
+            <div class="cable-choose">
+              <button>Trung bình</button>
+              <button>Nét</button>
+              <button>Cực nét</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product Pricing -->
+        <div class="product-price">
+          <span>{{price}}.000đ</span>
+           <a href="/add-to-cart/{{id}}" class="cart-btn">Thêm vào giỏ hàng</a>
+        </div>
+      </div>
+</main>
+    
+
+    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js" charset="utf-8"></script>
+    
+<script type="text/javascript">
+   $(document).ready(function() {
+
+  $('.color-choose input').on('click', function() {
+      var headphonesColor = $(this).attr('data-image');
+
+      $('.active').removeClass('active');
+      $('.left-column img[data-image = ' + headphonesColor + ']').addClass('active');
+      $(this).addClass('active');
+  });
+
+});
+</script>  
+<br>
+<br> 
+ <div class="foot">
+    <div class="title1">
+      <p class="maintitle1" > VNU'S MARKET </p> 
+    </div>
+    <div class="address">
+      ĐỊA CHỈ <br>
+      TRƯỜNG ĐẠI HỌC CÔNG NGHỆ-ĐẠI HỌC QUỐC GIA HÀ NỘI <br>
+      144-Xuân Thủy Cầu Giấy Hà Nội {{imgpath}} <br>
+      <div style="float:center; padding:20px">
+        <img title="facebook" class="MXH" src="img/facebook.png">
+        <img title="twitter" class="MXH" src="img/tweet.png">
+        <img title="instagram" class="MXH" src="img/instagram.png">
+        <img title="youtube" class="MXH" src="img/youtube.png">
+      </div>
+    </div>
+  </div>
+</body>
+</html>

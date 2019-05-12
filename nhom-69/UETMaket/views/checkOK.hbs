@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="icon" href="img/icon5.ico" type="image/x-ico" />
+  <link rel="stylesheet" href="mainpage-css.css">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="HoverEffectIdeas-master/css/normalize.css" />
+  <link href='http://fonts.googleapis.com/css?family=Raleway:400,800,500,600' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" href="HoverEffectIdeas-master/css/set1.css" />
+  <link rel="stylesheet" type="text/css"
+    href="HoverEffectIdeas-master/fonts/font-awesome-4.2.0/css/font-awesome.min.css" />
+  <script src="jquery.js"></script>
+  <script src="mainpage-js.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <title>VNU's MARKET</title>
+</head>
+
+<body>
+  <header>
+    <div class="mainhead">
+      </div>
+  </header>
+
+  <div class="title1">
+    <p title="Liên hệ" class="hotline">Hotline: <span style="color:#ffd633">0393457435</span></p>
+    <p class="maintitle"> <a href="http://localhost:3000"><img title="trang chủ" src="img/icon5.png"> </a>VNU'S MARKET
+    </p>
+
+    <!--   <p title="tài khoản" class="icon1"> <a href="Login" ><img src="img/taikhoan1.jpg"> </a></p> -->
+    <div class="dropdown">
+      <button class="dropbtn"><img src="img/taikhoan1.jpg"></button>
+      <div class="dropdown-content" style="font-family:Florence, cursive">
+        <a href="Login">Tài khoản</a>
+        <a href="cart">Giỏ hàng
+          {{# if session.cart.totalQty}}
+          <span
+            style="margin-left:30px;padding:3px 10px; background-color:gray; border-radius: 10px">{{session.cart.totalQty}}</span></a>
+        {{/if}}
+        <a href="logout">Đăng xuất</a>
+      </div>
+    </div>
+    {{# if name}}
+    <p style="display:inline;font-family:Florence, cursive "> {{name}}</p>
+    {{else}}
+    <p style="display:inline;font-family:Florence, cursive "> &#8592;Mua ngay</p>
+    {{/if}}
+
+  </div>
+  <div class="list">
+    <ul class="Mainlist">
+      <li> <a href="#">Trang chủ</a></li>
+      <li> <a href="#">Giới thiệu</a></li>
+      <li>
+        <div class="g-list">
+          <a class="content-drop" href="#"> Sản phẩm </a>
+          <div class="list-content">
+            <a class="l1" href="#" style="padding:15px"> Nấu nướng </a>
+            <a class="l2" href="#" style="padding:15px"> Đồ gia dụng</a>
+            <a class="l3" href="#" style="padding:15px"> Thực phẩm</a>
+            <a class="l4" href="#" style="padding:15px"> Thời trang </a>
+            <a class="l5" href="#" style="padding:15px">Tài liệu học tập</a>
+          </div>
+
+        </div>
+      </li>
+      <li><a href="#" name="Các bài viết có ích cho sv">Tin tức</a></li>
+      <li> <a href="#">Liên hệ </a></li>
+    </ul>
+  </div>
+
+  <form action="/check-ok" method="post">
+    <div class="listprofile">
+      <div class="ordersuccess">
+        Đơn đặt hàng của bạn thành công
+      </div>
+    </div>
+    <br>
+  </form>
+  <div class="row">
+    <div class="col-sm-6 col-md-6 col-md-offset-3 col-sm-offset-3">
+      <a href="/"> <button class="button-cart">Quay về trang chủ</button></a>
+    </div>
+  </div>
+  <br>
+  <br>
+  <div class="foot">
+    <div class="title1">
+      <p class="maintitle1"> VNU'S MARKET </p>
+    </div>
+    <div class="address">
+      ĐỊA CHỈ <br>
+      TRƯỜNG ĐẠI HỌC CÔNG NGHỆ-ĐẠI HỌC QUỐC GIA HÀ NỘI <br>
+      144-Xuân Thủy Cầu Giấy Hà Nội <br>
+      <div style="float:center; padding:20px">
+        <img title="facebook" class="MXH" src="img/facebook.png">
+        <img title="twitter" class="MXH" src="img/tweet.png">
+        <img title="instagram" class="MXH" src="img/instagram.png">
+        <img title="youtube" class="MXH" src="img/youtube.png">
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
