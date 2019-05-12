@@ -24,21 +24,9 @@
 =====
 ## Tài liệu kỹ thuật, mô tả sản phẩm 
 [(Link)](https://docs.google.com/document/d/1pCmfYv3wzcFY1H88atBAvIN3TzFGis404idlELk8Is8/edit#)
-## Hướng dẫn sử dụng
-1. Tải file trên github về, giải nén [(Link file code)](https://github.com/trunganhvu/projectWeb)
-2. Bật cài đặt apache tomcat, navicat premium, java ee web
-3. Mở project của file ở trong netbeans.
-4. Mở file index.jsp run để chạy trên trình duyệt web
-5. Hiện ra là trên web có danh sách sản phẩm và các tính năng như trên
-6. Có thể đăng ký hoặc đăng nhập với tài khoản có sẵn(username, pass) hoặc không cần cũng có thế thêm sản phẩm vào giỏ hàng ở thòi điểm hiện tại và khi nào bắt đầy thanh toán thì bắt buộc phải đăng nhập
-7. Cần tìm kiếm sản phẳm thì có thể nhấn vào các ô tìm kiếm hoặc nhóm sản phẩm
+
 
 ![59796599_2340914292901583_2230051370608623616_n.jpg](https://www.upsieutoc.com/images/2019/05/12/59796599_2340914292901583_2230051370608623616_n.jpg)
 
 ![59920109_178437073090313_3112091212002099200_n.jpg](https://www.upsieutoc.com/images/2019/05/12/59920109_178437073090313_3112091212002099200_n.jpg)
 
-![59941648_356185455007176_2682646296887558144_n.jpg](https://www.upsieutoc.com/images/2019/05/12/59941648_356185455007176_2682646296887558144_n.jpg)
-
-![60120632_602963020209259_661724717941522432_n.jpg](https://www.upsieutoc.com/images/2019/05/12/60120632_602963020209259_661724717941522432_n.jpg)
-
-![60250949_316559629243221_7287293452327321600_n.png](https://www.upsieutoc.com/images/2019/05/12/60250949_316559629243221_7287293452327321600_n.png)
