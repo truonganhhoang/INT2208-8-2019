@@ -324,9 +324,6 @@ router.get('/profile',Isloggin, csrfProtection, function(req, res, next) {
     })(req, res, next);
   
   });
-  router.get('/sale', function (req, res) {
-    res.render('err');
-    })
  
 module.exports = router;
 function Isloggin(req, res, next){
