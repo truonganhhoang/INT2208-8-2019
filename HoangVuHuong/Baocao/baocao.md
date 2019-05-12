@@ -6,7 +6,7 @@
 # Báo cáo cá nhân môn học Công nghệ phần mềm
 ====
 * Hoàn thành khóa học trên edx ([Chi tiết](https://github.com/17020932/INT2208-8-2019/blob/master/HoangVuHuong/SoftEng1x.jpg))
-* Bài tập nhóm: **Dự án web bán hàng online** [Website](https://clover-shop.herokuapp.com/), [Github](https://github.com/17020932/INT2208-8-2019/tree/master/nhom-88)
+* Bài tập nhóm: **Dự án web bán hàng online** [Website](http://clover-shop.herokuapp.com/), [Github](https://github.com/17020932/INT2208-8-2019/tree/master/nhom-88)
 * User story: Là một người yêu mua sắm tôi muốn bán những sản phẩm cũ của mình để có thể mua được nhiều đồ mới hơn.
 	[Chi tiết](https://github.com/truonganhhoang/INT2208-8-2019/issues/190):
 	1) Xác định yêu cầu, mong muốn: 
@@ -26,7 +26,7 @@
 * Hướng dẫn sử dụng:
 1. Mở trình duyệt của bạn lên. Google chrome hoặc FireFox,... tùy trình duyệt bạn cài đặt.
 
-2. Gõ vào ô tìm kiếm địa chỉ sau: https://clover-shop.herokuapp.com/
+2. Gõ vào ô tìm kiếm địa chỉ sau: http://clover-shop.herokuapp.com/
 
 3. Sau khi trang web hiện ra bạn sẽ nhìn thấy ngay phần **Đăng tin miễn phí** trên phần menu của website. Hãy click vào đó và bắt đầu đăng tin.
 
