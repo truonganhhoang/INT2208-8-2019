@@ -22,10 +22,15 @@
     
   2. **Áp dụng quy trình phát triển Scrum** : 
      * Kế hoạch cụ thể
-      + Sprint 1: từ tuần 1 - tuần 4: Xây dựng giao diện cơ bản, và tạo hệ quản trị csdl
-      + Sprint 2: từ tuần 4 - tuần 8: Xây dựng tính năng xem thông tin sản phẩm và đặt mua
-      + Sprint 3: từ tuần 8 - tuần 11: Xây dựng tính năng đăng kí tài khoản- thêm giỏ hàng
+      + Sprint 1: từ tuần 1 - tuần 4: Xây dựng giao diện cơ bản, và tạo hệ quản trị csdl 
+        Các commit:  [commit-1](https://github.com/tranthiensonuet/INT2208-8-2019/blob/master/nhom-69/UETMaket/views/Mainpage.hbs),
+        [commit-2](https://github.com/tranthiensonuet/INT2208-8-2019/blob/master/nhom-69/UETMaket/views/cart.hbs), [commit-3](https://github.com/tranthiensonuet/INT2208-8-2019/blob/master/nhom-69/UETMaket/views/admin.hbs)
+      + Sprint 2: từ tuần 4 - tuần 8: Xây dựng tính năng đặt mua
+        Các commit: [commit- cấu trúc giỏ hàng ](https://github.com/tranthiensonuet/INT2208-8-2019/blob/master/nhom-69/UETMaket/models/cart.js), [commit- xử lí khi có đường dẫn được gọi](https://github.com/tranthiensonuet/INT2208-8-2019/blob/master/nhom-69/UETMaket/routes/router.js)
+      + Sprint 3: từ tuần 8 - tuần 11: Xây dựng tính năng đăng kí tài khoản
+      Các commit: [commit- cấu trúc thông tin 1 khách hàng](https://github.com/tranthiensonuet/INT2208-8-2019/blob/master/nhom-69/UETMaket/models/customer.js), [commit- Sứ dụng passport cho việc xác thực](https://github.com/tranthiensonuet/INT2208-8-2019/blob/master/nhom-69/UETMaket/config/passport.js), [commit- xử lí khi có đường dẫn được gọi](https://github.com/tranthiensonuet/INT2208-8-2019/blob/master/nhom-69/UETMaket/routes/router.js)
       + Sprint 4: từ tuần 11 - tuần 12: Hoàn thiện tính năng và kiểm thử
+      
       
    3. **High level design** :  chọn hệ quản trị dữ liệu MongoDB và xây dựng sơ đồ lớp 
    4. **Low level design**:  Sử dụng mô hình MVC của framework Express
