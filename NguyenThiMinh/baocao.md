@@ -35,6 +35,6 @@ Video demo sản phẩm: https://www.youtube.com/watch?v=m0snmaVKJbw&t=1s
 
 2. Trang chủ sẽ hiển thị các sản phẩm chứa từ khóa mà bạn muốn tìm. Cick vào từng sản phẩm để hiển thị thông tin chi tiết của từng sản phẩm. Bạn có thể thêm vào giỏ hàng ngay khi bạn tìm được sản phẩm muốn tìm.
 
-3. Các sản phẩm tìm kiếm được sẽ được hiển thị giới hạn trong mỗi trang. Cick vào ô next hoặc số trang tiếp để chuyển tới trang kế tiếp. Click vào ô previous để quay trở lại trang trước đó. Click vào ô Start để tới trang hiển thị sản phẩm đầu tiên, vào ô End để tới trang hiển thị cuối cùng
+3. Các sản phẩm tìm kiếm được sẽ được hiển thị giới hạn trong mỗi trang. Cick vào ô Next để chuyển tới trang kế tiếp, click vào ô Previous để quay trở lại trang trước đó. Muốn tới nhanh trang đầu tiên hiển thị sản phẩm tìm kiếm được, click vào ô Start. Click vào ô End để tới trang cuối cùng hiển thị sản phẩm tìm kiếm được.
 
-4. Để thoát khỏi tìm kiếm, click vào ô Trang chủ. Nếu bạn muốn tìm kiếm từ khóa khác, có thể click vào dấu x ở ô tìm kiếm.
+4. Để thoát khỏi tìm kiếm, click vào ô Trang chủ. Nếu bạn muốn tìm kiếm từ khóa khác, có thể click vào dấu xóa "x" ở ô tìm kiếm.
