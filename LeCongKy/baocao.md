@@ -5,12 +5,12 @@
 ### Phân tích câu chuyện người dùng
 
 ##### Nội dung: 
-- Có một danh sách các môn học hiển thị trong bảng và mỗi môn học sẽ hiển thị thông tin trên một hàng. Mỗi môn học có một ô checkbox và ba nút nhấn (edit, delete, show chart) để thực hiện thao tác ứng với chức năng của nó. 
-- Có một nút nhấn để thêm môn học mới, khi nhấn vào nó thì sẽ hiện lên một modal để ghi thông tin và khi submit thì có hiển thị thông báo thêm thành công hoặc không.
-- Có chức năng  xóa nhiều môn học, thay đổi trạng thái nhiều môn học.
-- Có phần tìm kiếm theo từ khóa và có phần lọc danh sách theo trạng thái môn học.
-- Trên bảng danh sách môn học có các phần để sắp xếp các môn học theo tên, trạng thái, thời gian tạo môn học.
-- Có thể phân trang danh sách môn học với số môn học cụ thể trên một trang.
++ Có một danh sách các môn học hiển thị trong bảng và mỗi môn học sẽ hiển thị thông tin trên một hàng. Mỗi môn học có một ô checkbox và ba nút nhấn (edit, delete, show chart) để thực hiện thao tác ứng với chức năng của nó. 
++ Có một nút nhấn để thêm môn học mới, khi nhấn vào nó thì sẽ hiện lên một modal để ghi thông tin và khi submit thì có hiển thị thông báo thêm thành công hoặc không.
++ Có chức năng  xóa nhiều môn học, thay đổi trạng thái nhiều môn học.
++ Có phần tìm kiếm theo từ khóa và có phần lọc danh sách theo trạng thái môn học.
++ Trên bảng danh sách môn học có các phần để sắp xếp các môn học theo tên, trạng thái, thời gian tạo môn học.
++ Có thể phân trang danh sách môn học với số môn học cụ thể trên một trang.
 
 ##### Các công việc cần làm
 
@@ -40,6 +40,8 @@
 
 - [x] Gọi API để thêm, sửa một môn học (1h) (commit: [lần 1](https://github.com/hoanphi2201/SoftEng-Assignments-nhom-10/commit/393e006fe9ec9c7deb024772e6a33c6054745efb))
 
+- [x] Xử lí thông báo thành công hoặc không thành công khi thêm hoặc sửa môn học (1h) (commit: [lần 1](https://github.com/hoanphi2201/SoftEng-Assignments-nhom-10/commit/1b30e9c8931cc356f9fae90b5d4f83e175b948a7))
+
 - [x] Lọc danh sách môn theo tùy chọn (theo trạng thái hoặc tìm kiếm môn học) (1h) 
 (commit: [lần 1](https://github.com/hoanphi2201/SoftEng-Assignments-nhom-10/commit/7aaf43cc54f2fdf3ed630a6cf4cbaa5e8be69f8c))
 
@@ -53,12 +55,12 @@
 
 - [x] Kiểm thử hộp đen, dựa vào giao diện, chức năng, dùng phương pháp phân vùng tương đương và phân tích giá trị biên viết các ca kiểm thử ( 4h ) ([tài liệu tham khảo](https://docs.google.com/document/d/1a4i_31R8WBUAnF91syr1FwBpKoAiTY6rEJt1xWjb74M/edit#heading=h.zhrswbsdiifd))
 
-- [x] Triển khai ứng dụng ([link ứng dụng](http://webthi-angular.s3-website-ap-southeast-1.amazonaws.com))
+- [x] Triển khai ứng dụng ([link ứng dụng](http://luyenthi365.xyz))
 
 # Tổng hợp quá trình làm bài tập nhóm
 
 - **Repo sản phẩm được triển khai tại [Github](https://github.com/hoanphi2201/SoftEng-Assignments-nhom-10/tree/congky)**
 
-- **Link Vieo báo cáo và demo dự án: [Youtube](https://www.youtube.com/watch?v=O0xD-tGpk_A)**
+- **Link Vieo báo cáo và demo user story tại: [Youtube](https://www.youtube.com/watch?v=O0xD-tGpk_A)**
 
-- **Link sản phẩm của nhóm deloy server node.js và angular chế độ development tại: [Link Sản phầm](http://webthi-angular.s3-website-ap-southeast-1.amazonaws.com)**
+- **Link sản phẩm của nhóm deloy server node.js và angular chế độ development tại: [Link Sản phầm](http://luyenthi365.xyz)**
