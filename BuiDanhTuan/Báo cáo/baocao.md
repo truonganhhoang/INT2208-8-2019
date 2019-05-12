@@ -43,4 +43,4 @@ Video demo sản phẩm: http://youtu.be/R4a4umE5PbA
 
 4.	Ấn vào nút đặt hàng để hoàn tất thanh toán. Bạn phải điền đầy đủ thông tin nếu chưa thì sẽ hiển thị thông báo yêu cầu hoàn thiện đầy đủ thông tin cần thiết.<img src="https://github.com/17020932/INT2208-8-2019/blob/master/BuiDanhTuan/B%C3%A1o%20c%C3%A1o/ch%C6%B0a%20%C4%91i%E1%BB%81n%20th%C3%B4ng%20tin.PNG">
 
-5.	Hiện ra thông báo "Bạn xác nhận đặt hàng". Nếu đồng ý xác nhận đặt hàng thì trang web sẽ gửi tới gmail của bạn thông báo đặt hàng thành công kèm theo hóa đơn đơn hàng của bạn.
+5.	Hiện ra thông báo "Bạn xác nhận đặt hàng". Nếu đồng ý xác nhận đặt hàng thì trang web sẽ gửi tới gmail của bạn thông báo đặt hàng thành công kèm theo hóa đơn đơn hàng của bạn.<img src="https://github.com/17020932/INT2208-8-2019/blob/master/BuiDanhTuan/B%C3%A1o%20c%C3%A1o/%C4%90%E1%BA%B7t%20h%C3%A0ng%20th%C3%A0nh%20c%C3%B4ng.PNG">
