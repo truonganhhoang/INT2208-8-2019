@@ -41,17 +41,17 @@
      - Tạo một project trên heroku.
      - Thêm cơ sở dữ liệu cho ứng dụng.
      - Đẩy code lên heroku để chạy ứng dụng.
-  - Hình ảnh minh họa:
-     - Trang đăng kí, đăng nhập tài khoản
-   ![68747470733a2f2f692e696d6775722e636f6d2f676f66613637482e706e67](https://user-images.githubusercontent.com/43133165/57501771-fa73a800-7312-11e9-90b5-f2c6826bcf73.png)
-   
-     - Đăng nhập, đăng kí tài khoản thành công
-     ![123](https://user-images.githubusercontent.com/43133165/57502191-d618cb00-7314-11e9-83a0-a680c9a5c99f.png)
 
-     
  * #### Mã nguồn sản phẩm [Link](https://github.com/tranthiensonuet/INT2208-8-2019/tree/master/nhom-69/UETMaket)
  
- * #### Giới thiệu sản phẩm
+ * #### Hướng dẫn sử dụng sản phẩm
     - Mở trình duyệt và gõ "vnumarket.herokuapp.com" đợi trình duyệt điều hướng sẽ thấy trang web tự động được đưa về dưới dạng https.
-    - Trước khi mua hàng thì khách hàng phải đăng nhập, nếu không có tài khoản, thì đăng kí tài khoản để mua hàng
+    ![123](https://user-images.githubusercontent.com/43133165/57585583-50fc0480-7514-11e9-829b-49b4ce9a9912.png)
+    - Ấn vào biểu tượng "Tài khoản" để đăng ký hoặc đăng nhập
+    ![123](https://user-images.githubusercontent.com/43133165/57585603-899bde00-7514-11e9-854e-a3009ddfe03d.png)
+    - Sau khi ấn xong thì màn hình đăng ký, đăng nhập sẽ hiện ra rồi điền thông tin vào đó
+    ![Untitled](https://user-images.githubusercontent.com/43133165/57585629-cec01000-7514-11e9-818a-0b5a4dab5aaa.png)
+    - Khi đăng ký, đăng nhập xong thì sẽ hiện ra thông tin tài khoản rồi sau đó ấn quay về trang chủ để mua hàng
+    ![123](https://user-images.githubusercontent.com/43133165/57585642-1050bb00-7515-11e9-8ab5-d29cf500123f.png)
+
   
