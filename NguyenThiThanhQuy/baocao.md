@@ -34,7 +34,7 @@
    
    
   > ## Hướng dẫn sử dụng phẩn mềm
-  **Link video demo sản phẩm** : [link](https://www.youtube.com/watch?v=6cvdc9U9lwg&t=106s)
+  **Link video demo sản phẩm** : [link](https://www.youtube.com/watch?v=KaqgnzWfQTg)
   
   1. Bạn mở trình duyệt web bất kì: Chrome, Cốc Cốc,...
   2. Mở đường dẫn link: [https://vnumarket.herokuapp.com](https://vnumarket.herokuapp.com)
