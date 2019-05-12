@@ -39,6 +39,7 @@
                     </li>
 
                 </ul>
+                <!-- thay đổi giao diện khi người dùng đăng nhập -->
                 <% if (!isLogged) { %>
                 <a id="btn-signin" href="/user/signin" class="nav-item text-center rounded-pill">Đăng nhập
                 </a>
@@ -60,11 +61,13 @@
             <h2 class="font-weight-light mb-0">Sân chơi giải đố lành mạnh bổ ích cho mọi người</h2>
         </div>
     </header>
+    <!-- code cho phần lĩnh vực -->
     <section id="portfolio" class="portfolio">
         <div class="container">
             <h2 class="text-uppercase text-center text-secondary">Lĩnh vực</h2>
             <hr class="star-dark mb-5" />
             <div class="row">
+                <!-- Lĩnh vực 1 ~ Địa lí -->
                 <div class="col-md-6 col-lg-4">
                     <a class="d-block mx-auto portfolio-item" href="#portfolio-modal-1" data-toggle="modal">
                         <div class="d-flex portfolio-item-caption position-absolute h-100 w-100">
@@ -75,6 +78,7 @@
                         <img class="img-fluid" src="../images/LinhVuc/DiaLi.png" />
                     </a>
                 </div>
+                <!-- Lĩnh vực 2 ~ Khoa học -->
                 <div class="col-md-6 col-lg-4">
                     <a class="d-block mx-auto portfolio-item" href="#portfolio-modal-2" data-toggle="modal">
                         <div class="d-flex portfolio-item-caption position-absolute h-100 w-100">
@@ -85,6 +89,7 @@
                         <img class="img-fluid" src="../images/LinhVuc/KhoaHoc.png" />
                     </a>
                 </div>
+                <!-- Lĩnh vực 3 ~ Xã hội -->
                 <div class="col-md-6 col-lg-4">
                     <a class="d-block mx-auto portfolio-item" href="#portfolio-modal-3" data-toggle="modal">
                         <div class="d-flex portfolio-item-caption position-absolute h-100 w-100">
@@ -95,6 +100,7 @@
                         <img class="img-fluid" src="../images/LinhVuc/XaHoi.png" />
                     </a>
                 </div>
+                <!-- Lĩnh vực 4 ~ Văn học -->
                 <div class="col-md-6 col-lg-4">
                     <a class="d-block mx-auto portfolio-item" href="#portfolio-modal-4" data-toggle="modal">
                         <div class="d-flex portfolio-item-caption position-absolute h-100 w-100">
@@ -105,6 +111,7 @@
                         <img class="img-fluid" src="../images/LinhVuc/VanHoc.png" />
                     </a>
                 </div>
+                <!-- Lĩnh vực 5 ~ Lịch sử -->
                 <div class="col-md-6 col-lg-4">
                     <a class="d-block mx-auto portfolio-item" href="#portfolio-modal-5" data-toggle="modal">
                         <div class="d-flex portfolio-item-caption position-absolute h-100 w-100">
@@ -115,6 +122,7 @@
                         <img class="img-fluid" src="../images/LinhVuc/LichSu.png" />
                     </a>
                 </div>
+                <!-- Lĩnh vực 6 ~ Tự nhiên -->
                 <div class="col-md-6 col-lg-4">
                     <a class="d-block mx-auto portfolio-item" href="#portfolio-modal-6" data-toggle="modal">
                         <div class="d-flex portfolio-item-caption position-absolute h-100 w-100">
@@ -128,6 +136,7 @@
             </div>
         </div>
     </section>
+    <!-- code cho phần giới thiệu -->
     <section id="about" class="bg-primary text-white mb-0">
         <div class="container">
             <h2 class="text-uppercase text-center text-white">Vì sao Quizy hữu ích và thú vị</h2>
@@ -162,6 +171,7 @@
             </div>
         </div>
     </section>
+    <!-- code cho phần liên hệ -->
     <section id="contact">
         <div class="container">
             <h2 class="text-uppercase text-center text-secondary mb-0">Liên hệ</h2>
@@ -217,7 +227,7 @@
             </div>
         </div>
     </section>
-
+    <!-- code cho phần footer -->
     <footer class="footer text-center">
         <div class="container">
             <div class="row">
@@ -246,6 +256,8 @@
             <i class="fa fa-chevron-up"></i>
         </a>
     </div>
+    <!-- Các phần popup khi ấn vào từng hình ảnh trong phần lĩnh vực -->
+    <!-- Phần 1 -->
     <div class="modal text-center" role="dialog" tabindex="-1" id="portfolio-modal-1">
         <div class="modal-dialog modal-lg" role="document">
             <div class="modal-content">
@@ -280,6 +292,7 @@
             </div>
         </div>
     </div>
+    <!-- Phần 2 -->
     <div class="modal text-center" role="dialog" tabindex="-1" id="portfolio-modal-2">
         <div class="modal-dialog modal-lg" role="document">
             <div class="modal-content">
@@ -313,6 +326,7 @@
             </div>
         </div>
     </div>
+    <!-- Phần 3 -->
     <div class="modal text-center" role="dialog" tabindex="-1" id="portfolio-modal-3">
         <div class="modal-dialog modal-lg" role="document">
             <div class="modal-content">
@@ -343,6 +357,7 @@
             </div>
         </div>
     </div>
+    <!-- Phần 4 -->
     <div class="modal text-center" role="dialog" tabindex="-1" id="portfolio-modal-4">
         <div class="modal-dialog modal-lg" role="document">
             <div class="modal-content">
@@ -379,6 +394,7 @@
             </div>
         </div>
     </div>
+    <!-- Phần 5 -->
     <div class="modal text-center" role="dialog" tabindex="-1" id="portfolio-modal-5">
         <div class="modal-dialog modal-lg" role="document">
             <div class="modal-content">
@@ -411,6 +427,7 @@
             </div>
         </div>
     </div>
+    <!-- Phần 6 -->
     <div class="modal text-center" role="dialog" tabindex="-1" id="portfolio-modal-6">
         <div class="modal-dialog modal-lg" role="document">
             <div class="modal-content">
