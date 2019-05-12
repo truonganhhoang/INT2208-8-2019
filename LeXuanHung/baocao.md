@@ -53,7 +53,7 @@
  <img src="https://i.imgur.com/nA2GZSQ.png">
  
  - **Để tìm kiếm sản phẩm theo bộ lọc giá cả, bạn click 1 trong các ô giá bên trái có sẵn trên màn hình.**
- (Ví dụ :100.000 - 200.000)
+ (Ví dụ: 100.000₫ - 200.000₫)
  
  <img src="https://i.imgur.com/cgnYzUD.png">
  
@@ -63,7 +63,7 @@
  <img src="https://i.imgur.com/EbuASwb.png">
  
  - **Để tìm kiếm sản phẩm theo bộ lọc kích thước,  bạn click 1 trong các ô giá bên trái có sẵn trên màn hình.**
- (Ví dụ: to)
+ (Ví dụ: To)
  
  <img src="https://i.imgur.com/Qj7pJeA.png">
  
