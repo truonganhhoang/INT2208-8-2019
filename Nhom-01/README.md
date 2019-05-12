@@ -35,6 +35,12 @@ Chúng tôi đã cung cấp tính năng hướng dẫn sử dụng trong ứng d
 Bên cạnh đó, chúng tôi đã quay một video demo bên ngoài.  
 (bản vocabulary-stable.apk sẽ chưa có các 
 
+## File cài đặt  
+* Để đánh dấu việc phát triển ứng dụng, chúng tôi đã lưu lại nhiêu phiên bản với nhiều thời kỳ khác nhau trong dự án.  
+* "vocabulary-stable-old.apk": Phiên bản lúc các chức năng còn khá sơ khai, tuy nhiên ứng dụng chạy ổn định.
+* "vocabulary-unstablestable-new.apk": Phiên bản lúc các chức năng đã tương đối hoàn thiện, tuy nhiên ứng dụng còn khá nhiều bugs.    
+* "vocabulary-stable-new.apk": Phiên bản mới nhất tính đến thời điểm hiện tại, đã ổn định, chức năng hoàn thiện.    
+
 ## Giới thiệu về phần mềm
 ### Tên phần mềm:  
 #### SuperVocabulary
