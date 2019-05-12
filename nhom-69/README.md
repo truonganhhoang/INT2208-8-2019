@@ -57,7 +57,7 @@ Video demo sản phẩm: https://www.youtube.com/watch?v=9Q9mXZUsBTw
   6. Ngoài việc xem các sản phẩm ở trang chủ, người dùng còn có thể xem sản phẩm theo từng chủ đề ở 1 trang riêng, có các lựa chọn về giá và kích cỡ phù hợp với yêu cầu khách hàng
    <img src="https://i.imgur.com/Oo3xK91.png">
   
-  7> Sau khi lựa chọn sản phẩm mình muốn, người dùng nháy chọn sản phẩm sẽ được đưa đến giao diện chi tiết sản phẩm gồm tên, ảnh, miêu tả,......
+  7. Sau khi lựa chọn sản phẩm mình muốn, người dùng nháy chọn sản phẩm sẽ được đưa đến giao diện chi tiết sản phẩm gồm tên, ảnh, miêu tả,......
   
   <img src="https://i.imgur.com/ASI1piR.png">
   
