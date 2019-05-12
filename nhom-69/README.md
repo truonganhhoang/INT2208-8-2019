@@ -40,10 +40,10 @@ Báo cáo nhóm: https://docs.google.com/document/d/1_fufcQ5ejYFAG-BP_FmYQZfMCFF
 
 Video demo sản phẩm: https://www.youtube.com/watch?v=9Q9mXZUsBTw
 
- > ## Hướng dẫn sử dụng phẩn mềm
+# Hướng dẫn sử dụng phẩn mềm
   
   1. Bạn mở trình duyệt web bất kì: Chrome, Cốc Cốc,...
-  2. Mở đường dẫn link: [https://vnumarket.herokuapp.com](https://vnumarket.herokuapp.com)
+  2. Gõ trên trình duyệt đường dẫn vnumarket.herokuapp.com
   3. Trang chủ VNU's Market hiện ra với Logo và tiêu đề trang web,mọi người có thể nhìn thấy các danh mục sản phẩm cụ thể với từng sản phẩm có giá và hình ảnh trực quan
   <img src="https://i.imgur.com/IlA8wYx.png">
   
