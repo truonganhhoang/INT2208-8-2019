@@ -10,10 +10,12 @@
 :heavy_check_mark:Tham gia đầy đủ các buổi học trên lớp<br>
 :heavy_check_mark:Hoàn thành khóa học Công nghệ phần mềm trên Edx, thực hiện toàn bộ các quiz có thể làm <a href="https://github.com/phuctd99/INT2208-8-2019/blob/master/VuVanTung/SoftEng1x.jpg">link ảnh</a><br>
 :heavy_check_mark:Tự học các khóa học HTML CSS Javascript PHP trên W3SCHOOL <a href="https://www.w3schools.com/">W3school</a><br>
+:heavy_check_mark:Tham gia vào thiết kế giao diện trang web (front-end) <a href="https://github.com/phuctd99/INT2208-8-2019/commit/bbcb5af0fd58e0289231a4c09bce62c8e9bc96b2">link commit phần giao diện các màn hình</a><br>
 :heavy_check_mark:Đóng góp và hoàn thiện bài tập lớn của nhóm <a href="https://github.com/phuctd99/INT2208-8-2019">Bài Tập Lớn</a><br>
 :heavy_check_mark:Đóng góp báo cáo của nhóm <a href="https://docs.google.com/document/d/1ulHy8mqjWeYp0Nho_qiHYMxCGb5hvM7sHmgFqw_CxSs/edit?usp=sharing&fbclid=IwAR3uuNIxH_WjXkaXxtfPU-6Ml7LcS0Ux8DuJ0L9BdU88uctF2va73qGVymQ">Báo Cáo Nhóm</a><br>
 :heavy_check_mark:Biết và hiểu quy trình làm sản phẩm<br>
-:heavy_check_mark:Biết cách làm việc nhóm
+:heavy_check_mark:Biết cách làm việc nhóm<br>
+
 ## :books: User story đại diện : 
 -Là khách hàng, tôi muốn vào trang chủ để tham khảo và chọn mua sản phẩm:<br>
 **Các bước thực hiện:**
@@ -33,5 +35,6 @@
 - [x] Thực hiện kiểm thử hộp trắng để kiểm tra cách tổ chức code, logic code (1h) <a href="https://docs.google.com/document/d/1a4i_31R8WBUAnF91syr1FwBpKoAiTY6rEJt1xWjb74M/edit#heading=h.fvjpas4blmex">link tham khảo</a>
 
 ## :running: Demo issues: 
-issue 1:https://youtu.be/0DaRueFHEgY
-issue 2:https://youtu.be/3wumUqEUrt0
+issue 1:https://youtu.be/0DaRueFHEgY <br>
+issue 2:https://youtu.be/3wumUqEUrt0 <br>
+
