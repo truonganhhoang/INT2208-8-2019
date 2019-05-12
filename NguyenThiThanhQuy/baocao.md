@@ -7,6 +7,8 @@
 
 > Hoàn thành khóa học EDX:
   Link bài tập [EDX](https://github.com/tranthiensonuet/INT2208-8-2019/blob/master/NguyenThiThanhQuy/SoftEng1x.jpg)
+  
+> Hoàn thành các bài kiểm tra trắc nghiệm trên học liệu- sách mềm
 
 > Tham gia làm bài tập nhóm:  
   Trang web bán hàng online [VNU's Market](https://vnumarket.herokuapp.com)- [Link hướng dẫn sản phẩm](https://github.com/tranthiensonuet/INT2208-8-2019/tree/master/nhom-69)
