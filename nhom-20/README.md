@@ -20,6 +20,7 @@
 **Người dùng:** Tất cả lứa tuổi, thích đọc truyện.
 
 **Mô tả:** Web đọc truyện tranh online với nhiều thể loại dành cho nhiều lứa tuổi.
+
 **Link trang web: [Web-truyeen-tranh](https://afternoon-gorge-98922.herokuapp.com/?fbclid=IwAR1Y6H9KRQORxnZ4Ux0ViRx64Tq0uWPh2bId4Rhwl4C8rbbdatYqRwYxOyU).
 
 **Link repositories (mã nguồn sản phẩm của nhom-20):** [github Web-truyen-tranh](https://github.com/tiep2999/Website-truyen-tranh).
