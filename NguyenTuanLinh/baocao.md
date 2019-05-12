@@ -37,4 +37,71 @@
 - Sau đó, sửa lỗi nếu có
 - Tái cấu trúc mã nguồn và xử lí code xấu nếu có
 
-### III. Video hướng dẫn sử dụng: https://youtu.be/A8f4zIlxHMA
+### III. User story: Là một quản trị viên, tôi muốn có chức năng quản lý chi tiết thông tin của người dùng để dễ dàng quản lý một cách trực quan, thao tác và chỉnh sửa nếu có sai sót
+1. Xác định yêu cầu mong muốn
+- Có chức năng sửa thông tin người dùng
+- Có chức năng xóa tài khoản của người dùng
+2. Thực hiện
+- Thiết kế form html, sử dụng bootstrap modal (1h) <a href="https://www.w3schools.com/bootstrap/bootstrap_modal.asp">W3school</a>
+- Thiết kế bảng hiển thị dữ liệu từ database (30p) <a href="https://github.com/phuctd99/INT2208-8-2019/blob/master/NguyenTuanLinh/Booksparadise%20admin/modules/nguoidung/lietke.php">commit</a>
+- Thêm chức năng sửa thông tin người dùng (30p) <a href="https://github.com/phuctd99/INT2208-8-2019/blob/master/NguyenTuanLinh/Booksparadise%20admin/modules/nguoidung/sua.php">commit</a>
+- Thêm chức năng xóa người dùng (15p) <a href="https://github.com/phuctd99/INT2208-8-2019/blob/master/NguyenTuanLinh/Booksparadise%20admin/modules/nguoidung/xoa.php">commit</a>
+- Xử lý khi click các button, submit và cập nhật lại trang sau khi xử lý xong (1h) <a href="https://github.com/phuctd99/INT2208-8-2019/blob/master/NguyenTuanLinh/Booksparadise%20admin/modules/nguoidung/xuly.php">commit</a>
+3. Kiểm thử:
+- Kiểm thử hộp trắng đảm bảo mã nguồn không bị lỗi, chạy được
+- Thử các trường hợp lỗi để kiểm tra các chức năng
+- Sau đó, sửa lỗi nếu có
+- Tái cấu trúc mã nguồn và xử lí code xấu nếu có
+
+### IV. User story: Là một quản trị viên, tôi muốn có chức năng quản lý chi tiết đơn hàng của người dùng để dễ dàng quản lý một cách trực quan
+1. Xác định yêu cầu mong muốn
+- Có chức năng xem chi tiết đơn hàng và tổng tiền của người dùng
+- Có chức năng xóa đơn hàng của người dùng
+2. Thực hiện
+- Thiết kế form html, sử dụng bootstrap modal (1h) <a href="https://www.w3schools.com/bootstrap/bootstrap_modal.asp">W3school</a>
+- Thiết kế bảng hiển thị dữ liệu từ database (30p) <a href="https://github.com/phuctd99/INT2208-8-2019/blob/master/NguyenTuanLinh/Booksparadise%20admin/modules/donhang/lietke.php">commit</a>
+- Thêm chức năng xem chi tiết đơn hàng (30p) <a href="https://github.com/phuctd99/INT2208-8-2019/blob/master/NguyenTuanLinh/Booksparadise%20admin/modules/donhang/chitiet.php">commit</a>
+- Thêm chức năng xóa đơn hàng (15p) <a href="https://github.com/phuctd99/INT2208-8-2019/blob/master/NguyenTuanLinh/Booksparadise%20admin/modules/donhang/xoa.php">commit</a>
+- Xử lý khi click các button, submit và cập nhật lại trang sau khi xử lý xong (1h) <a href="https://github.com/phuctd99/INT2208-8-2019/blob/master/NguyenTuanLinh/Booksparadise%20admin/modules/donhang/xuly.php">commit</a>
+3. Kiểm thử:
+- Kiểm thử hộp trắng đảm bảo mã nguồn không bị lỗi, chạy được
+- Thử các trường hợp lỗi để kiểm tra các chức năng
+- Sau đó, sửa lỗi nếu có
+- Tái cấu trúc mã nguồn và xử lí code xấu nếu có
+
+### V. User story: Là một quản trị viên, tôi muốn có chức năng quản lý đánh giá sản phẩm của người dùng để dễ dàng quản lý một cách trực quan
+1. Xác định yêu cầu mong muốn
+- Có chức năng xem chi tiết đánh giá về sản phẩm của người dùng
+- Có chức năng xóa đánh giá của người dùng
+2. Thực hiện
+- Thiết kế form html, sử dụng bootstrap modal (1h) <a href="https://www.w3schools.com/bootstrap/bootstrap_modal.asp">W3school</a>
+- Thiết kế bảng hiển thị dữ liệu từ database (30p) <a href="https://github.com/phuctd99/INT2208-8-2019/blob/master/NguyenTuanLinh/Booksparadise%20admin/modules/danhgia/lietke.php">commit</a>
+- Thêm chức năng xóa đánh giá (15p) <a href="https://github.com/phuctd99/INT2208-8-2019/blob/master/NguyenTuanLinh/Booksparadise%20admin/modules/danhgia/xoa.php">commit</a>
+- Xử lý khi click các button, submit và cập nhật lại trang sau khi xử lý xong (1h) <a href="https://github.com/phuctd99/INT2208-8-2019/blob/master/NguyenTuanLinh/Booksparadise%20admin/modules/danhgia/xuly.php">commit</a>
+3. Kiểm thử:
+- Kiểm thử hộp trắng đảm bảo mã nguồn không bị lỗi, chạy được
+- Thử các trường hợp lỗi để kiểm tra các chức năng
+- Sau đó, sửa lỗi nếu có
+- Tái cấu trúc mã nguồn và xử lí code xấu nếu có
+
+### VI. User story: Là một quản trị viên, tôi muốn trang quản trị của mình có tính năng đăng nhập và đăng xuất để tăng tính bảo mật
+1. Xác định yêu cầu mong muốn
+- Có chức năng đăng nhập
+- Có chức năng đăng xuất
+2. Thực hiện
+- Thiết kế form đăng nhập bằng html, bootstrap4 và css3 (15p)
+- Thêm chức năng đăng nhập (30p) <a href ="https://github.com/phuctd99/INT2208-8-2019/blob/master/NguyenTuanLinh/Booksparadise%20admin/login.php">commit</a>
+- Thêm chức năng đăng xuất, tích hợp vào header của trang web (30p) <a href="https://github.com/phuctd99/INT2208-8-2019/blob/master/NguyenTuanLinh/Booksparadise%20admin/modules/header.php">commit</a>
+3. Kiểm thử:
+- Kiểm thử hộp trắng đảm bảo mã nguồn không bị lỗi, chạy được
+- Thử các trường hợp lỗi để kiểm tra các chức năng
+- Sau đó, sửa lỗi nếu có
+- Tái cấu trúc mã nguồn và xử lí code xấu nếu có
+
+### VII. Hướng dẫn sử dụng (video)
+- Thêm, sửa, xóa chi tiết sách và thể loại sách: https://youtu.be/A8f4zIlxHMA
+- Quản lý người dùng: https://youtu.be/IVlCpFCYcnI
+- Quản lý đơn hàng: https://youtu.be/8y4apNyw87Y
+- Quản lý đánh giá sản phẩm: https://youtu.be/N4Qa-qeWLCI
+- Đăng nhập và đăng xuất: https://youtu.be/QF0MWPMK3hM
+
