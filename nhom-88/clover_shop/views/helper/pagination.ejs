@@ -1,0 +1,76 @@
+<% paginationHelper = (paginationObj, currentStatus, keyWord, price_from, price_to) => {
+  let totalItems = paginationObj.itemsTotal;
+  let totalItemsPerPage = paginationObj.totalItemsPerPage;
+  let totalPages = Math.ceil(totalItems/totalItemsPerPage);
+  let pagesRange = paginationObj.pagesRange;
+  let currentPage = paginationObj.currentPage;
+  let pagination = '';
+  let to = paginationObj.currentPage * totalItemsPerPage;
+  let from = to - totalItemsPerPage + 1;
+  if(to > totalItems) to = totalItems;
+
+  if(totalPages > 1) {
+    let start = '';
+    let previous = '';
+    let pages = '';
+    let next = '';
+    let end = '';
+    let link = '/danh-muc-san-pham'  + '/' + currentStatus;
+    
+    if( keyWord !== ''){ link += '?keyWord=' + keyWord + '&page=' ;}
+    else {
+      if( price_from !== '' || price_to !== '') {link += '?from=' + price_from + '&to=' + price_to + '&page=';}
+      else {
+        link += '?page=';
+      }
+    }
+
+  
+    if(currentPage > 1) {
+      start = `<li class="page-item"><a class="page-link" href="${link}1">Start</a></li>`;
+      previous = ` <li class="page-item"><a class="page-link" href="${link}${currentPage-1}">Previous</a></li>`; 
+    }
+
+    if(currentPage < totalPages) {
+      end = ` <li class="page-item"><a class="page-link" href="${link}${totalPages}">End</a></li>`; 
+      next =` <li class="page-item"><a class="page-link" href="${link}${currentPage + 1} '">Next</a></li>`; 
+    }
+
+    let mid = Math.ceil(pagesRange/2);
+    let min = currentPage - mid + 1;
+    let max = min + pagesRange -1;
+
+    if(min <= 1) {
+      min = 1;
+      max = pagesRange;
+    }
+
+    if(max >= totalPages) {
+      max = totalPages;
+      min = ((max - pagesRange + 1) >= 1) ?  (max - pagesRange + 1) : 1;
+    }
+  
+    for(let i=min ; i<=max; i++){
+      if(i==currentPage) {
+        pages  += `<li class="active page-item"><a class="page-link">${i}</a></li>`;
+      } else {
+        pages += `<li class="page-item"><a class="page-link" href="${link}${i}">${i}</a></li>`
+      }
+    }
+
+    
+    pagination ='<ul class="pagination justify-content-center">' + start + previous + pages + next + end + '</ul>';
+  }
+  
+  
+
+  return `
+  
+            <div class="pagination justify-content-end"></div>
+
+                ${pagination}
+              
+            </div>
+          
+     `;
+} %>
