@@ -1,8 +1,8 @@
 ## Họ và tên: Nguyễn Tuấn Linh
 ## MSSV: 17020859
 ## Ngày sinh: 12/03/1999
-### Nhóm dự án: 30
-### Vai trò: Developer
+## Nhóm dự án: 30
+## Vai trò: Developer
 # BÁO CÁO CÁ NHÂN MÔN HỌC CÔNG NGHỆ PHẦN MỀM
 ### I. Trong 15 tuần các công việc đã hoàn thành là:<br>
 - Tham gia đầy đủ các buổi học trên lớp<br>
