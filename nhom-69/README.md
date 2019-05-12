@@ -4,7 +4,7 @@
   - Trần Thiên Sơn - 17021006 - [Báo cáo cá nhân](https://github.com/tranthiensonuet/INT2208-8-2019/blob/master/TranThienSon/baocao.md)
   - Nguyễn Thị Thanh Quý - 17020991 - [Báo cáo cá nhân](https://github.com/tranthiensonuet/INT2208-8-2019/blob/master/NguyenThiThanhQuy/baocao.md)
   - Nguyễn Trần Phương Thảo - 17021024 - [Báo cáo cá nhân](https://github.com/tranthiensonuet/INT2208-8-2019/blob/master/NguyenTranPhuongThao/baocao.md)
-  - Lê Xuân Hưng - 17020814 - [Báo cáo cá nhân](https://github.com/tranthiensonuet/INT2208-8-2019/blob/master/LeXuanHung/baocao.md)
+  - Lê Xuân Hưng - 17020814 - [Báo cáo cá nhân ...](https://github.com/tranthiensonuet/INT2208-8-2019/blob/master/LeXuanHung/baocao.md)
   
  # Đề tài nhóm
  **Tên phần mềm:** VNU's Market
