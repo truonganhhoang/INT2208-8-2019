@@ -40,4 +40,31 @@ Báo cáo nhóm: https://docs.google.com/document/d/1_fufcQ5ejYFAG-BP_FmYQZfMCFF
 
 Video demo sản phẩm: https://www.youtube.com/watch?v=9Q9mXZUsBTw
 
+ > ## Hướng dẫn sử dụng phẩn mềm
+  
+  1. Bạn mở trình duyệt web bất kì: Chrome, Cốc Cốc,...
+  2. Mở đường dẫn link: [https://vnumarket.herokuapp.com](https://vnumarket.herokuapp.com)
+  3. Trang chủ VNU's Market hiện ra với Logo và tiêu đề trang web,mọi người có thể nhìn thấy các danh mục sản phẩm cụ thể với từng sản phẩm có giá và hình ảnh trực quan
+  <img src="https://i.imgur.com/IlA8wYx.png">
+  
+  4. Tất cả các tính năng đăng nhập và đăng kí, giỏ hàng đều trong mục có hình ảnh "người dùng" ở góc phải của trang chủ
+  <img src="https://i.imgur.com/2XugggP.png">
+  
+  5: Giao diện đăng nhập đăng kí :
+  
+  <img src="https://i.imgur.com/gofa67H.png">
+  
+  6: Giao diện thêm giỏ hàng:
+  
+  <img src="https://i.imgur.com/oOiQZZt.png">
+  
+  7. Ngoài ra em còn bổ sung thêm tính năng đăng nhập admin, hiện tại em chỉ để 1 tk duy nhất có thể truy cập admin 
+  
+ <img src="https://i.imgur.com/BtVnRAn.png">
+ 
+ 8 Dưới đây là giao diện payment của các đơn đặt hàng sau khi admin truy cập, từ đó liên hệ và giao hàng cho khách hàng
+ <img src="https://i.imgur.com/8RuAGfs.png">
+ 
+  
+
 
