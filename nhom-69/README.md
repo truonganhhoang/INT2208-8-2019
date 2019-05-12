@@ -9,6 +9,7 @@
  # Đề tài nhóm
  **Tên phần mềm:** VNU's Market
  
+ 
  **Đối tượng sử dụng:** Phần mềm hướng đến đối tượng chủ yếu là sinh viên, tuy nhiên có thể sử dụng bởi bất kì ai có nhu cầu muốn mua bán các sản phẩm với giá cả phù hợp.
  
  **Mô tả tóm tắt phần mềm:**
@@ -37,4 +38,6 @@ Link phần mềm: https://vnumarket.herokuapp.com
 
 Báo cáo nhóm: https://docs.google.com/document/d/1_fufcQ5ejYFAG-BP_FmYQZfMCFFeylFnyN9xGfljUrU/edit#heading=h.a9nqu59q5k3x
 
-Video demo sản phẩm: 
+Video demo sản phẩm: https://www.youtube.com/watch?v=9Q9mXZUsBTw
+
+
