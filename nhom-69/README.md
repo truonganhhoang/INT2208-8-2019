@@ -40,10 +40,10 @@ Báo cáo nhóm: https://docs.google.com/document/d/1_fufcQ5ejYFAG-BP_FmYQZfMCFF
 
 Video demo sản phẩm: https://www.youtube.com/watch?v=9Q9mXZUsBTw
 
-# Hướng dẫn sử dụng phẩn mềm
+ > ## Hướng dẫn sử dụng phẩn mềm
   
   1. Bạn mở trình duyệt web bất kì: Chrome, Cốc Cốc,...
-  2. Gõ trên trình duyệt đường dẫn vnumarket.herokuapp.com
+  2. Mở đường dẫn link: [https://vnumarket.herokuapp.com](https://vnumarket.herokuapp.com)
   3. Trang chủ VNU's Market hiện ra với Logo và tiêu đề trang web,mọi người có thể nhìn thấy các danh mục sản phẩm cụ thể với từng sản phẩm có giá và hình ảnh trực quan
   <img src="https://i.imgur.com/IlA8wYx.png">
   
@@ -54,16 +54,30 @@ Video demo sản phẩm: https://www.youtube.com/watch?v=9Q9mXZUsBTw
   
   <img src="https://i.imgur.com/gofa67H.png">
   
-  6: Giao diện thêm giỏ hàng:
+  6. Ngoài việc xem các sản phẩm ở trang chủ, người dùng còn có thể xem sản phẩm theo từng chủ đề ở 1 trang riêng, có các lựa chọn về giá và kích cỡ phù hợp với yêu cầu khách hàng
+   <img src="https://i.imgur.com/Oo3xK91.png">
+  
+  7> Sau khi lựa chọn sản phẩm mình muốn, người dùng nháy chọn sản phẩm sẽ được đưa đến giao diện chi tiết sản phẩm gồm tên, ảnh, miêu tả,......
+  
+  <img src="https://i.imgur.com/ASI1piR.png">
+  
+  8: Sau khi ấn nút thêm giỏ hàng, giao diện thêm giỏ hàng xuất hiện, để tới đường link này bạn bắt buộc đã phải đăng nhập, nếu chưa, thay vì dẫn link tới giỏ hàng, bạn được
+  điều hướng đến giao diện đăng nhập :
   
   <img src="https://i.imgur.com/oOiQZZt.png">
   
-  7. Ngoài ra em còn bổ sung thêm tính năng đăng nhập admin, hiện tại em chỉ để 1 tk duy nhất có thể truy cập admin 
+  9.Giao diện xác nhận và giao hàng thành công
+  <img src="https://i.imgur.com/wLX3Bd9.png">
+  <img src="https://i.imgur.com/Yy8KdQ6.png">
+  
+  10. Ngoài ra nhóm còn bổ sung thêm tính năng đăng nhập admin, hiện tại nhóm chỉ để 1 tk duy nhất có thể truy cập admin 
   
  <img src="https://i.imgur.com/BtVnRAn.png">
  
- 8 Dưới đây là giao diện payment của các đơn đặt hàng sau khi admin truy cập, từ đó liên hệ và giao hàng cho khách hàng
+ 11. Dưới đây là giao diện payment của các đơn đặt hàng sau khi admin truy cập, từ đó liên hệ và giao hàng cho khách hàng
  <img src="https://i.imgur.com/8RuAGfs.png">
+ 
+ 
  
   
 
