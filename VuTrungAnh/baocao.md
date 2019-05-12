@@ -25,6 +25,10 @@
 ## Hướng dẫn sử dụng
 1. Do chưa deplop nên web đang chạy trên localhost
 2. Có thể đăng ký hoặc đăng nhập với tài khoản có sẵn(username, pass) hoặc không cần cũng có thế thêm sản phẩm vào giỏ hàng ở thòi điểm hiện tại và khi nào bắt đầy thanh toán thì bắt buộc phải đăng nhập
-<img src="https://drive.google.com/drive/folders/1QaZ8Mp3RAl1exm14fjH-hZ1vErOgNVpA">
 
 
+![59796599_2340914292901583_2230051370608623616_n.jpg](https://www.upsieutoc.com/images/2019/05/12/59796599_2340914292901583_2230051370608623616_n.jpg)
+![59920109_178437073090313_3112091212002099200_n.jpg](https://www.upsieutoc.com/images/2019/05/12/59920109_178437073090313_3112091212002099200_n.jpg)
+![59941648_356185455007176_2682646296887558144_n.jpg](https://www.upsieutoc.com/images/2019/05/12/59941648_356185455007176_2682646296887558144_n.jpg)
+![60120632_602963020209259_661724717941522432_n.jpg](https://www.upsieutoc.com/images/2019/05/12/60120632_602963020209259_661724717941522432_n.jpg)
+![60250949_316559629243221_7287293452327321600_n.png](https://www.upsieutoc.com/images/2019/05/12/60250949_316559629243221_7287293452327321600_n.png)
