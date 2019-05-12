@@ -1,7 +1,7 @@
 <div class=" bg-white" style="background-image: linear-gradient(-180deg, rgba(255,0,0,0), rgb(255, 209, 209));">
     <div class="row justify-content-md-around">
-        <div class="col-md-3 p-2"><b>Hot line : </b>0123456789</div>
-        <div class="col-md-3 p-2 row justify-content-end">
+        <div class="col-lg-3 p-2 hotline"><b>Hot line : </b>0123456789</div>
+        <div class="col-lg-3 p-2 row justify-content-end">
             <a href="#" class=" pr-3" style="border-right: 1px solid">Trợ giúp</a>
             <a href="#" class=" pl-3 pr-3" style="border-right: 1px solid"> Đăng nhập</a>
             <a href="#" class=" pl-3"> Đăng kí </a>
@@ -11,8 +11,8 @@
     <div class="container " style="border-top: 1px solid white">
 
         <div class="row justify-content-md-around">
-            <a href="#"><img src="./img/clover_1.png" style="width: 250px; height: 100px;"></a>
-            <form class=" mt-3 p-3 col-lg-5 col-md-4" style="margin-left: -40px;" action="/danh-muc-san-pham" method="GET">
+            <div class="header-logo"><a href="#" >&nbsp;<img src="./img/clover_1.png"  style="width: 250px; height: 100px;">&nbsp;</a></div>
+            <form class="p-3 col-lg-5 col-md-4 header-search"  action="/danh-muc-san-pham" method="GET">
                 <div class="input-group">
                     <input type="search" class="form-control" placeholder="nhập tên sản phẩm..." name="keyWord">
                     <div class="input-group-append">
@@ -21,8 +21,8 @@
                     </div>
                 </div>
             </form>
-            <div  class="">
-                <a href="#"><img src="./img/cart-icon1.png" class="mt-4 "></a>
+            <div  class="header-cart">
+                <a href="#"><img src="./img/cart-icon1.png" class="mt-4"></a>
                 <div class="Qty qty-header" style="margin-left: -10px; margin-top:-5px;">(0)</div>
             </div>
 
@@ -42,7 +42,7 @@
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item active">
-                        <a class="nav-link" href="/">Trang chủ
+                        <a class="nav-link" href="/danh-muc-san-pham">Trang chủ
                             <span class="sr-only">(current)</span>
                         </a>
                     </li>

@@ -8,7 +8,7 @@
 
 <style>
   .img-size {
-    height: 450px;
+    height: 400px;
     /* width: 180px; */
   }
 
@@ -160,7 +160,7 @@
 
   .light-box {
     top: 30%;
-    left: 24%;
+    left: 30%;
     width: 40%;
     position: fixed;
     background: white;
@@ -171,6 +171,10 @@
     border-radius: 10px;
     z-index: 10001;
     overflow-x: hidden;
+  }
+
+  .header-search {
+    margin-top: 20px;
   }
   @media screen and (min-width: 578px) {
      .img-size {
@@ -190,6 +194,36 @@
       height: 320px;
      }
       /* The width is 100%, when the viewport is 800px or smaller */
+    }
+    @media screen and (max-width: 774px){
+      .header-cart{
+        display: none;
+      }
+      .hotline{
+        display: none;
+      }
+      
+    }
+
+    @media screen and (max-width: 767px){
+      
+      .header-logo{
+        margin:0px auto;
+        display: block;
+      }
+      .header-search {
+        margin-top: -30px!important;
+      }
+      .light-box {
+        left: 20%;
+      }
+    }
+
+    @media screen and (max-width: 450px){
+      
+      .light-box {
+        left: 17%;
+      }
     }
     
     
