@@ -7,7 +7,7 @@
 
 * Hoàn thành khóa học trên edx ([Link ảnh](https://github.com/truonganhhoang/INT2208-8-2019/blob/master/NguyenThiThuy/SoftEng1x.jpg))
 * Tên ứng dụng:  Clover Shop
-* Bài tập nhóm: *Dự án web bán hàng online* [Link website](https://clover-shop.herokuapp.com), [Repo Github](https://github.com/17020932/2hand-market/tree/master/2hand-market)
+* Bài tập nhóm: *Dự án web bán hàng online* [Link website](https://clover-shop.herokuapp.com/), [Repo Github](https://github.com/17020932/2hand-market/tree/master/2hand-market)
 * User story: Là một người mua hàng tôi muốn có 1 trang hiển thị thông tin chi tiết sản phẩm để lựa chọn chính xác hơn 
 	[Link issues](https://github.com/truonganhhoang/INT2208-8-2019/issues/169)
 - [x] Phân tích và làm rõ yêu cầu của User story( 1 tiếng )
