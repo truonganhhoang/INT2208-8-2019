@@ -1,0 +1,23 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: white;
+}
+.login-box{
+    width: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #17a2b8;
+    text-align: center;
+    padding: 30px;
+    border: 1px solid #000;
+}
+.login-box h1{
+    font-size: 40px;
+    margin-bottom: 30px;
+}
