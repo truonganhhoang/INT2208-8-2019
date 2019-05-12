@@ -20,13 +20,13 @@ link tài liệu : [mô hình MVC](https://docs.google.com/document/d/1a4i_31R8W
 
 - [x] thiết kế giao diện để hiển thị sản phẩm (2 tiếng)
 
-	-  header 17020932/oop@a303cf038f1d003f3cca5c6ed295c78296c15a67
+	-  header [17020932/oop@a303cf038f1d003f3cca5c6ed295c78296c15a67](https://github.com/17020932/oop/commit/a303cf038f1d003f3cca5c6ed295c78296c15a67)
 	   
-	-  footer 17020932/oop@b11dc44c6ed2e52d34a9e4319d0001a1937d8228
+	-  footer [17020932/oop@b11dc44c6ed2e52d34a9e4319d0001a1937d8228](https://github.com/17020932/oop/commit/b11dc44c6ed2e52d34a9e4319d0001a1937d8228)
 	   
-	-  phần hiển thị sản phẩm 17020932/oop@434c60b294474bf35f0444891c61181f56d972df 
+	-  phần hiển thị sản phẩm [17020932/oop@434c60b294474bf35f0444891c61181f56d972df ](https://github.com/17020932/oop/commit/434c60b294474bf35f0444891c61181f56d972df)
 	   
- 	-  thanh tùy chọn lọc theo yêu cầu của khách hàng 17020932/oop@3f73d5a2cf4775fed26a68d2a4ce4965e76adf33 
+ 	-  thanh tùy chọn lọc theo yêu cầu của khách hàng [17020932/oop@3f73d5a2cf4775fed26a68d2a4ce4965e76adf33](https://github.com/17020932/oop/commit/3f73d5a2cf4775fed26a68d2a4ce4965e76adf33)
 		   
 Link tài liệu về boostrap 4: [bootstrap 4](https://getbootstrap.com/docs/4.0/getting-started/introduction/)
                     
@@ -39,16 +39,16 @@ Link tài liệu về mongoose: [mongoose](https://mongoosejs.com/docs/)
 
 - [x] Thực hiện lọc sản phẩm và trả về dữ liệu cho người dùng 
      - Lọc theo danh mục sản phẩm(1 tiếng) :
-          + Tạo các tùy chọn lọc: (17020932/oop@23617c5e3ec023864cc8263109fd86fa4d4b4ebc)
-          + Lấy yêu cầu người dùng từ url : (17020932/oop@3bc490d4bce622bd840da3081e1f55fa115f0685)
-          + Thực hiện lọc sản phẩm theo yêu cầu nhận đc: (17020932/oop@5ff9b91d556f53fbedaeac3551cd9d6bcffc9cd4) (1 tiếng)
+          + Tạo các tùy chọn lọc: [17020932/oop@23617c5e3ec023864cc8263109fd86fa4d4b4ebc](https://github.com/17020932/oop/commit/23617c5e3ec023864cc8263109fd86fa4d4b4ebc)
+          + Lấy yêu cầu người dùng từ url : [17020932/oop@3bc490d4bce622bd840da3081e1f55fa115f0685](https://github.com/17020932/oop/commit/3bc490d4bce622bd840da3081e1f55fa115f0685)
+          + Thực hiện lọc sản phẩm theo yêu cầu nhận đc: [17020932/oop@5ff9b91d556f53fbedaeac3551cd9d6bcffc9cd4](https://github.com/17020932/oop/commit/5ff9b91d556f53fbedaeac3551cd9d6bcffc9cd4) (1 tiếng)
      - Lọc theo giá sản phẩm (1 tiếng):
-          + Tạo form: (17020932/oop@762e351c277fccad00e422b338d64f9bb9c7579b)
-          + Lấy yêu cầu người dùng từ url : (17020932/oop@3bc490d4bce622bd840da3081e1f55fa115f0685)
-          + Thực hiện lọc theo giá sản phẩm: (17020932/oop@8f703c6bd9753f2cb87b268c7c696b2bca5d81e0)
+          + Tạo form: [17020932/oop@762e351c277fccad00e422b338d64f9bb9c7579b](https://github.com/17020932/oop/commit/762e351c277fccad00e422b338d64f9bb9c7579b)
+          + Lấy yêu cầu người dùng từ url : [17020932/oop@3bc490d4bce622bd840da3081e1f55fa115f0685](https://github.com/17020932/oop/commit/3bc490d4bce622bd840da3081e1f55fa115f0685)
+          + Thực hiện lọc theo giá sản phẩm: [17020932/oop@8f703c6bd9753f2cb87b268c7c696b2bca5d81e0](https://github.com/17020932/oop/commit/8f703c6bd9753f2cb87b268c7c696b2bca5d81e0)
 
 
-- [x] Thực hiện phân trang để không hiển thị quá nhiều sản phẩm 1 lúc 17020932/oop@9551f4b59282896230394b9c9240306241ee2e4a (1 tiếng)
+- [x] Thực hiện phân trang để không hiển thị quá nhiều sản phẩm 1 lúc [17020932/oop@9551f4b59282896230394b9c9240306241ee2e4a](https://github.com/17020932/oop/commit/9551f4b59282896230394b9c9240306241ee2e4a) (1 tiếng)
 
 - [x] Kiểm thử giao diện dựa trên kiểm thử hộp đen(1 tiếng)
 link tài liệu: [Kiểm thử hộp đen](https://docs.google.com/document/d/1a4i_31R8WBUAnF91syr1FwBpKoAiTY6rEJt1xWjb74M/edit#heading=h.zhrswbsdiifd)
