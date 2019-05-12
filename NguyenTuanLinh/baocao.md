@@ -15,9 +15,9 @@
 
 ### II. User story: Là một quản trị viên, tôi muốn có chức năng thêm, sửa, xóa thể loại sách và chi tiết sách để dễ dàng quản lý một cách trực quan, thao tác và chỉnh sửa nếu có sai sót 
 1. Xác định yêu cầu mong muốn
-- Quản lý thể loại sách và chi tiết sách.
-- Có chức năng thêm, sửa , xóa thể loại sách.
-- Có chức năng thêm, sửa , xóa chi tiết sách.
+- Quản lý thể loại sách và chi tiết sách
+- Có chức năng thêm, sửa , xóa thể loại sách
+- Có chức năng thêm, sửa , xóa chi tiết sách
 2. Thực hiện
 - Thiết kế form html, sử dụng bootstrap modal (1h) <a href="https://www.w3schools.com/bootstrap/bootstrap_modal.asp">W3school</a>
 - Thiết kế bảng hiển thị dữ liệu từ database (30p) <a href="https://github.com/phuctd99/INT2208-8-2019/blob/master/NguyenTuanLinh/Booksparadise%20admin/modules/theloaisach/lietke.php">commit theloaisach</a> & <a href="https://github.com/phuctd99/INT2208-8-2019/blob/master/NguyenTuanLinh/Booksparadise%20admin/modules/chitietsach/lietke.php">commit chitietsach</a>
@@ -32,9 +32,9 @@
 - Cập nhật lại bảng hiển thị dữ liệu sau khi thêm, sửa, xóa thành công, tích hợp trong file xuly của mỗi loại quản lý (15p)
 - Test giao diện, chức năng <a href="https://docs.google.com/document/d/1a4i_31R8WBUAnF91syr1FwBpKoAiTY6rEJt1xWjb74M/edit#heading=h.zhrswbsdiifd">edx</a>
 3. Kiểm thử:
-- Kiểm thử hộp trắng đảm bảo mã nguồn không bị lỗi, chạy được.
-- Thử các trường hợp lỗi để kiểm tra các chức năng.
-- Sau đó, sửa lỗi nếu có.
-- Tái cấu trúc mã nguồn và xử lí code xấu nếu có.
+- Kiểm thử hộp trắng đảm bảo mã nguồn không bị lỗi, chạy được
+- Thử các trường hợp lỗi để kiểm tra các chức năng
+- Sau đó, sửa lỗi nếu có
+- Tái cấu trúc mã nguồn và xử lí code xấu nếu có
 
 ### III. Video hướng dẫn sử dụng: https://youtu.be/A8f4zIlxHMA
