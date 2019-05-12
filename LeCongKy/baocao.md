@@ -59,8 +59,8 @@
 
 # Tổng hợp quá trình làm bài tập nhóm
 
-- **Repo sản phẩm được triển khai tại [Github](https://github.com/hoanphi2201/SoftEng-Assignments-nhom-10/tree/congky)**
+- >**Repo sản phẩm được triển khai tại [Github](https://github.com/hoanphi2201/SoftEng-Assignments-nhom-10/tree/congky)**
 
-- **Link Vieo báo cáo và demo user story tại: [Youtube](https://www.youtube.com/watch?v=O0xD-tGpk_A)**
+- >**Link Vieo báo cáo và demo user story tại: [Youtube](https://www.youtube.com/watch?v=O0xD-tGpk_A)**
 
-- **Link sản phẩm của nhóm deloy server node.js và angular chế độ development tại: [Link Sản phầm](http://luyenthi365.xyz)**
+- >**Link sản phẩm của nhóm deloy server node.js và angular chế độ development tại: [Link Sản phầm](http://luyenthi365.xyz)**
