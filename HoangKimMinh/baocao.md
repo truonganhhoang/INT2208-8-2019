@@ -6,7 +6,7 @@
 
 ### **User story:** Là một người chơi, tôi muốn có chế độ chơi cơ bản để dễ dàng chơi và kiểm tra kiến thức.
 
-**1. Đảm bảo tiêu chí INVEST:**
+### **1. Đảm bảo tiêu chí INVEST:**
 
 - Independent: tạo chế độ chơi cơ bản độc lập với các tính năng khác.
 
@@ -20,7 +20,7 @@
 
 - Testable: tính năng có thể kiểm thử do người dùng.
 
-**2. Các công việc cần làm**
+### **2. Các công việc cần làm**
 
 - Thu thập và làm rõ yêu cầu cho user story (1h) [Làm rõ yêu cầu](http://bit.ly/2Pr2Ugq)
 
@@ -63,7 +63,7 @@
 
 - Thêm comment vào các vị trí cần thiết để code dễ đọc và quản lí hơn (1h) [Rules for commenting code](https://www.hongkiat.com/blog/source-code-comment-styling-tips/) [Link commit](https://github.com/19team/INT2208-8-2019/commit/ca26bbaa1c4abd79ba90e6619caa1803e48985af)
 
-**3. Hướng dẫn sử dụng tính năng:** Chế độ chơi Classic<br/>
+### **3. Hướng dẫn sử dụng tính năng:** Chế độ chơi Classic<br/>
 
 - **Tên chế độ:** Classic (cơ bản)<br/>
 - **Mục đích:** Tạo ra một chế độ chơi cơ bản <br/>
@@ -84,4 +84,4 @@
   *Kết thúc trò chơi*
   ![alt text](https://i.ibb.co/NskBB4Q/anh5.png) <br/>
 
-**4. Video mô tả:** https://youtu.be/nehOPPW_pW4
+### **4. Video mô tả:** https://youtu.be/nehOPPW_pW4
