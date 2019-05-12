@@ -48,7 +48,7 @@
   
   <img src="https://i.imgur.com/gofa67H.png">
   
-  6: Giao diện thêm giỏ hàng:
+  6: Giao diện thêm giỏ hàng, chỉ có thể thêm sản phẩm khi người dùng đã đăng nhập tài khoản, nếu chưa, bạn sẽ được đưa tới giao diện đăng nhập thay vì giao diện giỏ hàng:
   
   <img src="https://i.imgur.com/oOiQZZt.png">
   
