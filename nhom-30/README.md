@@ -1,8 +1,8 @@
-# :zap:Nhóm gồm có 4 thành viên:zap::
-   :man: Trần Duy Phúc - MSV: 17020961<br>
-   :boy: Nguyễn Tuấn Linh - MSV: 17020859<br>
-   :older_man:Nguyễn Hữu Nam - MSV: 17020911<br>
-   :man_with_turban:Vũ Văn Tùng - MSV: 17021115
+# Nhóm gồm có 4 thành viên:
+   Trần Duy Phúc - MSV: 17020961<br>
+   Nguyễn Tuấn Linh - MSV: 17020859<br>
+   Nguyễn Hữu Nam - MSV: 17020911<br>
+   Vũ Văn Tùng - MSV: 17021115
 # Lưu ý khi sử dụng web
 Khi truy cập vào trang web vui lòng nhấn vào nút như dưới hình sau đó chọn "tải tệp không an toàn" để trải nghiệm đầy đủ web ,xin cảm ơn:
 
