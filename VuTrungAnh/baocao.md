@@ -25,6 +25,6 @@
 ## Hướng dẫn sử dụng
 1. Do chưa deplop nên web đang chạy trên localhost
 2. Có thể đăng ký hoặc đăng nhập với tài khoản có sẵn(username, pass) hoặc không cần cũng có thế thêm sản phẩm vào giỏ hàng ở thòi điểm hiện tại và khi nào bắt đầy thanh toán thì bắt buộc phải đăng nhập
-
+<img src="https://drive.google.com/drive/folders/1QaZ8Mp3RAl1exm14fjH-hZ1vErOgNVpA">
 
 
