@@ -7,10 +7,10 @@
 # Báo cáo cá nhân môn học công nghệ phần mềm
 - Hoàn thành khóa học trên EDX: [edx]()
 - Tham gia làm bài tập nhóm: Web bán hàng online: [Link trang web](https://vnumarket.herokuapp.com/), [Link mô tả](https://github.com/tranthiensonuet/INT2208-8-2019/tree/master/nhom-69)
-#### User story: Là một khách hàng, tôi muốn xem các sản phẩm được phân loại theo chức năng, để tìm mua dễ dàng và nhanh chóng hơn.
-- Chi tiết user story: [Link](https://github.com/truonganhhoang/INT2208-8-2019/issues/136)
+* #### User story: Là một khách hàng, tôi muốn xem các sản phẩm được phân loại theo chức năng, để tìm mua dễ dàng và nhanh chóng hơn.
+  * Chi tiết user story: [Link](https://github.com/truonganhhoang/INT2208-8-2019/issues/136)
 
-- Link youtube: https://youtu.be/p4Tz_FAdJbo
+  * Link youtube: https://youtu.be/p4Tz_FAdJbo
 
   **I. Xác định yêu cầu, mong muốn:**
     + Xem thông tin và phân loại các sản phẩm theo chức năng.
@@ -52,14 +52,17 @@
  <img src="https://i.imgur.com/nA2GZSQ.png">
  
  - **Để tìm kiếm sản phẩm theo bộ lọc giá cả, bạn click 1 trong các ô giá bên trái có sẵn trên màn hình.**
+ (Ví dụ :100.000 - 200.000)
  
  <img src="https://i.imgur.com/cgnYzUD.png">
  
  - **Để tìm kiếm sản phẩm theo bộ lọc trạng thái, bạn click 1 trong các ô phía trên các sản phẩm.**
+ (Ví dụ: Giá tăng dần)
  
  <img src="https://i.imgur.com/EbuASwb.png">
  
  - **Để tìm kiếm sản phẩm theo bộ lọc kích thước,  bạn click 1 trong các ô giá bên trái có sẵn trên màn hình.**
+ (Ví dụ: to)
  
  <img src="https://i.imgur.com/Qj7pJeA.png">
  
