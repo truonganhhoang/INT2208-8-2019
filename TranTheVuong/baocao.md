@@ -1,6 +1,6 @@
 ## USER STORY
 
-	Là một người chơi, tôi muốn có một bảng xếp hạng level để biết mình đang ở dâu.
+	Là một người chơi, tôi muốn có một bảng xếp hạng level để biết mình đang ở đâu.
 
 ## Đánh giá dựa trên INVEST
 
