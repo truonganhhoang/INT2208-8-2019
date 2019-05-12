@@ -46,9 +46,9 @@
  
  * #### Hướng dẫn sử dụng sản phẩm
     - Mở trình duyệt và gõ "vnumarket.herokuapp.com" đợi trình duyệt điều hướng sẽ thấy trang web tự động được đưa về dưới dạng https.
-    ![123](https://user-images.githubusercontent.com/43133165/57585583-50fc0480-7514-11e9-829b-49b4ce9a9912.png)
+    ![123](https://user-images.githubusercontent.com/43133165/57585695-bbfa0b00-7515-11e9-84b3-6f4cacb94198.png)
     - Ấn vào biểu tượng "Tài khoản" để đăng ký hoặc đăng nhập
-    ![123](https://user-images.githubusercontent.com/43133165/57585603-899bde00-7514-11e9-854e-a3009ddfe03d.png)
+    ![123](https://user-images.githubusercontent.com/43133165/57585703-db913380-7515-11e9-941c-d667a6ea9d43.png)
     - Sau khi ấn xong thì màn hình đăng ký, đăng nhập sẽ hiện ra rồi điền thông tin vào đó
     ![Untitled](https://user-images.githubusercontent.com/43133165/57585629-cec01000-7514-11e9-818a-0b5a4dab5aaa.png)
     - Khi đăng ký, đăng nhập xong thì sẽ hiện ra thông tin tài khoản rồi sau đó ấn quay về trang chủ để mua hàng
