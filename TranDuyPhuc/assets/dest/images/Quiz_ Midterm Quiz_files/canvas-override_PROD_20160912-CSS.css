@@ -1,0 +1,125 @@
+﻿
+/*Disable Logo Link*/
+.ic-app-header__logomark {
+   pointer-events: none;
+   cursor: default;
+}
+
+/*Help Dialog Position*/
+.ui-dialog {
+	top:0px !important;
+}
+
+/*
+Functionality Mask
+*/
+
+.ic-NavMenu-list-item a[href="/profile"] {
+display:none;
+	
+}
+.tray-with-space-for-global-nav a[href="/profile"] {
+display:none;
+}
+
+/*
+.ic-NavMenu-list-item a[href="/profile/settings"] {
+display:none;
+
+}
+*/
+
+#breadcrumbs li a[href*="users"] {
+    display:none;
+}
+#breadcrumbs li a[href*="about"] {
+    display:none;
+}
+
+.ic-NavMenu-list-item a[href="/dashboard/eportfolios"] {
+display:none;
+	
+}
+.tray-with-space-for-global-nav a[href="/dashboard/eportfolios"] {
+display:none;	
+}
+.section a[class="profile active"] {
+    display:none;
+}
+.section a[href="/profile/settings"] {
+	display:none;
+}
+.section a[href="/dashboard/eportfolios"] {
+	display:none;
+}
+
+.dashboard-toggle-button-layout {
+    display:none;
+}
+
+#dashboard-activity {
+    display:block !important;
+}
+
+#DashboardCard_Container {
+    display:none !important;
+}
+
+#start_new_course {
+	display:none !important;
+}
+#footer {
+	display:none;
+}
+/*Hides Add Role btn on Account Settings Page*/
+.add_role_link {
+    display:none;
+}
+/*Hides People Functionality on Gear Icon*/
+.ui-menu-item a[data-event~="removeFromCourse"] {
+    display:none;
+}
+.ui-menu-item a[data-event~="editSections"]{
+    display:none;
+}
+
+.ui-menu-item a[data-event~="resendInvitation"]{
+    display:none;
+}
+.ui-menu-item a[data-event~="editRoles"] {
+    display:none;
+}
+.ui-menu-item a[data-event~="deactivateUser"]{
+    display:none;
+}
+
+/*Hide Course Wizard Links */
+.ic-wizard-box__nav-checklist li[data-reactid*="add_students"] {
+    display:none;
+}
+.ic-wizard-box__nav-checklist li[data-reactid*="add_tas"] {
+    display:none;
+}
+
+table.coursesettings button.ui-datepicker-trigger {
+    display: none;
+}
+
+table.coursesettings #course_visibility {
+    display: none;
+}
+
+table.coursesettings label[for=course_visibility] {
+    display: none;
+}
+
+input[id="account_settings_enable_offline_web_export_value"] {
+    display: none;
+}
+input[id="account_settings_enable_offline_web_export_value"] + label {
+    display: none;
+}
+
+button[aria-label="Create new course"]{
+	display: none;
+}

@@ -1,63 +1,15 @@
-# Sơ lược về sản phẩm
-I. Tên sản phẩm: Website mua bán trao đổi sách/tài liệu BooksParadise.
+# Nhóm gồm có 4 thành viên:
+   Trần Duy Phúc - MSV: 17020961<br>
+   Nguyễn Tuấn Linh - MSV: 17020859<br>
+   Nguyễn Hữu Nam - MSV: 17020911<br>
+   Vũ Văn Tùng - MSV: 17021115
+# Lưu ý khi sử dụng web
+Khi truy cập vào trang web vui lòng nhấn vào nút như dưới hình sau đó chọn "tải tệp không an toàn" để trải nghiệm đầy đủ web ,xin cảm ơn:
 
-II. Đối tượng sử dụng: Mọi đối tượng / độ tuổi có nhu cầu mua hoặc tìm hiểu về sách.
+![screen](https://user-images.githubusercontent.com/43601776/57583928-eb058200-74ff-11e9-80b1-21e99258ae8f.png)
+## [Link sản phẩm phần mềm](https://bookparadiseservice.000webhostapp.com/)
+![demo](https://user-images.githubusercontent.com/43350201/57583331-9fe87080-74f9-11e9-9a0d-bf8f7e5f9443.jpg)
+## [Link tài liệu](https://docs.google.com/document/d/1ulHy8mqjWeYp0Nho_qiHYMxCGb5hvM7sHmgFqw_CxSs/edit?usp=sharing)
+![baocao](https://user-images.githubusercontent.com/43350201/57583403-4e8cb100-74fa-11e9-8ad8-200bd6dc4307.jpg)
 
-III. Mô tả sơ lược:
-   + Màn hình chính: 
-   ![demo](https://user-images.githubusercontent.com/43350201/53346324-5f8d4380-3949-11e9-8379-a9cbfdb4807b.png)
-   
-   + Chức năng:
-      - Người dùng: Đăng kí, đăng nhập, mua sách.
-      - Admin: Thêm, sửa và xóa sách.
-   
-IV. Project sử dụng:
-- Front-end: html, css, javascript (Framework: Bootstrap,...)
-- Back-end: java
-- Database: mysql
 
-# Quy trình phát triển dự án được áp dụng là quy trình Scrum
-
-   + Giới thiệu mô hình:
-      - Trong Scrum công việc được thực hiện qua các phân đoạn lặp liên tiếp gọi là Sprint.
-      
-      - Sprint: Là 1 khung thời gian nhỏ hơn 4 tuần để nhóm phát triển sản xuất được một phần tăng trưởng của sản phẩm.
-
-      - Lập kế hoạch Sprint: Là sự kiện diễn ra ở đầu mỗi Sprint. Và đặt mục tiêu trả lời cho câu hỏi: "Sẽ làm gì?" và "Sẽ làm như thế nào?".
-
-      - Mục tiêu Sprint:mô tả kết quả đạt được sau khi kết thúc mỗi sprint.
-
-      - Sơ kết Sprint: dùng thử phần sản phẩm vừa hoàn thành và trao đổi để điều chỉnh chon hợp lý.
-
-      - Cải tiến sprint: cải tiến cách làm việc.
-
-   + Cách phân chia chức vụ :
-
-      - Product owner: Nhóm 30.
-
-      - Scrum master:Trưởng nhóm.
-
-      - Nhóm phát triển: Nhóm 30.
-
-# Quá trình phát triển được chia thành 4 lần (4 Sprint)
-   + Sprint 1:
-      - Tuần 1: Thu thập yêu cầu về sản phẩm muốn làm.
-      - Tuần 2: Lập ra kế hoạch như tạo ra mô hình mẫu, xác định công nghệ mình cần, phân tích các chức năng cần thiết.
-   + Sprint 2:
-      - Tuần 3: Học html + css và biết bố cục của 1 trang web.
-      - Tuần 4: Học javascript để xử lý các tùy chọn của trang web.
-      - Tuần 5: Học html + css + javascript update trang web .
-      - Tuần 6: Dựng được một mô hình của trang web .
-   + Sprint 3:
-      - Tuần 7: Học jquery để tăng tiện ích của web.
-      - Tuần 8: Học java web + mysql(xử lý phía backend).
-      - Tuần 9: Học java web + mysql + demo cách hiển thị thông tin data lên web.
-      - Tuần 10: Xử lý tác vụ từ form đăng nhập + đăng ký + chức năng tìm kiếm theo tên trên web chính + kiểm tra các chức năng.
-   + Sprint 4:
-      - Tuần 11: Thêm chức năng giỏ hàng.
-      - Tuần 12: Thêm chức năng đăng nhập bằng gmail, facebook hoặc chức năng khác.
-      - Tuần 13: Update giao diện và kiểm tra các chức năng.
-      - Tuần 14: Update giao diện và kiểm tra các chức năng.
-      - Tuần 15: Kết thúc.
-   
-*Có update dựa trên tình hình thực tế
