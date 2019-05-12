@@ -28,7 +28,7 @@ Link tài liệu: [Mã xấu](https://docs.google.com/document/d/1a4i_31R8WBUAnF
 
 Video demo sản phẩm: https://www.youtube.com/watch?v=m0snmaVKJbw&t=1s
 * Hướng dẫn sử dụng chức năng Tìm kiếm:
-1. ở đầu của trang chủ có ô để nhập từ khóa mà bạn muốn tìm. Nhập xong thì bạn Cick vào "Tìm kiếm"
+1. Ở đầu của trang chủ có ô để nhập từ khóa mà bạn muốn tìm, nhập xong thì bạn Cick vào "Tìm kiếm"
 
 2. Trang chủ sẽ hiển thị các sản phẩm chứa từ khóa mà bạn muốn tìm. Cick vào từng sản phẩm để hiển thị thông tin chi tiết của từng sản phẩm. Bạn có thể thêm vào giỏ hàng ngay khi bạn tìm được sản phẩm muốn tìm.
 
