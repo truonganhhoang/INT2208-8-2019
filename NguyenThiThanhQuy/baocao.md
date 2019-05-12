@@ -24,8 +24,8 @@
      * Kế hoạch cụ thể
       + Sprint 1: từ tuần 1 - tuần 4: Xây dựng giao diện cơ bản, và tạo hệ quản trị csdl 
       
-        Các commit:  [commit-1](https://github.com/tranthiensonuet/INT2208-8-2019/blob/master/nhom-69/UETMaket/views/Mainpage.hbs),
-        [commit-2](https://github.com/tranthiensonuet/INT2208-8-2019/blob/master/nhom-69/UETMaket/views/cart.hbs), [commit-3](https://github.com/tranthiensonuet/INT2208-8-2019/blob/master/nhom-69/UETMaket/views/admin.hbs)
+        Các commit:  [commit-html Trang chủ](https://github.com/tranthiensonuet/INT2208-8-2019/blob/master/nhom-69/UETMaket/views/Mainpage.hbs),
+        [commit-html Giỏ hàng](https://github.com/tranthiensonuet/INT2208-8-2019/blob/master/nhom-69/UETMaket/views/cart.hbs), [commit-admin](https://github.com/tranthiensonuet/INT2208-8-2019/blob/master/nhom-69/UETMaket/views/admin.hbs),[commit-css](https://github.com/tranthiensonuet/INT2208-8-2019/blob/master/nhom-69/UETMaket/public/mainpage-css.css)
       + Sprint 2: từ tuần 4 - tuần 8: Xây dựng tính năng đặt mua
       
         Các commit: [commit- cấu trúc giỏ hàng ](https://github.com/tranthiensonuet/INT2208-8-2019/blob/master/nhom-69/UETMaket/models/cart.js), [commit- xử lí khi có đường dẫn được gọi](https://github.com/tranthiensonuet/INT2208-8-2019/blob/master/nhom-69/UETMaket/routes/router.js)
