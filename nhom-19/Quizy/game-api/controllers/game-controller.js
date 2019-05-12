@@ -6,22 +6,27 @@ const utils = require("../../utils/utils");
 const levelSystem = require("../level-point-system/level-point-system")
   .levelSystem;
 
+/**
+ * 
+ * @param {User} user current user
+ * @param {Integer} currentLevel - current level
+ * @param {Integer} exp - exp of current user
+ */
 function updateLevel(user, currentLevel, exp) {
   let newLevel;
   for (let i = 0; i < levelSystem.length; i++) {
-    console.log("Level " + levelSystem[i]);
     if (exp >= levelSystem[i] && exp < levelSystem[i + 1]) {
       newLevel = i;
       break;
     }
   }
-  console.log("Level hien tai la:" + newLevel);
   if (newLevel > currentLevel) {
     user.update({ level: newLevel });
   }
 }
 
 const gamelist = require("../models/gamelist").gameList;
+/* GET list of game page */
 exports.getGameListPage = function(req, res) {
   res.render("games/gamelist", {
     title: "Danh sách trò chơi",
@@ -30,6 +35,7 @@ exports.getGameListPage = function(req, res) {
     gameList: gamelist});
 };
 
+/* GET classic game page */
 exports.getClassicGamePage = function(req, res) {
   console.log(req.user);
   res.render("games/classic", {
@@ -39,6 +45,7 @@ exports.getClassicGamePage = function(req, res) {
   });
 };
 
+/* GET a random topic question */
 exports.getARandomTopicQuestion = function(req, res) {
   Question.findOne({
     order: [[Sequelize.fn("RAND")]],
@@ -66,6 +73,7 @@ exports.getARandomTopicQuestion = function(req, res) {
     });
 };
 
+/* Check player answer */
 exports.checkAnswer = function(req, res) {
   const submitData = req.body;
   //get current user
@@ -127,6 +135,7 @@ exports.checkAnswer = function(req, res) {
   });
 };
 
+/* GET true answer */
 exports.getTrueAnswer = function(req, res) {
   const ques = req.body;
   Question.findOne({ where: { question: ques.question } })
