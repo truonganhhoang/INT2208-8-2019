@@ -55,6 +55,8 @@
 
 - [x] Kiểm thử hộp đen, dựa vào giao diện, chức năng, dùng phương pháp phân vùng tương đương và phân tích giá trị biên viết các ca kiểm thử ( 4h ) ([tài liệu tham khảo](https://docs.google.com/document/d/1a4i_31R8WBUAnF91syr1FwBpKoAiTY6rEJt1xWjb74M/edit#heading=h.zhrswbsdiifd))
 
+- [x] Cho các thành viên trong nhóm kiểm thử và dùng thử, mời 1 số người dùng trải nghiệm.
+
 - [x] Triển khai ứng dụng ([link ứng dụng](http://luyenthi365.xyz))
 
 # Tổng hợp quá trình làm bài tập nhóm
@@ -63,4 +65,4 @@
 
 - >**Link Vieo báo cáo và demo user story tại: [Youtube](https://www.youtube.com/watch?v=O0xD-tGpk_A)**
 
-- >**Link sản phẩm của nhóm deloy server node.js và angular chế độ development tại: [Link Sản phầm](http://luyenthi365.xyz)**
+- >**Link sản phẩm của nhóm deloy server node.js và angular chế độ development tại: [Sản phầm](http://luyenthi365.xyz)**
