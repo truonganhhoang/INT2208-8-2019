@@ -91,7 +91,7 @@
        {{# each product}}
     <td>{{this.item.name}}</td>
     <td>{{this.qty}}</td>
-    <td>{{this.price}}</td>
+    <td>{{this.price}}.000đ</td>
     <td> <a href="/remove/{{this.item._id}}"  ><button style="margin-right:0px" class="button-cart">Gỡ bỏ</button></a></td>
     <td><a href="/reduce/{{this.item._id}}" style="margin-right:60px"><button class="button-cart">Giảm 1</button></a></td>
     
@@ -101,7 +101,7 @@
 </table>
     <div class="row">
     <div class="col-sm-6 col-md-6 col-md-offset-3 col-sm-offset-3">
-    <strong>Tổng tiền: {{price}}</strong>
+    <strong>Tổng tiền: {{price}}.000đ</strong>
         </div>
         </div>
         <br>
