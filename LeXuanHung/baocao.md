@@ -28,6 +28,7 @@
       + Sprint 4: từ tuần 11 - tuần 12: Hoàn thiện tính năng và kiểm thử.
        
   *III. High Level Design:* chọn hệ quản trị dữ liệu MySql và xây dựng sơ đồ lớp.
+  [commit](https://github.com/tranthiensonuet/INT2208-8-2019/tree/master/LeXuanHung/project/product)
   
   *IV. Low level design:*  Sử dụng mô hình MVC của framework Express.
   
