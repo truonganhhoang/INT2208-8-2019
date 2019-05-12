@@ -73,10 +73,15 @@
   - Nếu trả lời đúng, ô đáp án sẽ chuyển màu xanh. Người chơi sẽ được cộng 5 điểm kinh nghiệm.
   - Nếu trả lời sai, ô đáp án sẽ chuyển thành màu đỏ, đồng thời đáp án chính xác sẽ được tô màu vàng để người chơi biết được đáp án đúng là gì. Sau câu trả lời sai, người chơi vẫn được 3 điểm kinh nghiệm.
 - **Một số hình ảnh của trò chơi**<br/>
-  ![alt text](https://pasteboard.co/IeivLBX.png)<br/>
-  ![alt text](https://pasteboard.co/IeiwlZ2.png)<br/>
-  ![alt text](https://pasteboard.co/IeiwEkH.png)<br/>
-  ![alt text](https://pasteboard.co/IeiwLW4.png)<br/>
-  ![alt text](https://pasteboard.co/Ieix2wF.png)<br/>
+  *Bắt đầu trò chơi*
+  ![alt text](https://i.ibb.co/dWHcPZT/anh1.png) <br/>
+  *Câu hỏi*
+  ![alt text](https://i.ibb.co/JtKBrRM/anh2.png) <br/>
+  *Hết thời gian*
+  ![alt text](https://i.ibb.co/jyZDxs4/anh3.png) <br/>
+  *Trả lời đúng*
+  ![alt text](https://i.ibb.co/y4LmWXG/anh4.png) <br/>
+  *Kết thúc trò chơi*
+  ![alt text](https://i.ibb.co/NskBB4Q/anh5.png) <br/>
 
 **4. Video mô tả:** https://youtu.be/nehOPPW_pW4
