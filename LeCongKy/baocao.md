@@ -4,7 +4,7 @@
 
 ### Phân tích câu chuyện người dùng
 
-##### Nội dung: 
+#### Nội dung: 
 + Có một danh sách các môn học hiển thị trong bảng và mỗi môn học sẽ hiển thị thông tin trên một hàng. Mỗi môn học có một ô checkbox và ba nút nhấn (edit, delete, show chart) để thực hiện thao tác ứng với chức năng của nó. 
 + Có một nút nhấn để thêm môn học mới, khi nhấn vào nó thì sẽ hiện lên một modal để ghi thông tin và khi submit thì có hiển thị thông báo thêm thành công hoặc không.
 + Có chức năng  xóa nhiều môn học, thay đổi trạng thái nhiều môn học.
@@ -12,7 +12,7 @@
 + Trên bảng danh sách môn học có các phần để sắp xếp các môn học theo tên, trạng thái, thời gian tạo môn học.
 + Có thể phân trang danh sách môn học với số môn học cụ thể trên một trang.
 
-##### Các công việc cần làm
+#### Các công việc cần làm
 
 - [x] Phân tích rõ yêu cầu khách hàng về giao diện và chức năng( 2h ) ([cụ thể](https://docs.google.com/document/d/1jKoMBMpRJ0eCefOzNS66KRqH9XkNAEAY19WdQXQQPHo/edit?usp=sharing))
 
@@ -51,11 +51,12 @@
 
 - [x] Ghi chú, cải thiện mã nguồn (clean code) ([tài liệu tham khảo](https://docs.google.com/document/d/1a4i_31R8WBUAnF91syr1FwBpKoAiTY6rEJt1xWjb74M/edit#heading=h.ocf6iosigvwc)) (commit: [lần 1](https://github.com/hoanphi2201/SoftEng-Assignments-nhom-10/commit/c189b0663e223d2ad5f1082dfca49043b901d00a))
 
-- [x] Kiểm thử hộp trắng, dựa vào code, tính độ bao phủ, nếu > 70% thì đạt yêu cầu(3h) ([tài liệu tham khảo](https://docs.google.com/document/d/1a4i_31R8WBUAnF91syr1FwBpKoAiTY6rEJt1xWjb74M/edit#heading=h.ryzy80x4sqk1))
+##### Testing
+- [x] Kiểm thử hộp trắng độ bao phủ  ([tài liệu tham khảo](https://docs.google.com/document/d/1a4i_31R8WBUAnF91syr1FwBpKoAiTY6rEJt1xWjb74M/edit#heading=h.ryzy80x4sqk1))
 
-- [x] Kiểm thử hộp đen, dựa vào giao diện, chức năng, dùng phương pháp phân vùng tương đương và phân tích giá trị biên viết các ca kiểm thử ( 4h ) ([tài liệu tham khảo](https://docs.google.com/document/d/1a4i_31R8WBUAnF91syr1FwBpKoAiTY6rEJt1xWjb74M/edit#heading=h.zhrswbsdiifd))
+- [x] Kiểm thử giao diện  ([tài liệu tham khảo](https://docs.google.com/document/d/1a4i_31R8WBUAnF91syr1FwBpKoAiTY6rEJt1xWjb74M/edit#heading=h.zhrswbsdiifd))
 
-- [x] Cho các thành viên trong nhóm kiểm thử và dùng thử, mời 1 số người dùng trải nghiệm.
+- [x] Cho các thành viên trong nhóm kiểm thử và dùng thử, mời 1 số người dùng trải nghiệm
 
 - [x] Triển khai ứng dụng ([link ứng dụng](http://luyenthi365.xyz))
 
