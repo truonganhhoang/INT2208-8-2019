@@ -119,8 +119,8 @@ router.get('/find/:id', function(req, res, next) {
 })
 // thông tin từng sản phẩm
 router.get('/product', function(req, res, next) {
-  var cart= new Cart(req.session.cart);
-    res.render('product', {price: cart.totalPrice, name:name, number:number, imgpath: idPro.imagePath, id: idPro.id, namepro: idPro.name, des: idPro.description, price: idPro.price});
+ 
+    res.render('product', {name:name, number:number, imgpath: idPro.imagePath, id: idPro.id, namepro: idPro.name, des: idPro.description, price: idPro.price});
 })
 
 
