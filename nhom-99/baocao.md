@@ -47,6 +47,8 @@
 
 ## Tài liệu kỹ thuật, mô tả sản phẩm 
 [(Link)](https://docs.google.com/document/d/1pCmfYv3wzcFY1H88atBAvIN3TzFGis404idlELk8Is8/edit#)
+[(V)](https://drive.google.com/file/d/0B3uu_7ll9cpdNmhuVnh6eHllSGNtbnNrZ3RlQ2ViRGxkdllN/view?usp=sharing)
+
 ## Hướng dẫn sử dụng
 1. Tải file trên github về, giải nén [(Link file code)](https://github.com/trunganhvu/projectWeb)
 2. Bật cài đặt apache tomcat, navicat premium, java ee web
