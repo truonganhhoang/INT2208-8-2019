@@ -61,7 +61,7 @@
 
 - **Mục đích:** Người dùng có thể xem cấp độ của mình, so sánh với những người chơi khác
 
--**Hướng dẫn:** Sau khi đăng nhập thành công, người dùng chỉ cần click vào *Bảng xếp hạng* ở *Header*
+- **Hướng dẫn:** Sau khi đăng nhập thành công, người dùng chỉ cần click vào *Bảng xếp hạng* ở *Header*
 
 	![hướng dẫn](https://user-images.githubusercontent.com/38174506/57578456-1b74fe00-74b7-11e9-980a-51dc415afe06.png)
 
