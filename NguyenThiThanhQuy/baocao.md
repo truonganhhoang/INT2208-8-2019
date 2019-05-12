@@ -59,6 +59,10 @@
  8 Dưới đây là giao diện payment của các đơn đặt hàng sau khi admin truy cập, từ đó liên hệ và giao hàng cho khách hàng
  <img src="https://i.imgur.com/8RuAGfs.png">
  
+ 9. Ngoài ra, để trợ giúp cho công việc mua hàng, e còn làm thêm tính năng thêm giỏ hàng cho sản phẩm
+ <img src="https://i.imgur.com/8RuAGfs.png">
+ 
+ 
   
   
   
