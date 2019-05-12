@@ -273,7 +273,7 @@ router.get('/profile',Isloggin, csrfProtection, function(req, res, next) {
 //-----------link đn admin----------------
   router.get('/admin', function (req, res, next) {
     res.render('admin');
-    
+
   })
 
   //-----------LoadPayment--------------
@@ -304,7 +304,7 @@ router.get('/profile',Isloggin, csrfProtection, function(req, res, next) {
       console.log("aaaaaaaaaaaaaa")
     }
     
-    return res.render('Payment', { title: 'Payment', payments: payments});
+    return res.render('payment', { title: 'Payment', payments: payments});
         
       
   })
