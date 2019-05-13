@@ -21,15 +21,11 @@
 - [x] Phân tích kỹ yêu cầu của người dùng (giao diện cần gì, đặt ô comment ở đâu ...). (1h)
        [Làm rõ yêu cầu](https://docs.google.com/document/d/1a4i_31R8WBUAnF91syr1FwBpKoAiTY6rEJt1xWjb74M/edit#heading=h.fvjpas4blmex)
 - [x] Xác định các component cần dùng cho user story. (1h)
-- [x] Học cách thiết kế giao diện cơ bản bằng HTML, CSS, Bootstrap. (2h)
-       [Tài liệu cơ bản](https://www.w3schools.com)
-- [x] Chọn mẫu thiết kế (design pattern) MVP : [MVP](https://docs.google.com/document/d/1a4i_31R8WBUAnF91syr1FwBpKoAiTY6rEJt1xWjb74M/edit#heading=h.pkfkm4eut27p)
-- [x] Tạo thanh comment. (2h)
-- [x] Tính toán số lượng giới hạn ký tự cho phần comment.
-- [x] Triển khai code. 
+- [x] Quyết định chọn API comments từ facebook. (10 phút)
+- [x] Lấy API comments từ facebook developer. (5 phút)
+- [x] Commit và triển khai code. (10 phút)
 - [x] Kiểm thử giao diện trên nhiều màn hình (2h)
        [Kiểm thử hộp trắng](https://docs.google.com/document/d/1a4i_31R8WBUAnF91syr1FwBpKoAiTY6rEJt1xWjb74M/edit?fbclid=IwAR2RKT8WWnwXfrP30tY3u2ylD1AWJlfZV5B1npknln1boppF-TUEkdcFl98#heading=h.ryzy80x4sqk1)
-- [x] Lưu vào cơ sở dữ liệu.(1h)
 - [x] Tái cấu trúc mã nguồn, cải tiến các đoạn mã nguồn chưa tối ưu.(1h)
        [Refactoring](https://docs.google.com/document/d/1a4i_31R8WBUAnF91syr1FwBpKoAiTY6rEJt1xWjb74M/edit?fbclid=IwAR2RKT8WWnwXfrP30tY3u2ylD1AWJlfZV5B1npknln1boppF-TUEkdcFl98#heading=h.bxti8dsihgwm)
 
