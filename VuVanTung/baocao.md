@@ -16,25 +16,40 @@
 :heavy_check_mark:Biết và hiểu quy trình làm sản phẩm<br>
 :heavy_check_mark:Biết cách làm việc nhóm<br>
 
-## :books: User story đại diện : 
--Là khách hàng, tôi muốn vào trang chủ để tham khảo và chọn mua sản phẩm:<br>
+## :books: User story: 
+- Là khách hàng, tôi muốn vào trang chủ để tham khảo và chọn mua sản phẩm (<a href="https://youtu.be/0DaRueFHEgY">link demo</a>):<br>
 **Các bước thực hiện:**
 - [x] Tạo menu đa cấp (20p) <a href="https://www.w3schools.com" rel="noopener noreferrer" target="_blank">link tham khảo</a>
 - [x] Thực hiện thêm css để trang web đẹp hơn (30p) <a href="https://www.w3schools.com/howto/howto_css_dropdown.asp" rel="noopener noreferrer" target="_blank">link tham khảo</a>
 - [x] Suy nghĩ các thuộc tính và thực hiện tạo đối tượng (30p)
 - [x] Thực hiện viết hàm lưu đối tượng xuống database (30p)
 - [x] Thực hiện viết hàm để load đối tượng đã lưu ở database lên giao diện (1h) <a href="https://howtodoinjava.com/hibernate/hibernate-insert-query-tutorial/" rel="noopener noreferrer" target="_blank">link tham khảo</a>
-- [x] Thực hiện kiểm thử hộp đen để kiểm tra hiển thị có đúng với ý định code (1h)  <a href="https://docs.google.com/document/d/1a4i_31R8WBUAnF91syr1FwBpKoAiTY6rEJt1xWjb74M/edit#heading=h.fvjpas4blmex" rel="noopener noreferrer" target="_blank">link tham khảo</a>
-- [x] Thực hiện kiểm thử hộp trắng để kiểm tra cách tổ chức code, logic code (1h) <a href="https://docs.google.com/document/d/1a4i_31R8WBUAnF91syr1FwBpKoAiTY6rEJt1xWjb74M/edit#heading=h.fvjpas4blmex" rel="noopener noreferrer" target="_blank">link tham khảo</a>
+- [x] Thực hiện kiểm thử hộp đen để kiểm tra hiển thị có đúng với ý định code (1h)  <a href="https://docs.google.com/document/d/1a4i_31R8WBUAnF91syr1FwBpKoAiTY6rEJt1xWjb74M/edit#heading=h.fvjpas4blmex">link tham khảo</a>
+- [x] Thực hiện kiểm thử hộp trắng để kiểm tra cách tổ chức code, logic code (1h) <a href="https://docs.google.com/document/d/1a4i_31R8WBUAnF91syr1FwBpKoAiTY6rEJt1xWjb74M/edit#heading=h.fvjpas4blmex">link tham khảo</a>
 
--Là quản lý, tôi muốn trang web tương thích trên điện thoại để tăng trải nghiệm người dùng:<br>
+- Là quản lý, tôi muốn trang web tương thích trên điện thoại để tăng trải nghiệm người dùng (<a href="https://youtu.be/3wumUqEUrt0">link demo</a>):<br>
 **Các bước thực hiện:**
 - [x] Tìm hiểu (3 ngày) <a href="https://www.w3schools.com/html/html_responsive.asp">link tham khảo</a>
 - [x] Thực hiện thêm css (3 ngày) <a href="https://www.w3schools.com/w3css/w3css_responsive.asp">link tham khảo</a>
 - [x] Thực hiện kiểm thử hộp đen để kiểm tra hiển thị có đúng với ý định code (1h)  <a href="https://docs.google.com/document/d/1a4i_31R8WBUAnF91syr1FwBpKoAiTY6rEJt1xWjb74M/edit#heading=h.fvjpas4blmex">link tham khảo</a>
 - [x] Thực hiện kiểm thử hộp trắng để kiểm tra cách tổ chức code, logic code (1h) <a href="https://docs.google.com/document/d/1a4i_31R8WBUAnF91syr1FwBpKoAiTY6rEJt1xWjb74M/edit#heading=h.fvjpas4blmex">link tham khảo</a>
 
-## :running: Demo issues: 
-issue 1:https://youtu.be/0DaRueFHEgY <br>
-issue 2:https://youtu.be/3wumUqEUrt0 <br>
+- Là khách hàng, tôi muốn thực hiện đăng kí để mua hàng (<a href="https://youtu.be/iQ8U3PYwoGA">link demo</a>):<br>
+**Các bước thực hiện:**
+- [x] Thiết kế form đăng kí (30p) <a href="https://www.w3schools.com/html/html_forms.asp">link tham khảo</a>
+- [x] Validate dữ liệu vào <a href="https://www.w3schools.com/js/js_validation.asp">link tham khảo</a>
+- [x] Yêu cầu bắt buộc phải nhập <a href="https://www.w3schools.com/tags/att_input_required.asp">link tham khảo</a>
+- [x] Viết hàm kiểm tra đã có người đăng kí trùng tên đăng nhập hay chưa
+- [x] Viết hàm lưu đối tượng mới đăng kí thành công xuống database
+- [x] Thực hiện kiểm thử hộp đen để kiểm tra hiển thị có đúng với ý định code (1h)  <a href="https://docs.google.com/document/d/1a4i_31R8WBUAnF91syr1FwBpKoAiTY6rEJt1xWjb74M/edit#heading=h.fvjpas4blmex">link tham khảo</a>
+- [x] Thực hiện kiểm thử hộp trắng để kiểm tra cách tổ chức code, logic code (1h) <a href="https://docs.google.com/document/d/1a4i_31R8WBUAnF91syr1FwBpKoAiTY6rEJt1xWjb74M/edit#heading=h.fvjpas4blmex">link tham khảo</a>
+
+- Là khách hàng, tôi muốn thực hiện đăng nhập để mua hàng (<a href="https://youtu.be/iQ8U3PYwoGA">link demo</a>):<br>
+**Các bước thực hiện:**
+- [x] Thiết kế form đăng nhập (30p) <a href="https://www.w3schools.com/html/html_forms.asp">link tham khảo</a>
+- [x] Validate dữ liệu vào <a href="https://www.w3schools.com/js/js_validation.asp">link tham khảo</a>
+- [x] Yêu cầu bắt buộc phải nhập <a href="https://www.w3schools.com/tags/att_input_required.asp">link tham khảo</a>
+- [x] Viết hàm kiểm tra đăng nhập để kiểm tra có trùng với user đã đăng kí mà lưu dưới database
+- [x] Thực hiện kiểm thử hộp đen để kiểm tra hiển thị có đúng với ý định code (1h)  <a href="https://docs.google.com/document/d/1a4i_31R8WBUAnF91syr1FwBpKoAiTY6rEJt1xWjb74M/edit#heading=h.fvjpas4blmex">link tham khảo</a>
+- [x] Thực hiện kiểm thử hộp trắng để kiểm tra cách tổ chức code, logic code (1h) <a href="https://docs.google.com/document/d/1a4i_31R8WBUAnF91syr1FwBpKoAiTY6rEJt1xWjb74M/edit#heading=h.fvjpas4blmex">link tham khảo</a>
 
