@@ -10,7 +10,7 @@
 - Small:  Là User Story nhỏ, có thể hoàn thành trong thời gian ngắn.
 - Testable: Dễ dàng kiểm tra đánh giá được tính năng tìm kiếm.
 
-#### Các công việc cần làm:
+#### 2. Các công việc cần làm:
 
 - [x] Phân tích yêu cầu người dùng, liệt kê các công việc cần làm (2-3h), [Requirements Process](https://docs.google.com/document/d/1a4i_31R8WBUAnF91syr1FwBpKoAiTY6rEJt1xWjb74M/edit#heading=h.pxfsgxtlm12o). 
 
