@@ -18,7 +18,7 @@
 
 ## Báo cáo công việc đã làm trong quá trình học
 
-#### User Story được giao
+#### User Story được giao: Là một người dùng tôi muốn có thể đăng nhập bằng facebook, google để tiết kiệm thời gian tham gia vào ứng dụng (Phí Xuân Hoàn)
 
 - [x] Làm rõ yêu cầu (giao diện như thế nào, sau khi đăng nhập chuyển đến trang nào, cần những dữ liệu nào mà google, facebook trả về hệ thống của mình) [edx](https://docs.google.com/document/d/1a4i_31R8WBUAnF91syr1FwBpKoAiTY6rEJt1xWjb74M/edit#heading=h.fvjpas4blmex)
 
