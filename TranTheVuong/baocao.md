@@ -74,5 +74,5 @@
 	![vị trí từ 4 đến 10](https://user-images.githubusercontent.com/38174506/57599948-80e1f100-7582-11e9-9a7c-30ce996e8420.png)
 	![Vị trí trong top 3](https://user-images.githubusercontent.com/38174506/57599954-87706880-7582-11e9-80d6-33523e3c8894.png)
 
-- [Video](url)
+- [Video](https://youtu.be/5gy_JDLU8Kw)
 
