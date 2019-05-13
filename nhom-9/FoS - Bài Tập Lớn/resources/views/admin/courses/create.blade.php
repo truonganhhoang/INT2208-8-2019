@@ -25,6 +25,7 @@
                 </div>
             </div>
             @endif
+            
             <div class="row">
     {{-- Chủ đề của khóa học --}}
                 <div class="col-xs-12 form-group">
@@ -38,6 +39,7 @@
                     @endif
                 </div>
             </div>
+            
             <div class="row">
      {{-- Dường dẫn của khóa học --}}
                 <div class="col-xs-12 form-group">
@@ -51,6 +53,8 @@
                     @endif
                 </div>
             </div>
+            
+      {{-- Ghi chú khóa học --}}
             <div class="row">
                 <div class="col-xs-12 form-group">
                     {!! Form::label('description', 'Description', ['class' => 'control-label']) !!}
