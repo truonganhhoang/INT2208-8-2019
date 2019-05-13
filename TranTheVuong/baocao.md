@@ -28,7 +28,7 @@
 
 - [x] Viết User story. Đánh giá User story theo tiêu chí INVEST (tài liệu: [INVEST Guidelines](https://docs.google.com/document/d/1a4i_31R8WBUAnF91syr1FwBpKoAiTY6rEJt1xWjb74M/edit#heading=h.q7gf6fh2jgdn) )
 
-- [x] Xác định các Component cần cho User story
+- [x] Xác định các Component cần cho User story.
 
 - [x] Vẽ sơ đồ tương tác theo mô hình MVC (tài liệu: [Design Partner: MVC](https://docs.google.com/document/d/1a4i_31R8WBUAnF91syr1FwBpKoAiTY6rEJt1xWjb74M/edit#heading=h.kehlqoeo6d9r) )
 
