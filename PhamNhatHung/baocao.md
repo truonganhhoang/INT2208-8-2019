@@ -42,6 +42,7 @@
  - [Link video demo chức năng](https://www.youtube.com/watch?v=cQyWsZ6cyDQ&feature=youtu.be).
  
  ## Hướng dẫn sử dụng chức năng.
-  Khi bạn nhấn chọn 1 cuốn truyện thì ngay ở bên dưới sẽ là phần bình luận
-  Tại đây bạn nhấn vào thêm bình luận để có thể bình luận và sau đó nhấn đăng để hoàn tất việc bình luận
+  Khi bạn nhấn chọn 1 cuốn truyện thì ngay ở bên dưới sẽ là phần bình luận. 
+  Tại đây bạn nhấn vào thêm bình luận để có thể bình luận và sau đó nhấn đăng để hoàn tất việc bình luận.
+  ![alt](https://github.com/SkyHunter666/SoftwareEngineering-2019/blob/master/Comment.png)
   
