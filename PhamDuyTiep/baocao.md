@@ -32,7 +32,8 @@
       - EDX: [Mã dễ đọc hơn](https://docs.google.com/document/d/1a4i_31R8WBUAnF91syr1FwBpKoAiTY6rEJt1xWjb74M/edit#heading=h.ocf6iosigvwc).
 - [x] Các thành viên trong nhóm tham gia kiểm thử.
 ## Giới thiệu, hướng dẫn chức năng tương ứng với User story.
-   Link trang web: [Web Truyện Tranh]().
+   Link trang web: [Web Truyện Tranh](https://afternoon-gorge-98922.herokuapp.com/).
+   
    Sản phẩm được xây dựng và phát triển tại: [Repositories GitHub](https://github.com/phamhung99/Website-truyen-tranh).
    
    Cá nhân tham gia xây dựng chức năng đăng ký/đăng nhập cho trang Web này. Tạo tài khoản và đăng nhập bằng tài khoản được tạo đó.
