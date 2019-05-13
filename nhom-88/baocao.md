@@ -1,16 +1,22 @@
 # Nhom-88
 
----
+
 
 ### Thành   viên:
 
-```sh
-1.Hoàng Vũ Hường
-2.Nguyễn Thị Minh
-3.Nguyễn Thị Ngọc
-4.Nguyễn Thị Thúy
-5.Bùi Danh Tuấn
-```
+---
+
+1.Hoàng Vũ Hường - [báo cáo cá nhân](https://github.com/17020932/INT2208-8-2019/blob/master/HoangVuHuong/Baocao/baocao.md)
+
+2.Nguyễn Thị Minh - [báo cáo cá nhân](https://github.com/17020932/INT2208-8-2019/blob/master/NguyenThiMinh/baocao.md)
+
+3.Nguyễn Thị Ngọc - [báo cáo cá nhân](https://github.com/17020932/INT2208-8-2019/blob/master/NguyenThiNgoc/Baocao.md)
+
+4.Nguyễn Thị Thúy - [báo cáo cá nhân](https://github.com/17020932/INT2208-8-2019/blob/master/NguyenThiThuy/baocao.md)
+
+5.Bùi Danh Tuấn - [báo cáo cá nhân](https://github.com/17020932/INT2208-8-2019/blob/master/BuiDanhTuan/B%C3%A1o%20c%C3%A1o/baocao.md)
+
+---
 
 # Báo cáo môn học Công nghệ phần mềm
 
