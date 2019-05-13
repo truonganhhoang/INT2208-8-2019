@@ -62,5 +62,5 @@
 
 - **Sản phẩm được deloy sử dụng pythonanywhere:** 
 + >**Trang chủ http://foodforfamilyf3.pythonanywhere.com**
-+ >**Báo cáo nhóm: [Link README](https://github.com/Nguyenhuy2801/nhom-28/blob/master/Project_28/flask_project/README.md)**
++ >**Báo cáo nhóm: [Link README](https://github.com/Nguyenhuy2801/INT2208-8-2019/blob/master/nhom-28/baocao.md)**
 
