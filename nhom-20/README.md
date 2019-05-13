@@ -95,7 +95,7 @@
       
  ## Hướng dẫn sử dụng phần mềm
    
-   ####1.Hướng dẫn sử dụng chức năng đăng nhập/đăng ký:**
+   ### 1.Hướng dẫn sử dụng chức năng đăng nhập/đăng ký:**
    
    ##### 1.1 Đăng ký
    - Sau khi đăng nhập vào trang Web bạn sẽ được dẫn đến trang chủ.
@@ -129,29 +129,38 @@
       
       ![alt](https://github.com/tiep2999/aaaa/blob/master/CNPM/admin.png)
       
-  ## Hướng dẫn sử thêm, sửa, xóa cơ sở dữ liệu truyện.
+  ### 2.Hướng dẫn sử dụng chức năng thêm, sửa, xóa truyện dành cho tài khảon admin.
   
   Đăng nhập vào tài khoản admin đã được cung cấp:
 
-Gmail: admin@gmail.com
+  Gmail: admin@gmail.com
 
-Password: admin
-
-Hình ảnh:
-<img src = "https://i.imgur.com/SOty1KW.png">
-
-Màn hình hiển thị sau khi đăng nhập sẽ có là:
-<img src = "https://imgur.com/nXsZSzu.png">
-
-Để xóa truyện thì nhấp nút xóa như bạn thấy
-
-Để thêm chap truyện bạn nhấp insert màn hình chuyển đến như hình:
-<img src = "https://imgur.com/hrRUt7D.png">
-
-Để thêm truyện mới thì cần nhấp vào insert trên thanh menu rồi nhấp New Story như hình:
-<img src = "https://imgur.com/lDFRnN7.png">
-
-Để sử thông tin truyện bạn trở lại All-Story rồi nhấp Detail màn hình hiển thị như hình:
-<img src = "https://imgur.com/biijkDh.png">
-    
-    
+  Password: admin
+  
+  Sau khi dăng nhập bằng tài khảon của admin thành công, bạn sẽ được dẫn đến trang thêm, sửa hoặc xóa truyện.
+  
+  ![alt](https://github.com/tiep2999/aaaa/blob/master/CNPM/admin.png)
+  
+   - Thêm truyện:
+     - Để thêm truyện mới chọn vào insert trên thanh công cụ menu và chọn new story.
+     - Để thêm tập, chap mới cho một truyện chọn nút insert bên phải truyện đó.
+     
+   - Xóa truyện: Muốn xóa truyện nào chỉ cần chọn nút delete bên phải truyện đó.
+   
+   - Sửa thông tin truyện: Để sửa thông tin truyện(tác giả, số tập, thể loại,...), chọn detail và nhập các thông tin cần thêm và sửa lại.
+   
+  ### 3.Hướng dẫn tìm kiếm truyện.
+  
+   - Để tìm kiếm truyện muốn đọc, bạn chỉ cần nhập tên truyện vào thanh searh trên thanh công cụ menu.
+   - Sau khi nhập xong, màn hình sẽ trả về các kết quả truyện tìm thấy theo tên truyện bạn nhập, chọn lấy truyện mình muốn đọc.
+   - Hoặc nếu bạn muốn tìm một thể laoị truyện mình thích, chọn thể loại trên thanh công cụ menu. Tại đây truyện đã được chia theo thể loại bạn hãy chọn một truyện trong thể loại bạn thích.
+   
+  ### 4.Đọc truyện.
+  
+   - Sau khi chọn được một truyện muốn đọc, chọn vào truyện đó bạn sẽ được dẫn đến màn hình sau:
+   
+   ![alt](https://github.com/tiep2999/aaaa/blob/master/readstory.png)
+   
+   - Tại đây, bạn có thể theo dõi, bình luận về truyện mình đang đọc. Để đọc ngay truyện, chọn vào đọc truyện.
+   - Bên phải là những truyện được đề xuất để bạn có thể theo dõi thêm.
+   
