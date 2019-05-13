@@ -40,8 +40,8 @@ _**Là người học nấu ăn, tôi muốn có một trang giao diện riêng 
 [Flask-embed-video](http://www.compjour.org/lessons/flask-single-page/simple-youtube-viewing-flask-app/)
 
 - [x] Xây dựng APIs giúp gửi dữ liệu lên server
-[Tài liệu thiết kế API](https://docs.google.com/document/d/1a4i_31R8WBUAnF91syr1FwBpKoAiTY6rEJt1xWjb74M/edit#heading=h.1ir22jw41cpg) 
-[Commit code](https://github.com/Nguyenhuy2801/nhom-28/commit/b3ec8b3e47d24f58ee88b9f2d64677dab0c49b48) 
+- [Tài liệu về thiết kế API](https://docs.google.com/document/d/1a4i_31R8WBUAnF91syr1FwBpKoAiTY6rEJt1xWjb74M/edit#heading=h.1ir22jw41cpg) 
+- [Commit code](https://github.com/Nguyenhuy2801/nhom-28/commit/b3ec8b3e47d24f58ee88b9f2d64677dab0c49b48) 
 
 - [x] Thu thập dữ liệu:  Tạo kho dữ liệu gồm ảnh, nguyên liệu, công thức, link nhúng video hướng dẫn nấu ăn theo từng món đã có trong danh sách món ăn của trang web (10h)
 
@@ -50,13 +50,14 @@ _**Là người học nấu ăn, tôi muốn có một trang giao diện riêng 
 - [x] Đưa dữ liệu về công thức, hình ảnh, video của món ăn vào database sử dụng Xampp
 
 - [x] Thiết kế sơ đồ giao diện mới cho giao diện xem công thức nấu ăn, thêm sắp xếp lại các phần cho hợp lí: 
-[Tài liệu về sơ đồ](https://docs.google.com/document/d/1a4i_31R8WBUAnF91syr1FwBpKoAiTY6rEJt1xWjb74M/edit#heading=h.gk2kwayhjxq4)
-[Sơ đồ giao diện mới](https://github.com/Nguyenhuy2801/nhom-28/commit/672556e3c30f2a06bb553870c8ac38093844b726)
+- [Tài liệu về thiết kế sơ đồ](https://docs.google.com/document/d/1a4i_31R8WBUAnF91syr1FwBpKoAiTY6rEJt1xWjb74M/edit#heading=h.gk2kwayhjxq4)
+- [Sơ đồ giao diện mới](https://github.com/Nguyenhuy2801/nhom-28/commit/672556e3c30f2a06bb553870c8ac38093844b726)
 
 - [x] Sử dụng HTML và CSS để thiết kế giao diện đẹp hơn
- [Commit code](https://github.com/Nguyenhuy2801/nhom-28/blob/master/Project_28/flask_project/templates/app_nauan.html)
+- [Tài liệu học HTML và CSS](https://www.w3schools.com/)
+- [Commit code](https://github.com/Nguyenhuy2801/nhom-28/blob/master/Project_28/flask_project/templates/app_nauan.html)
 
-- [x] Tạo phương thức tìm kiếm cho giao diện món ăn.
+- [x] Tạo phương thức tìm kiếm cho giao diện công thức món ăn: 
 [Commit code](https://github.com/Nguyenhuy2801/nhom-28/commit/c8c28c90a8bec388b6d6878f52881ba439c80ab8)
 
 - [x] Kiểm thử bằng [kiểm thử hộp đen](https://docs.google.com/document/d/1a4i_31R8WBUAnF91syr1FwBpKoAiTY6rEJt1xWjb74M/edit#heading=h.zhrswbsdiifd) để viết các ca kiểm thử, kiểm tra giao diện, chức năng tìm kiếm,... (1-2 giờ)
