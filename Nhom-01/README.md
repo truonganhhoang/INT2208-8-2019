@@ -14,15 +14,6 @@ https://docs.google.com/spreadsheets/d/1hRc_sCYV6-O9ELMNNB0Y8MQ25Xu6XZmCN_Gbc7jU
 4. Vũ Thị Thiên Anh `mssv: 17020020`  
 5. Nguyễn Thành Đạt `mssv: 17021184`  
 
-## Chi tiết sản phẩm  
-Đã trình chi tiết trong file "Tài liệu kỹ thuật nhóm 1 CNPM.pdf" bên ngoài  
-
-## Sprint Backlog  
-Đã viết chi tiết trong file SprintBacklog.md bên ngoài.  
-
-## Product Backlog  
-Đã viết chi tiết trong file ProductBacklog.md bên ngoài.  
-
 ## Báo cáo các UserStory của từng thành viên, cũng như hướng dẫn sử dụng sản phẩm nhóm  
 https://www.youtube.com/watch?v=Gys20IEQ81E  
 https://www.youtube.com/watch?v=Ftl1i1LIA5Y  
@@ -30,16 +21,25 @@ https://youtu.be/qXeL1_9i78U
 https://www.youtube.com/watch?v=J_Hutor-dPs  
 https://www.youtube.com/watch?v=DWSUQxiJfto  
 
-## HDSD (tài liệu HDSD, video HDSD)  
-Chúng tôi đã cung cấp tính năng hướng dẫn sử dụng trong ứng dụng. Vui lòng cài đặt file .apk bên ngoài để sử dụng.  
-Bên cạnh đó, chúng tôi đã quay một video demo bên ngoài.  
-
 ## File cài đặt  
 * Để đánh dấu việc phát triển ứng dụng, chúng tôi đã lưu lại nhiêu phiên bản với nhiều thời kỳ khác nhau trong dự án.  
 * "vocabulary-stable-old.apk": Phiên bản lúc các chức năng còn khá sơ khai, tuy nhiên ứng dụng chạy ổn định.
 * "vocabulary-unstablestable-new.apk": Phiên bản lúc các chức năng đã tương đối hoàn thiện, tuy nhiên ứng dụng còn khá nhiều bugs.    
 * "vocabulary-stable-new.apk": Phiên bản debug mới nhất tính đến thời điểm hiện tại, đã tương đối ổn định, chức năng tương đối hoàn thiện.    
 * "vocabulary-release.apk": Phiên bản release mới nhất, đã fix hết lỗi, đã test các chức năng.  
+
+## HDSD (tài liệu HDSD, video HDSD, video DEMO)  
+Chúng tôi đã cung cấp tính năng hướng dẫn sử dụng trong ứng dụng. Vui lòng cài đặt file .apk bên ngoài để sử dụng.  
+Bên cạnh đó, chúng tôi đã quay một video demo bên ngoài.  
+
+## Sprint Backlog  
+Đã viết chi tiết trong file SprintBacklog.md bên ngoài.  
+
+## Product Backlog  
+Đã viết chi tiết trong file ProductBacklog.md bên ngoài.  
+
+## Chi tiết kỹ thuật sản phẩm  
+Đã trình chi tiết trong file "Tài liệu kỹ thuật nhóm 1 CNPM.pdf" bên ngoài  
 
 ## Giới thiệu về phần mềm
 ### Tên phần mềm:  
