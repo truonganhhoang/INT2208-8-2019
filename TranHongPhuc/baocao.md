@@ -100,7 +100,7 @@ Tất cả các truyện sẽ được hiển thị trên màn hình như bạn 
 Sau đó màn hình hiển thị như sau:
 <img src = "https://i.imgur.com/OdqyQYS.png">
 
-Để sử thông tin truyện bạn trở lại All-Story rồi nhấp Detail màn hình hiển thị như hình:
+Để sửa thông tin truyện bạn trở lại All-Story rồi nhấp Detail màn hình hiển thị như hình:
 <img src = "https://imgur.com/biijkDh.png">
 
 
