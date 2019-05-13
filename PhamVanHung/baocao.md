@@ -42,7 +42,7 @@
  
 ## Hướng dẫn sử dụng chức năng.
 
-  Khi bạn yêu thíhc một thể laoị truyện mà lại không biết tên truyện nào thuộc thể loại đó cả. Chọn vào phần thể loại trên thanh công cụ menu.
+  Khi bạn yêu thích một thể loại truyện mà lại không biết tên truyện nào thuộc thể loại đó cả. Chọn vào phần thể loại trên thanh công cụ menu.
   
   ![alt](https://github.com/phamhung99/PhamHung/blob/master/theloai.png)
   
