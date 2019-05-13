@@ -24,8 +24,7 @@
       + Viết mã [chi tiết](https://github.com/Nguyenhuy2801/nhom-28/blob/master/Project_28/flask_project/templates/layout.html)
    5) Kiểm thử:
       +Kiểm thử hộp trắng đảm bảo mã nguồn không bị lỗi, build và run được.
-      +Kiểm thử hộp đen đảm bảo giao diện không bị lỗi bố cục, chính tả, ...
-   * Hướng dẫn sử dụng [link youtube](https://www.youtube.com/watch?v=ABrRyXrNdc4) 
+      +Kiểm thử hộp đen đảm bảo giao diện không bị lỗi bố cục, chính tả, ... 
    * Hướng dẫn sử dụng:
    1) Mở trình duyệt Google chrome hoặc FireFox,... .
    2) Gõ vào ô tìm kiếm địa chỉ sau: http://foodforfamilyf3.pythonanywhere.com/
