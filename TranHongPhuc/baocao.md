@@ -84,13 +84,18 @@ Password: admin
 Hình ảnh:
 <img src = "https://i.imgur.com/SOty1KW.png">
 
-Màn hình hiển thị sau khi đăng nhập sẽ có là:
+Màn hình hiển thị sau khi đăng nhập sẽ như sau:
 <img src = "https://imgur.com/nXsZSzu.png">
 
-Để xóa truyện thì nhấp nút xóa như bạn thấy
+Tất cả các truyện sẽ được hiển thị trên màn hình như bạn thấy ở trên.
+
+Để xóa truyện thì nhấp nút xóa như bạn thấy.
 
 Để thêm chap truyện bạn nhấp insert màn hình chuyển đến như hình:
 <img src = "https://imgur.com/hrRUt7D.png">
+
+Sau đó màn hình hiển thị như sau:
+<img src = "https://i.imgur.com/OdqyQYS.png">
 
 Để thêm truyện mới thì cần nhấp vào insert trên thanh menu rồi nhấp New Story như hình:
 <img src = "https://imgur.com/lDFRnN7.png">
