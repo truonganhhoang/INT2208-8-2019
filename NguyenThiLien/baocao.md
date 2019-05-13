@@ -6,7 +6,7 @@
  # Báo cáo cá nhân môn học Công nghệ phần mềm
 ====
 * Hoàn thành khóa học trên edx ([chi tiết](https://github.com/Nguyenhuy2801/INT2208-8-2019/blob/master/NguyenThiLien/SoftEng1x.jpg))
-* Bài tập nhóm: **Dự án web dạy nấu ăn** [website]( [Github](https://github.com/Nguyenhuy2801/nhom-28/tree/master/Project_28/flask_project))
+* Bài tập nhóm: **Dự án web dạy nấu ăn**  [Github](https://github.com/Nguyenhuy2801/nhom-28/tree/master/Project_28/flask_project) 
 * User story: Là một người học nấu ăn, tôi muốn có mục mẹo vào bếp để xem và học hỏi các mẹo vặt nhà bếp trên trang web một cách dễ dàng
 	[chi tiết](https://github.com/truonganhhoang/INT2208-8-2019/issues/152):
 	1) Xác định yêu cầu, mong muốn: 
