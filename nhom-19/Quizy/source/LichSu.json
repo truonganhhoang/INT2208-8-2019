@@ -1,0 +1,107 @@
+﻿[
+	{
+		"question" : "Quốc hiệu đầu tiên của nước Việt Nam?",
+		"key" : "Văn Lang",
+		"falseAnswer1" : "Âu lạc",
+		"falseAnswer2" : "Đại Việt",
+		"falseAnswer3" : "Vạn Xuân"
+	},
+	{
+		"question" : "Nước Vạn Xuân do ai thành lập và đặt tên?",
+		"key" : "Lý Nam Đế",
+		"falseAnswer1" : "An Dương Vương",
+		"falseAnswer2" : "Trần Nhân Tông",
+		"falseAnswer3" : "Lê Hiển Tông"
+	},
+	{
+		"question" : "Con trai của vua Hùng được gọi là gì?",
+		"key" : "Quan Lang",
+		"falseAnswer1" : "Mỵ Nương",
+		"falseAnswer2" : "Hùng Lang",
+		"falseAnswer3" : "Quan Nhân"
+	},
+	{
+		"question" : "Thành Thăng Long còn có tên gọi nào khác?",
+		"key" : "Đông Đô",
+		"falseAnswer1" : "Cửa Ô",
+		"falseAnswer2" : "Bắc đô",
+		"falseAnswer3" : "Xuân Thủy"
+	},
+	{
+		"question" : "Ai đã từng làm Hoàng hậu của hai vua Đinh Tiên Hoàng và Lê Đại Hành?",
+		"key" : "Dương Vân Nga",
+		"falseAnswer1" : "Dương Thúy Nga",
+		"falseAnswer2" : "Dương Thúy Vân",
+		"falseAnswer3" : "Dương Tiểu Vân"
+	},
+	{
+		"question" : "Niên hiệu của Đinh Tiên Hoàng gọi là gì?",
+		"key" : "Thái Bình ",
+		"falseAnswer1" : "Thuận Thiên",
+		"falseAnswer2" : "Càn Ninh",
+		"falseAnswer3" : "Thiên Đức"
+	},
+	{
+		"question" : "Chiến dịch Điện Biên Phủ diễn ra trong bao nhiêu ngày đêm?",
+		"key" : "56",
+		"falseAnswer1" : "65",
+		"falseAnswer2" : "66",
+		"falseAnswer3" : "55"
+	},
+	{
+		"question" : "Loại vũ khí đánh xe tăng của chiến sĩ quyết tử thủ đô trong những ngày đầu kháng chiến chống Pháp?",
+		"key" : "Bom ba càng",
+		"falseAnswer1" : "Bom bi",
+		"falseAnswer2" : "Bom Mk82",
+		"falseAnswer3" : "Bom M117"
+	},
+	{
+		"question" : "Kim Đồng tên thật là gì?",
+		"key" : "Nông Văn Dền",
+		"falseAnswer1" : "Lâm Văn Nên",
+		"falseAnswer2" : "Lâm Đại Vĩ",
+		"falseAnswer3" : "Lý Diệp Mạc"
+	},
+	{
+		"question" : "Tổng Bí thư đầu tiên của Đảng Cộng sản Việt Nam là…?",
+		"key" : "Trần Phú ",
+		"falseAnswer1" : "Trường Chinh",
+		"falseAnswer2" : "Lê Hồng Phong",
+		"falseAnswer3" : "Nguyễn Văn Cừ"
+	},
+	{
+		"question" : "Tháng 9/1939, chiến tranh thứ hai bùng nổ bằng sự kiện Đức tấn công nước nào?",
+		"key" : "Ba Lan",
+		"falseAnswer1" : "Hà Lan",
+		"falseAnswer2" : "Thụy Điển",
+		"falseAnswer3" : "Anh"
+	},
+	{
+		"question" : "Chiến dịch Điện Biên Phủ bắt đầu diễn ra vào ngày tháng năm nào?",
+		"key" : "13/3/1954",
+		"falseAnswer1" : "14/2/1954",
+		"falseAnswer2" : "16/7/1954",
+		"falseAnswer3" : "28/5/1954"
+	},
+	{
+		"question" : "Ở Tuyên Quang còn có dấu tích kinh thành cổ từ thời nào?",
+		"key" : "Nhà Mạc",
+		"falseAnswer1" : "Nhà Ngô",
+		"falseAnswer2" : "Nhà Đinh",
+		"falseAnswer3" : "Nhà Lê"
+	},
+	{
+		"question" : "Ai là người đầu tiên đặt cho Hà Nội cái tên Đông Kinh?",
+		"key" : "Lê Lợi",
+		"falseAnswer1" : "Lý Bí",
+		"falseAnswer2" : "Quang Trung",
+		"falseAnswer3" : "Nguyễn Ánh"
+	},
+	{
+		"question" : " Cuộc khởi nghĩa Hương Khê do ai cầm đầu?",
+		"key" : "Phan Đình Phùng",
+		"falseAnswer1" : "Lê Lợi",
+		"falseAnswer2" : "Nguyễn Xuân Ôn",
+		"falseAnswer3" : "Đinh Công Tráng"
+	}
+]

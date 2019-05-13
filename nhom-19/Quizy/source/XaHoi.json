@@ -1,0 +1,107 @@
+﻿[
+	{
+		"question" : "APEC là từ viết tắt của tổ chức liên kết kinh tế khu vực nào?",
+		"key" : "Diễn đàn hợp tác kinh tế châu Á - Thái Bình Dương",
+		"falseAnswer1" : "Hiệp ước thương mại tự do Bắc Mỹ",
+		"falseAnswer2" : "Thị trường chung nam Mỹ",
+		"falseAnswer3" : "Liên minh châu Âu"
+	},
+	{
+		"question" : "Trụ sở chính của Liên minh châu Âu được đặt tại?",
+		"key" : "Bruc-xen(Bỉ)",
+		"falseAnswer1" : "Pa-ri(Pháp)",
+		"falseAnswer2" : "Luân đôn(Anh)",
+		"falseAnswer3" : "Béc-lin(Đức)"
+	},
+	{
+		"question" : "Nhà bác học nổi tiếng Đ.I.Men-đê-lê-ép là người nước nào?",
+		"key" : "Nga",
+		"falseAnswer1" : "Đức",
+		"falseAnswer2" : "Pháp",
+		"falseAnswer3" : "Bỉ"
+	},
+	{
+		"question" : "Chỉ số phát triển con người được viết tắt là:",
+		"key" : "HDI",
+		"falseAnswer1" : "GDP",
+		"falseAnswer2" : "FDI",
+		"falseAnswer3" : "FED"
+	},
+	{
+		"question" : "Dân số thế giới đang có xu hướng?",
+		"key" : "Già hóa",
+		"falseAnswer1" : "Trẻ hóa",
+		"falseAnswer2" : "Không thay đổi",
+		"falseAnswer3" : "Đáp án khác"
+	},
+	{
+		"question" : "Hiệp hội các quốc gia Đông Nam Á (ASEAN) có bao nhiêu nước thành viên?",
+		"key" : "10",
+		"falseAnswer1" : "11",
+		"falseAnswer2" : "12",
+		"falseAnswer3" : "9"
+	},
+	{
+		"question" : "Việt Nam gia nhập ASEAN năm nào?",
+		"key" : "1995",
+		"falseAnswer1" : "1994",
+		"falseAnswer2" : "1993",
+		"falseAnswer3" : "1996"
+	},
+	{
+		"question" : "Hà Nội tiếp giáp với bao nhiêu tỉnh?",
+		"key" : "8",
+		"falseAnswer1" : "7",
+		"falseAnswer2" : "6",
+		"falseAnswer3" : "5"
+	},
+	{
+		"question" : "Thung lũng Silicon nằm ở đâu?",
+		"key" : "Hoa kỳ",
+		"falseAnswer1" : "Anh",
+		"falseAnswer2" : "Nhật Bản",
+		"falseAnswer3" : "Đức"
+	},
+	{
+		"question" : "Câu nói 'Học, học nữa, học mãi' là của ai?",
+		"key" : "Lênin",
+		"falseAnswer1" : "Mác",
+		"falseAnswer2" : "Đác-uyn",
+		"falseAnswer3" : "Hồ Chí Minh"
+	},
+	{
+		"question" : "Tính đến năm 2011, EU có bao nhiêu thành viên?",
+		"key" : "27",
+		"falseAnswer1" : "28",
+		"falseAnswer2" : "29",
+		"falseAnswer3" : "30"
+	},
+	{
+		"question" : "WWF là viết tắt của?",
+		"key" : "Quỹ bảo vệ động vật hoang dã",
+		"falseAnswer1" : "Quỹ tiền tệ",
+		"falseAnswer2" : "Quỹ nhi đồng",
+		"falseAnswer3" : "Quỹ vốn vay"
+	},
+	{
+		"question" : "Lễ hội Carnaval nổi tiếng là của quốc gia nào?",
+		"key" : "Brazil",
+		"falseAnswer1" : "Ý",
+		"falseAnswer2" : "Pháp",
+		"falseAnswer3" : "Hy Lạp"
+	},
+	{
+		"question" : "Tổ chức kinh tế cộng tác và phát triển được viết tắt là:",
+		"key" : "OECD",
+		"falseAnswer1" : "EU",
+		"falseAnswer2" : "EFTA",
+		"falseAnswer3" : "LAIA"
+	},
+	{
+		"question" : "Lĩnh vực nào không có giải thưởng Nobel?",
+		"key" : "Toán học",
+		"falseAnswer1" : "Hóa học",
+		"falseAnswer2" : "Y học",
+		"falseAnswer3" : "Văn học"
+	}
+]

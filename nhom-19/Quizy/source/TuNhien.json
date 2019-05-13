@@ -1,0 +1,107 @@
+﻿[
+	{
+		"question" : "﻿Loài bướm hút nhị hoa bằng gì?",
+		"key" : "Vòi dài",
+		"falseAnswer1" : "Vòi ngắn",
+		"falseAnswer2" : "Lông chân",
+		"falseAnswer3" : "Miệng"
+	},
+	{
+		"question" : "Chòm sao bắc đẩu còn có tên gọi khác tại Mỹ là gì?",
+		"key" : "Cái muỗng lớn",
+		"falseAnswer1" : "Đại Hùng",
+		"falseAnswer2" : "Thiên Bình",
+		"falseAnswer3" : "Cái chổi lớn"
+	},
+	{
+		"question" : "Loài chim lớn nhất thế giới là gì?",
+		"key" : "Đà điểu Châu Phi",
+		"falseAnswer1" : "Đại bàng",
+		"falseAnswer2" : "Đà điểu sa mạc",
+		"falseAnswer3" : "Bồ nông"
+	},
+	{
+		"question" : "Đường xích đạo cắt ngang bao nhiêu châu lục?",
+		"key" : "3",
+		"falseAnswer1" : "1",
+		"falseAnswer2" : "2",
+		"falseAnswer3" : "5"
+	},
+	{
+		"question" : "Con nào dưới đây có nhiều chân nhất?",
+		"key" : "Cuốn chiếu",
+		"falseAnswer1" : "Rết",
+		"falseAnswer2" : "Cua",
+		"falseAnswer3" : "Bạch tuộc"
+	},
+	{
+		"question" : "Kim loại nào có nhiệt độ nóng chảy nhỏ nhất?",
+		"key" : "Thủy ngân",
+		"falseAnswer1" : "Kẽm",
+		"falseAnswer2" : "Chì",
+		"falseAnswer3" : "Đồng"
+	},
+	{
+		"question" : "Theo tổ chức khí tượng thế giới cơn gió mạnh nhất được ghi nhận ở đâu?",
+		"key" : "Australia",
+		"falseAnswer1" : "Mỹ",
+		"falseAnswer2" : "Trung Quốc",
+		"falseAnswer3" : "Nga"
+	},
+	{
+		"question" : "Con của con trâu gọi là con gì?",
+		"key" : "Con nghé",
+		"falseAnswer1" : "Con trâu",
+		"falseAnswer2" : "Con bê",
+		"falseAnswer3" : "Con bò"
+	},
+	{
+		"question" : "Ếch hô hấp nhờ sự nâng hạ của bộ phận nào?",
+		"key" : "Thềm miệng",
+		"falseAnswer1" : "Bụng",
+		"falseAnswer2" : "Ngực",
+		"falseAnswer3" : "Đôi mắt"
+	},
+	{
+		"question" : "Nhân tố sinh thái nào sau đây là nhân tố hữu sinh?",
+		"key" : "Vi khuẩn",
+		"falseAnswer1" : "Ánh sáng",
+		"falseAnswer2" : "Gió",
+		"falseAnswer3" : "Nước"
+	},
+	{
+		"question" : "Nhận thức gồm hai giai đoạn nào dưới đây?",
+		"key" : "Cảm tính và lí tính",
+		"falseAnswer1" : "So sánh và tổng hợp",
+		"falseAnswer2" : "Cảm giác và tri giác",
+		"falseAnswer3" : "So sánh và phân tích"
+	},
+	{
+		"question" : "Đâu là tên một loại gỗ quý hiếm?",
+		"key" : "Đinh",
+		"falseAnswer1" : "Vít",
+		"falseAnswer2" : "Búa",
+		"falseAnswer3" : "Cờ-lê"
+	},
+	{
+		"question" : "Phân tử Protein có đặc điểm nào sau đây?",
+		"key" : "Là đại phân tử có cấu trúc đa phân",
+		"falseAnswer1" : "Kị nước",
+		"falseAnswer2" : "Có khả năng tự sao chép",
+		"falseAnswer3" : "Không kết tủa nhiệt độ cao"
+	},
+	{
+		"question" : "Hoa lưỡng tính có đặc điểm nào dưới đây?",
+		"key" : "Có đủ nhị và nhụy",
+		"falseAnswer1" : "Chỉ có nhị",
+		"falseAnswer2" : "Chỉ có nhụy",
+		"falseAnswer3" : "Có đủ đài và tràng"
+	},
+	{
+		"question" : "Hành tinh nào có đỉnh núi Olympus - Núi cao nhất được biết đến trong số các hành tinh của thái dương hệ?",
+		"key" : "Sao Hỏa",
+		"falseAnswer1" : "Sao Chổi",
+		"falseAnswer2" : "Sao Mộc",
+		"falseAnswer3" : "Sao Băng"
+	}
+]
