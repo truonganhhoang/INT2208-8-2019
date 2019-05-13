@@ -18,7 +18,7 @@
 
 **Những công việc cần làm**
 
-- [x] Phân tích kỹ yêu cầu của người dùng (giao diện cần gì, đặt ô comment ở đâu ...) (1h)
+- [x] Phân tích kỹ yêu cầu của người dùng (giao diện cần gì, đặt ô comment ở đâu ...). (1h)
        [Làm rõ yêu cầu](https://docs.google.com/document/d/1a4i_31R8WBUAnF91syr1FwBpKoAiTY6rEJt1xWjb74M/edit#heading=h.fvjpas4blmex)
 - [x] Xác định các component cần dùng cho user story. (1h)
 - [x] Quyết định chọn API comments từ facebook. (10 phút)
