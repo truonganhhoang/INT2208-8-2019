@@ -23,6 +23,9 @@
 -- Tài liệu kĩ thuật: [tài liệu kĩ thuật](https://drive.google.com/file/d/1GiSye51ZDldaHzOfRnnnmRgNrefvh28w/view?fbclid=IwAR22GWQfxPQ9a91pHQrKF_a0XAzrGqUnx4Ibpig8K6zVq6jzOnrCxHHSFTo)
 
 
+-- video demo sản phẩm: [demo](https://www.youtube.com/watch?v=eV4XWkawMAA)
+
+
 -<b>Hướng dẫn sử dụng </b>:
 
 1.	Mở trình duyệt của bạn lên.
