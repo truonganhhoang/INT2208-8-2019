@@ -1,3 +1,7 @@
+### Họ và tên: Trần Tiến Đức
+### MSSV: 17020701
+### Nhóm dự án: [Nhóm 10](https://github.com/hoanphi2201/SoftEng-Assignments-nhom-10/blob/master/README.md)
+### Quá trình học trên edx: [Ảnh](https://github.com/hoanphi2201/INT2208-8-2019/blob/master/TranTienDuc/SoftEng1x.jpg)
 # Báo cáo cá nhân: User story đã làm trong dự án nhóm
 ## User story: Là một người quản lý, tôi muốn có chức năng thêm, sửa đề thi để thêm mới một đề thi vào CSDL hoặc chỉnh sửa nó khi phát hiện sai sót
 ### Phân tích user story
@@ -46,6 +50,8 @@
 - [x] Cho các thành viên trong nhóm kiểm thử và dùng thử, mời 1 số người dùng trải nghiệm
 
 ### Ghi chú: Tổng hợp quá trình làm bài tập nhóm
-- Repo sản phẩm được triển khai tại [GITHUB]()
+- Repo sản phẩm được triển khai tại [GITHUB](https://github.com/hoanphi2201/SoftEng-Assignments-nhom-10)
 - Video báo cáo và demo user story tại [YOUTUBE](https://youtu.be/SSHt6mW1eN0)
-- Link sản phẩm của nhóm deloy server node.js và angular chế độ development tại [SẢN PHẨM](http://luyenthi365.xyz)
+- Báo cáo nhóm (Tài liệu kỹ thuật phần mềm) [Nhóm 10](https://drive.google.com/open?id=1eEWwFZwnDV7SE5QCx8d3h5DelDF4J32p)
+- Sản phẩm được deloy sử dụng ec2 và s3 của amazon: [Trang chủ](http://luyenthi365.xyz) | [Trang quản trị](http://webthi-angular.s3-website-ap-southeast-1.amazonaws.com/)
+- Demo chức năng và hướng dẫn sử dụng: [Trang chủ](https://youtu.be/-578NHzXQo4) | [Trang quản trị](https://youtu.be/KPCbF-u5R0U)
