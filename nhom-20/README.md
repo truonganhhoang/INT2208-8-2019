@@ -54,13 +54,21 @@
   
  **Công nghệ sử dụng:**
   + Cơ sở dữ liệu: MySQL.
+      + MySQL là hệ quản trị cơ sở dữ liệu tự do nguồn mở phổ biến nhất thế giới và được các nhà phát triển rất ưa chuộng trong quá trình phát triển ứng dụng. Vì MySQL là cơ sở dữ liệu tốc độ cao, ổn định và dễ sử dụng, có tính khả chuyển, hoạt động trên nhiều hệ điều hành cung cấp một hệ thống lớn các hàm tiện ích rất mạnh. Với tốc độ và tính bảo mật cao, MySQL rất thích hợp cho các ứng dụng có truy cập CSDL trên internet. Người dùng có thể tải về MySQL miễn phí từ trang chủ. MySQL có nhiều phiên bản cho các hệ điều hành khác nhau: phiên bản Win32 cho các hệ điều hành dòng Windows, Linux, Mac OS X, Unix, FreeBSD, NetBSD, Novell NetWare, SGI Irix, Solaris, SunOS,..
+
+      + MySQL là một trong những ví dụ rất cơ bản về Hệ Quản trị Cơ sở dữ liệu quan hệ sử dụng Ngôn ngữ truy vấn có cấu trúc (SQL).
+      
+      + MySQL được sử dụng cho việc bổ trợ NodeJs, PHP, Perl, và nhiều ngôn ngữ khác, làm nơi lưu trữ những thông tin trên các trang web viết bằng NodeJs, PHP hay Perl,...
+      
   + Frontend: HTML, CSS, JS, Boostrap 4.
+      + Tài liệu đọc: [W3SCHOOL](https://www.w3schools.com/).
   + Backend: NodeJS, AJAX,... 
+      + Node.js là một hệ thống phần mềm được thiết kế để viết các ứng dụng internet có khả năng mở rộng, đặc biệt là máy chủ web. Chương trình được viết bằng JavaScript, sử dụng kỹ thuật điều khiển theo sự kiện, nhập/xuất không đồng bộ để tối tiểu tổng chi phí và tối đại khả năng mở rộng. Node.js bao gồm có V8 JavaScript engine của Google, libUV, và vài thư viện khác.
+  
+      + Node.js được tạo bởi Ryan Dahl từ năm 2009, và phát triển dưới sự bảo trợ của Joyent.
  
  **Liên lạc giữa các thành viên nhóm:** Facebook, Messenger.
  
-  *Có cải tiến và cập nhật thêm chức năng.*
-  
  **Quy trình áp dụng:*** Scrum
   
   - **Thời gian thực hiện:** 15 tuần.
@@ -111,9 +119,9 @@
    ![alt](https://github.com/tiep2999/aaaa/blob/master/CNPM/enterLog.png)
      
    - Nếu thành công màn hình sẽ đăng ký thành công, ngược lại sẽ thông báo thất bại và yêu cầu quay lại trang đăng ký nhập lại thông          tin.
-     - Đăng nhập thành công.  
+     - Đăng ký thành công.
    ![alt](https://github.com/tiep2999/aaaa/blob/master/CNPM/loginOK.png)
-     - Đăng nhập thất bại.
+     - Đăng ký thất bại.
    ![alt](https://github.com/tiep2999/aaaa/blob/master/CNPM/failLog.png)
    
    ##### 1.2.Đăng nhập
