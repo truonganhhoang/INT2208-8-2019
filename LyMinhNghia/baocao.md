@@ -44,7 +44,7 @@
 
 - Kiểm thử hộp trắng toàn bộ backend đã hoàn thiện nếu đạt từ 80% trở lên thì đạt (30 phút) [Kiểm thử hộp trắng](https://docs.google.com/document/d/1a4i_31R8WBUAnF91syr1FwBpKoAiTY6rEJt1xWjb74M/edit#heading=h.ryzy80x4sqk1)
 
-- Tái cấu trúc mã nguồn hỗ trợ việc phát triển về sau [Tái cấu trúc](https://docs.google.com/document/d/1a4i_31R8WBUAnF91syr1FwBpKoAiTY6rEJt1xWjb74M/edit#heading=h.bxti8dsihgwm)
+- Tái cấu trúc mã nguồn hỗ trợ việc phát triển về sau (1 giờ) [Tái cấu trúc](https://docs.google.com/document/d/1a4i_31R8WBUAnF91syr1FwBpKoAiTY6rEJt1xWjb74M/edit#heading=h.bxti8dsihgwm)
 
 - Kiểm thử hộp trắng tổng thể toàn bộ User story nếu đạt từ 90% trở lên thì đạt (2 giờ) [Kiểm thử hộp trắng](https://docs.google.com/document/d/1a4i_31R8WBUAnF91syr1FwBpKoAiTY6rEJt1xWjb74M/edit#heading=h.ryzy80x4sqk1)
 
