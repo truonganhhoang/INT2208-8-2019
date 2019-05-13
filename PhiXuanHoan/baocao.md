@@ -1,7 +1,7 @@
 #### Họ Tên: Phí Xuân Hoàn
 #### Ngày Sinh: 22/01/1999
 #### Mã Sinh Viên: 17020759
-#### Nhóm dự án: Nhóm 10
+#### Nhóm dự án: [Nhóm 10](https://github.com/hoanphi2201/SoftEng-Assignments-nhom-10/blob/master/README.md)
 #### Vau trò: Product Owner & Developer
 
 
@@ -70,7 +70,7 @@ Facebook: [url]( https://developers.facebook.com/apps/325860808251746/dashboard/
 
 - [x] Kiểm thư giao diện (reponsive, text, ...) [edx](https://docs.google.com/document/d/1a4i_31R8WBUAnF91syr1FwBpKoAiTY6rEJt1xWjb74M/edit#heading=h.zhrswbsdiifd)
 
-- [x]  Unit Testing với Karma và Jasmine [tài liệu](https://github.com/truonganhhoang/int3507-2016/wiki/%5BPATH%5D-Testing-in-angular-2)
+- [x]  Unit Testing với Karma và Jasmine [tài liệu](https://github.com/truonganhhoang/int3507-2016/wiki/%5BPATH%5D-Testing-in-angular-2) [commit](https://github.com/hoanphi2201/SoftEng-Assignments-nhom-10/commit/33910daf5f74f9eeaf8bff924f62e4eb8aa2fa20)
 
 - [x] Cho các thành viên trong nhóm kiểm thử và dùng thử, mời 1 số người dùng trải nghiệm.
 
@@ -78,9 +78,10 @@ Facebook: [url]( https://developers.facebook.com/apps/325860808251746/dashboard/
 
 - Repo sản phẩm được triển khai tại [GITHUB](https://github.com/hoanphi2201/SoftEng-Assignments-nhom-10)
 
-- Link Vieo báo cáo và demo dự án:  [YOUTUBE](https://youtu.be/bxZMtXm2gAk)
+- Link Video báo cáo và demo userstory:  [YOUTUBE](https://youtu.be/bxZMtXm2gAk)
 
 - Sản phẩm được deloy sử dụng ec2 và s3 của amazon: 
 + >Trang chủ http://luyenthi365.xyz
 + >Trang quản trị [Link](http://webthi-angular.s3-website-ap-southeast-1.amazonaws.com)
 + >Link dự phòng [Link](http://luyenthi365.xyz.s3-website-ap-southeast-1.amazonaws.com)
++ >Báo cáo nhóm: [Link README](https://github.com/hoanphi2201/SoftEng-Assignments-nhom-10/blob/master/README.md)
