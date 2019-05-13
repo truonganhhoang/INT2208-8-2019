@@ -2,7 +2,9 @@
 
 @section('sidebar')
     <p class="lead">{{ $lesson->course->title }}</p>
-
+{{--
+Lựa chọn các đề thi trong môn khóa học
+--}}
     <div class="list-group">
         @foreach ($lesson->course->publishedLessons as $list_lesson)
             <a href="{{ route('lessons.show', [$list_lesson->course_id, $list_lesson->slug]) }}" class="list-group-item"
@@ -18,24 +20,24 @@
     <h2>{{ $lesson->title }}</h2>
 
 
-       {{--  @if(session('message'))
-            <div class="alert alert-info">{{session('message')}}</div>
-            <br>
-        @endif --}}
-            {{-- {!! $lesson->full_text !!} --}}
-
-
-
         @if ($test_exists)
             <hr />
             @if (session('message'))
                 <div class="alert alert-info">{{session('message')}}</div>
                 <button for='option1'>Đáp án</button>
-            @else
-            {{--form submit để hiển thị điểm số--}}
+            @
+            
+            {{--
+                form submit để hiển thị điểm số
+            --}}
+            
             <form action="{{ route('lessons.test', [$lesson->slug]) }}" method="post">
                 {{ csrf_field() }}
-                    {{--hiển thị các câu hỏi dạng trắc nghiệm--}}
+                
+                    {{--
+                    hiển thị các câu hỏi dạng trắc nghiệm
+                    --}}
+                    
                 @foreach ($lesson->test->questions as $question)
                     <b><strong>{{ $loop->iteration }}. {{ $question->question }}</strong></b>
                     <br />
@@ -54,7 +56,9 @@
             @endif
             <hr />
 
-            {{--Sau khi submit kết quả sẽ hiện ra câu trả lời đúng tương ứng với mỗi câu hỏi--}}
+            {{--
+            Sau khi submit kết quả sẽ hiện ra câu trả lời đúng tương ứng với mỗi câu hỏi
+            --}}
             <div id="item">
                 @foreach ($lesson->test->questions as $question)
                     <b><strong>{{ $loop->iteration }}. {{ $question->question }}</strong></b>
@@ -75,7 +79,9 @@
             </div>
 
         @endif
-
+        {{--
+        Chuyển tiếp giữa các khóa học
+        --}}
     @if ($previous_lesson)
         <p><a href="{{ route('lessons.show', [$previous_lesson->course_id, $previous_lesson->slug]) }}"><< {{ $previous_lesson->title }}</a></p>
     @endif
