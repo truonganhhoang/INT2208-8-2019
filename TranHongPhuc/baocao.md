@@ -59,6 +59,8 @@ Tiêu chí:
 - Đủ nhỏ.(Chức năng đủ nhỏ để xây dựng trong thời gian ngắn)
 - Có thể kiểm thử.(Kiểm thử cho khách hàng check lỗi  và khả năng hoạt động ổn định của các chức năng)
 
+**Video trình bày user story và demo chức năng:** [video](https://www.youtube.com/watch?v=eXwMzdsn-r4&feature=youtu.be)
+
 ## Giới thiệu và hướng dẫn sử dụng chức năng:
 
 **Giới thiệu chức năng:**
