@@ -11,6 +11,7 @@
         </div>
 
         <div class="panel-body">
+         {{-- Kiểm tra admin thì có các tính năng mặc định --}}
             @if (Auth::user()->isAdmin())
             <div class="row">
                 <div class="col-xs-12 form-group">
@@ -25,7 +26,9 @@
                 </div>
             </div>
             @endif
+            
             <div class="row">
+            {{-- Chủ đề của khóa học --}}
                 <div class="col-xs-12 form-group">
                     {!! Form::label('title', 'Title*', ['class' => 'control-label']) !!}
                     {!! Form::text('title', old('title'), ['class' => 'form-control', 'placeholder' => '', 'required' => '']) !!}
@@ -37,6 +40,8 @@
                     @endif
                 </div>
             </div>
+            
+           {{-- Dường dẫn của khóa học --}}  
             <div class="row">
                 <div class="col-xs-12 form-group">
                     {!! Form::label('slug', 'Slug', ['class' => 'control-label']) !!}
@@ -49,6 +54,8 @@
                     @endif
                 </div>
             </div>
+            
+    {{-- Ghi chú khóa học --}}
             <div class="row">
                 <div class="col-xs-12 form-group">
                     {!! Form::label('description', 'Description', ['class' => 'control-label']) !!}
@@ -61,18 +68,8 @@
                     @endif
                 </div>
             </div>
-            <div class="row">
-                <div class="col-xs-12 form-group">
-                    {!! Form::label('price', 'Price', ['class' => 'control-label']) !!}
-                    {!! Form::text('price', old('price'), ['class' => 'form-control', 'placeholder' => '']) !!}
-                    <p class="help-block"></p>
-                    @if($errors->has('price'))
-                        <p class="help-block">
-                            {{ $errors->first('price') }}
-                        </p>
-                    @endif
-                </div>
-            </div>
+            
+                {{-- Hiển thị ảnh của khóa học --}}      
             <div class="row">
                 <div class="col-xs-12 form-group">
                     @if ($course->course_image)
@@ -91,6 +88,8 @@
                     @endif
                 </div>
             </div>
+            
+         {{-- Thời gian bắt đầu khóa học --}} 
             <div class="row">
                 <div class="col-xs-12 form-group">
                     {!! Form::label('start_date', 'Start date', ['class' => 'control-label']) !!}
@@ -103,6 +102,8 @@
                     @endif
                 </div>
             </div>
+            
+            {{-- Hiển thị --}}  
             <div class="row">
                 <div class="col-xs-12 form-group">
                     {!! Form::label('published', 'Published', ['class' => 'control-label']) !!}
