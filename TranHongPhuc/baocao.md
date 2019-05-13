@@ -94,11 +94,11 @@ Tất cả các truyện sẽ được hiển thị trên màn hình như bạn 
 Để thêm chap truyện bạn nhấp insert màn hình chuyển đến như hình:
 <img src = "https://imgur.com/hrRUt7D.png">
 
-Sau đó màn hình hiển thị như sau:
-<img src = "https://i.imgur.com/OdqyQYS.png">
-
 Để thêm truyện mới thì cần nhấp vào insert trên thanh menu rồi nhấp New Story như hình:
 <img src = "https://imgur.com/lDFRnN7.png">
+
+Sau đó màn hình hiển thị như sau:
+<img src = "https://i.imgur.com/OdqyQYS.png">
 
 Để sử thông tin truyện bạn trở lại All-Story rồi nhấp Detail màn hình hiển thị như hình:
 <img src = "https://imgur.com/biijkDh.png">
