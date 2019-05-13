@@ -6,6 +6,7 @@ import android.animation.AnimatorListenerAdapter;
 import android.animation.AnimatorSet;
 import android.animation.LayoutTransition;
 import android.graphics.Color;
+import android.util.Log;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.RelativeLayout;
@@ -19,13 +20,23 @@ import com.example.jinny.vocabulary.base.Constant;
 import com.example.jinny.vocabulary.database.DatabaseManager;
 import com.example.jinny.vocabulary.model.Topic;
 import com.example.jinny.vocabulary.model.Word;
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
+import com.google.firebase.firestore.DocumentReference;
+import com.google.firebase.firestore.DocumentSnapshot;
+import com.google.firebase.firestore.EventListener;
+import com.google.firebase.firestore.FirebaseFirestore;
+import com.google.firebase.firestore.FirebaseFirestoreException;
 import com.squareup.picasso.Picasso;
 
+import androidx.annotation.NonNull;
 import androidx.cardview.widget.CardView;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import android.speech.tts.*;
 
 import java.util.Locale;
+
+import javax.annotation.Nullable;
 
 public class StudyActivity extends BaseActivity implements View.OnClickListener {
 
@@ -37,6 +48,7 @@ public class StudyActivity extends BaseActivity implements View.OnClickListener 
     //view
     ImageView ivAudio;
     ImageView ivStar;
+    ImageView ivStar1;
     ImageView ivBack;
     TextView tvTopicName;
     TextView tvOrigin;
@@ -54,20 +66,21 @@ public class StudyActivity extends BaseActivity implements View.OnClickListener 
     RelativeLayout rlBackGround;
     TextView tvLevel;
     ConstraintLayout clFull;
-
+    UserWords us = new UserWords();
     TextToSpeech t1;
+    FirebaseAuth mAuth;
+    FirebaseUser mUser;
+    FirebaseFirestore db;
+    DocumentReference docRef;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_study);
-
-        setupUI();
-
         t1 = new TextToSpeech(getApplicationContext(), new TextToSpeech.OnInitListener() {
             @Override
             public void onInit(int status) {
-                if(status != TextToSpeech.ERROR) {
+                if (status != TextToSpeech.ERROR) {
                     t1.setLanguage(Locale.UK);
                 }
             }
@@ -76,11 +89,44 @@ public class StudyActivity extends BaseActivity implements View.OnClickListener 
         ivAudio.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(getApplicationContext(), word.getOrigin(),Toast.LENGTH_SHORT).show();
+                Toast.makeText(getApplicationContext(), word.getOrigin(), Toast.LENGTH_SHORT).show();
                 t1.speak(word.getOrigin(), TextToSpeech.QUEUE_FLUSH, null);
             }
         });
+        mAuth = FirebaseAuth.getInstance();
+        mUser = mAuth.getCurrentUser();
+        if (mUser == null) {
+            return;
+        }
+        db = FirebaseFirestore.getInstance();
+        docRef = db.collection("users_data").document(mUser.getUid());
+        docRef.addSnapshotListener(new EventListener<DocumentSnapshot>() {
+            @Override
+            public void onEvent(@Nullable DocumentSnapshot documentSnapshot, @Nullable FirebaseFirestoreException e) {
+                if (e != null) {
+                    Log.w(getString(R.string.firebase_firestore), "Listen failed.", e);
+                    return;
+                }
+                String source = documentSnapshot != null && documentSnapshot.getMetadata().hasPendingWrites()
+                        ? "Local" : "Server";
+                if (documentSnapshot != null && documentSnapshot.exists()) {
+                    us.setWords(documentSnapshot.toObject(UserWords.class).getWords());
+                    if (us.check(word.getOrigin())) {
+                        ivStar.setVisibility(View.INVISIBLE);
+                        ivStar1.setVisibility(View.VISIBLE);
+                    } else {
+                        ivStar1.setVisibility(View.INVISIBLE);
+                        ivStar.setVisibility(View.VISIBLE);
+                    }
+                    Log.d(getString(R.string.firebase_firestore), "Current data:" + documentSnapshot.getData());
+                } else {
+                    Log.d(getString(R.string.firebase_firestore), "Current data: null");
+                }
+            }
+        });
+
     }
+
 
     public void onPause(){
         if(t1 != null){
@@ -142,6 +188,21 @@ public class StudyActivity extends BaseActivity implements View.OnClickListener 
     private void bindView() {
         ivAudio = findViewById(R.id.iv_audio);
         ivStar = findViewById(R.id.star_imageview);
+        ivStar1 = findViewById(R.id.star_imageview1);
+        ivStar1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if (mUser == null) {
+                    Toast.makeText(StudyActivity.this,"You must login before commit this action!",Toast.LENGTH_SHORT).show();
+                } else {
+                    us.removeWord(word.getOrigin());
+                    docRef.set(us);
+                    Toast.makeText(StudyActivity.this, "Removed", Toast.LENGTH_SHORT).show();
+                }
+            }
+        });
+
+
         ivBack = findViewById(R.id.iv_back);
         tvTopicName = findViewById(R.id.tv_topic_name);
         tvOrigin = findViewById(R.id.tv_origin);
@@ -248,9 +309,15 @@ public class StudyActivity extends BaseActivity implements View.OnClickListener 
                 nextWord(true);
                 break;
             case R.id.star_imageview:
-                DatabaseManager.getInstance(this).addWordToMyWordlist(word);
-                Toast.makeText(StudyActivity.this,"Added",Toast.LENGTH_SHORT).show();
+                if (mUser == null) {
+                    Toast.makeText(StudyActivity.this,"You must login before commit this action!",Toast.LENGTH_SHORT).show();
+                } else {
+                    us.addWord(word.getOrigin());
+                    docRef.set(us);
+                    Toast.makeText(StudyActivity.this, "Added", Toast.LENGTH_SHORT).show();
+                }
                 break;
+
         }
     }
 }

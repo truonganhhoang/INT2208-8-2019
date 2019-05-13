@@ -201,6 +201,14 @@
                 app:layout_constraintStart_toEndOf="@+id/tv_origin"
                 app:layout_constraintTop_toTopOf="@+id/tv_origin"
                 app:srcCompat="@android:drawable/btn_star_big_off" />
+            <ImageView
+                android:id="@+id/star_imageview1"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginStart="12dp"
+                app:layout_constraintStart_toEndOf="@+id/tv_origin"
+                app:layout_constraintTop_toTopOf="@+id/tv_origin"
+                app:srcCompat="@android:drawable/btn_star_big_on" />
 
             <ImageView
                 android:id="@+id/iv_audio"
