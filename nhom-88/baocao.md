@@ -16,10 +16,12 @@
 
 
 ### Tên ứng dụng:  Clover Shop
--- Bài tập nhóm: **Dự án web bán hàng online** --
--- Tài liệu kĩ thuật: [tài liệu kĩ thuật](https://drive.google.com/file/d/1GiSye51ZDldaHzOfRnnnmRgNrefvh28w/view?fbclid=IwAR22GWQfxPQ9a91pHQrKF_a0XAzrGqUnx4Ibpig8K6zVq6jzOnrCxHHSFTo) --
-[link repo](https://github.com/17020932/2hand-market/tree/master/2hand-market), 
+-- Bài tập nhóm: **Dự án web bán hàng online** : [link repo](https://github.com/17020932/2hand-market/tree/master/2hand-market), 
 [website](http://clover-shop.herokuapp.com/)
+
+
+-- Tài liệu kĩ thuật: [tài liệu kĩ thuật](https://drive.google.com/file/d/1GiSye51ZDldaHzOfRnnnmRgNrefvh28w/view?fbclid=IwAR22GWQfxPQ9a91pHQrKF_a0XAzrGqUnx4Ibpig8K6zVq6jzOnrCxHHSFTo)
+
 
 -<b>Hướng dẫn sử dụng </b>:
 
