@@ -6,7 +6,8 @@
 #### Báo cáo quá trình tự học trên EDX: [SoftEng1x](https://github.com/hoanphi2201/INT2208-8-2019/blob/master/NguyenTruongGiang/SoftEng1x.jpg)
 
 <h1>Báo cáo cá nhân</h1>
-
+<h2>User Story:</h2>
+Là một người quản lý tôi muốn có chức năng lọc, tìm kiếm, sắp xếp, thay đổi trạng thái một hoặc nhiều đề thi để quản lý thuận tiện hơn
 <h2>Nội dung công việc</h2>
 
 - Giúp thay đổi trạng thái, special của từng đề thi
