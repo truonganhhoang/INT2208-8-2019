@@ -59,8 +59,9 @@ Tiêu chí:
 - Đủ nhỏ.(Chức năng đủ nhỏ để xây dựng trong thời gian ngắn)
 - Có thể kiểm thử.(Kiểm thử cho khách hàng check lỗi  và khả năng hoạt động ổn định của các chức năng)
 
+## Giới thiệu và hướng dẫn sử dụng chức năng:
 
-Giới thiệu chức năng:
+**Giới thiệu chức năng:**
 
 Chức năng được tạo ra để phù hợp yêu cầu của khách hàng theo user story ở trên. 
 
@@ -72,7 +73,7 @@ Với các tính năng gồm:
 - Thêm chap cho truyện đã có sẵn.
 - Sửa một số thông tin của truyện đang có trên web.
 
-Hướng dẫn sử dụng:
+**Hướng dẫn sử dụng:**
 
 Đăng nhập vào tài khoản admin đã được cung cấp:
 
