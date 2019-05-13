@@ -65,14 +65,22 @@ public class QuizActivity extends AppCompatActivity implements View.OnClickListe
         }
     }
 
-    private void showAnswer(String ans){
+    private void showAnswer(){
         if (answer==true){
             trueOrFalseTv.setText("Congratulation! You chose right answer!");
         }
         else{
             trueOrFalseTv.setText("YOU WRONG!");
         }
-        trueAns.setText("Answer is: "+ ans);
+
+        String answ="";
+        for (int i=0;i<4;i++){
+            if (ans[i].getId()==ansTextViewID){
+                answ = ans[i].getText().toString();
+                break;
+            }
+        }
+        trueAns.setText("Answer is: "+ answ);
         answerLayout.setVisibility(View.VISIBLE);
 
 
@@ -90,17 +98,17 @@ public class QuizActivity extends AppCompatActivity implements View.OnClickListe
     @Override
     public void onClick(View v) {
         TextView tv = (TextView) v;
-        String ans = tv.getText().toString();
+        //String ans = tv.getText().toString();
         if (v.getId() == ansTextViewID){
             answer = true;
-            showAnswer(ans);
+            showAnswer();
         }
         else if (v.getId()==R.id.next_button){
             nextQuestion();
         }
         else {
             answer = false;
-            showAnswer(ans);
+            showAnswer();
         }
     }
 
