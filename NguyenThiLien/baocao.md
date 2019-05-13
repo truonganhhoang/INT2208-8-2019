@@ -25,7 +25,7 @@
 * Hướng dẫn sử dụng:
 1. Mở trình duyệt Google chrome hoặc FireFox,... .
 
- 2. Gõ vào ô tìm kiếm địa chỉ sau: [chitiet](https://github.com/Nguyenhuy2801/nhom-28/tree/master/Project_28/flask_project)
+ 2. Gõ vào ô tìm kiếm địa chỉ sau: http://foodforfamilyf3.pythonanywhere.com/
 
  3. Sau khi trang web hiện ra bạn sẽ nhìn thấy ngay thanh điều hướng mầu xanh nằm ngang, tại đó có button Mẹo vào bếp, khi click vào đó sẽ dẫn đến giao diện của mục Mẹo vào bếp
  
