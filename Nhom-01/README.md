@@ -15,11 +15,11 @@ https://docs.google.com/spreadsheets/d/1hRc_sCYV6-O9ELMNNB0Y8MQ25Xu6XZmCN_Gbc7jU
 5. Nguyễn Thành Đạt `mssv: 17021184`  
 
 ## Báo cáo các UserStory của từng thành viên, cũng như hướng dẫn sử dụng sản phẩm nhóm  
-[Vũ Thị Thiên Anh](https://www.youtube.com/watch?v=Gys20IEQ81E)  
-[Nguyễn Thành Đạt](https://www.youtube.com/watch?v=Ftl1i1LIA5Y)  
-[Phạm Ngọc Hiếu](https://youtu.be/qXeL1_9i78U)  
-[Vương Bảo Long](https://www.youtube.com/watch?v=J_Hutor-dPs)  
-[Nguyễn Nhật Minh](https://www.youtube.com/watch?v=DWSUQxiJfto)  
+[Video báo cáo của Vũ Thị Thiên Anh](https://www.youtube.com/watch?v=Gys20IEQ81E)  
+[Video báo cáo của Nguyễn Thành Đạt](https://www.youtube.com/watch?v=Ftl1i1LIA5Y)  
+[Video báo cáo của Phạm Ngọc Hiếu](https://youtu.be/qXeL1_9i78U)  
+[Video báo cáo của Vương Bảo Long](https://www.youtube.com/watch?v=J_Hutor-dPs)  
+[Video báo cáo của Nguyễn Nhật Minh](https://www.youtube.com/watch?v=DWSUQxiJfto)  
 
 ## File cài đặt  
 * Để đánh dấu việc phát triển ứng dụng, chúng tôi đã lưu lại nhiêu phiên bản với nhiều thời kỳ khác nhau trong dự án.  
