@@ -20,6 +20,13 @@
 
 #### User Story được giao: Là một người dùng tôi muốn có thể đăng nhập bằng facebook, google để tiết kiệm thời gian tham gia vào ứng dụng (Phí Xuân Hoàn)
 
+##### Nội dung
+- Nhận thấy việc tham gia hệ thống bằng việc đăng ký tài khoản mất quá nhiều thời gian nhập dữ liệu sau khi điền thông tin người dùng lại phải xác nhận qua email hoặc số điện thoại.
+- Các mạng xã hội lớn đã hỗ trợ các api lấy thông tin của người dùng một cách hiệu quả.
+- Thay vì việc đăng ký đăng nhập tốn thời gian người dùng chỉ cần nhấp chuột vào "Đăng nhập google" hoặc "Đăng nhập facebook" một tài khoản sẽ tự động được tạo với đầu đủ thông tin tài khoản và ảnh đại diện.
+
+##### Công việc cần làm
+
 - [x] Làm rõ yêu cầu (giao diện như thế nào, sau khi đăng nhập chuyển đến trang nào, cần những dữ liệu nào mà google, facebook trả về hệ thống của mình) [edx](https://docs.google.com/document/d/1a4i_31R8WBUAnF91syr1FwBpKoAiTY6rEJt1xWjb74M/edit#heading=h.fvjpas4blmex)
 
 - [x] Thẩm định yêu cầu [edx](https://docs.google.com/document/d/1a4i_31R8WBUAnF91syr1FwBpKoAiTY6rEJt1xWjb74M/edit#heading=h.a3b33sgbrokp) 
