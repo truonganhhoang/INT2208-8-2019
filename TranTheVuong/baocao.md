@@ -63,16 +63,16 @@
 
 - **Hướng dẫn:** Sau khi đăng nhập thành công, người dùng chỉ cần click vào *Bảng xếp hạng* ở *Header*
 
-	![hướng dẫn](https://user-images.githubusercontent.com/38174506/57578456-1b74fe00-74b7-11e9-980a-51dc415afe06.png)
+	![hướng dẫn](https://user-images.githubusercontent.com/38174506/57599868-5132e900-7582-11e9-971b-252a33e2f16f.png)
 
 	+ Bảng xếp hạng có TOP 10 người chơi có thành tích cao nhất và bao gồm người chơi hiện tại
 	+ Vị trí TOP 3 có 3 màu sắc khác nhau và không thay đổi, kể cả khi người đang chơi ở TOP 3
 	+ Nếu người đang chơi ngoài TOP 3, vị trí người đang chơi có màu nền là xanh
 	
-	![từ vị trí 12 trở xuống](https://user-images.githubusercontent.com/38174506/57578448-0dbf7880-74b7-11e9-8d4a-c539c86620aa.png)
-	![vị trí 11](https://user-images.githubusercontent.com/38174506/57578450-1021d280-74b7-11e9-81ca-ec60233e4223.png)
-	![vị trí từ 4 đến 10](https://user-images.githubusercontent.com/38174506/57578452-12842c80-74b7-11e9-98f9-fc33b62cb59a.png)
-	![Vị trí trong top 3](https://user-images.githubusercontent.com/38174506/57578455-1617b380-74b7-11e9-8c29-bdf59d371f7b.png)
+	![từ vị trí 12 trở xuống](https://user-images.githubusercontent.com/38174506/57599920-7293d500-7582-11e9-9181-7aaf141976df.png)
+	![vị trí 11](https://user-images.githubusercontent.com/38174506/57599934-79bae300-7582-11e9-90ed-870650fbbf9c.png)
+	![vị trí từ 4 đến 10](https://user-images.githubusercontent.com/38174506/57599948-80e1f100-7582-11e9-9a7c-30ce996e8420.png)
+	![Vị trí trong top 3](https://user-images.githubusercontent.com/38174506/57599954-87706880-7582-11e9-80d6-33523e3c8894.png)
 
 - [Video](url)
 
