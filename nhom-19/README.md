@@ -9,4 +9,5 @@
 **Tên ứng dụng:** Quizy - Trò chơi trắc nghiệm.
 **Báo cáo sản phẩm, tài liệu kỹ thuật:** http://bit.ly/2Hgx7fV
 **Trang web sản phẩm của nhóm:** http://quizy-play.herokuapp.com
+**Video hướng dẫn sử dụng:** https://youtu.be/RsG7nCV1EA0
   
