@@ -1,4 +1,10 @@
-# Báo cáo công việc phụ trách trong dự án nhóm 10
+#### Họ Tên: Lê Công Kỳ
+#### Ngày Sinh: 02/11/1999
+#### Mã Sinh Viên: 17020842
+#### Nhóm dự án: [Nhóm 10](https://github.com/hoanphi2201/SoftEng-Assignments-nhom-10/blob/master/README.md)
+
+
+# Báo cáo công việc phụ trách trong dự án nhóm
 
 ### Câu chuyện người dùng: Là một người quản lý tôi muốn có một danh sách các môn học để biết tổng quan về các đề thi liên quan.
 
@@ -62,8 +68,13 @@
 
 # Tổng hợp quá trình làm bài tập nhóm
 
-- >**Repo sản phẩm được triển khai tại [Github](https://github.com/hoanphi2201/SoftEng-Assignments-nhom-10/tree/congky)**
+- **Repo sản phẩm được triển khai tại [Github](https://github.com/hoanphi2201/SoftEng-Assignments-nhom-10/tree/congky)**
 
-- >**Link Vieo báo cáo và demo user story tại: [Youtube](https://www.youtube.com/watch?v=O0xD-tGpk_A)**
+- **Link Vieo báo cáo và demo user story tại: [Youtube](https://www.youtube.com/watch?v=O0xD-tGpk_A)**
 
-- >**Link sản phẩm của nhóm deloy server node.js và angular chế độ development tại: [Sản phầm](http://luyenthi365.xyz)**
+- **Sản phẩm được deloy sử dụng ec2 và s3 của amazon:** 
++ >**Trang chủ http://luyenthi365.xyz**
++ >**Trang quản trị [Link](http://webthi-angular.s3-website-ap-southeast-1.amazonaws.com)**
++ >**Link dự phòng [Link](http://luyenthi365.xyz.s3-website-ap-southeast-1.amazonaws.com)**
++ >**Báo cáo nhóm: [Link README](https://github.com/hoanphi2201/SoftEng-Assignments-nhom-10/blob/master/README.md)**
+
