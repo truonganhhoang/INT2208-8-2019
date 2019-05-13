@@ -3,15 +3,15 @@
 
 **Thành viên nhóm:**
 
-     Phạm Văn Hùng - 17021064
+   Phạm Văn Hùng - 17021064 - [báo cáo cá nhân](https://github.com/phamhung99/INT2208-8-2019/tree/master/PhamVanHung).
   
-     Nguyễn Đắc Phong - 17020953
+   Nguyễn Đắc Phong - 17020953 - [báo cáo cá nhân](https://github.com/Nguyendacphong09/INT2208-8-2019/tree/master/NguyenDacPhong).
   
-     Phạm Duy Tiếp - 17021064
+   Phạm Duy Tiếp - 17021064 - [báo cáo cá nhân](https://github.com/tiep2999/INT2208-8-2019/tree/master/PhamDuyTiep).
   
-     Trần Hồng Phúc - 17020962
+   Trần Hồng Phúc - 17020962 - [báo cáo cá nhân](https://github.com/17020962/INT2208-8-2019/tree/master/TranHongPhuc).
   
-     Phạm Nhật Hưng - 17020817
+   Phạm Nhật Hưng - 17020817 - [báo cáo cá nhân](https://github.com/SkyHunter666/INT2208-8-2019/tree/master/PhamNhatHung).
 
 ## Phần mềm và quy trình xây dựng, phát triển phần mềm.
 
