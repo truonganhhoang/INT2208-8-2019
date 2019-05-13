@@ -13,8 +13,8 @@
 :heavy_check_mark:Đóng góp và hoàn thiện bài tập lớn của nhóm <a href="https://github.com/phuctd99/INT2208-8-2019">Bài Tập Lớn</a><br>
 :heavy_check_mark:Đóng góp báo cáo của nhóm <a href="https://docs.google.com/document/d/1ulHy8mqjWeYp0Nho_qiHYMxCGb5hvM7sHmgFqw_CxSs/edit?usp=sharing&fbclid=IwAR3uuNIxH_WjXkaXxtfPU-6Ml7LcS0Ux8DuJ0L9BdU88uctF2va73qGVymQ">Báo Cáo Nhóm</a><br>
 :heavy_check_mark:Biết và hiểu quy trình làm sản phẩm<br>
-:heavy_check_mark:Biết cách làm việc nhóm
-
+:heavy_check_mark:Biết cách làm việc nhóm<br>
+:heavy_check_mark:Deploy sản phẩm lên web
 ## :books: Một số User story đại diện : 
 :one: **_"Là khách hàng , tôi muốn có chức năng tìm kiếm sách để tiết kiệm thời gian công sức"_**<br>
 **Các bước thực hiện:**<br>
