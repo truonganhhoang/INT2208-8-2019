@@ -1,4 +1,6 @@
-User Story:
+# Báo cáo cá nhân - Môn học Công nghệ phần mềm (INT2208-8-2019)
+
+## User story:
 
 Với tư cách là một admin tôi muốn:
 - Tải truyện lên trang web
