@@ -2,12 +2,12 @@
 
 ### Báo cáo dự án: [Link báo cáo](https://github.com/hoanphi2201/SoftEng-Assignments-nhom-10/blob/master/README.md)
 ### Thành viên
-```
- * Phí Xuân Hoàn - 17020759
- * Trần Tiến Đức - 17020701
- * Lê Công Kỳ - 17020842
- * Nguyễn Trường Giang - 17020706
-```
+
+ - [Phí Xuân Hoàn](https://github.com/hoanphi2201/INT2208-8-2019/blob/master/PhiXuanHoan/baocao.md) - 17020759
+ - [Trần Tiến Đức](https://github.com/hoanphi2201/INT2208-8-2019/blob/master/TranTienDuc/baocao.md) - 17020701
+ - [Lê Công Kỳ](https://github.com/hoanphi2201/INT2208-8-2019/blob/master/LeCongKy/baocao.md) - 17020842
+ - [Nguyễn Trường Giang](https://github.com/hoanphi2201/INT2208-8-2019/blob/master/NguyenTruongGiang/baocao.md) - 17020706
+
 ### Tên ứng dụng: Thi trắc nghiệm THPT quốc gia
 <ul>
   <li>Nhóm người dùng
