@@ -2,6 +2,7 @@
 #### Ngày Sinh: 02/11/1999
 #### Mã Sinh Viên: 17020842
 #### Nhóm dự án: [Nhóm 10](https://github.com/hoanphi2201/SoftEng-Assignments-nhom-10/blob/master/README.md)
+#### Vai trò: Developer & Tester
 
 
 # Báo cáo công việc phụ trách trong dự án nhóm
