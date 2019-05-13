@@ -1,3 +1,10 @@
+#### Họ Tên: Nguyễn Trường Giang
+#### Ngày Sinh: 11/02/1999
+#### Mã Sinh Viên: 17020706
+#### Nhóm dự án: [Nhóm 10](https://github.com/hoanphi2201/SoftEng-Assignments-nhom-10/blob/master/README.md)
+#### Vai trò: Developer & Tester
+#### Báo cáo quá trình tự học trên EDX: [SoftEng1x](https://github.com/hoanphi2201/INT2208-8-2019/blob/master/NguyenTruongGiang/SoftEng1x.jpg)
+
 <h1>Báo cáo cá nhân</h1>
 
 <h2>Nội dung công việc</h2>
@@ -50,8 +57,8 @@ Tài liệu tham khảo:
 
 [Khóa học SoftEng1x](https://courses.edx.org/courses/course-v1:UBCx+SoftEng1x+1T2018/course/)
 
-### Video demo user story: [YOUTUBE](https://youtu.be/j8DLMewBbEY)
-
-### Repo sản phẩm được triển khai tại: [GITHUB](https://github.com/hoanphi2201/SoftEng-Assignments-nhom-10)
-
-### Link sản phẩm: http://webthi-angular.s3-website-ap-southeast-1.amazonaws.com/
+#### Video demo user story: [YOUTUBE](https://youtu.be/j8DLMewBbEY)
+#### Repo sản phẩm được triển khai tại: [GITHUB](https://github.com/hoanphi2201/SoftEng-Assignments-nhom-10)
+#### Báo cáo nhóm (Tài liệu kỹ thuật phần mềm) [Nhóm 10](https://drive.google.com/open?id=1eEWwFZwnDV7SE5QCx8d3h5DelDF4J32p)
+#### Sản phẩm được deloy sử dụng ec2 và s3 của amazon: [Trang chủ](http://luyenthi365.xyz) | [Trang quản trị](http://webthi-angular.s3-website-ap-southeast-1.amazonaws.com/)
+#### Demo chức năng và hướng dẫn sử dụng: [Trang chủ](https://youtu.be/-578NHzXQo4) | [Trang quản trị](https://youtu.be/KPCbF-u5R0U)
