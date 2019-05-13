@@ -1,6 +1,7 @@
 ### Họ và tên: Trần Tiến Đức
 ### MSSV: 17020701
 ### Nhóm dự án: [Nhóm 10](https://github.com/hoanphi2201/SoftEng-Assignments-nhom-10/blob/master/README.md)
+### Vai trò: Scrum Master & Developer
 ### Quá trình học trên edx: [Ảnh](https://github.com/hoanphi2201/INT2208-8-2019/blob/master/TranTienDuc/SoftEng1x.jpg)
 # Báo cáo cá nhân: User story đã làm trong dự án nhóm
 ## User story: Là một người quản lý, tôi muốn có chức năng thêm, sửa đề thi để thêm mới một đề thi vào CSDL hoặc chỉnh sửa nó khi phát hiện sai sót
