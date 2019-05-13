@@ -4,51 +4,59 @@
 - Hoàng Văn Định
 - Trần Trung Hiếu
 - Đặng Hữu Tiến
-### Vai trò các thành viên theo mô hình phát triển phần mềm Scrum
+
+# :scroll: Ứng dụng hỗ trợ học tập FOS - Fond Of Study<br>
+
+### :reminder_ribbon: Vai trò các thành viên theo mô hình phát triển phần mềm Scrum
 - Product Owner: Nguyễn Hữu Minh Quang
 - Scrum Master: Vũ Thị Thanh Mai
 - Development Team: Đặng Hữu Tiến, Trần Trung Hiếu, Hoàng Văn Định 
 
-### Tên ứng dụng
-- FOS(Fond Of Study)
-### Nhóm người dùng
+### :reminder_ribbon: Nhóm người dùng
 - Học sinh các khối tiểu học, trung học, phổ thông
-- Sinh viên thuộc các trường đại học, cao đẳng
-### Mô tả ứng dụng
-- Ứng dụng để học tập dành cho các bạn học sinh, sinh viên
-  - Cụ thể như để làm các bài tập môn học,thi thử các đề kiểm tra 15'/45'/học kỳ và các đề thi THPTQG
-- Là nơi tìm kiếm các tài liệu, thông tin cho các môn học
-- Giải đáp thắc mắc liên quan đến học tập 
-### Các màn hình gồm có
-- Trang chủ 
-- Trang danh sách đề thi 
-- Trang profile cá nhân
-- Trang hỏi đáp, trò chuyện
- - V.v..
- ### Công nghệ cần dùng 
- - MongoDB, ExpressJS, AngularJS, Nodejs ,v.v..
- ### Công việc cần làm 
- - Xây dựng CSDL, đẩy CSDL lên online(dùng mLab)
- - Thiết kế giao diện responsive (dùng Bootstrap)
- - Xây dựng khung chương trình, server, viết các thao tác API cho server
- ### Hướng phát triển
- - Xây dựng thêm các câu hỏi đố vui quiz
- - Tích hợp chat
- ### Tài liệu tham khảo
- - Sách: Getting MEAN with Mongo, Express, Node and Angular
- - Web: Mongodb, Mongoose, w3schools.com, Vietjack, Wiki, Express.js, Nodejs.org, angularjs.org, ...
- ### Mục tiêu đề ra
+- Người dùng có nhu cầu ôn luyện thi THPTQG
+
+ ### :clipboard: Mô tả ứng dụng
+- Ứng dụng để học tập dành cho các bạn học sinh THPT
+  - Cụ thể là làm các bài tập môn học,thi thử các đề kiểm tra 15'/45'/học kỳ và các đề thi THPTQG
+- Rèn luyện khả năng giải đề cho học sinh
+- Quản lý các khóa học, bài học...
+
+ ### :clipboard: Tài liệu kỹ thuật
+
+ ### :vhs: Video demo
+ 
+ ### :books: Tài liệu tham khảo
+ #### :small_orange_diamond: Sách: 
+ - [Front-End Web Development: The Big Nerd Ranch Guide](https://vi.scribd.com/document/343708038/front-end-web-development-the-big-nerd-ranch-guide-chris-aquino-todd-gandee) 
+ - [Learning PHP, MySQL & JavaScript](https://doc.lagout.org/programmation/Learning%20PHP,%20MySQL%20%26%20JavaScript_%20with%20jQuery,%20CSS%20%26%20HTML5%20(4th%20ed.)%20%5BNixon%202014-12-14%5D.pdf)
+ - [PHP Objects, Patterns, and Practice](http://web-algarve.com/books/MySQL%20&%20PHP/PHP%20Objects,%20Patterns,%20and%20Practice,%204th%20Edition.pdf)
+ - [Laravel Starter](https://data.dammio.com/laravel_starter.pdf)
+ - [Laravel: Up and Running](http://file.allitebooks.com/20170125/Laravel%20Up%20and%20Running.pdf)
+ 
+ #### :small_orange_diamond: Web:<br>
+  - [Devdocs.io](https://devdocs.io/), [Vietjack](https://vietjack.com/), [W3Schools.com](https://www.w3schools.com/), [Angularjs.org](https://docs.angularjs.org/tutorial) ...
+
+### :reminder_ribbon: Mục tiêu đề ra
  - Hoạt động nhóm hiệu quả
  - Phát huy khả năng tự học của mỗi thành viên
+ - Hoàn thành project đúng thời hạn
  - Khả năng tranh luận, đưa ra ý kiến
  - V.v..
- ### Trao đổi, làm việc
+
+### :reminder_ribbon: Trao đổi, làm việc
  - Làm việc nhóm trực tiếp
- - Group facebook, Skype,v.v..
+ - Github
+ - Group facebook, Skype, Google driver, v.v..
  
- <img src="https://uphinhnhanh.com/images/2019/02/13/FOS1.png">
- <img src="https://uphinhnhanh.com/images/2019/02/13/FOS2.png">
- 
+ ### :reminder_ribbon: Hướng phát triển
+ - Xây dựng thêm các câu hỏi đố vui quiz
+ - Tích hợp chat...
+  <br><br>
+  ### *Màn hình chính:*
+ ![Imgur](https://i.imgur.com/krTeGE1.jpg)
+
+
  ## Kế hoạch thực hiện
  #### (Dựa theo phương pháp Scrum trong nhóm phương pháp linh hoạt)
 - Mô hình chung của các sprint
