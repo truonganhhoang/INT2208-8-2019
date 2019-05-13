@@ -68,17 +68,47 @@ Video demo sản phẩm đã làm đc: https://youtu.be/4Tn6buX5I5M
           + Thanh tùy chọn lọc: theo danh mục sản phẩm và theo giá sản phẩm
           + Phần thân trang web sẽ hiển thị: các sản phẩm hiện có trên trang web, hoặc các sản phẩm theo các tùy chọn lọc mà bạn chọn
           + footer
+     - Hình ảnh trang chủ:
+     
+     ![trang chủ](https://github.com/17020932/INT2208-8-2019/blob/master/nhom-88/imagines/trang%20ch%E1%BB%A7.png)
 				
 1.	Bây giờ bạn dùng thanh cuộn trang kéo xuống sẽ thấy tất cả sản phẩm hiện có trên web. Các sản phẩm sẽ được sắp xếp hiển thị theo ngày đăng, sản phẩm có ngày đăng gần nhất sẽ được hiển thị đầu tiên.
 
 2.	Ô tìm kiếm ở đầu trang: nhập từ khóa mà bạn muốn rồi ấn vào ô tìm kiếm hoặc enter.
+     - Hình ảnh cho tìm kiếm sản phẩm
+     
+     ![tìm kiếm](https://github.com/17020932/INT2208-8-2019/blob/master/nhom-88/imagines/trang%20ch%E1%BB%A72.png)
+     
+     - Hình ảnh kết quả thu được sau tìm kiếm
+     
+     ![kết quả](https://github.com/17020932/INT2208-8-2019/blob/master/nhom-88/imagines/trang%20ch%E1%BB%A73.png)
+     
 
 3.	Bộ lọc sản phẩm nằm bên trái màn hình có thể lọc theo danh mục sản phẩm và giá sản phẩm.
 
     + Lọc theo danh mục sản phẩm: Ấn vào một tùy chọn bất kì, dữ liệu trả về sẽ hiển thị.
+    
+       - Hình ảnh cho lọc theo danh mục sản phẩm![lọc theo danh mục](https://github.com/17020932/INT2208-8-2019/blob/master/nhom-88/imagines/trang%20ch%E1%BB%A74.png)
+    
+       - Hình ảnh kết quả sau lọc
+    
+    ![kết quả lọc theo danh mục](https://github.com/17020932/INT2208-8-2019/blob/master/nhom-88/imagines/trang%20ch%E1%BB%A75.png)
+    
     + Lọc theo giá sản phẩm: Hãy lựa chọn khoảng giá mong muốn rồi ấn vào "ÁP DỤNG".
+    
+      - Hình ảnh lọc theo giá sản phẩm
+    
+    ![lọc theo giá](https://github.com/17020932/INT2208-8-2019/blob/master/nhom-88/imagines/loc%20theo%20gi%C3%A1%20s%E1%BA%A3n%20ph%E1%BA%A9m.PNG)
 
 4. Việc hiển thị của các sản phẩm sẽ được phân trang để không quá nhiều sản phẩm hiển thị cùng lúc.
 
+    - Hình ảnh thanh phân trang
+    
+    ![phân trang](https://github.com/17020932/INT2208-8-2019/blob/master/nhom-88/imagines/ph%C3%A2n%20trang.PNG)
+
 5.	Ấn vào các hình ảnh sản phẩm để xem chi tiết thông tin.
+
+    - Hình ảnh trang thông tin chi tiết
+    
+    ![thông tin chi tiết](https://github.com/17020932/INT2208-8-2019/blob/master/nhom-88/imagines/trang%20th%C3%B4ng%20tin%20chi%20ti%E1%BA%BFt.PNG)
 
