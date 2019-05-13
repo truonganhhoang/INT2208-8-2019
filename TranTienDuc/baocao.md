@@ -48,4 +48,4 @@
 ### Ghi chú: Tổng hợp quá trình làm bài tập nhóm
 - Repo sản phẩm được triển khai tại [GITHUB]()
 - Video báo cáo và demo user story tại [YOUTUBE](https://youtu.be/SSHt6mW1eN0)
-- Link sản phẩm của nhóm deloy server node.js và angular chế độ development tại [SẢN PHẨM](http://webthi-angular.s3-website-ap-southeast-1.amazonaws.com)
+- Link sản phẩm của nhóm deloy server node.js và angular chế độ development tại [SẢN PHẨM](http://luyenthi365.xyz)
