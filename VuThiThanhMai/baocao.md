@@ -1,4 +1,6 @@
 # :memo: **_Báo Cáo Cá Nhân_**<br>
+- Vũ Thị Thanh Mai<br>
+- MSSV: 17020877
 ### Trong 15 tuần học tập và làm project đã làm được:<br>
 
 :heavy_check_mark:Tham gia đầy đủ các buổi học trên lớp<br>
