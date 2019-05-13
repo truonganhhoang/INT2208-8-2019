@@ -1,6 +1,6 @@
 # nhom-10
 
-### Báo cáo dự án: [Link báo cáo](https://github.com/hoanphi2201/SoftEng-Assignments-nhom-10/blob/master/README.md)
+### Báo cáo dự án: [Link README báo cáo](https://github.com/hoanphi2201/SoftEng-Assignments-nhom-10/blob/master/README.md)
 ### Thành viên
 
  - [Phí Xuân Hoàn](https://github.com/hoanphi2201/INT2208-8-2019/blob/master/PhiXuanHoan/baocao.md) - 17020759
