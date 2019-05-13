@@ -1,4 +1,4 @@
-# Báo cáo bài lớn - Nhóm 19
+# Báo cáo bài tập lớn - Nhóm 19
 
 **Các thành viên:**
   - Hoàng Kim Minh
@@ -6,6 +6,7 @@
   - Trần Thế Vượng
   - Lý Minh Nghĩa
   - Nguyễn Tiến Sơn<br/>
+  
 **Tên ứng dụng:** Quizy - Trò chơi trắc nghiệm.<br/>
 **Báo cáo sản phẩm, tài liệu kỹ thuật:** http://bit.ly/2Hgx7fV<br/>
 **Trang web sản phẩm của nhóm:** http://quizy-play.herokuapp.com<br/>
