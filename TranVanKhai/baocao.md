@@ -28,7 +28,5 @@
 - [x] Tối ưu mã nguồn ngắn gọn, dễ đọc, dễ bảo trì :[Tối ưu hóa "code smell"](https://docs.google.com/document/d/1a4i_31R8WBUAnF91syr1FwBpKoAiTY6rEJt1xWjb74M/edit#heading=h.x5jzfha6cshw)
 
 - [x] Kiểm thử chấp thuận với khách hàng :[Các loại kiểm thử](https://docs.google.com/document/d/1a4i_31R8WBUAnF91syr1FwBpKoAiTY6rEJt1xWjb74M/edit#heading=h.e3sa5k1h7i5n)
-### Một số hình ảnh về sản phẩm 
-![anh2.png](https://www.upsieutoc.com/images/2019/05/13/anh2.png)
-![anh1.png](https://www.upsieutoc.com/images/2019/05/13/anh1.png)
+
 ### Demo userstory [(youtube)](https://www.youtube.com/watch?v=nRnGPn2jLhw&t=101s)
