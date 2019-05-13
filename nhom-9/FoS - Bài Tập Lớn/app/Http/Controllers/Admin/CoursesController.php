@@ -15,9 +15,8 @@ class CoursesController extends Controller
     use FileUploadTrait;
 
     /**
-     * Display a listing of Course.
+     * Màn hình chính của môn khóa học
      *
-     * @return \Illuminate\Http\Response
      */
     public function index()
     {
@@ -38,9 +37,8 @@ class CoursesController extends Controller
     }
 
     /**
-     * Show the form for creating new Course.
+     * Hiển thị môn khóa học
      *
-     * @return \Illuminate\Http\Response
      */
     public function create()
     {
@@ -53,10 +51,8 @@ class CoursesController extends Controller
     }
 
     /**
-     * Store a newly created Course in storage.
+     * Lưu trữ một khóa học mới được tạo ra 
      *
-     * @param  \App\Http\Requests\StoreCoursesRequest  $request
-     * @return \Illuminate\Http\Response
      */
     public function store(StoreCoursesRequest $request)
     {
@@ -73,10 +69,8 @@ class CoursesController extends Controller
 
 
     /**
-     * Show the form for editing Course.
+     * Hiển thị các chức năng để chỉnh sửa khóa học.
      *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
      */
     public function edit($id)
     {
@@ -91,11 +85,8 @@ class CoursesController extends Controller
     }
 
     /**
-     * Update Course in storage.
+     * Cập nhật khóa học
      *
-     * @param  \App\Http\Requests\UpdateCoursesRequest  $request
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
      */
     public function update(UpdateCoursesRequest $request, $id)
     {
@@ -113,10 +104,8 @@ class CoursesController extends Controller
 
 
     /**
-     * Display Course.
+     * Màn hỉnh khóa học
      *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
      */
     public function show($id)
     {
@@ -132,10 +121,8 @@ class CoursesController extends Controller
 
 
     /**
-     * Remove Course from storage.
+     * Xóa khóa học
      *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
      */
     public function destroy($id)
     {
@@ -149,9 +136,8 @@ class CoursesController extends Controller
     }
 
     /**
-     * Delete all selected Course at once.
+     * Xóa tất cả khóa học
      *
-     * @param Request $request
      */
     public function massDestroy(Request $request)
     {
@@ -169,10 +155,8 @@ class CoursesController extends Controller
 
 
     /**
-     * Restore Course from storage.
+     * Thêm lại các khóa học đã xóa
      *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
      */
     public function restore($id)
     {
@@ -186,10 +170,8 @@ class CoursesController extends Controller
     }
 
     /**
-     * Permanently delete Course from storage.
+     * Xóa vĩnh viễn khỏi khóa học
      *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
      */
     public function perma_del($id)
     {
