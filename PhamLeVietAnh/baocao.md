@@ -24,8 +24,8 @@
 
 - [x] Học css, thiết kế file css (2 giờ). [css Tutorial](https://www.w3schools.com/css/)
 
-- [] Truy cập cơ sở dữ liệu, lấy thông tin sản phẩm cũ của khách hàng và gợi ý sản phẩm tương tự (4-5 giờ).
+- [ ] Truy cập cơ sở dữ liệu, lấy thông tin sản phẩm cũ của khách hàng và gợi ý sản phẩm tương tự (4-5 giờ).
 
-- [] Kiểm thử giao diện và độ chính xác của database bằng trải nghiệm thực tế (2-3 giờ).
+- [ ] Kiểm thử giao diện và độ chính xác của database bằng trải nghiệm thực tế (2-3 giờ).
 
-- [] refactor lại code, thêm comment (1-2 giờ). [Construction](https://docs.google.com/document/d/1a4i_31R8WBUAnF91syr1FwBpKoAiTY6rEJt1xWjb74M/edit#heading=h.bxti8dsihgwm)
+- [ ] refactor lại code, thêm comment (1-2 giờ). [Construction](https://docs.google.com/document/d/1a4i_31R8WBUAnF91syr1FwBpKoAiTY6rEJt1xWjb74M/edit#heading=h.bxti8dsihgwm)
