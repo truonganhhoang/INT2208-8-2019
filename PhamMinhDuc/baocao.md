@@ -1,11 +1,11 @@
-# Là người quản lý, tôi muốn có chức năng đăng ký để tạo tài khoản cho người dùng.
+# Là người quản lý, tôi muốn có chức năng đăng ký tài khoản để tạo tài khoản cho người dùng.
 
  ### Task list:
 - [x] Nắm bắt chung các yêu cầu và chia thành 2 nhóm: 
 
     Yêu cầu chức năng: Sau khi đăng ký, hệ thống sẽ gửi mã xác nhận đến email của người dùng; yêu cầu người dùng nhập vào dữ liệu gì; người dùng cần nhập đúng mã xác nhận để đăng ký thành công...
 
-    Phi chức năng: dễ dàng kiểm thử bằng cách thử tạo tài khoản, người dùng cần nhập vào username, email và password,...
+    Phi chức năng: kiểm thử bằng cách thử tạo tài khoản, người dùng cần nhập vào username, email và password,...
 
     [Requirements Process](https://docs.google.com/document/d/1a4i_31R8WBUAnF91syr1FwBpKoAiTY6rEJt1xWjb74M/edit#heading=h.4e8vcw2o7pg2)
 
@@ -47,7 +47,7 @@
 
  - [x] Kiểm thử bằng kiểm thử hộp đen để kiểm thử giao diện, chức năng (1-2 giờ):
 
-   Đoán lỗi: nhập sai kiểu dữ liệu trong input, nhập thiếu trường bắt buộc, cho phép nhập kí tự đặc biệt, không gửi mã xác nhận đến email, nhập email không tồn tại...
+   Đoán lỗi: nhập sai kiểu dữ liệu trong input, nhập thiếu trường bắt buộc, nhập kí tự đặc biệt, không gửi mã xác nhận đến email, nhập email không tồn tại...
 
    [Lý thuyết kiểm thử hộp đen](https://docs.google.com/document/d/1a4i_31R8WBUAnF91syr1FwBpKoAiTY6rEJt1xWjb74M/edit#heading=h.4e8vcw2o7pg2)
 
