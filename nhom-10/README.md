@@ -1,4 +1,6 @@
 # nhom-10
+
+### Báo cáo dự án: [Link báo cáo](https://github.com/hoanphi2201/SoftEng-Assignments-nhom-10/blob/master/README.md)
 ### Thành viên
 ```
  * Phí Xuân Hoàn - 17020759
