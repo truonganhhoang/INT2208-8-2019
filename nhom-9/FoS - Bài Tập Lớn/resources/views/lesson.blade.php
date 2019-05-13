@@ -32,9 +32,10 @@
                 <div class="alert alert-info">{{session('message')}}</div>
                 <button for='option1'>Đáp án</button>
             @else
+            {{--form submit để hiển thị điểm số--}}
             <form action="{{ route('lessons.test', [$lesson->slug]) }}" method="post">
                 {{ csrf_field() }}
-
+                    {{--hiển thị các câu hỏi dạng trắc nghiệm--}}
                 @foreach ($lesson->test->questions as $question)
                     <b><strong>{{ $loop->iteration }}. {{ $question->question }}</strong></b>
                     <br />
@@ -45,10 +46,7 @@
 
                     @endforeach
                     <br />
-                     {{--  <button for='option1'>
-                        <span>Đáp án</span>
-                      </button> --}}
-                      {{-- <button>Đáp án</button> --}}
+
                 @endforeach
 
                 <input type="submit" value=" Kết quả " />
@@ -56,7 +54,7 @@
             @endif
             <hr />
 
-            
+            {{--Sau khi submit kết quả sẽ hiện ra câu trả lời đúng tương ứng với mỗi câu hỏi--}}
             <div id="item">
                 @foreach ($lesson->test->questions as $question)
                     <b><strong>{{ $loop->iteration }}. {{ $question->question }}</strong></b>
@@ -64,6 +62,7 @@
                     @foreach ($question->options as $option)
                         <input id="option1" type="radio" name="questions[{{ $question->id }}]" value="{{ $option->id }}" class="form-radio" 
                              <?php 
+                             {{--Trên database nếu option câu hỏi > 0 là đáp án đúng--}}
                                 if ($option->correct > 0)
                                     echo "checked";                             
                             ?>
