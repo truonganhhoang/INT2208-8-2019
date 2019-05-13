@@ -5,7 +5,7 @@
 - Trần Trung Hiếu
 - Đặng Hữu Tiến
 
-# :scroll: Ứng dụng hỗ trợ học tập FOS - Fond Of Study<br>
+# :scroll: Ứng dụng hỗ trợ học tập FoS - Fun of Study<br>
 
 ### :reminder_ribbon: Vai trò các thành viên theo mô hình phát triển phần mềm Scrum
 - Product Owner: Nguyễn Hữu Minh Quang
@@ -16,6 +16,10 @@
 - Học sinh các khối tiểu học, trung học, phổ thông
 - Người dùng có nhu cầu ôn luyện thi THPTQG
 
+### :clipboard: Sản phẩm của nhóm: [FoS- Fun of Study](https://fos-quiz.herokuapp.com/)
+- Tài khoản admin: admin@admin.com
+- Mật khẩu: password
+
  ### :clipboard: Mô tả ứng dụng
 - Ứng dụng để học tập dành cho các bạn học sinh THPT
   - Cụ thể là làm các bài tập môn học,thi thử các đề kiểm tra 15'/45'/học kỳ và các đề thi THPTQG
@@ -24,7 +28,7 @@
 
  ### :clipboard: Tài liệu kỹ thuật
 
- ### :vhs: Video demo
+ ### :vhs: [Video demo và hướng dẫn sử dụng](https://youtu.be/SuxDkJYifUA)
  
  ### :books: Tài liệu tham khảo
  #### :small_orange_diamond: Sách: 
