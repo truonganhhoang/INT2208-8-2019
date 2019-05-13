@@ -6,9 +6,9 @@
 # Báo cáo cá nhân môn học Công nghệ phần mềm
 * Tên ứng dụng:  Clover Shop
 * Bài tập nhóm: *Dự án web bán hàng online* [Link website](http://clover-shop.herokuapp.com), [Repo Github]()
-* Hoàn thành khóa học trên edx ([Link ảnh]())
+* Hoàn thành khóa học trên edx ([Link ảnh](https://github.com/17020932/INT2208-8-2019/blob/master/NguyenThiNgoc/SoftEng1x.jpg))
 * User story: Là một người mua hàng, tôi muốn các sản phẩm được hiển thị theo từng danh mục và từng khoảng giá để dễ dàng lựa chọn 
-	[Link issues]():
+
 - [x] Phân tích và làm rõ yêu cầu của user story(Lọc sản phẩm theo danh mục)
 link tài liệu :
     - [Các tính chất của yêu cầu](https://docs.google.com/document/d/1a4i_31R8WBUAnF91syr1FwBpKoAiTY6rEJt1xWjb74M/edit#heading=h.s0hihj78muyz)
