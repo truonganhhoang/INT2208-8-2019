@@ -77,12 +77,13 @@ Facebook: [url]( https://developers.facebook.com/apps/325860808251746/dashboard/
 
 ## Tổng hợp quá trình làm bài tập nhóm 
 
-- Repo sản phẩm được triển khai tại [GITHUB](https://github.com/hoanphi2201/SoftEng-Assignments-nhom-10)
+- Repo sản phẩm được triển khai tại: [GITHUB](https://github.com/hoanphi2201/SoftEng-Assignments-nhom-10)
 
 - Link Video báo cáo và demo userstory:  [YOUTUBE](https://youtu.be/bxZMtXm2gAk)
 
 - Sản phẩm được deloy sử dụng ec2 và s3 của amazon: 
-+ >Trang chủ http://luyenthi365.xyz
-+ >Trang quản trị [Link](http://webthi-angular.s3-website-ap-southeast-1.amazonaws.com)
-+ >Link dự phòng [Link](http://luyenthi365.xyz.s3-website-ap-southeast-1.amazonaws.com)
++ >Trang chủ: http://luyenthi365.xyz
++ >Trang quản trị: [Link](http://webthi-angular.s3-website-ap-southeast-1.amazonaws.com)
++ >Link dự phòng: [Link](http://luyenthi365.xyz.s3-website-ap-southeast-1.amazonaws.com)
 + >Báo cáo nhóm: [Link README](https://github.com/hoanphi2201/SoftEng-Assignments-nhom-10/blob/master/README.md)
++ >Tài liệu kỹ thuật phần mềm: [Link](https://drive.google.com/open?id=1eEWwFZwnDV7SE5QCx8d3h5DelDF4J32p)
