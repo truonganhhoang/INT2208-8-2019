@@ -16,7 +16,7 @@
 
 - Testable: Có thể kiểm thử dễ dàng.
 
-**Những công việc cần làm
+**Những công việc cần làm**
 
 - [x] Phân tích kỹ yêu cầu của người dùng (giao diện cần gì, đặt ô comment ở đâu ...) (1h)
        [Làm rõ yêu cầu](https://docs.google.com/document/d/1a4i_31R8WBUAnF91syr1FwBpKoAiTY6rEJt1xWjb74M/edit#heading=h.fvjpas4blmex)
@@ -34,3 +34,14 @@
        [Refactoring](https://docs.google.com/document/d/1a4i_31R8WBUAnF91syr1FwBpKoAiTY6rEJt1xWjb74M/edit?fbclid=IwAR2RKT8WWnwXfrP30tY3u2ylD1AWJlfZV5B1npknln1boppF-TUEkdcFl98#heading=h.bxti8dsihgwm)
 
 - [Link video](https://www.youtube.com/watch?v=cQyWsZ6cyDQ&feature=youtu.be)
+
+## Giới thiệu, hướng dẫn chức năng.
+- Chức năng bình luận: trong khi đọc truyện ta có thể tham gia bình luận, chia sẻ ý kiến và đánh giá truyện để ta có thể tương tác với những người có cùng sở thích đọc truyện.
+ - Link trang web: [Web-truyen-tranh](https://afternoon-gorge-98922.herokuapp.com/).
+ - Repositories: [Repo sản phẩm](https://github.com/phamhung99/Website-truyen-tranh).
+ - [Link video demo chức năng](https://www.youtube.com/watch?v=cQyWsZ6cyDQ&feature=youtu.be).
+ 
+ ## Hướng dẫn sử dụng chức năng.
+  Khi bạn nhấn chọn 1 cuốn truyện thì ngay ở bên dưới sẽ là phần bình luận
+  Tại đây bạn nhấn vào thêm bình luận để có thể bình luận và sau đó nhấn đăng để hoàn tất việc bình luận
+  
