@@ -16,7 +16,7 @@
 
 
 ### Tên ứng dụng:  Clover Shop
--- Bài tập nhóm: **Dự án web bán hàng online** : [link repo](https://github.com/17020932/2hand-market/tree/master/2hand-market), 
+-- Bài tập nhóm: **Dự án web bán hàng online** : [link repo](https://github.com/17020932/INT2208-8-2019/tree/master/nhom-88/clover_shop), 
 [website](http://clover-shop.herokuapp.com/)
 
 
@@ -27,7 +27,7 @@
 
 1.	Mở trình duyệt của bạn lên.
 
-2.	Gõ vào ô tìm kiếm địa chỉ sau: https://clover-shop.herokuapp.com/
+2.	Gõ vào ô tìm kiếm địa chỉ sau: http://clover-shop.herokuapp.com/
 
 3.	Bây giờ trang giới thiệu trang sẽ hiện lên: 
 
