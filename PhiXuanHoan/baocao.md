@@ -24,6 +24,9 @@
 - Nhận thấy việc tham gia hệ thống bằng việc đăng ký tài khoản mất quá nhiều thời gian nhập dữ liệu sau khi điền thông tin người dùng lại phải xác nhận qua email hoặc số điện thoại.
 - Các mạng xã hội lớn đã hỗ trợ các api lấy thông tin của người dùng một cách hiệu quả.
 - Thay vì việc đăng ký đăng nhập tốn thời gian người dùng chỉ cần nhấp chuột vào "Đăng nhập google" hoặc "Đăng nhập facebook" một tài khoản sẽ tự động được tạo với đầu đủ thông tin tài khoản và ảnh đại diện.
+- Sau khi đăng nhập thành công người dùng sẽ được chuyển đến trang đăng nhập hoặc quay lại trang trước đó người dùng bị chuyển đến bằng tham số returnUrl.
+- Hệ thống sẽ lấy được các thông tin cơ bản của người dùng sau đó cần phải thực hiện lưu người dùng. kiểm tra id facebook hoặc google đã có hay chưa nếu có thì đăng nhập. Nếu chưa tồn tại người dùng cần phải lưu người dùng vào cơ sở dữ liệu, tải ảnh đại diện của người dùng.
+- Hệ thống sẽ sử dụng 2 thư viện chính là passport.js và jwt để kiểm tra thông tin người dùng và tạo ra một token trả về cho client. Lựa chọn phương án lưu thông tin vào localStorage.
 
 ##### Công việc cần làm
 
@@ -65,11 +68,11 @@ Facebook: [url]( https://developers.facebook.com/apps/325860808251746/dashboard/
 
 - [x] Kiểm thử hộp trắng độ bao phủ [edx](https://docs.google.com/document/d/1a4i_31R8WBUAnF91syr1FwBpKoAiTY6rEJt1xWjb74M/edit#heading=h.ryzy80x4sqk1)
 
-- [ ] Kiểm thư giao diện (reponsive, text, ...) [edx](https://docs.google.com/document/d/1a4i_31R8WBUAnF91syr1FwBpKoAiTY6rEJt1xWjb74M/edit#heading=h.zhrswbsdiifd)
+- [x] Kiểm thư giao diện (reponsive, text, ...) [edx](https://docs.google.com/document/d/1a4i_31R8WBUAnF91syr1FwBpKoAiTY6rEJt1xWjb74M/edit#heading=h.zhrswbsdiifd)
 
-- [ ]  Unit Testing với Karma và Jasmine [tài liệu](https://github.com/truonganhhoang/int3507-2016/wiki/%5BPATH%5D-Testing-in-angular-2)
+- [x]  Unit Testing với Karma và Jasmine [tài liệu](https://github.com/truonganhhoang/int3507-2016/wiki/%5BPATH%5D-Testing-in-angular-2)
 
-- [ ] Cho các thành viên trong nhóm kiểm thử và dùng thử, mời 1 số người dùng trải nghiệm.
+- [x] Cho các thành viên trong nhóm kiểm thử và dùng thử, mời 1 số người dùng trải nghiệm.
 
 ## Tổng hợp quá trình làm bài tập nhóm 
 
