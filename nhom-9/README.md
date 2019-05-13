@@ -20,9 +20,9 @@
 - Tài khoản admin: admin@admin.com
 - Mật khẩu: password
 
- ### :clipboard: [Tài liệu kỹ thuật](https://drive.google.com/file/d/1xIqO13RKruh3t1CVA5rxTmrfKmkWqjNY/view)
+ ### :clipboard: Tài liệu kỹ thuật: [Tài liệu](https://drive.google.com/file/d/1xIqO13RKruh3t1CVA5rxTmrfKmkWqjNY/view)
 
- ### :vhs: [Video demo và hướng dẫn sử dụng](https://youtu.be/SuxDkJYifUA)
+ ### :vhs: Video demo và hướng dẫn sử dụng: [Video](https://youtu.be/SuxDkJYifUA)
  
   ### :clipboard: Mô tả ứng dụng
 - Ứng dụng để học tập dành cho các bạn học sinh THPT
