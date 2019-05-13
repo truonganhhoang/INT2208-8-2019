@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" href="img/icon5.ico" type="image/x-ico"/>
+    <link rel="stylesheet" href="mainpage-css.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="jquery.js"></script>
+    <script src="mainpage-js.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <title>Payment</title>
+    <style>
+    table, td, th {  
+        border: 1px solid #ddd;
+        text-align: left;
+     }
+    table {
+         border-collapse: collapse;
+        width: 100%;
+    }
+
+    th, td {
+    padding: 15px;
+    }
+</style>
+</head>
+<body> 
+    <h2>Payment</h2>
+
+<table>
+  <tr>
+    <th>Tên khách hàng</th>
+    <th>Số điện thoại</th>
+    <th>Tên sản phẩm</th>
+    <th>Số lượng</th>
+    <th>Giá sản phẩm</th>
+  </tr>
+  <tr>
+ {{# each payments}} 
+  
+    <td>{{this.userinfo.name}}</td>
+    <td>{{this.userinfo.number}}</td>
+    <td>{{this.productinfo.name}}</td>
+    <td>{{this.number}}</td>
+    <td>{{this.productinfo.price}}</td>
+  
+  </tr>
+  {{/each}} 
+</table>
+
+    </body>
+    </html>

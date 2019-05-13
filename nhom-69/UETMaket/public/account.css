@@ -1,0 +1,300 @@
+@font-face {
+	font-family: Nixmat;
+	src: url(font/Nixmat.ttf);
+}
+@font-face {
+	font-family:MYRIADPRO-SEMIBOLD;
+	src: url(font/MYRIADPRO-SEMIBOLD.otf);
+}
+@font-face {
+	font-family:MYRIADPRO-BOLDIT;
+	src: url(font/MYRIADPRO-BOLDIT.otf);
+}
+@font-face {
+	font-family:MYRIADPRO-COND;
+	src: url(font/MYRIADPRO-COND.otf);
+}
+@font-face {
+	font-family:MyriadPro-Light;
+	src: url(font/MyriadPro-Light.otf);
+}
+@font-face {
+	font-family:OCR A Std Regular;
+	src: url(font/OCR A Std Regular.ttf);
+}
+div.mainhead {
+	background-image: url("img/bia4.jpg");
+	padding:0px;
+	height:84px;
+}
+
+input.input1 {
+	border: 1px solid #ccccb3;
+    border-radius: 5px;
+    height: 50px;
+    width: 600px;
+    float:right;
+	padding: 0px;
+	outline: none;
+ 
+}
+input.input1:focus {
+    height: 50px;
+	width: 600px;
+	outline: none;
+ 
+}
+p.icon1 {
+	position: absolute;
+	right: 10px;
+	top:155px;
+	padding: 10px;
+}
+p.icon2 {
+	position: absolute;
+	right: 70px;
+	top: 155px;
+	padding: 10px;
+}
+div.list {
+    padding: 30px;
+	border-top: 0.5px ridge #ccccb3;
+	display: flex;
+	justify-content: center;
+	
+}
+div.title1 {
+	border-top: 0.5px ridge #ccccb3;
+	
+	
+}
+p.maintitle {
+	font-family: Nixmat;
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 20px;
+}
+p.hotline {
+	font-family:MYRIADPRO-COND;
+	font-size: 100%;
+	position: absolute;
+	top: 80px;
+	left: 0px;
+}
+div.list {
+	padding: 30px;
+	border-top: 0.5px ridge #ccccb3;
+	margin-bottom: 10px;
+	display: flex;
+	justify-content: center;
+	
+	
+}
+ul.Mainlist {
+	margin-top: 0px;
+	
+}
+ul.Mainlist li {
+	
+	display: block;
+	font-family:MYRIADPRO-SEMIBOLD;
+	font-weight: bold;
+	float: left;
+	list-style-type: none;
+
+}
+ul.Mainlist li a {
+	color: #000000;
+	text-decoration: none;
+	background-color: white;
+	padding: 30px;
+	position: relative;
+	
+}
+input[type=checkbox] {
+	height: 20px;
+  }
+
+ul.Mainlist li a:hover {
+	background-color: #ffcc00;
+	color: white;
+	text-decoration: none;
+	padding-top: 31px;
+	text-align: top;
+	padding: 30px;
+	position: relative;
+	
+}
+.g-list {
+	position: relative;
+}
+.list-content {
+	display: none;
+	position: absolute;
+	
+}
+
+.list-content a {
+	display: block;
+	font-size: 100%;
+	text-align: center;
+}
+.content-drop {
+	position: relative;
+}
+
+.title{
+    height: 120px;
+    background-color: white;
+}
+.title .titlecontent{
+    width: 270px;
+    height: 28px;
+    border-bottom: 8px solid #ffb400;
+    box-sizing: border-box;
+    color: black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    font-size: 25px;
+    text-align: center;
+    font-family: "Roboto","HelveticaNeue","Helvetica Neue",sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.content{
+    width: 1200px;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+.content .sign{
+    height: 500px;
+    width: 50%;
+    background-color: white;
+}
+input{
+    width: 400px;
+    height: 30px;
+    padding-left: 10px;
+    margin-left: 20px;
+}
+input:focus{
+    width: 410px;
+    height: 30px;
+}
+#sign{
+    font-family: "Roboto","HelveticaNeue","Helvetica Neue",sans-serif;
+    font-size: 17px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+button{
+    width: 150px;
+    height: 50px;
+    font-family: "Roboto","HelveticaNeue","Helvetica Neue",sans-serif;
+    font-size: 17px;
+    text-transform: uppercase;
+    font-weight: 600;
+    border: 1px solid #ffb400;
+    background-color: #ffb400;
+    color: #fff;
+    text-align: center;
+    margin: 50px 150px;
+}
+button:hover{
+    background-color: chocolate;
+    border: 1px solid chocolate;
+}
+.content .sign .name{
+    width: 150px;
+    height: 30px;
+    padding-left: 10px;
+    margin-left: 20px;
+}
+.content .sign .name:focus{
+    width: 160px;
+    height: 30px;
+}
+.infor{
+    height: 350px;
+    background-color: black;
+}
+#title{
+    color: white;
+    height: 100px;
+    border-bottom: 1px solid white;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+    text-transform: uppercase;
+    padding-top: 40px;
+}
+.infor .information{
+    text-align: center;
+    color: white;
+    font-size: 14px;
+    font-style: italic;
+}
+div.foot {
+    margin-top: 20px;
+	background-color: black;
+	height: 400px;
+	width:100%;
+}
+div.address {
+	text-align: center;
+	font-family: MYRIADPRO-BOLDIT;
+	font-weight: bold;
+	
+}
+div.title1 {
+    border-top: 0.5px ridge #ccccb3;
+	font-family: Nixmat;
+	text-align: center;
+	font-size: 200%;
+	padding-top: 30px;
+	padding-bottom: 20px;
+}
+img.MXH {
+	background-color: white;
+}
+img.MXH:hover {
+	background-color: #ffcc00;
+}
+.loginname {
+	color:white; 
+	margin-top:10px;
+	font-family:MYRIADPRO-SEMIBOLD;
+}
+input.logininput {
+	border-bottom: 1px solid;
+	border-top:none;
+	border-left: none;
+	border-right: none;
+	margin-bottom: 30px;
+	background-color: white;
+	
+
+}
+input.logininput:focus {
+	border-bottom: 1px solid #ffcc00 ;
+	border-top:none;
+	border-left: none;
+	border-right: none;
+	outline: none;
+	background-color: white;
+
+}
+.extra {
+	display: none;
+	max-width: 280px;
+	font-family:OCR A Std Regular;
+	font-size: 70%;
+}
+#password:focus ~ .extra  {
+	display: inline;
+	margin-right: 5px;
+}
+  
