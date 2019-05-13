@@ -1,4 +1,7 @@
-User Story:
+# Báo cáo cá nhân - Môn học Công nghệ phần mềm (INT2208-8-2019)
+
+## User story:
+
 Với tư cách là một admin tôi muốn:
 - Tải truyện lên trang web
 - Xóa truyện của trang web
@@ -12,29 +15,39 @@ Hướng giải quyết của nhóm phát triển:
 - [x] Tự học HTML,CSS,Nodejs, JavaScript, Ajax.
 - [x] Làm rõ yêu cầu thống nhất chức năng.
 (2 ngày)
- [edx](https://docs.google.com/document/d/1a4i_31R8WBUAnF91syr1FwBpKoAiTY6rEJt1xWjb74M/edit#heading=h.fvjpas4blmex)
+  [edx](https://docs.google.com/document/d/1a4i_31R8WBUAnF91syr1FwBpKoAiTY6rEJt1xWjb74M/edit#heading=h.fvjpas4blmex)
 - [x] Áp dụng nguyên lí chia nhỏ giao diện thành các phần nhỏ với mỗi chức năng cho một giao diện.
- (tạo giao diện thêm, sửa, thêm: 7 ngày)
-[edx](https://docs.google.com/document/d/1a4i_31R8WBUAnF91syr1FwBpKoAiTY6rEJt1xWjb74M/edit#)
-[commit](https://github.com/phamhung99/Website-truyen-tranh/commit/366fe9330164d96b654d1264586d8403facc8163)
+ (tạo giao diện thêm, sửa, xem các truyện: 7 ngày)
+ 
+  [edx](https://docs.google.com/document/d/1a4i_31R8WBUAnF91syr1FwBpKoAiTY6rEJt1xWjb74M/edit#)
+  
+  [commit](https://github.com/phamhung99/Website-truyen-tranh/commit/366fe9330164d96b654d1264586d8403facc8163)
 - [x] Phát triển các router tùy thuộc từng chức năng đã thống nhất.
 (phát triển chức năng ở phía backend: 7 ngày)
- [REST](https://docs.google.com/document/d/1a4i_31R8WBUAnF91syr1FwBpKoAiTY6rEJt1xWjb74M/edit#heading=h.rxyqst9dtgtt)
-[commit](https://github.com/phamhung99/Website-truyen-tranh/commit/3072252e19127b29d245c8a73a7a5fcb2b373beb)
+
+  [REST](https://docs.google.com/document/d/1a4i_31R8WBUAnF91syr1FwBpKoAiTY6rEJt1xWjb74M/edit#heading=h.rxyqst9dtgtt)
+ 
+  [commit](https://github.com/phamhung99/Website-truyen-tranh/commit/3072252e19127b29d245c8a73a7a5fcb2b373beb)
 - [x] Sử dụng Ajax để tối ưu chức năng. 
 (Tối ưu một số chức năng giúp thao tác mượt mà hơn: 7 ngày )
-[ajax](https://docs.google.com/document/d/1a4i_31R8WBUAnF91syr1FwBpKoAiTY6rEJt1xWjb74M/edit#heading=h.2teh197aonak)
-[w3school ajax](https://www.w3schools.com/js/js_ajax_intro.asp)
-[commit](https://github.com/phamhung99/Website-truyen-tranh/commit/516613d693f3172387bf307dba798a1434991c70)
+
+  [ajax](https://docs.google.com/document/d/1a4i_31R8WBUAnF91syr1FwBpKoAiTY6rEJt1xWjb74M/edit#heading=h.2teh197aonak)
+
+  [w3school-ajax](https://www.w3schools.com/js/js_ajax_intro.asp)
+
+  [commit](https://github.com/phamhung99/Website-truyen-tranh/commit/516613d693f3172387bf307dba798a1434991c70)
 - [x] Mã dễ đọc hơn.
 (comment cho những chức năng trong các dòng code,phân hàm cho các phương thức ở mỗi chức năng - 2 ngày)
- [Tính dễ đọc](https://docs.google.com/document/d/1a4i_31R8WBUAnF91syr1FwBpKoAiTY6rEJt1xWjb74M/edit#heading=h.zihsvljsrx0x) 
+
+  [Tính dễ đọc](https://docs.google.com/document/d/1a4i_31R8WBUAnF91syr1FwBpKoAiTY6rEJt1xWjb74M/edit#heading=h.zihsvljsrx0x) 
 
 Kiểm thử:
 - [x] Developer kiểm thử từng chức năng đã làm. 
-[testing](https://docs.google.com/document/d/1a4i_31R8WBUAnF91syr1FwBpKoAiTY6rEJt1xWjb74M/edit#heading=h.ryzy80x4sqk1)
+
+  [testing](https://docs.google.com/document/d/1a4i_31R8WBUAnF91syr1FwBpKoAiTY6rEJt1xWjb74M/edit#heading=h.ryzy80x4sqk1)
 - [x] Đưa người dùng kiểm thử chức năng đã hoàn thành.
- [testing](https://docs.google.com/document/d/1a4i_31R8WBUAnF91syr1FwBpKoAiTY6rEJt1xWjb74M/edit#heading=h.zhrswbsdiifd)
+
+  [testing](https://docs.google.com/document/d/1a4i_31R8WBUAnF91syr1FwBpKoAiTY6rEJt1xWjb74M/edit#heading=h.zhrswbsdiifd)
 
 Tiêu chí:
 [Quy tắc INVEST](https://docs.google.com/document/d/1a4i_31R8WBUAnF91syr1FwBpKoAiTY6rEJt1xWjb74M/edit#heading=h.q7gf6fh2jgdn)
@@ -46,17 +59,21 @@ Tiêu chí:
 - Đủ nhỏ.(Chức năng đủ nhỏ để xây dựng trong thời gian ngắn)
 - Có thể kiểm thử.(Kiểm thử cho khách hàng check lỗi  và khả năng hoạt động ổn định của các chức năng)
 
+## Giới thiệu và hướng dẫn sử dụng chức năng:
 
-Giới thiệu chức năng:
+**Giới thiệu chức năng:**
 
-Chức năng được tạo ra để phù hợp yêu cầu của khách hàng theo user story ở trên. Với các tính năng gồm:
+Chức năng được tạo ra để phù hợp yêu cầu của khách hàng theo user story ở trên. 
+
+Với các tính năng gồm:
 - Xem các truyện đang có trên trang web.
-- Xóa truyện. 
+- Xóa truyện.
+- Xóa chap truyện (được tích hợp ngay trong phần insert chap cho truyện đã có sẵn).
 - Thêm truyện mới.
 - Thêm chap cho truyện đã có sẵn.
 - Sửa một số thông tin của truyện đang có trên web.
 
-Hướng dẫn sử dụng:
+**Hướng dẫn sử dụng:**
 
 Đăng nhập vào tài khoản admin đã được cung cấp:
 
@@ -67,10 +84,12 @@ Password: admin
 Hình ảnh:
 <img src = "https://i.imgur.com/SOty1KW.png">
 
-Màn hình hiển thị sau khi đăng nhập sẽ có là:
+Màn hình hiển thị sau khi đăng nhập sẽ như sau:
 <img src = "https://imgur.com/nXsZSzu.png">
 
-Để xóa truyện thì nhấp nút xóa như bạn thấy
+Tất cả các truyện sẽ được hiển thị trên màn hình như bạn thấy ở trên.
+
+Để xóa truyện thì nhấp nút xóa như bạn thấy.
 
 Để thêm chap truyện bạn nhấp insert màn hình chuyển đến như hình:
 <img src = "https://imgur.com/hrRUt7D.png">
@@ -78,7 +97,10 @@ Màn hình hiển thị sau khi đăng nhập sẽ có là:
 Để thêm truyện mới thì cần nhấp vào insert trên thanh menu rồi nhấp New Story như hình:
 <img src = "https://imgur.com/lDFRnN7.png">
 
-Để sử thông tin truyện bạn trở lại All-Story rồi nhấp Detail màn hình hiển thị như hình:
+Sau đó màn hình hiển thị như sau:
+<img src = "https://i.imgur.com/OdqyQYS.png">
+
+Để sửa thông tin truyện bạn trở lại All-Story rồi nhấp Detail màn hình hiển thị như hình:
 <img src = "https://imgur.com/biijkDh.png">
 
 
