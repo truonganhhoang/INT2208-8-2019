@@ -32,9 +32,11 @@ Link tài liệu về boostrap 4: [bootstrap 4](https://getbootstrap.com/docs/4.
                     
 
 - [x] Viết mã jquery tạo hiệu ứng cho web [commit](https://github.com/17020932/oop/commit/53147d1fa2514c6ebaa24db91aec397e171bd3b3)
+
 Link tài liệu về jquery : [jquery](https://www.w3schools.com/jquery/)
 
 - [x] thực hiện liên kết cơ sở dữ liệu để hiển thị sản phẩm 17020932/oop@9df0f1c8d30303ec5396067307a99f4c47d72efd (1 tiếng)
+
 Link tài liệu về mongoose: [mongoose](https://mongoosejs.com/docs/)
 
 - [x] Thực hiện lọc sản phẩm và trả về dữ liệu cho người dùng 
@@ -51,9 +53,11 @@ Link tài liệu về mongoose: [mongoose](https://mongoosejs.com/docs/)
 - [x] Thực hiện phân trang để không hiển thị quá nhiều sản phẩm 1 lúc [commit](https://github.com/17020932/oop/commit/9551f4b59282896230394b9c9240306241ee2e4a) (1 tiếng)
 
 - [x] Kiểm thử giao diện dựa trên kiểm thử hộp đen(1 tiếng)
+
 link tài liệu: [Kiểm thử hộp đen](https://docs.google.com/document/d/1a4i_31R8WBUAnF91syr1FwBpKoAiTY6rEJt1xWjb74M/edit#heading=h.zhrswbsdiifd)
 
 - [x] Kiểm thử dựa trên kiểm thử hộp trắng(1 tiếng)
+
 link tài liệu: [kiểm thử hộp trắng](https://docs.google.com/document/d/1a4i_31R8WBUAnF91syr1FwBpKoAiTY6rEJt1xWjb74M/edit#heading=h.ryzy80x4sqk1)
 
 - [x] Tối ưu hóa code và hoàn thành sản phẩm
