@@ -47,5 +47,6 @@
   ![alt](https://github.com/phamhung99/PhamHung/blob/master/theloai.png)
   
   Tại đây, chọn một thể loại bạn muốn đọc, màn hình sẽ trả về các truyện thuộc thể loại đó.
+  
   Một truyện có thể được xếp vào nhiều thể loại. Ví dụ: truyện one piece có thể nằm trong 2 thể loại là hành động và harem.
-    - ví dụ: chọn vào hành động màn hình sẻ trả về các truyện  như: conan, one piece,...Bạn hay chọn một truyện để đọc.
+  - ví dụ: chọn vào hành động màn hình sẻ trả về các truyện  như: conan, one piece,...Bạn hay chọn một truyện để đọc.
