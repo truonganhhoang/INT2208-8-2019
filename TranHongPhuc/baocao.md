@@ -1,4 +1,5 @@
 User Story:
+
 Với tư cách là một admin tôi muốn:
 - Tải truyện lên trang web
 - Xóa truyện của trang web
@@ -12,35 +13,39 @@ Hướng giải quyết của nhóm phát triển:
 - [x] Tự học HTML,CSS,Nodejs, JavaScript, Ajax.
 - [x] Làm rõ yêu cầu thống nhất chức năng.
 (2 ngày)
- [edx](https://docs.google.com/document/d/1a4i_31R8WBUAnF91syr1FwBpKoAiTY6rEJt1xWjb74M/edit#heading=h.fvjpas4blmex)
+  [edx](https://docs.google.com/document/d/1a4i_31R8WBUAnF91syr1FwBpKoAiTY6rEJt1xWjb74M/edit#heading=h.fvjpas4blmex)
 - [x] Áp dụng nguyên lí chia nhỏ giao diện thành các phần nhỏ với mỗi chức năng cho một giao diện.
  (tạo giao diện thêm, sửa, xem các truyện: 7 ngày)
-[edx](https://docs.google.com/document/d/1a4i_31R8WBUAnF91syr1FwBpKoAiTY6rEJt1xWjb74M/edit#)
-[commit](https://github.com/phamhung99/Website-truyen-tranh/commit/366fe9330164d96b654d1264586d8403facc8163)
+ 
+  [edx](https://docs.google.com/document/d/1a4i_31R8WBUAnF91syr1FwBpKoAiTY6rEJt1xWjb74M/edit#)
+  
+  [commit](https://github.com/phamhung99/Website-truyen-tranh/commit/366fe9330164d96b654d1264586d8403facc8163)
 - [x] Phát triển các router tùy thuộc từng chức năng đã thống nhất.
 (phát triển chức năng ở phía backend: 7 ngày)
- [REST](https://docs.google.com/document/d/1a4i_31R8WBUAnF91syr1FwBpKoAiTY6rEJt1xWjb74M/edit#heading=h.rxyqst9dtgtt)
-[commit](https://github.com/phamhung99/Website-truyen-tranh/commit/3072252e19127b29d245c8a73a7a5fcb2b373beb)
+
+  [REST](https://docs.google.com/document/d/1a4i_31R8WBUAnF91syr1FwBpKoAiTY6rEJt1xWjb74M/edit#heading=h.rxyqst9dtgtt)
+ 
+  [commit](https://github.com/phamhung99/Website-truyen-tranh/commit/3072252e19127b29d245c8a73a7a5fcb2b373beb)
 - [x] Sử dụng Ajax để tối ưu chức năng. 
 (Tối ưu một số chức năng giúp thao tác mượt mà hơn: 7 ngày )
 
-[ajax](https://docs.google.com/document/d/1a4i_31R8WBUAnF91syr1FwBpKoAiTY6rEJt1xWjb74M/edit#heading=h.2teh197aonak)
+  [ajax](https://docs.google.com/document/d/1a4i_31R8WBUAnF91syr1FwBpKoAiTY6rEJt1xWjb74M/edit#heading=h.2teh197aonak)
 
-[w3school-ajax](https://www.w3schools.com/js/js_ajax_intro.asp)
+  [w3school-ajax](https://www.w3schools.com/js/js_ajax_intro.asp)
 
-[commit](https://github.com/phamhung99/Website-truyen-tranh/commit/516613d693f3172387bf307dba798a1434991c70)
+  [commit](https://github.com/phamhung99/Website-truyen-tranh/commit/516613d693f3172387bf307dba798a1434991c70)
 - [x] Mã dễ đọc hơn.
 (comment cho những chức năng trong các dòng code,phân hàm cho các phương thức ở mỗi chức năng - 2 ngày)
 
- [Tính dễ đọc](https://docs.google.com/document/d/1a4i_31R8WBUAnF91syr1FwBpKoAiTY6rEJt1xWjb74M/edit#heading=h.zihsvljsrx0x) 
+  [Tính dễ đọc](https://docs.google.com/document/d/1a4i_31R8WBUAnF91syr1FwBpKoAiTY6rEJt1xWjb74M/edit#heading=h.zihsvljsrx0x) 
 
 Kiểm thử:
 - [x] Developer kiểm thử từng chức năng đã làm. 
 
-[testing](https://docs.google.com/document/d/1a4i_31R8WBUAnF91syr1FwBpKoAiTY6rEJt1xWjb74M/edit#heading=h.ryzy80x4sqk1)
+  [testing](https://docs.google.com/document/d/1a4i_31R8WBUAnF91syr1FwBpKoAiTY6rEJt1xWjb74M/edit#heading=h.ryzy80x4sqk1)
 - [x] Đưa người dùng kiểm thử chức năng đã hoàn thành.
 
- [testing](https://docs.google.com/document/d/1a4i_31R8WBUAnF91syr1FwBpKoAiTY6rEJt1xWjb74M/edit#heading=h.zhrswbsdiifd)
+  [testing](https://docs.google.com/document/d/1a4i_31R8WBUAnF91syr1FwBpKoAiTY6rEJt1xWjb74M/edit#heading=h.zhrswbsdiifd)
 
 Tiêu chí:
 [Quy tắc INVEST](https://docs.google.com/document/d/1a4i_31R8WBUAnF91syr1FwBpKoAiTY6rEJt1xWjb74M/edit#heading=h.q7gf6fh2jgdn)
