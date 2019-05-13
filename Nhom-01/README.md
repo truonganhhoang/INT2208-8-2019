@@ -38,11 +38,12 @@ Bên cạnh đó, chúng tôi đã quay một video demo bên ngoài.
 * Để đánh dấu việc phát triển ứng dụng, chúng tôi đã lưu lại nhiêu phiên bản với nhiều thời kỳ khác nhau trong dự án.  
 * "vocabulary-stable-old.apk": Phiên bản lúc các chức năng còn khá sơ khai, tuy nhiên ứng dụng chạy ổn định.
 * "vocabulary-unstablestable-new.apk": Phiên bản lúc các chức năng đã tương đối hoàn thiện, tuy nhiên ứng dụng còn khá nhiều bugs.    
-* "vocabulary-stable-new.apk": Phiên bản mới nhất tính đến thời điểm hiện tại, đã ổn định, chức năng hoàn thiện.    
+* "vocabulary-stable-new.apk": Phiên bản debug mới nhất tính đến thời điểm hiện tại, đã tương đối ổn định, chức năng tương đối hoàn thiện.    
+* "vocabulary-release.apk": Phiên bản release mới nhất, đã fix hết lỗi, đã test các chức năng.  
 
 ## Giới thiệu về phần mềm
 ### Tên phần mềm:  
-#### SuperVocabulary
+#### SuperVocabulary  
 
 ### Mô tả phần mềm:
 Phần mềm hỗ trợ người dùng học từ vựng tiếng Anh thông qua các tiện ích: Lưu trữ danh sách từ vựng, quá trình học từ vựng một cách hệ thống, nhắc nhở, kiểm tra, chơi trò chơi... và có một cộng đồng để mọi người tương tác học tập
