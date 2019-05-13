@@ -20,26 +20,26 @@
 - [x]  [Phân tích yêu cầu người dùng](https://docs.google.com/document/d/1a4i_31R8WBUAnF91syr1FwBpKoAiTY6rEJt1xWjb74M/edit#heading=h.fvjpas4blmex): trang web có chức năng hiển thị danh sách món ăn theo nguyên liệu.
 
 - [x] Cập nhật lại giao diện chính.
-[commit](https://github.com/Nguyenhuy2801/nhom-28/commit/6e767c0d69d330be5287aa5494b7d2232f1d9982)
++[commit](https://github.com/Nguyenhuy2801/nhom-28/commit/6e767c0d69d330be5287aa5494b7d2232f1d9982)
 
 - [x]  [Thiết kế giao diện món ăn theo nguyên liệu](https://docs.google.com/document/d/1a4i_31R8WBUAnF91syr1FwBpKoAiTY6rEJt1xWjb74M/edit#)
-[commit](https://github.com/Nguyenhuy2801/nhom-28/commit/f6f6f4d33735e405d7693ee167929289f9ff3089)
++[commit](https://github.com/Nguyenhuy2801/nhom-28/commit/f6f6f4d33735e405d7693ee167929289f9ff3089)
 
 - [x] Tìm kiếm công thức theo thành phần, nguyên liệu ( thừa kế từ giao diện chính)
-[commit](https://github.com/Nguyenhuy2801/nhom-28/commit/f6f6f4d33735e405d7693ee167929289f9ff3089)
++[commit](https://github.com/Nguyenhuy2801/nhom-28/commit/f6f6f4d33735e405d7693ee167929289f9ff3089)
 
 - [x] [Tạo thêm bảng nguyên liệu trong database](https://docs.google.com/document/d/1a4i_31R8WBUAnF91syr1FwBpKoAiTY6rEJt1xWjb74M/edit#): chứa id và tên nguyên liệu để trỏ đến bảng công thức món ăn
 
 - [x] Bảng món ăn thêm foreign key là id của bảng nguyên liệu ([tài liệu](https://docs.google.com/document/d/1a4i_31R8WBUAnF91syr1FwBpKoAiTY6rEJt1xWjb74M/edit#heading=h.gk2kwayhjxq4))
 
 - [x] Kết nối full text search: elasticsearch với flask-sqlalchemy. 
-[commit](https://github.com/Nguyenhuy2801/nhom-28/commit/7242c97021755cb551cf7cea1b3806f8c92e4065)
++[commit](https://github.com/Nguyenhuy2801/nhom-28/commit/7242c97021755cb551cf7cea1b3806f8c92e4065)
 
 - [x] [Viết phương thức truy cập giao diện món ăn theo nguyên liệu và kết nối database](https://docs.google.com/document/d/1a4i_31R8WBUAnF91syr1FwBpKoAiTY6rEJt1xWjb74M/edit#)
-[commit](https://github.com/Nguyenhuy2801/nhom-28/commit/3b3c5d746c417dc90bf57607e6c6c9065f36d304)
++[commit](https://github.com/Nguyenhuy2801/nhom-28/commit/3b3c5d746c417dc90bf57607e6c6c9065f36d304)
 
 - [x] [Viết lệnh truy vấn](https://docs.google.com/document/d/1a4i_31R8WBUAnF91syr1FwBpKoAiTY6rEJt1xWjb74M/edit#) trả về danh sách món ăn theo nguyên liệu gợi ý cho người dùng.
-[commit](https://github.com/Nguyenhuy2801/nhom-28/commit/7780318d0f53a8d048832223b91d28558fb0fb22)
++[commit](https://github.com/Nguyenhuy2801/nhom-28/commit/7780318d0f53a8d048832223b91d28558fb0fb22)
 
 - [x] [Đánh giá đúng sai](https://docs.google.com/document/d/1a4i_31R8WBUAnF91syr1FwBpKoAiTY6rEJt1xWjb74M/edit#heading=h.2p5iil2k2k1x)
 
