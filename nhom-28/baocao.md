@@ -1,10 +1,10 @@
 ## Nhom-28
 ### Thành viên :
 
-1.Nguyễn Văn Huy [báo cáo cá nhân](https://github.com/Nguyenhuy2801/INT2208-8-2019/blob/master/NguyenVanHuy/baocao.md)
-2.Nguyễn Thị Liên [báo cáo cá nhân]()
-3.Đặng Thị Ngọc Ánh [báo cáo cá nhân](https://github.com/Nguyenhuy2801/INT2208-8-2019/tree/master/DangThiNgocAnh?fbclid=IwAR2s0pk174tFY4ReL8NXWmB9SNdNDvL163JGCnB2O9zy53xeFX-_ld70U24)
-4. Cao Thị Ngọc Huyền [báo cáo cá nhân](https://github.com/Nguyenhuy2801/INT2208-8-2019/blob/master/CaoThiNgocHuyen/baocao.md?fbclid=IwAR0LPfktPr-o1JGddKKG-CX-SJcHhDJOmf4wdAvIWOoDBoib5VrkLG1mB-E)
+1) Nguyễn Văn Huy [báo cáo cá nhân](https://github.com/Nguyenhuy2801/INT2208-8-2019/blob/master/NguyenVanHuy/baocao.md)
+2) Nguyễn Thị Liên [báo cáo cá nhân](https://github.com/Nguyenhuy2801/INT2208-8-2019/blob/master/NguyenThiLien/baocao.md?fbclid=IwAR3XdOS_vZj_KXycsaM9HeYuXQYzJiDhl0HG-swfB9i_WAigrd_LMOO5lVg)
+3) Đặng Thị Ngọc Ánh [báo cáo cá nhân](https://github.com/Nguyenhuy2801/INT2208-8-2019/tree/master/DangThiNgocAnh?fbclid=IwAR2s0pk174tFY4ReL8NXWmB9SNdNDvL163JGCnB2O9zy53xeFX-_ld70U24)
+4) Cao Thị Ngọc Huyền [báo cáo cá nhân](https://github.com/Nguyenhuy2801/INT2208-8-2019/blob/master/CaoThiNgocHuyen/baocao.md?fbclid=IwAR0LPfktPr-o1JGddKKG-CX-SJcHhDJOmf4wdAvIWOoDBoib5VrkLG1mB-E)
 
 # Báo cáo môn học công nghệ phần mềm
 
