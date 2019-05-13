@@ -28,4 +28,4 @@
 
 [] Kiểm thử giao diện và độ chính xác của database bằng trải nghiệm thực tế (2-3 giờ).
 
-[] refactor lại code, thêm comment (1-2 giờ). [Construction]
+[] refactor lại code, thêm comment (1-2 giờ). [Construction](https://docs.google.com/document/d/1a4i_31R8WBUAnF91syr1FwBpKoAiTY6rEJt1xWjb74M/edit#heading=h.bxti8dsihgwm)
