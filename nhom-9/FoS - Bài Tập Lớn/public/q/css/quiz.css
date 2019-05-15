@@ -1,0 +1,280 @@
+/*body*/
+		body {
+		    font: 20px Montserrat, sans-serif;
+		    line-height: 1.8;
+		}
+
+/*dropdown*/
+	    .dropdown{
+	    	color: DodgerBlue;
+	    	padding-left: 8px;
+	    	text-align: center;
+	    	background-color: DodgerBlue;
+	    }
+		.dropbtn{
+			border : none;
+			background-color: #f8f8f8;
+			font-size: 20px;
+			/* padding: 10px; */
+			padding-top: 6px;
+			outline: none;
+			margin: 0;
+			background-color: DodgerBlue;
+			color: white;
+		
+		}
+		.dropdown:hover .dropbtn{
+			background-color: DodgerBlue;
+			color: white;
+		}
+	     .dropdown-content {
+		  display: none;
+		  position: absolute;
+		  background-color: #f9f9f9;
+		  min-width: 160px;
+		  box-shadow: 0px 8px 16px 0px rgb(180, 180, 180);
+		  z-index: 1;
+		}
+
+		.dropdown-content a {
+		  float: none;
+		  color: black;
+		  padding: 25px;
+		  text-decoration: none;
+		  display: block;
+		  text-align: left;
+		  width: 420px;
+		}
+
+		.dropdown-content a:link {
+		   text-decoration: none;
+		}
+		.dropdown-content a:hover {
+		  color: DodgerBlue;
+		  text-decoration: underline;
+		}
+
+		.dropdown:hover .dropdown-content {
+		  display: block;
+		}
+		.sticky {
+		  position: fixed;
+		  top: 0;
+		  width: 100%;
+		}
+
+		.sticky + .content {
+		  padding-top: 60px;
+		}
+/*Hoverable Sidenav Buttons*/
+		#mySidenav a {
+		  position: absolute;
+ 		  top: -50px;
+		  transition: 0.3s;
+		  padding: 17px;
+		  width: 140px;
+		  text-decoration: none;
+		  font-size: 20px;
+		  color: white;
+		  border-radius: 0px 0px 12px 12px;
+		}
+
+		#mySidenav a:hover {
+		  top: 0;
+		}
+
+		#about {
+		  right: 400px;
+		  background-color: #4CAF50;
+		}
+
+		#blog {
+		  right: 250px;
+		  background-color: #2196F3;
+		}
+
+		#projects {
+		  right: 550px;
+		  background-color: #f44336;
+		}
+
+		#contact {
+		  right: 700px;
+		  background-color: #555
+		}
+		/*login/signup href
+		a.login:link, a.login:visited{
+			color: #0050ff;
+			text-decoration: none;	
+			font-family: Arial, Helvetica, sans-serif;
+			padding-right: 15px;
+			font-size: 18px;
+		}
+		a.login:hover, a.login:active{
+			color: DodgerBlue;
+			text-decoration: none;
+		}
+		a.signup:link, a.signup:visited{
+		    font-family: Arial, Helvetica, sans-serif;
+			font-size: 20px;
+			text-decoration: none;
+			background-color: #0075ff;
+			color: white;
+			padding: 9px 16px;
+ 			text-align: center;
+ 			border-radius: 35px
+		}
+		a.signup:hover, a.signup:active{
+			background-color: DodgerBlue;
+			text-decoration: none;
+		}*/
+		button.login {
+		  background-color: LightGray;
+		  color: #0050ff;
+		  margin: 8px 0;
+		  border: none;
+		  padding-right: 10px;
+		  cursor: pointer;
+		  width: 100%;
+		  border-radius: 1px;
+		  border-color: LightGray;
+
+		}
+		button.login:hover{
+			color: white;
+			background-color:#0090ff;
+			border: 2px solid DodgerBlue;
+		}
+		button.signup {
+		  background-color: #0075ff;
+		  color: white;
+		  padding-right: 10px;
+		  margin: 8px 0;
+		  border: none;
+		  cursor: pointer;
+		  width: 100%;
+		  border-radius: 4	px;
+		  border: 2px solid DodgerBlue;
+		}
+		button.signup:hover {
+			color: white;
+			background-color:DodgerBlue;
+		}
+		.topTab{
+			float: right;
+			padding-right: 20px;
+			padding-top: 5px;
+		}
+
+/*container */
+	    .nb-1{
+	    	background-color: LightGray;
+	    	background-image: url('https://i.stack.imgur.com/jGlzr.png');
+	    	background-position: center;
+			background-repeat: no-repeat;
+			background-size: cover;
+	      }
+	       .nb-2{
+			background-color: DodgerBlue;
+			height: 50px;
+			} 
+	      .nb-3{
+	      	padding-top: 25px;
+	      }
+	      .while1{
+			background-color: LightGray;
+
+		}
+/*vào đề thi*/		
+			.size_math{padding-top: 20px;
+				padding-bottom: 20px;}
+			.size_math p{
+				font-size: 15px;
+			}
+			.size_math img{
+				width: 105%;
+			}
+			.image_overlay {
+			  position: relative;
+			}
+
+			.overimage {
+			  	
+			}
+			.overlay {
+			  position: absolute; 
+			  bottom: 0; 
+			  background: rgb(0, 0, 0);
+			  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+			  color: #f1f1f1; 
+			  width: 105%;
+			  transition: .5s ease;
+			  opacity:0;
+			  color: white;
+			  font-size: 20px;
+			  padding: 20px;
+			  text-align: center;
+			}
+
+			.image_overlay:hover .overlay {
+			  opacity: 1;
+			}
+
+
+/*footer*/	
+
+		footer {
+		    padding-top: 50px;
+		    padding-bottom: 50px ;
+		    background-image: url('http://acshub.co.uk/hubassets/uploads/2016/09/acs-website-background-building-e1472862899804.jpg');
+		    background-repeat: no-repeat;
+		}
+		ul.uull {list-style-type: none;}
+		.footerr a{
+			color: black;
+		}
+		.footerr a:hover{
+			color: #002db3;
+			text-decoration: none;
+		}
+		.icon a{
+			padding-right: 15px;
+		}
+		.clock{
+			padding-bottom: 15px;
+		}
+		h2{
+		  color: #396;
+		  font-weight: 100;
+		  font-size: 30px;
+		  margin: 40px 0px 20px;
+		}
+
+		#clockdiv{
+			font-family: sans-serif;
+			color: #fff;
+			display: inline-block;
+			font-weight: 100;
+			text-align: center;
+			font-size: 30px;
+		}
+
+		#clockdiv > div{
+			padding: 10px;
+			border-radius: 3px;
+			background: #00BF96;
+			display: inline-block;
+		}
+
+		#clockdiv div > span{
+			padding: 15px;
+			border-radius: 3px;
+			background: #00816A;
+			display: inline-block;
+		}
+
+		.smalltext{
+			padding-top: 5px;
+			font-size: 16px;
+		}
+/**/
