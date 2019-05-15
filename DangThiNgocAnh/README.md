@@ -56,8 +56,6 @@
 
 # Tổng hợp quá trình làm bài tập nhóm
 
-- **Repo sản phẩm được triển khai tại [Github](https://github.com/hoanphi2201/SoftEng-Assignments-nhom-10/tree/congky)**
-
 - **Link Vieo báo cáo và demo user story tại: [Youtube](https://www.youtube.com/watch?v=I3sxhFfEUco&t=17s)**
 
 - **Sản phẩm được deloy sử dụng pythonanywhere:** 
