@@ -1,79 +1,31 @@
 # nhom-24
+Link sản phẩm triển khai của nhóm: https://trotothn.000webhostapp.com/
+
 Link repo dự án: https://github.com/thangnmuet2017/TroTotHN
 
-## Thành viên
-	Nguyễn Mạnh Thắng - 17021030
-	Nguyễn Duy Tâm - 17021009
-	Nguyễn Hữu Trí - 17021080
-	Phạm Văn Thuấn - 17021049
-	Đặng Văn Nguyễn - 17020939
+Link báo cáo dự án: https://docs.google.com/document/d/1UlEQQQGNO7bRcpwEpcOOiQA_ors9d8qumERrpfFKLsc/edit?fbclid=IwAR1Xe1EIEcAQvLgRau9T-1I2D6TCzzvIiO_TC-ueufhroJgJKwgQwblg1Gs#
+
+Link hướng dẫn sử dụng sản phẩm: https://drive.google.com/file/d/1SoGAWN-jqKQ1qjBwB9LORha3blfLoHPS/view?fbclid=IwAR1bwmBysIo2L_PpKyq-7yO2-65rR4m-TNrixwwqL9Oi4UALydVgkY-8ijo
+
+Link đến các video demo các chức năng của sản phẩm
+
+  - [Tổng quan Trang chủ, đăng ký, đăng nhập, đăng xuất](https://www.youtube.com/watch?v=zgUG9sTtlVw)
+
+  - [Tìm kiếm nhanh theo loại phòng, sắp xếp theo giá và thời gian](https://www.youtube.com/watch?v=7R8aqXlfEb8)
+
+  - [Sử dụng bộ lọc để tìm phòng theo điều kiện](https://www.youtube.com/watch?v=8g_eT3NExEQ)
+
+  - [Đăng tin nhanh và xem chi tiết phòng](https://www.youtube.com/watch?v=0iG5Xmuw4Tw)
 
 
-### Nội dung
+## Danh sách thành viên và báo cáo cá nhân tương ứng
 
-1. Tên ứng dụng: Trọ tốt HN
-2. Các nhóm người dùng: Sinh viên, người lao động tại Hà Nội
-3. Mô tả
-	Cung cấp cho người dùng những thông tin hữu ích về những nhà trọ tốt, phù hợp với điều kiện của bản thân, chia sẻ những kinh nghiệm sống, học tập, làm việc tại Hà Nội. Ứng dụng hướng đến người tìm thuê trọ, và cả những người muốn giới thiệu địa chỉ của mình cho những người có mong muốn thuê trọ.
-4. Phác thảo màn hình chính: 
-	- Trang chủ
-	- Giới thiệu
-	- Tìm nhà trọ (dành cho người có nhu cầu tìm nhà trọ)
-	- Chia sẻ nhà trọ (dành cho người muốn giới thiệu nhà trọ cho những người có nhu cầu)
-	- Chuyện trò linh tinh 
-		+ Chia sẻ kinh nghiệm sống, học tập, làm việc, ví dụ như kinh nghiệm tìm nhà trọ,...
-	- Phản hồi
-		+ Ghi nhận các ý kiến đóng góp về những nhà trọ không uy tín, những thông tin sai lệch, hoặc các đóng góp để phát triển ứng dụng tốt hơn
+- [Nguyễn Mạnh Thắng - 17021030](https://github.com/thangnmuet2017/INT2208-8-2019/blob/master/nhom-24/NguyenManhThang/baocao.md)
+	
+- [Nguyễn Duy Tâm - 17021009](https://github.com/thangnmuet2017/INT2208-8-2019/blob/master/nhom-24/NguyenDuyTam/baocao.md)
+	
+- [Phạm Văn Thuấn - 17021049](https://github.com/thangnmuet2017/INT2208-8-2019/blob/master/nhom-24/Ph%E1%BA%A1m%20V%C4%83n%20Thu%E1%BA%A5n/baocao.md)
+	
+- [Đặng Văn Nguyễn - 17020939](https://github.com/thangnmuet2017/INT2208-8-2019/blob/master/nhom-24/DangVanNguyen/baocao.md)
 
-### Kế hoạch
-1.	Tiến trình thực hiện: lập trình cực đoan (eXtreme Programming).
-Sơ lược về tiến trình này:
 
-	o	Được sử dụng rộng rãi nhất trong Agile methods	
-	
-	o	Phát triển tăng dần, với nhiều phiên bản	
-	
-	o	Khách hàng tham gia toàn bộ thời gian với đội phát triển
-	
-	o	Lập trình đôi
-	
-	o	Chấp nhận sự thay đổi ở các phiên bản
-	
-2.	Kế hoạch chi tiết từng tuần:
-
-	o	Tuần 1: tìm hiểu, lập kế hoạch.
-	
-	o	Tuần 2 đến hết tuần 4: tạo ra giao diện sơ khai (chưa bao gồm back-end), đồng thời thu thập thông tin tạo lập cơ sở dữ liệu.
-	
-	o	Tuần 5 đến hết tuần 8: tiếp tục cải tiến Font-end, xây dựng back-end để tạo ra phiên bản đầu tiên (phục vụ chức năng quan trọng nhất)
-	
-	o	Tuần 9 đến hết tuần 11: thêm các chức năng phụ, có thể tích hợp bản đồ định vị địa chỉ.
-	
-	o	Tuần 12 đến hết tuần 13: thiết lập chế độ tài khoản người dung.
-	
-	o	Tuần 14 đến hết tuần 15: Bảo trì, sửa lỗi.
-
-#### Quy trình làm việc theo Scrum
-	Product Owner: Nguyễn Mạnh Thắng
-	Scrum Master: Nguyễn Duy Tâm
-	Đội phát triển: 
-		Nguyễn Mạnh Thắng
-		Nguyễn Duy Tâm
-		Nguyễn Hữu Trí
-		Phạm Văn Thuấn
-		Đặng Văn Nguyễn
-
-##### Product Backlog
-	1. Thiết kế các giao diện cơ bản gồm:
-		Trang chủ
-		Trang kết quả tìm kiếm
-		Trang bài viết
-		Màn hình đăng nhập
-		(Thực hiện bởi Nguyễn Duy Tâm, Nguyễn Hữu Trí)
-	2. Thiết kế và tạo lập CSDL
-		Được thực hiện bới Nguyễn Mạnh Thắng, Phạm Văn Thuấn, Đặng Văn Nguyễn
-	3. Kiểm tra lại các thiết kế
-
-###### Sprint Backlog
-	Tiếp tục tìm hiểu thêm về HTML5, CSS3, Java Script, Bootstrap4
-	Tìm hiểu về SQL, PHP, cách kết nối database
