@@ -15,9 +15,9 @@
 [(Tài liệu khóa học)](https://docs.google.com/document/d/1a4i_31R8WBUAnF91syr1FwBpKoAiTY6rEJt1xWjb74M/edit)
 * Biết cách làm việc nhóm
 
-### User story: Là một khách hàng, tôi muốn có chức năng đăng nhập để có thể dễ dàng mua sản phẩm và quản lý sản phẩm đã mua
+## User story: Là một khách hàng, tôi muốn có chức năng đăng nhập để có thể dễ dàng mua sản phẩm và quản lý sản phẩm đã mua
 
-## Phân tích user story
+### Phân tích user story
 
 #### 1. Tìm hiểu kiến thức về HTML, CSS, JAVASCRIPT, NODEJS [(Nguồn tài liệu)] (https://www.w3schools.com/), [(Sản phẩm)] (https://github.com/nguyenquanghiep17/INT2208-8-2019/tree/master/NguyenQuangHiep/shop69/public)
 #### 2. Phân tích làm rõ yêu cầu [(Làm rõ yêu cầu)](https://docs.google.com/document/d/1a4i_31R8WBUAnF91syr1FwBpKoAiTY6rEJt1xWjb74M/edit#heading=h.fvjpas4blmex) 
