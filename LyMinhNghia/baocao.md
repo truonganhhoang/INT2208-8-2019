@@ -50,4 +50,4 @@
 
 - Triển khai User story
 
-### Video giới thiệu và hướng dẫn sử dụng tính năng của sản phẩm trên sản phẩm triển khai của nhóm: [Video](https://youtu.be/FbFcPiUAPEI)
+### Video giới thiệu và hướng dẫn sử dụng tính năng của sản phẩm trên sản phẩm triển khai của nhóm: [Video](https://youtu.be/FbFcPiUAPEI) 

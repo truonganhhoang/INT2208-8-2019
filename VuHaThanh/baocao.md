@@ -44,4 +44,4 @@ Chia nhỏ câu chuyện thành hai phần:
 - Tối ưu hóa mã nguồn, loại bỏ mã xấu, thêm comment để mã dễ đọc hơn
 (Link commit: [1](https://github.com/19team/INT2208-8-2019/commit/a05439a355c405570c86fdc54ce8823787c81d0d), [2](https://github.com/19team/INT2208-8-2019/commit/e8a7f9e6a9ca9f13ac5a4662ba94d84488de9a17))
 ### Giới thiệu tính năng của sản phẩm
-Giới thiệu qua video ([Link](https://youtu.be/8CiEyEvbtyw))
+Video giới thiệu: [Link](https://youtu.be/8CiEyEvbtyw)

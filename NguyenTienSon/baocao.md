@@ -65,21 +65,21 @@ Mở rộng liên tục, thay đổi đề phù hợp với người dùng.
 
 II:Các công việc cần làm
 
-  -Đánh giá user story theo quy tắc INVEST (1h)
+  -Đánh giá user story theo quy tắc INVEST (1 giờ)
 
-  -Thu thập yêu cầu và làm rõ yêu cầu (1h) Specifications (Đặc tả)
+  -Thu thập yêu cầu và làm rõ yêu cầu (1 giờ) Specifications (Đặc tả)
 
   -Thiết kế cơ sở dữ liệu bằng thư viện Sequelize.
 
-  -Tạo cơ sở dữ liệu câu hỏi (3h) Link:https://github.com/19team/INT2208-8-2019/pull/42/commits/15ddb6ee12f17082a2df5af5428c678ab32bb5ae
+  -Tạo cơ sở dữ liệu câu hỏi (3 giờ) Link:https://github.com/19team/INT2208-8-2019/pull/42/commits/15ddb6ee12f17082a2df5af5428c678ab32bb5ae
 
-  -Tìm hiểu thư viện Sequelize kết nối với MySQL (3h): http://docs.sequelizejs.com
+  -Tìm hiểu thư viện Sequelize kết nối với MySQL (3 giờ): http://docs.sequelizejs.com
 
-  -Tạo model câu hỏi (30') Link:https://github.com/19team/INT2208-8-2019/pull/42/commits/d4aa756dd341e15729f4abc7fae50e78ac66f667
+  -Tạo model câu hỏi (30 phút) Link:https://github.com/19team/INT2208-8-2019/pull/42/commits/d4aa756dd341e15729f4abc7fae50e78ac66f667
 
   -Tạo kho câu hỏi dưới dạng json Link:https://github.com/19team/INT2208-8-2019/pull/42/commits/fd9cf2d49c5eeb10ad03a3bf966602a30f04e9ac
   
-  -Kết nối Cơ sở dữ liệu với model (30') link:https://github.com/19team/INT2208-8-2019/pull/42/commits/a6330e241a926c732a83da5b667aeb3b9bb57225
+  -Kết nối Cơ sở dữ liệu với model (30 phút) link:https://github.com/19team/INT2208-8-2019/pull/42/commits/a6330e241a926c732a83da5b667aeb3b9bb57225
 
   -Kiểm tra database bằng cách thêm thủ công câu hỏi và chỉnh sửa nếu có lỗi phát sinh (30 phút)
 

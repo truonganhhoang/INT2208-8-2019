@@ -63,7 +63,6 @@
 - Thêm comment vào các vị trí cần thiết để code dễ đọc và quản lí hơn (1h) [Rules for commenting code](https://www.hongkiat.com/blog/source-code-comment-styling-tips/) [Link commit](https://github.com/19team/INT2208-8-2019/commit/ca26bbaa1c4abd79ba90e6619caa1803e48985af)
 
 ### **3. Hướng dẫn sử dụng tính năng:** Chế độ chơi Classic<br/>
-
 - **Tên chế độ:** Classic (cơ bản)<br/>
 - **Mục đích:** Tạo ra một chế độ chơi cơ bản <br/>
 - **Hướng dẫn:**
