@@ -1,0 +1,113 @@
+<% include ../scripts/script %>
+  <link rel="stylesheet" href="/stylesheets/rank.css" />
+<% layout('../layouts/layout') -%>
+
+  <div style="padding: 0 2rem">
+    <div class="text-center">
+      <h1 style="padding: 2rem">BẢNG XẾP HẠNG</h1>
+      <div>
+        <!-- <div class="text-uppercase badge badge-dark" style="font-size: 1.2rem; margin: 0.5rem 0">
+          Bảng xếp hạng Level
+        </div> -->
+      
+        <table class="table text-center" style="font-size: 1rem">
+          <thead class="thead-dark">
+            <tr>
+              <th scope="col">Xếp hạng</th>
+              <th scope="col">Tên</th>
+              <th scope="col">Level</th>
+              <th scope="col">Điểm kinh nghiệm</th>
+            </tr>
+          </thead>
+          <tbody>
+            <% if (currentUser.position > 10) { %>
+              <% levelRank.forEach(function
+        (user, i) { %>
+                <tr id="number<%=i%>">
+                  <th scope="row" >
+                    <%=i + 1%>
+                  </th>
+                  <td>
+                    <%=user.user.firstname %>
+                      <%=user.user.lastname %>
+                  </td>
+                  <td>
+                    <%=user.level %>
+                  </td>
+                  <td>
+                    <%= user.exp%>
+                  </td>
+                </tr>
+                <% }) %>
+                  <% if(currentUser.position > 11) { %>
+                    <tr class="bg-active">
+                      <th scope="row">
+                        ...
+                      </th>
+                      <td>
+                        ...
+                      </td>
+                      <td>
+                        ...
+                      </td>
+                      <td>
+                        ...
+                      </td>
+                    </tr>
+                    <% } %>
+                      <tr class="bg-info">
+                        <th scope="row">
+                          <%=currentUser.position%>
+                        </th>
+                        <td>
+                          <%=currentUser.detail.user.firstname %>
+                            <%=currentUser.detail.user.lastname %>
+                        </td>
+                        <td>
+                          <%=currentUser.detail.level %>
+                        </td>
+                        <td>
+                          <%= currentUser.detail.exp%>
+                        </td>
+                      </tr>
+                      <% } else {%>
+                        <% levelRank.forEach(function (user, i) { %>
+                          <% if(i == currentUser.position - 1 && i > 2) { %>
+                            <tr class="bg-info" id="number<%=i%>">
+                              <th scope="row" >
+                                <%=i + 1%>
+                              </th>
+                              <td>
+                                <%=user.user.firstname %>
+                                  <%=user.user.lastname %>
+                              </td>
+                              <td>
+                                <%=user.level %>
+                              </td>
+                              <td>
+                                <%= user.exp%>
+                              </td>
+                            </tr>
+                            <% } else { %>
+                              <tr id="number<%=i%>">
+                                <th scope="row">
+                                  <%=i + 1%>
+                                </th>
+                                <td>
+                                  <%=user.user.firstname %>
+                                    <%=user.user.lastname %>
+                                </td>
+                                <td>
+                                  <%=user.level %>
+                                </td>
+                                <td>
+                                  <%= user.exp%>
+                                </td>
+                              </tr>
+                              <% } %>
+                                <% }) %>
+                                  <% } %>
+          </tbody>
+        </table>
+      </div>
+    </div>

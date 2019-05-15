@@ -1,0 +1,96 @@
+<% layout('../layouts/layout') -%>
+
+<div id="signup-container">
+  <div class="card bg-dark">
+    <article class="card-body mx-auto">
+      <h4 class="card-title mt-3 text-center">Tạo tài khoản Quizy</h4>
+      <div class="illustration" style="  padding: 0px;
+        ">
+          <img src="../images/QuizyGreen.png" style="width:240px;height:166.4px;" />
+        </div>
+      <% if (hasErrors) { %>
+        <div class="alert alert-danger">
+            <% messages.forEach(function(message) { %>
+            <p>
+            <%= message %>
+            </p>
+            <% }) %>
+        </div>
+      <% } %>
+      <form action="/user/signup" method="post">
+        <div class="form-group input-group">
+          <div class="input-group-prepend">
+            <span class="input-group-text"> <i class="fa fa-user"></i> </span>
+          </div>
+          <input
+            name="firstname"
+            class="form-control"
+            placeholder="Họ"
+            type="text"
+          />
+        </div>
+        <!-- form-group// -->
+        <div class="form-group input-group">
+          <div class="input-group-prepend">
+            <span class="input-group-text"> <i class="fa fa-user"></i> </span>
+          </div>
+          <input
+            name="lastname"
+            class="form-control"
+            placeholder="Tên"
+            type="text"
+          />
+        </div>
+        <!-- form-group// -->
+        <div class="form-group input-group">
+          <div class="input-group-prepend">
+            <span class="input-group-text">
+              <i class="fa fa-envelope"></i>
+            </span>
+          </div>
+          <input
+            name="email"
+            class="form-control"
+            placeholder="Email"
+            type="email"
+          />
+        </div>
+        <!-- form-group// -->
+        <div class="form-group input-group">
+          <div class="input-group-prepend">
+            <span class="input-group-text"> <i class="fa fa-lock"></i> </span>
+          </div>
+          <input
+            name="password"
+            class="form-control"
+            placeholder="Mật khẩu"
+            type="password"
+          />
+        </div>
+        <!-- form-group// -->
+        <div class="form-group input-group">
+          <div class="input-group-prepend">
+            <span class="input-group-text"> <i class="fa fa-lock"></i> </span>
+          </div>
+          <input
+            name="confirmPassword"
+            class="form-control"
+            placeholder="Nhập lại mật khẩu"
+            type="password"
+          />
+        </div>
+        <!-- form-group// -->
+        <div class="form-group">
+          <button type="submit" class="btn btn-primary btn-block">
+            Tạo tài khoản
+          </button>
+        </div>
+        <!-- form-group// -->
+        <p class="text-center card-title">
+          Bạn đã có tài khoản? <a href="/user/signin">Đăng nhập</a>
+        </p>
+      </form>
+    </article>
+  </div>
+  <!-- card.// -->
+</div>

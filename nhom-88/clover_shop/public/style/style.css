@@ -1,0 +1,41 @@
+#titleCart {
+	position: relative;
+	text-align: center;
+	padding: 13px 0;
+}
+
+#titleCart > div {
+	display: inline-block;
+	vertical-align: top;
+	font-size: 13px;
+	text-align: center;
+	width: 300px;
+}
+
+#titleCart > div > i {
+	width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    line-height: 23px;
+    box-shadow: 0 0 0 3px #fff;
+    display: block;
+    text-align: center;
+    font-style: normal;
+    font-size: 12px;
+    margin: 0 auto 10px;
+    background: #ccc;
+    color: #fff;
+    font-weight: 700;
+    z-index: 1;
+    position: relative;
+}
+
+#bdTCart {
+	position: absolute;
+	height: 1px;
+	width: 100%;
+	border-top: 1px solid #000;
+	top: 26px;
+	left: 0px;
+}
+
