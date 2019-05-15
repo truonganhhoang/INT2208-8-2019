@@ -1,0 +1,69 @@
+<div class=" col-lg-2 mt-4 " id="navbar-right">
+    <div class="mt-2" style="color: brown"><h4><b>Bộ lọc sản phẩm</b></h4></div>
+    <div><p><b>Theo danh mục sản phẩm</b></p></div>
+    <div class="list-group bg-light">
+        <% statusFilter.forEach((item)=>{ %>
+        <button class="dropdown-btn"><%= item.name %> 
+          <i class="fa fa-caret-down fa-pull-right"></i>
+        </button>
+        <div class="dropdown-container" style="display: none">
+            <% for(let i = 0; i < item.value.length; i++) { %>
+                <a href="/danh-muc-san-pham/<%= item.value[i] %>" class="list-group-item bg-<%= item.class %>"><%= item.value[i].split('-').join(' ') %></a>
+            <% } %>
+        </div>
+        <% }) %>
+    </div>
+    <script>
+        
+        let dropdown = $(".dropdown-btn");
+        let i;
+        console.log(dropdown)
+        for (i = 0; i < dropdown.length; i++) {
+            dropdown[i].addEventListener("click", function() {
+                this.classList.toggle("active");
+                var dropdownContent = this.nextElementSibling;
+                if (dropdownContent.style.display === "block") {
+                    dropdownContent.style.display = "none";
+                } else {
+                    dropdownContent.style.display = "block";
+                }
+            });
+        }
+    </script>
+
+    <div class="mt-2"><p><b>Theo giá sản phẩm</b></p></div>
+    <form action="/danh-muc-san-pham/<%= currentStatus %>" method="GET">
+        <div class="form-group">
+        <p>Từ :</p>  
+        <select name="from" id="price-to" class="form-control mt-2 mb-2">
+            <option>0.đ</option>
+            <option>100000đ</option>
+            <option>500000đ</option>
+            <option>1000000đ</option>
+            <option>2000000đ</option>
+            
+        </select>
+        <!--  <input type="text" name="from" id="price-from" class="form-control mb-2" value="0"> -->
+        <p>Đến :</p>
+        <select name="to" id="price-to" class="form-control mt-2 mb-2">
+            <option>0.đ</option>
+            <option>200000đ</option>
+            <option>500000đ</option>
+            <option>1000000đ</option>
+            <option>2000000đ</option>
+            <option>5000000đ</option>
+            <!-- <option>10000000đ</option> -->
+            
+        </select>
+        <!-- <input type="text" name="to" id="price-to" class="form-control mt-2 mb-2" value="0"> --> 
+        <input type="submit" id="aplication" class="btn btn-danger" value="ÁP DỤNG">
+        </div>
+
+    </form>
+    <script>
+        $('#aplication').click(function() {
+           
+        })
+    </script>
+</div>
+
