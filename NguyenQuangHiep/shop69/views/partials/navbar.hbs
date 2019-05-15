@@ -1,0 +1,176 @@
+<header>
+            <!-- TOP INFO -->
+            <div class="top_info">
+
+                <!-- CONTAINER -->
+                <div class="container clearfix">
+                    
+                    {{#if user}}
+                    <ul class="secondary_menu">
+                        <li><a href="/users/ho-so">{{user.username}}</a></li>
+                        <li><a href="/users/dang-xuat">Đăng xuất</a></li>
+                    </ul>
+                        
+                    {{else}}
+                        <ul class="secondary_menu">
+                            <li><a href="/users/dang-ky">Đăng ký</a></li>
+                            <li><a href="/users/dang-nhap">Đăng nhập</a></li>
+                        </ul>
+                    {{/if}}
+
+                    <div class="live_chat"><a href="javascript:void(0);"><i class="fa fa-comment-o"></i>Nhắn tin</a></div>
+
+                    <div class="phone_top">Số điện thoại liên hệ <a href="tel:1 800 888 2828">1 800 888 2828</a></div>
+                </div>
+                <!-- //CONTAINER -->
+            </div>
+            <!-- TOP INFO -->
+
+
+            <!-- MENU BLOCK -->
+            <div class="menu_block">
+
+                <!-- CONTAINER -->
+                <div class="container clearfix">
+
+                    <!-- LOGO -->
+                    <div class="logo">
+                        <a href="index.html"><img src="/images/logo.png" alt="" /></a>
+                    </div>
+                    <!-- //LOGO -->
+
+
+                    <!-- SEARCH FORM -->
+                    <div class="top_search_form">
+                        <a class="top_search_btn" href="javascript:void(0);"><i class="fa fa-search"></i></a>
+                        <form method="get" action="/tim-kiem">
+                            <input type="text" name="search" value="Search" onFocus="if (this.value == 'Search') this.value = '';" onBlur="if (this.value == '') this.value = 'Search';" />
+                        </form>
+                    </div>
+                    <!-- SEARCH FORM -->
+
+
+                    <!-- SHOPPING BAG -->
+                    <div class="shopping_bag">
+                        <a class="shopping_bag_btn" href="/users/gio-hang"><i class="fa fa-shopping-cart"></i><p>Giỏ hàng</p></a>
+                        {{!-- <div class="cart">
+                            <ul class="cart-items">
+                                <li class="clearfix">
+                                    <img class="cart_item_product" src="/images/tovar/women/1.jpg" alt="" />
+                                    <a href="product-page.html" class="cart_item_title">popover sweatshirt in floral jacquard</a>
+                                    <span class="cart_item_price">1 × $98.00</span>
+                                </li>
+                                <li class="clearfix">
+                                    <img class="cart_item_product" src="/images/tovar/women/3.jpg" alt="" />
+                                    <a href="product-page.html" class="cart_item_title">japanese indigo denim jacket</a>
+                                    <span class="cart_item_price">2 × $158.00</span>
+                                </li>
+                            </ul>
+                            <div class="cart_total">
+                                <div class="clearfix"><span class="cart_subtotal">bag subtotal: <b>$414</b></span></div>
+                                <a class="btn active" href="checkout.html">Checkout</a>
+                            </div>
+                        </div> --}}
+                    </div>
+                    <!-- //SHOPPING BAG -->
+
+
+                    <!-- LOVE LIST -->
+                    {{!-- <div class="love_list">
+                        <a class="love_list_btn" href="javascript:void(0);"><i class="fa fa-heart-o"></i><p>Love list</p><span>0</span></a>
+                        <div class="cart">
+                            <ul class="cart-items">
+                                <li>Cart is empty</li>
+                            </ul>
+                            <div class="cart_total">
+                                <div class="clearfix"><span class="cart_subtotal">bag subtotal: <b>$0</b></span></div>
+                                <a class="btn active" href="checkout.html">Checkout</a>
+                            </div>
+                        </div>
+                    </div> --}}
+                    <!-- //LOVE LIST -->
+
+
+                    <!-- MENU -->
+                    <ul class="navmenu center">
+                        <li class="sub-menu first active"><a href="/">Trang chủ</a>
+                            <!-- MEGA MENU -->
+                            {{!-- <ul class="mega_menu megamenu_col1 clearfix">
+                                <li class="col">
+                                    <ol>
+                                        <li class="active"><a href="index.html">Home slider</a></li>
+                                        <li><a href="index2.html">Home men promo</a></li>
+                                        <li><a href="index3.html">Home kids</a></li>
+                                        <li><a href="index4.html">Home video</a></li>
+                                        <li><a href="sale.html">Home Sale<span>sale</span></a></li>
+                                        <li><a href="/shoes">Home shoes</a></li>
+                                    </ol>
+                                </li>
+                            </ul> --}}
+                            <!-- //MEGA MENU -->
+                        </li>
+                        <li class="sub-menu"><a href="javascript:void(0);">Điện thoại</a>
+                            <!-- MEGA MENU -->
+                            <ul class="mega_menu megamenu_col1 clearfix">
+                                <li class="col">
+                                    <ol>
+                                        <li><a href="women.html">IPhone</a></li>
+                                        <li><a href="women.html">Samsung</a></li>
+                                        <li><a href="women.html">Xiaomi</a></li>
+                                        <li><a href="women.html">Nokia</a></li>
+                                        <li><a href="women.html">Oppo</a></li>
+                                    </ol>
+                                </li>
+                            </ul>
+                            <!-- //MEGA MENU -->
+                        </li>
+                        <li class="sub-menu"><a href="javascript:void(0);">Máy tính</a>
+                            <!-- MEGA MENU -->
+                            <ul class="mega_menu megamenu_col1 clearfix">
+                                <li class="col">
+                                    <ol>
+                                        <li><a href="men.html">Lenovo</a></li>
+                                        <li><a href="men.html">Apple</a></li>
+                                        <li><a href="men.html">Dell</a></li>
+                                    </ol>
+                                </li>
+                            </ul>
+                            <!-- //MEGA MENU -->
+                        </li>
+                        <li><a href="/shoes">Máy tính bảng</a></li>
+                        <li class="sub-menu"><a href="javascript:void(0);">Phụ kiện</a>
+                            <!-- MEGA MENU -->
+                            <ul class="mega_menu megamenu_col1 clearfix">
+                                <li class="col">
+                                    <ol>
+                                        <li><a href="about.html">Tai nghe</a></li>
+                                        <li><a href="gallery.html">Sạc dự phòng</a></li>
+                                        <li><a href="product-page.html">Ốp lưng</a></li>
+                                        <li><a href="love-list.html">Loa bluetooth</a></li>
+                                        <li><a href="shopping-bag.html">SmartWacth</a></li>
+
+                                    </ol>
+                                </li>
+                            </ul>
+                            <!-- //MEGA MENU -->
+                        </li>
+                        {{!-- <li class="sub-menu"><a href="javascript:void(0);">Blog</a>
+                            <!-- MEGA MENU -->
+                            <ul class="mega_menu megamenu_col1 clearfix">
+                                <li class="col">
+                                    <ol>
+                                        <li><a href="blog.html">Blog</a></li>
+                                        <li><a href="blog-post.html">Blog Post</a></li>
+                                    </ol>
+                                </li>
+                            </ul>
+                            <!-- //MEGA MENU -->
+                        </li> --}}
+                        {{!-- <li class="last sale_menu"><a href="sale.html">Sale</a></li> --}}
+                    </ul>
+                    <!-- //MENU -->
+                </div>
+                <!-- //MENU BLOCK -->
+            </div>
+            <!-- //CONTAINER -->
+        </header>

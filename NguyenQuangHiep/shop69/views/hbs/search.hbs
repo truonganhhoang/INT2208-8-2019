@@ -1,0 +1,64 @@
+<section class="tovar_section" style="background-color: #fff">
+            <br><br><br><br><br>
+            <!-- CONTAINER -->
+            <div class="container">
+                <h2>Kết quả tìm kiếm: </h2>
+
+                <!-- ROW -->
+                <div class="row">
+
+                    <!-- TOVAR WRAPPER -->
+                    <div class="tovar_wrapper" data-appear-top-offset="-100" data-animated="fadeInUp">
+                        <script>
+                            var user = "{{user.email}}"
+                            var products = "{{products}}";
+                            console.log(products);
+                            if (products === "") {
+                                document.write('<h6>Không có kết quả tìm kiếm cho từ: "{{query}}"</h6>');
+                                document.write('<br><br><br><br><br><br><br><br>')
+                                
+                            }
+                            
+                        </script>
+                        {{#each products}}
+                            <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6 col-ss-12 padbot40">
+                                <div class="tovar_item">
+                                    <div class="tovar_img">
+                                        <div class="tovar_img_wrapper">
+                                            <img class="img" src=  {{imagePath}}  alt="" />
+                                            <img class="img_h" src= {{imagePath}}  alt="" />
+                                        </div>
+
+                                        <div class="tovar_item_btns">
+                                            <div class="open-project-link"><a class="open-project tovar_view" href="javascript:void(0);" data-url="!projects/women/1.html">Chi tiết</a></div>
+                                            
+                                            <script language="javascript">
+                                                var link = "{{_id}}".trim();
+                                                
+                                                document.write('<a onclick="success()" class="add_bag" href= /add/'+ link + '><i class="fa fa-shopping-cart"></i></a>');
+                                                function success() {
+                                                    if (user !== "") {
+                                                        alert('Thêm vào giỏ thành công');
+                                                    }
+                                                }
+                                            </script>
+                                            <a class="add_lovelist" href="javascript:void(0);"><i class="fa fa-heart"></i></a>
+
+                                        </div>
+                                    </div>
+                                    <div class="tovar_description clearfix">
+                                        <a class="tovar_title" href="product-page.html">{{title}}</a>
+                                        <span class="tovar_price">{{price}}đ</span>
+                                    </div>
+                                </div>
+                            </div>
+                        {{/each}}
+                        
+                        
+                    </div>
+                </div>
+            
+                <hr>
+            </div>
+            <!-- //CONTAINER -->
+        </section>

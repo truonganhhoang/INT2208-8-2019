@@ -1,0 +1,54 @@
+
+<script>
+    var b = "{{cart}}".split(",");
+    function success() {
+        if (user !== "") {
+            alert('Đã xóa khỏi giỏ hàng')
+        }
+    }
+</script>
+<section class="tovar_section" style="background-color: #fff " >
+
+    <!-- CONTAINER -->
+    <div class="container" >
+        <br>
+        <br>
+        <hr>
+        
+        <!-- ROW -->
+        <div class="row">
+
+            <!-- TOVAR WRAPPER -->
+            <div class="tovar_wrapper" data-appear-top-offset="-100" data-animated="fadeInUp">
+                <script>
+
+                    if(b[0] === "") {
+                        document.write('<h1>Giỏ hàng trống</h1>');
+                    }
+                </script>
+                {{#each products}}
+                    <script>
+                        for (var i = 0; i < b.length; i++) {
+                            var link = "{{_id}}".trim();
+                            var id = b[i].slice(0, b[i].indexOf(':'));
+                            var number = b[i].slice(b[i].indexOf(':')+ 2, b[i].length);
+                            if (id === link) {
+                                document.write('<div class="col-lg-3 col-md-3 col-sm-4 col-xs-6 col-ss-12 padbot40"><div class="tovar_item"><div class="tovar_img"><div class="tovar_img_wrapper"><img class="img" src=  {{imagePath}}  alt="" /><img class="img_h" src= {{imagePath}}  alt="" /></div><div class="tovar_item_btns"><div class="open-project-link"><a class="open-project tovar_view" href="javascript:void(0);" data-url="!projects/women/1.html">Số lượng: ' + number + '</a></div><a onclick="success()" class="add_bag" href= /delete/'+ link + '>Xóa</a></div></div><div class="tovar_description clearfix"><a class="tovar_title" href="product-page.html">{{title}}</a><span class="tovar_price">{{price}}đ</span></div></div></div>');
+                            } 
+                        }
+                    </script>
+
+                    
+                       
+                    
+                {{/each}}
+                
+                
+            </div>
+        </div>
+    
+    </div>
+    <!-- //CONTAINER -->
+</section>
+
+

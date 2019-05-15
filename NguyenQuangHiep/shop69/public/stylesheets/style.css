@@ -1318,7 +1318,7 @@ a.add_lovelist:hover {
 }
 .tovar_title {
 	float:left;
-	width:80%;
+	width:65%;
 	display:block;
 	text-transform:uppercase;
 	font-weight:900;
@@ -2818,6 +2818,10 @@ input[type="checkbox"]+label:hover span {color:#333;}
 	text-transform:uppercase;
 	font-size:11px;
 }
+.registration_form input[type="password"] {
+	text-transform:uppercase;
+	font-size:11px;
+}
 .registration_form .forgot_pass {
 	display:block;
 	padding-bottom:9px;
@@ -3595,12 +3599,14 @@ table tr.cart_item td.product-subtotal {
 	padding:30px 28px;
 	border-right:1px solid #ccc;
 }
-.login_form input[type="text"] {
+.login_form input[type="text"], .login_form input[type="email"],.login_form input[type="password"] {
 	height:50px;
 	margin-bottom:20px;
 	text-transform:uppercase;
 }
+
 .login_form input[type="text"].last {margin-bottom:9px;}
+.login_form input[type="password"].last {margin-bottom:9px;}
 .login_form input[type="checkbox"] + label {
 	text-transform:none;
 	font-size:12px;
@@ -4471,7 +4477,7 @@ footer .newsletter_btn {
 }
 
 textarea,
-input[type="text"] {
+input[type="text"],input[type="password"],input[type="email"],input[type="number"]  {
 	width:100%;
 	height:40px;
 	margin: 0 6px 10px 0;

@@ -184,7 +184,8 @@ html[xmlns] .slides {display: block;}
 	margin:0;
 	font-weight:100;
 	line-height:100px;
-	font-size:100px;
+	font-size:40px;
+	color: #fff;
 }
 .top_slider .slide1 .flex_caption1 .title2 {
 	margin:0;

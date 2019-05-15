@@ -1,0 +1,74 @@
+
+
+<!-- PRELOADER -->
+
+<!-- //PRELOADER -->
+<div class="preloader_hide">
+
+	<!-- PAGE -->
+	<div id="page">
+	
+		<!-- HEADER -->
+		<!-- //HEADER -->
+		
+		
+		<!-- MY ACCOUNT PAGE -->
+		<section class="my_account parallax">
+			
+			<!-- CONTAINER -->
+			<div class="container">
+				
+				<div class="my_account_block clearfix">
+					<div class="login">
+
+
+						<h2>Đăng nhập</h2>
+						{{#each message}}
+							<div class="alert alert-danger">
+								<li>{{this}}</li>
+							</div>
+						{{/each}}
+						<form class="login_form" method="POST">
+							<input type="text" name="username" value="email hoặc số điện thoại" onFocus="if (this.value == 'email hoặc số điện thoại') this.value = '';" onBlur="if (this.value == '') this.value = 'email hoặc số điện thoại';" />
+							<input class="last" type="password" placeholder="mật khẩu" name="password"   onFocus="if (this.value == 'password') this.value = '';" onBlur="if (this.value == '') this.value = 'password';" />
+							
+							<div class="clearfix">
+								<div class="pull-left"><input type="checkbox" id="categorymanufacturer1" /><label for="categorymanufacturer1">Ghi nhớ mật khẩu</label></div>
+								<div class="pull-right"><a class="forgot_pass" href="javascript:void(0);" >Quên mật khẩu?</a></div>
+							</div>
+							<div class="center"><input type="submit" value="Đăng nhập"></div>
+						</form>
+					</div>
+					<div class="new_customers">
+						<h2>Đăng nhập ngay để</h2>
+						
+						<ul>
+							<li>—  Đặt hàng online</li>
+							<li>—  Trò chuyện trực tiếp với người bán hàng</li>
+							<li>—  Đưa ra đánh giá về sản phẩm</li>
+							<li>—  Nhận được những ưu đãi tốt nhất</li>
+							
+						</ul>
+						
+					</div>
+				</div>
+				
+				<div class="my_account_note center">Số điện thoại liên hệ: <b>1 800 888 02828</b></div>
+			</div><!-- //CONTAINER -->
+		</section><!-- //MY ACCOUNT PAGE -->
+		
+	
+		<!-- FOOTER -->
+		<!-- //FOOTER -->
+	</div><!-- //PAGE -->
+</div>
+
+<!-- TOVAR MODAL CONTENT -->
+<div id="modal-body" class="clearfix">
+	<div id="tovar_content"></div>
+	<div class="close_block"></div>
+</div><!-- TOVAR MODAL CONTENT -->
+
+	<!-- SCRIPTS -->
+	<!--[if IE]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+    <!--[if IE]><html class="ie" lang="en"> <![endif]-->
