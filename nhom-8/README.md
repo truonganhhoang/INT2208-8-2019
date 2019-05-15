@@ -30,4 +30,6 @@
 
 # Tài liệu kĩ thuật: [(Tài liệu kĩ thuật)](https://docs.google.com/document/d/1kuHLork-ylbd-Cv6pVuNQbAI-GXUfJpMzN6riPOYBOk/edit)
 
+# Video hướng dẫn sử dụng: [(Shop69)](https://youtu.be/wguf5BEqcg4)
+
 
