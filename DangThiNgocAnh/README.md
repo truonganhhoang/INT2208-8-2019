@@ -45,7 +45,7 @@
 
 - [x] [Cải tạo mã dễ đọc](https://docs.google.com/document/d/1a4i_31R8WBUAnF91syr1FwBpKoAiTY6rEJt1xWjb74M/edit#heading=h.zihsvljsrx0x)
 
-##### Testing
+### Testing
 - [x] Kiểm thử hộp trắng độ bao phủ  ([tài liệu tham khảo](https://docs.google.com/document/d/1a4i_31R8WBUAnF91syr1FwBpKoAiTY6rEJt1xWjb74M/edit#heading=h.ryzy80x4sqk1))
 
 - [x] Kiểm thử giao diện  ([tài liệu tham khảo](https://docs.google.com/document/d/1a4i_31R8WBUAnF91syr1FwBpKoAiTY6rEJt1xWjb74M/edit#heading=h.zhrswbsdiifd))
@@ -58,7 +58,7 @@
 
 - **Repo sản phẩm được triển khai tại [Github](https://github.com/hoanphi2201/SoftEng-Assignments-nhom-10/tree/congky)**
 
-- **Link Vieo báo cáo và demo user story tại: [Youtube](https://www.youtube.com/watch?v=O0xD-tGpk_A)**
+- **Link Vieo báo cáo và demo user story tại: [Youtube](https://www.youtube.com/watch?v=I3sxhFfEUco&t=17s)**
 
 - **Sản phẩm được deloy sử dụng pythonanywhere:** 
 + >**Trang chủ http://foodforfamilyf3.pythonanywhere.com**
