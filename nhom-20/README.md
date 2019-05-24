@@ -21,6 +21,8 @@
 
 **Mô tả:** Web đọc truyện tranh online với nhiều thể loại dành cho nhiều lứa tuổi.
 
+**Tài liệu kỹ thuật phần mềm:** [tài liệu kỹ thuật phần mềm](https://docs.google.com/document/d/1Nv64_sZ0dZqOmSfLsMQ-YLlSeVsEffte8O4UGYuKwnw/edit).
+
 **Link trang web:** [Web-truyen-tranh](https://afternoon-gorge-98922.herokuapp.com/?fbclid=IwAR1Y6H9KRQORxnZ4Ux0ViRx64Tq0uWPh2bId4Rhwl4C8rbbdatYqRwYxOyU).
 
 **Link repositories (mã nguồn sản phẩm của nhom-20):** [github Web-truyen-tranh](https://github.com/tiep2999/Website-truyen-tranh).
