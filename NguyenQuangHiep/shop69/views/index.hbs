@@ -1,0 +1,476 @@
+<!-- PRELOADER -->
+{{!-- <div id="preloader"><img src="images/preloader.gif" alt="" /></div> --}}
+<!-- //PRELOADER -->
+<div class="preloader_hide">
+
+    <!-- PAGE -->
+    <div id="page">
+
+        <!-- HOME -->
+        <section id="home" class="padbot0">
+
+            <!-- TOP SLIDER -->
+            <div class="flexslider top_slider">
+                <ul class="slides">
+                    <li class="slide1">
+
+                        <!-- CONTAINER -->
+                        <div class="container">
+                            <div class="flex_caption1">
+                                {{!-- <p class="title1 captionDelay2 FromTop">Siêu khuyễn mãi</p> --}}
+                                {{!-- <p class="title2 captionDelay3 FromTop">Đặt mua ngay hôm nay</p> --}}
+                            </div>
+                            <a class="flex_caption2" href="javascript:void(0);">
+                                <div class="middle">sale<span>shop</span>now</div>
+                            </a>
+                            <div class="flex_caption3 slide_banner_wrapper">
+                                <a class="slide_banner slide1_banner1 captionDelay4 FromBottom" href="javascript:void(0);"><img src="https://msmobile.com.vn/images/slideshow/2019/05/12/compress/iphone-7-plus_1557630724.png" alt="" /></a>
+                                <a class="slide_banner slide1_banner2 captionDelay5 FromBottom" href="javascript:void(0);"><img src="https://msmobile.com.vn/images/slideshow/2019/03/25/compress/redmi-note-7_1553482349.png" alt="" /></a>
+                                <a class="slide_banner slide1_banner3 captionDelay6 FromBottom" href="javascript:void(0);"><img src="https://msmobile.com.vn/images/slideshow/2019/05/13/compress/xiaomi-redmi-6-6a_1557714454.png" alt="" /></a>
+                            </div>
+                        </div>
+                        <!-- //CONTAINER -->
+                    </li>
+
+                    <li class="slide2">
+
+                        <!-- CONTAINER -->
+                        <div class="container">
+                            <div class="flex_caption1">
+                                {{!-- <p class="title1 captionDelay2 FromTop">Đặt mua ngay</p> --}}
+                                {{!-- <p class="title2 captionDelay3 FromTop">Đặt mua ngay hôm nay</p> --}}
+                            </div>
+                            <a class="flex_caption2" href="javascript:void(0);">
+                                <div class="middle">sale<span>shop</span>now</div>
+                            </a>
+                            <div class="flex_caption3 slide_banner_wrapper">
+                                <a class="slide_banner slide1_banner1 captionDelay4 FromBottom" href="javascript:void(0);"><img src="https://msmobile.com.vn/images/slideshow/2019/05/13/compress/xiaomi-redmi-6-6a_1557714454.png" alt="" /></a>
+                                <a class="slide_banner slide1_banner3 captionDelay5 FromBottom" href="javascript:void(0);"><img src="https://msmobile.com.vn/images/slideshow/2019/05/12/compress/iphone-7-plus_1557630724.png" alt="" /></a>
+                                <a class="slide_banner slide1_banner2 captionDelay6 FromBottom" href="javascript:void(0);"><img src="https://msmobile.com.vn/images/slideshow/2019/03/25/compress/redmi-note-7_1553482349.png" alt="" /></a>
+                            </div>
+                        </div>
+                        <!-- //CONTAINER -->
+                    </li>
+
+                    <li class="slide3">
+
+                        <!-- CONTAINER -->
+                        <div class="container">
+                            <div class="flex_caption1">
+                                {{!-- <p class="title1 captionDelay2 FromTop">Khuyến mãi khủng</p> --}}
+                                {{!-- <p class="title2 captionDelay3 FromTop">Đặt mua ngay hôm nay</p> --}}
+                            </div>
+                            <a class="flex_caption2" href="javascript:void(0);">
+                                <div class="middle">sale<span>shop</span>now</div>
+                            </a>
+                            <div class="flex_caption3 slide_banner_wrapper">
+                                <a class="slide_banner slide1_banner3 captionDelay4 FromBottom" href="javascript:void(0);"><img src="https://msmobile.com.vn/images/slideshow/2019/03/25/compress/redmi-note-7_1553482349.png" alt="" /></a>
+                                <a class="slide_banner slide1_banner1 captionDelay5 FromBottom" href="javascript:void(0);"><img src="https://msmobile.com.vn/images/slideshow/2019/05/13/compress/xiaomi-redmi-6-6a_1557714454.png" alt="" /></a>
+                                <a class="slide_banner slide1_banner2 captionDelay6 FromBottom" href="javascript:void(0);"><img src="https://msmobile.com.vn/images/slideshow/2019/05/12/compress/iphone-7-plus_1557630724.png" alt="" /></a>
+                            </div>
+                        </div>
+                        <!-- //CONTAINER -->
+                    </li>
+                </ul>
+            </div>
+            <!-- //TOP SLIDER -->
+        </section>
+        <!-- //HOME -->
+
+        <br>
+        <br>
+        <section class="new_arrivals padbot50">
+
+            <!-- CONTAINER -->
+            <div class="container">
+                <h2>Bán chạy</h2>
+
+                <!-- JCAROUSEL -->
+                <div class="jcarousel-wrapper">
+
+                    <!-- NAVIGATION -->
+                    <div class="jCarousel_pagination">
+                        <a href="javascript:void(0);" class="jcarousel-control-prev"><i class="fa fa-angle-left"></i></a>
+                        <a href="javascript:void(0);" class="jcarousel-control-next"><i class="fa fa-angle-right"></i></a>
+                    </div>
+                    <!-- //NAVIGATION -->
+
+                    <div class="jcarousel" data-appear-top-offset="-100" data-animated="fadeInUp">
+                        <ul>
+
+                            {{#each hotproducts}}
+                                  <li>
+                                <!-- TOVAR -->
+                                <div class="tovar_item_new">
+                                    <div class="tovar_img">
+                                        <img src={{imagePath}} alt="" />
+                                        <a class="open-project tovar_view" href="#" data-url="!projects/women/1.html">Chi tiết</a>
+                                    </div>
+                                    <div class="tovar_description clearfix">
+                                        <a class="tovar_title" href="product-page.html">{{title}}</a>
+                                        <span class="tovar_price">{{price}}đ</span>
+                                    </div>
+                                </div>
+                                <!-- //TOVAR -->
+                                </li>
+                            {{/each}}
+                          
+                            
+                        </ul>
+                    </div>
+                </div>
+                <!-- //JCAROUSEL -->
+                <hr>
+            </div>
+            
+            <!-- //CONTAINER -->
+        </section>
+        <!-- TOVAR SECTION -->
+        <section class="tovar_section">
+
+            <!-- CONTAINER -->
+            <div class="container">
+                <h2>Điện thoại</h2>
+
+                <!-- ROW -->
+                <div class="row">
+
+                    <!-- TOVAR WRAPPER -->
+                    <div class="tovar_wrapper" data-appear-top-offset="-100" data-animated="fadeInUp">
+                        <script>
+                            var user = "{{user.email}}"
+                        </script>
+                        {{#each phone}}
+                            <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6 col-ss-12 padbot40">
+                                <div class="tovar_item">
+                                    <div class="tovar_img">
+                                        <div class="tovar_img_wrapper">
+                                            <img class="img" src=  {{imagePath}}  alt="" />
+                                            <img class="img_h" src= {{imagePath}}  alt="" />
+                                        </div>
+
+                                        <div class="tovar_item_btns">
+                                            <a class="open-project tovar_view" href="#" data-url="!projects/women/1.html">Chi tiết</a>
+                                            
+                                            <script language="javascript">
+                                                var link = "{{_id}}".trim();
+                                                
+                                                document.write('<a onclick="success()" class="add_bag" href= /add/'+ link + '><i class="fa fa-shopping-cart"></i></a>');
+                                                function success() {
+                                                    if (user !== "") {
+                                                        alert('Thêm vào giỏ thành công');
+                                                    }
+                                                }
+                                            </script>
+                                            <a class="add_lovelist" href="javascript:void(0);"><i class="fa fa-heart"></i></a>
+
+                                        </div>
+                                    </div>
+                                    <div class="tovar_description clearfix">
+                                        <a class="tovar_title" href="product-page.html">{{title}}</a>
+                                        <span class="tovar_price">{{price}}đ</span>
+                                    </div>
+                                </div>
+                            </div>
+                        {{/each}}
+                        
+                        
+                    </div>
+                </div>
+            
+                <hr>
+            </div>
+            <!-- //CONTAINER -->
+        </section>
+        <!-- //TOVAR SECTION -->
+
+        <section class="tovar_section">
+
+            <!-- CONTAINER -->
+            <div class="container">
+                <h2>Máy tính bảng</h2>
+
+                <div class="row">
+
+                    <!-- TOVAR WRAPPER -->
+                    <div class="tovar_wrapper" data-appear-top-offset="-100" data-animated="fadeInUp">
+                        <script>
+                            var user = "{{user.email}}"
+                            
+                        </script>
+                        {{#each tablet}}
+                            <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6 col-ss-12 padbot40">
+                                <div class="tovar_item">
+                                    <div class="tovar_img">
+                                        <div class="tovar_img_wrapper">
+                                            <img class="img" src=  {{imagePath}}  alt="" />
+                                            <img class="img_h" src= {{imagePath}}  alt="" />
+                                        </div>
+
+                                        <div class="tovar_item_btns">
+                                            <div class="open-project-link"><a class="open-project tovar_view" href="javascript:void(0);" data-url="!projects/women/1.html">Chi tiết</a></div>
+                                            
+                                            <script language="javascript">
+                                                var link = "{{_id}}".trim();
+                                                
+                                                document.write('<a onclick="success()" class="add_bag" href= /add/'+ link + '><i class="fa fa-shopping-cart"></i></a>');
+                                                function success() {
+                                                    if (user !== "") {
+                                                        alert('Thêm vào giỏ thành công');
+                                                    }
+                                                }
+                                            </script>
+                                            <a class="add_lovelist" href="javascript:void(0);"><i class="fa fa-heart"></i></a>
+
+                                        </div>
+                                    </div>
+                                    <div class="tovar_description clearfix">
+                                        <a class="tovar_title" href="product-page.html">{{title}}</a>
+                                        <span class="tovar_price">{{price}}đ</span>
+                                    </div>
+                                </div>
+                            </div>
+                        {{/each}}
+                        
+                        
+                    </div>
+                </div>
+                
+                <hr>
+            </div>
+            <!-- //CONTAINER -->
+        </section>
+
+<section class="tovar_section">
+
+            <!-- CONTAINER -->
+            <div class="container">
+                <h2>Phụ kiện</h2>
+
+                <!-- ROW -->
+                <div class="row">
+
+                    <!-- TOVAR WRAPPER -->
+                    <div class="tovar_wrapper" data-appear-top-offset="-100" data-animated="fadeInUp">
+                        <script>
+                            var user = "{{user.email}}"
+                        </script>
+                        {{#each accessories}}
+                            <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6 col-ss-12 padbot40">
+                                <div class="tovar_item">
+                                    <div class="tovar_img">
+                                        <div class="tovar_img_wrapper">
+                                            <img class="img" src=  {{imagePath}}  alt="" />
+                                            <img class="img_h" src= {{imagePath}}  alt="" />
+                                        </div>
+
+                                        <div class="tovar_item_btns">
+                                            <div class="open-project-link"><a class="open-project tovar_view" href="javascript:void(0);" data-url="!projects/women/1.html">Chi tiết</a></div>
+                                            
+                                            <script language="javascript">
+                                                var link = "{{_id}}".trim();
+                                                
+                                                document.write('<a onclick="success()" class="add_bag" href= /add/'+ link + '><i class="fa fa-shopping-cart"></i></a>');
+                                                function success() {
+                                                    if (user !== "") {
+                                                        alert('Thêm vào giỏ thành công');
+                                                    }
+                                                }
+                                            </script>
+                                            <a class="add_lovelist" href="javascript:void(0);"><i class="fa fa-heart"></i></a>
+
+                                        </div>
+                                    </div>
+                                    <div class="tovar_description clearfix">
+                                        <a class="tovar_title" href="product-page.html">{{title}}</a>
+                                        <span class="tovar_price">{{price}}đ</span>
+                                    </div>
+                                </div>
+                            </div>
+                        {{/each}}
+                        
+                        
+                    </div>
+                </div>
+                {{!-- <hr> --}}
+            </div>
+            <!-- //CONTAINER -->
+        </section>
+        
+
+        
+
+        <!-- NEW ARRIVALS -->
+        
+        <!-- //NEW ARRIVALS -->
+
+
+        <!-- BRANDS -->
+        {{!-- <section class="brands_carousel">
+
+            <!-- CONTAINER -->
+            <div class="container">
+
+                <!-- JCAROUSEL -->
+                <div class="jcarousel-wrapper">
+
+                    <!-- NAVIGATION -->
+                    <div class="jCarousel_pagination">
+                        <a href="javascript:void(0);" class="jcarousel-control-prev"><i class="fa fa-angle-left"></i></a>
+                        <a href="javascript:void(0);" class="jcarousel-control-next"><i class="fa fa-angle-right"></i></a>
+                    </div>
+                    <!-- //NAVIGATION -->
+
+                    <div class="jcarousel" data-appear-top-offset="-100" data-animated="fadeInUp">
+                        <ul>
+                            <li><a href="javascript:void(0);"><img src="images/brands/1.jpg" alt="" /></a></li>
+                            <li><a href="javascript:void(0);"><img src="images/brands/2.jpg" alt="" /></a></li>
+                            <li><a href="javascript:void(0);"><img src="images/brands/3.jpg" alt="" /></a></li>
+                            <li><a href="javascript:void(0);"><img src="images/brands/4.jpg" alt="" /></a></li>
+                            <li><a href="javascript:void(0);"><img src="images/brands/5.jpg" alt="" /></a></li>
+                            <li><a href="javascript:void(0);"><img src="images/brands/6.jpg" alt="" /></a></li>
+                            <li><a href="javascript:void(0);"><img src="images/brands/7.jpg" alt="" /></a></li>
+                            <li><a href="javascript:void(0);"><img src="images/brands/8.jpg" alt="" /></a></li>
+                            <li><a href="javascript:void(0);"><img src="images/brands/9.jpg" alt="" /></a></li>
+                            <li><a href="javascript:void(0);"><img src="images/brands/10.jpg" alt="" /></a></li>
+                            <li><a href="javascript:void(0);"><img src="images/brands/11.jpg" alt="" /></a></li>
+                            <li><a href="javascript:void(0);"><img src="images/brands/12.jpg" alt="" /></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- //JCAROUSEL -->
+            </div>
+            <!-- //CONTAINER -->
+        </section> --}}
+        <!-- //BRANDS -->
+
+
+        {{!-- <hr class="container"> --}}
+
+
+        <!-- SERVICES SECTION -->
+        {{!-- <section class="services_section">
+
+            <!-- CONTAINER -->
+            <div class="container">
+
+                <!-- ROW -->
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 padbot60 services_section_description" data-appear-top-offset="-100" data-animated="fadeInLeft">
+                        <p>We empower WordPress developers with design-driven themes and a classy experience their clients will just love</p>
+                        <span>Gluten-free quinoa selfies carles, kogi gentrify retro marfa viral. Odd future photo booth flannel ethnic pug, occupy keffiyeh synth blue bottle tofu tonx iphone. Blue bottle 90′s vice trust fund gastropub gentrify retro marfa viral</span>
+                    </div>
+
+                    <div class="col-lg-6 col-md-6 padbot30" data-appear-top-offset="-100" data-animated="fadeInRight">
+
+                        <!-- ROW -->
+                        <div class="row">
+                            <div class="col-lg-6 col-md-6 col-sm-3 col-xs-6 col-ss-12 padbot30">
+                                <div class="service_item">
+                                    <div class="clearfix"><i class="fa fa-tablet"></i>
+                                        <p>Responsive Theme</p>
+                                    </div>
+                                    <span>Thundercats squid single-origin coffee YOLO selfies disrupt, master cleanse semiotics letterpress typewriter.</span>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-6 col-md-6 col-sm-3 col-xs-6 col-ss-12 padbot30">
+                                <div class="service_item">
+                                    <div class="clearfix"><i class="fa fa-comments-o"></i>
+                                        <p>Free Support</p>
+                                    </div>
+                                    <span>Thundercats squid single-origin coffee YOLO selfies disrupt, master cleanse semiotics letterpress typewriter.</span>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-6 col-md-6 col-sm-3 col-xs-6 col-ss-12 padbot30">
+                                <div class="service_item">
+                                    <div class="clearfix"><i class="fa fa-eye"></i>
+                                        <p>Retina Ready</p>
+                                    </div>
+                                    <span>Thundercats squid single-origin coffee YOLO selfies disrupt, master cleanse semiotics letterpress typewriter.</span>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-6 col-md-6 col-sm-3 col-xs-6 col-ss-12 padbot30">
+                                <div class="service_item">
+                                    <div class="clearfix"><i class="fa fa-cogs"></i>
+                                        <p>Easy Customize</p>
+                                    </div>
+                                    <span>Thundercats squid single-origin coffee YOLO selfies disrupt, master cleanse semiotics letterpress typewriter.</span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- //ROW -->
+                    </div>
+                </div>
+                <!-- //ROW -->
+            </div>
+            <!-- //CONTAINER -->
+        </section> --}}
+        <!-- //SERVICES SECTION -->
+
+
+        <hr class="container">
+
+
+        <!-- RECENT POSTS -->
+        <section class="recent_posts padbot40">
+
+            <!-- CONTAINER -->
+            <div class="container">
+                <h2>Tin tức</h2>
+
+                <!-- ROW -->
+                <div class="row" data-appear-top-offset="-100" data-animated="fadeInUp">
+                    <div class="col-lg-6 col-md-6 padbot30">
+                        <div class="recent_post_item clearfix">
+                            <div class="recent_post_date">15<span>oct</span></div>
+                            <a class="recent_post_img"  href="blog-post.html"><img style="height: 280px weight: 500px" src="https://i-sohoa.vnecdn.net/2019/05/14/may-ban-dien-thoai-tu-dong-mi-2303-4386-1557804137.jpg" alt="" /></a>
+                            
+                            <a class="recent_post_title" href="blog-post.html">Xiaomi ra mắt máy bán smartphone tự động</a>
+                            <div class="recent_post_content"></div>
+                            <ul class="post_meta">
+                                <li><i class="fa fa-comments"></i>Commetcs <span class="sep">|</span> 15</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 col-md-6 padbot30">
+                        <div class="recent_post_item clearfix">
+                            <div class="recent_post_date">07<span>dec</span></div>
+                            <a class="recent_post_img" href="blog-post.html"><img style="height: 280px weight: 500px"src="https://www.upsieutoc.com/images/2019/05/14/iPhone-3-9100-1557794674.jpg" alt="" /></a>
+                            <a class="recent_post_title" href="blog-post.html">Cụm camera vuông lồi của iPhone XI lại rò rỉ trong ảnh mới</a>
+                            <div class="recent_post_content"></div>
+                            <ul class="post_meta">
+                                <li><i class="fa fa-comments"></i>Commetcs <span class="sep">|</span> 15</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- //ROW -->
+            </div>
+            <!-- //CONTAINER -->
+        </section>
+        <!-- //RECENT POSTS -->
+
+
+        <!-- FOOTER -->
+        
+        <!-- //FOOTER -->
+    </div>
+    <!-- //PAGE -->
+</div>
+
+<!-- TOVAR MODAL CONTENT -->
+<div id="modal-body" class="clearfix">
+    <div id="tovar_content"></div>
+    <div class="close_block"></div>
+</div>
+<!-- TOVAR MODAL CONTENT -->
+
+<!-- SCRIPTS -->
+<!--[if IE]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+<!--[if IE]><html class="ie" lang="en"> <![endif]-->
+
+

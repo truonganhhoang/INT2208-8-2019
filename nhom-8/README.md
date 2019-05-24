@@ -21,28 +21,15 @@
 	- Khách hàng có nhu cầu mua sắm các thiết bị điện tử
 	
 # Mô tả:
-	-Sản phẩm là trang web giúp mua sắm thiết bị điện tử online
-	-Có thể đăng bài để bán thiết bị điện tử (sẽ update trong tương lai)
-# Màn hình chính
-![alt](https://i.imgur.com/sQUPmue.png)
+	-Trang web cung cấp thông tin về các sản phẩm điện tử như điện thoại, pin dự phòng để người tiêu dùng lựa chọn.
+	-Có thể lựa chọn mua hàng online và quản lý các sản phẩm đã mua bằng giỏ hàng.
+	-Người dùng có thể tìm kiếm sản phẩm thông qua thanh tìm kiếm.
+	-Cập nhật các tin tức liên quan đến công nghệ.
+# Giao diện chính 
+![alt](https://www.upsieutoc.com/images/2019/05/15/Untitled33647cb82e46dacd.png)
 
-## Bài tập tuần 2
+# Tài liệu kĩ thuật: [(Tài liệu kĩ thuật)](https://docs.google.com/document/d/1kuHLork-ylbd-Cv6pVuNQbAI-GXUfJpMzN6riPOYBOk/edit)
 
-# Quy trình áp dụng: Scrum.
-
-# Kế hoạch theo từng tuần:
-
-- Tuần 1-3: Hoàn thiện giao diện chính cho trang web.
-
-- Tuần 4-6: Tạo thông tin cho các sản phẩm.
-
-- Tuần 7-9: Thêm tính năng tìm kiếm sản phẩm.
-
-- Tuần 10-11: Thêm tính năng đánh giá sản phẩm.
-
-- Tuần 11-12: Thêm tính năng chat với admin.
-
-- Tuần 13-14: Hoàn thiện và kiểm thử trang web.
+# Video hướng dẫn sử dụng: [(Shop69)](https://youtu.be/wguf5BEqcg4)
 
 
-# Link repo: https://github.com/nguyenquanghiep17/Software-Engineering-nhom-8
