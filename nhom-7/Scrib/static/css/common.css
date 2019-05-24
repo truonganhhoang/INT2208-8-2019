@@ -1,0 +1,62 @@
+.bg-white{
+    background-color: #fff;
+}
+
+.bg-yellow{
+    background-color: #F0E68C;
+}
+
+.box-shadow{
+    box-shadow: 1px 1px 1px 1px #ccc;
+}
+
+.mt50{
+    margin-top: 50px;
+}
+
+.ml50{
+    margin-left: 50px;
+}
+
+.mr50{
+    margin-right: 50px;
+}
+
+.pl30{
+    padding-left: 30px;
+}
+
+.ml480{
+    margin-left: 480px;
+}
+
+.mb30{
+    margin-bottom: 30px;
+}
+
+.mt10{
+    margin-top: 10px;
+}
+
+.bg-grey{
+    background-color: lightgrey;
+}
+
+.bg-purple{
+    background-color: #7757a8;
+}
+.text-white{
+    color: white;
+}
+
+.font-header{
+    font-weight: bolder;
+}
+
+
+label{
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: 700;
+}

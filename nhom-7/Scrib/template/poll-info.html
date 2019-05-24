@@ -1,0 +1,40 @@
+
+{% extends 'base.html' %}
+{% block content %}
+  <div id="content">
+
+
+        <div id="content-list">
+            <h3>Họp nhóm Công nghệ phần mềm</h3>
+            <h3>Địa điểm {{ poll.location }}</h3>
+            <h3>Người tạo: {{ poll.name }}</h3>
+            <div class="text-center">
+                    <table class="table table-bordered table-hover bg-white  ">
+                        <thead>
+                        <tr>
+                            <th class="text-center">
+                                Thời Gian
+                            </th>
+                            <th class="text-center">Danh sách người chọn</th>
+
+                        </tr>
+                        </thead>
+                        <tbody>
+
+                        <tr>
+                            <td>Ngày 10/03/2019: Từ 9:00 Đến 12:00</td>
+                            <td>Lê Mai An, Nguyễn Tuấn Vũ, Nguyễn Tiến Đạt, Nguyễn Thị Phương Đông</td>
+                        </tr>
+                        <tr>
+                            <td>Ngày 10/03/2019: Từ 9:00 Đến 12:00</td>
+                            <td>Lê Mai An, Nguyễn Tuấn Vũ, Nguyễn Tiến Đạt, Nguyễn Thị Phương Đông</td>
+                        </tr>
+
+                        </tbody>
+                    </table>
+
+            </div>
+        </div>
+        </div>
+    </div>
+{% endblock %}

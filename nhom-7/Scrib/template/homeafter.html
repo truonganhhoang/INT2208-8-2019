@@ -1,0 +1,31 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <div id="content">
+        <div id="content-list">
+            <h2>Danh sách các cuộc họp: </h2>
+            <table class="table table-bordered table-hover text-center" style="background-color: white">
+                <thead>
+                <tr>
+                    <th scope="col">STT</th>
+                    <th scope="col">Tên cuộc họp</th>
+                </tr>
+                </thead>
+                <tbody>
+                {% for poll in Polls %}
+                    <tr>
+                        <th scope="row"> {{ poll.id }} </th>
+                        <td><a href="{% url 'poll' poll.id %}"> {{ poll.name }}</a></td>
+                    </tr>
+                {% endfor %}
+                </tbody>
+            </table>
+            <!--<ul id="myUL">-->
+                <!--<li><a href="#">{{ user.email }}</a></li>-->
+                <!--{% for poll in Polls %}-->
+                <!--<li><a href="#">{{ poll.name }}</a></li>-->
+                <!--{% endfor %}-->
+            <!--</ul>-->
+        </div>
+    </div>
+{% endblock %}
