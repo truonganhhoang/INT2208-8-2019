@@ -17,7 +17,7 @@
     "express": "~4.16.0",
     "express-flash": "0.0.2",
     "express-flash-notification": "^0.5.0",
-    "express-handlebars": "^3.0.2",
+    "express-handlebars": "^5.3.1",
     "express-passport-logout": "^0.1.0",
     "express-session": "^1.15.6",
     "express-validator": "^5.3.1",
